@@ -5,10 +5,11 @@
              x:Class="MatematicaBacMD.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Image Source="C:\Users\Maria Baba\Desktop\Xamarin BAC\MatematicaBacMD\MatematicaBacMD\MatematicaBacMD\Resources\bg.jpg"></Image>
+        <Label x:Name="label" Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Button Text="Click me" Clicked="Button_Clicked"></Button>
     </StackLayout>
 
 </ContentPage>

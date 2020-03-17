@@ -3,22 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
-using System.ComponentModel;
-using System.Diagnostics;
+using Xamarin.Forms.Xaml;
 
 namespace MatematicaBacMD
 {
-    public partial class MainPage : ContentPage
-    {
-        public MainPage()
-        {
-            InitializeComponent();
-        }
+	[XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class Page1 : ContentPage
+	{
+		public Page1 ()
+		{
+			InitializeComponent ();
+		}
 
         async void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Page1());
+            await Navigation.PushAsync(new MainPage());
         }
     }
 }

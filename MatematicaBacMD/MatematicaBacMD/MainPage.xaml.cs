@@ -11,6 +11,12 @@ namespace MatematicaBacMD
 {
     public partial class MainPage : ContentPage
     {
+        //Color pallete:
+        //Albastru inchis: 5680E9 (navbar)
+        //Albastru deschis - 84CEEB
+        //Alastry mediu: 5AB9EA
+        //Bej C1C8E4
+        //Violet 8860D0
         public MainPage()
         {
             InitializeComponent();

@@ -2,14 +2,52 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MatematicaBacMD"
-             x:Class="MatematicaBacMD.MainPage">
+             x:Class="MatematicaBacMD.MainPage"
+             NavigationPage.HasNavigationBar="false"
+             BackgroundColor="#2C3359">
 
-    <StackLayout>
-        <Image Source="C:\Users\Maria Baba\Desktop\Xamarin BAC\MatematicaBacMD\MatematicaBacMD\MatematicaBacMD\Resources\bg.jpg"></Image>
-        <Label x:Name="label" Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-        <Button Text="Click me" Clicked="Button_Clicked"></Button>
-    </StackLayout>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="BorderColor" Value="#f9f9fa"/>
+                <Setter Property="BorderWidth" Value="1"/>
+                <Setter Property="BorderRadius" Value="100"/>
+                <Setter Property="BackgroundColor" Value="#f9f9fa"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="WidthRequest" Value="300"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="Margin" Value="0, 0, 0, 10"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="FontFamily" Value="Roboto"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    
+    <ScrollView>
+        <StackLayout>
+            <Image Source="bg.jpg"  Margin="0, 0, 0, 18"/>
+            <StackLayout>
+                <Label Text="Algebra"
+                   TextColor="White"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,10"
+                   FontSize="Medium"/>
+                <Button Text="Ecuatii de gradul 2 si 3 si d-alea etc etc" Style="{StaticResource buttonStyle}"
+                        Clicked="Button_Clicked"/>
+                <Button Text="Logaritmi" Style="{StaticResource buttonStyle}"/>
+                <Button Text="Logaritmi" Style="{StaticResource buttonStyle}"/>
+                <Button Text="Logaritmi" Style="{StaticResource buttonStyle}"/>
+                <Button Text="Logaritmi" Style="{StaticResource buttonStyle}"/>
+                <Label Text="Geometrie"
+                   TextColor="White"
+                   HorizontalOptions="Center"
+                   Margin="0,10,0,10"
+                   FontSize="Medium"/>
+                <Button Text="Logaritmi" Style="{StaticResource buttonStyle}"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
 
 </ContentPage>

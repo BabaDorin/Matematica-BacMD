@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using System.ComponentModel;
 using System.Diagnostics;
+using MatematicaBacMD.Views;
 
 namespace MatematicaBacMD
 {
@@ -26,5 +27,38 @@ namespace MatematicaBacMD
         {
             await Navigation.PushAsync(new Page1());
         }
+
+        async void btnMultimi(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Multimi());
+        }
+
+        async void btnCombinatorica(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Combinatorica());
+        }
+
+        async void btnRadicali(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Radicali());
+        }
+
+        async void btnLogaritmi(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Logaritmi());
+        }
+
+        async void btnFunctii(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Functii());
+        }
+
+        async void btnEcuatii(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Functii());
+        }
+
+
+
     }
 }

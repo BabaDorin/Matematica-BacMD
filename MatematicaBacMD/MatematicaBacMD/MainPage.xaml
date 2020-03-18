@@ -34,18 +34,43 @@
                    HorizontalOptions="Center"
                    Margin="0,0,0,10"
                    FontSize="Medium"/>
-                <Button Text="Ecuatii de gradul 2 si 3 si d-alea etc etc" Style="{StaticResource buttonStyle}"
-                        Clicked="Button_Clicked"/>
-                <Button Text="Logaritmi" Style="{StaticResource buttonStyle}"/>
-                <Button Text="Logaritmi" Style="{StaticResource buttonStyle}"/>
-                <Button Text="Logaritmi" Style="{StaticResource buttonStyle}"/>
-                <Button Text="Logaritmi" Style="{StaticResource buttonStyle}"/>
+                <Button Text="Multimi" Style="{StaticResource buttonStyle}" Clicked="btnMultimi"/>
+                <Button Text="Combinatorica" Style="{StaticResource buttonStyle}" Clicked="btnCombinatorica"/>
+                <Button Text="Radicali" Style="{StaticResource buttonStyle}" Clicked="btnRadicali"/>
+                <Button Text="Ecuatii" Style="{StaticResource buttonStyle}" Clicked="btnEcuatii"/>
+                <Button Text="Inecuatii" Style="{StaticResource buttonStyle}" Clicked="btnInecuatii"/>
+                <Button Text="Functii" Style="{StaticResource buttonStyle}" Clicked="btnFunctii"/>
+                <Button Text="Trigonometrie" Style="{StaticResource buttonStyle}" Clicked="btnTrigonometrie"/>
+                <Button Text="Siruri numerice" Style="{StaticResource buttonStyle}" Clicked="btnSiruriNumerice"/>
+                <Button Text="Numere complexe" Style="{StaticResource buttonStyle}" Clicked="btnNumereComplexe"/>
+                <Button Text="Matrici" Style="{StaticResource buttonStyle}" Clicked="btnMatrici"/>
+                <Button Text="Limite" Style="{StaticResource buttonStyle}" Clicked="btnLimite"/>
+                <Button Text="Derivatele Functiilor" Style="{StaticResource buttonStyle}" Clicked="btnDerivateleFunctiilor"/>
+                <Button Text="Integrale" Style="{StaticResource buttonStyle}" Clicked="btnIntegrale"/>
+                <Button Text="Primitivele functiilor" Style="{StaticResource buttonStyle}" Clicked="btnPrimitiveleFunctiei"/>
+                <Button Text="Teoria probabilitatilor" Style="{StaticResource buttonStyle}" Clicked="btnTeoriaProbabilitatilor"/>
+                <Button Text="Elemente de statistica si calcul financiar" Style="{StaticResource buttonStyle}" Clicked="btnStatistica"/>
                 <Label Text="Geometrie"
                    TextColor="White"
                    HorizontalOptions="Center"
                    Margin="0,10,0,10"
                    FontSize="Medium"/>
-                <Button Text="Logaritmi" Style="{StaticResource buttonStyle}"/>
+                <Button Text="Triunghiul" Style="{StaticResource buttonStyle}" Clicked="btnTriunghiul"/>
+                <Button Text="Paralelogramul" Style="{StaticResource buttonStyle}" Clicked="btnParalelogramul"/>
+                <Button Text="Trapezul" Style="{StaticResource buttonStyle}" Clicked="btnTrapezul"/>
+                <Button Text="Teorema lui Thales" Style="{StaticResource buttonStyle}" Clicked="btnThales"/>
+                <Button Text="Poligoane" Style="{StaticResource buttonStyle}" Clicked="btnPoligoane"/>
+                <Button Text="Ariile figurilor plane" Style="{StaticResource buttonStyle}" Clicked="btnAriiFiguriPlane"/>
+                <Button Text="Paralelismul dreptelor si planelor" Style="{StaticResource buttonStyle}" Clicked="btnParalelism"/>
+                <Button Text="Perpendiculariatea in spatiu" Style="{StaticResource buttonStyle}" Clicked="btnPerpendicularitate"/>
+                <Button Text="Prisma" Style="{StaticResource buttonStyle}" Clicked="btnPrisma"/>
+                <Button Text="Piramida" Style="{StaticResource buttonStyle}" Clicked="btnPiramida"/>
+                <Button Text="Trunchi de piramida" Style="{StaticResource buttonStyle}" Clicked="btnTrunchiPiramida"/>
+                <Button Text="Cilindru" Style="{StaticResource buttonStyle}" Clicked="btnCilindru"/>
+                <Button Text="Con" Style="{StaticResource buttonStyle}" Clicked="btnCon"/>
+                <Button Text="Trunchi de Con" Style="{StaticResource buttonStyle}" Clicked="btnTriunchiCon"/>
+                <Button Text="Sfera" Style="{StaticResource buttonStyle}" Clicked="btnSfera"/>
+                <Button Text="Volumul Poliedrelor" Style="{StaticResource buttonStyle}" Clicked="btnVolumPoliedre"/>
             </StackLayout>
         </StackLayout>
     </ScrollView>

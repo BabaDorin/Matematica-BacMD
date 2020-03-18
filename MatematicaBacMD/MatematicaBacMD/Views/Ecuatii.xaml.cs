@@ -15,6 +15,12 @@ namespace MatematicaBacMD.Views
 		public Ecuatii ()
 		{
 			InitializeComponent ();
-		}
+            img1.Source = ImageSource.FromFile("i22.png");
+            img2.Source = ImageSource.FromFile("i23.png");
+            img3.Source = ImageSource.FromFile("i24.png");
+            img4.Source = ImageSource.FromFile("i25.png");
+            img5.Source = ImageSource.FromFile("i26.png");
+            img6.Source = ImageSource.FromFile("i234.png");
+        }
 	}
 }

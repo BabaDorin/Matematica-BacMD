@@ -1,12 +1,79 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MatematicaBacMD.Views.Ecuatii">
+             x:Class="MatematicaBacMD.Views.Ecuatii"
+             Style="{StaticResource background}">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Ecuatii"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Padding="15">
+                <Label Text="Ecua&#539;ii" Style="{StaticResource TitleLable}"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Style="{StaticResource Information}" Text="Egalitatea&#10;A(x) = B(x)&#10;se numeste ecua&#539;ie de necunoscut&#259; x&#10;Ecua&#539;ia poate con&#539;ine mai multe necunoscute."/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Style="{StaticResource Important}" Text="DVA&#10;&#10;"/>
+                            <Span Style="{StaticResource Information}" Text="Mul&#539;imea valorilor posibile ale necunoscutelor pentru care au sens toate expresiile din ecua&#539;ie se nume&#351;te domeniul valorilor admisibile (DVA) al ecua&#539;iei."/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Style="{StaticResource Important}" Text="Ecua&#539;ia de gradul I&#10;&#10;"/>
+                            <Span Style="{StaticResource Information}" Text="Ecua&#539;ia de forma"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Image Source="i20.png"  Margin="0, -10, 0, 10"/>
+                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Style="{StaticResource Information}" Text="unde a, b &#8714; R, se nume&#351;te ecua&#539;ie liniar&#259;.&#10; Dac&#259; a &#8800; 0, atunci ecua&#539;ia liniar&#259; se nume&#351;te ecua&#539;ie de gradul &#238;nt&#226;i "/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Style="{StaticResource Important}" Text="Ecua&#539;ia de gradul II&#10;&#10;"/>
+                            <Span Style="{StaticResource Information}" Text="Ecua&#539;ia de tipul"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Image Source="i21.png"  Margin="0, -10, 0, 10"/>
+                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Style="{StaticResource Information}" Text="unde a, b, c &#8714; R, a &#8800; 0 se nume&#351;te ecua&#539;ie de gradul al doilea, iar a, b, c - coeficien&#539;ii ei "/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Style="{StaticResource Important}" Text="Metode de rezolvare"/>
+                            <Span Style="{StaticResource Information}" Text="Existen&#539;a solu&#539;iilor reale ale ecua&#539;iei de gradul II, precum &#351;i num&#259;rul lor depind de semnul discriminantul "/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Image x:Name="img1" Margin="0, -10, 0, 10"/>
+                <Image x:Name="img2" Margin="0, -10, 0, 10"/>
+                <Image x:Name="img3" Margin="0, -10, 0, 10"/>
+                <Image x:Name="img4" Margin="0, -10, 0, 10"/>
+                <Image x:Name="img5" Margin="0, -10, 0, 10"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Image x:Name="img6" Margin="0, -10, 0, 10"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

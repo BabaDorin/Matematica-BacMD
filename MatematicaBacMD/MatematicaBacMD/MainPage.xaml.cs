@@ -55,7 +55,7 @@ namespace MatematicaBacMD
 
         async void btnEcuatii(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Functii());
+            await Navigation.PushAsync(new Ecuatii());
         }
 
         async void btnInecuatii(object sender, EventArgs e)

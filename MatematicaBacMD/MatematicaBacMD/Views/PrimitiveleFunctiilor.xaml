@@ -4,7 +4,7 @@
              x:Class="MatematicaBacMD.Views.PrimitiveleFunctiilor">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="PrimitiveleFunctiilor"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

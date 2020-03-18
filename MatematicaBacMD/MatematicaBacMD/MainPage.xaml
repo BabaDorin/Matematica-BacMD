@@ -6,7 +6,7 @@
              NavigationPage.HasNavigationBar="false"
              BackgroundColor="#2C3359">
 
-    <ContentPage.Resources>
+    <!--<ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="buttonStyle" TargetType="Button">
                 <Setter Property="TextColor" Value="Black"/>
@@ -22,7 +22,7 @@
                 <Setter Property="FontFamily" Value="Roboto"/>
             </Style>
         </ResourceDictionary>
-    </ContentPage.Resources>
+    </ContentPage.Resources>-->
     
     
     <ScrollView>

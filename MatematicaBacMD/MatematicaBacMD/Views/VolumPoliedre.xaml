@@ -4,7 +4,7 @@
              x:Class="MatematicaBacMD.Views.VolumPoliedre">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="VolumPoliedre"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

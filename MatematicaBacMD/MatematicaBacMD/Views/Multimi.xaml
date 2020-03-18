@@ -1,12 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MatematicaBacMD.Views.Multimi">
+             x:Class="MatematicaBacMD.Views.Multimi"
+             Style="{StaticResource background}">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Multimi!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="15">
+            <Label Text="Multimi" Style="{StaticResource TitleLable}"/>
+            <BoxView HeightRequest="2" BackgroundColor="White"/>
+            <Label Style="{StaticResource Info}" Margin="0,25,0,10">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Style="{StaticResource Information}">Prin</Span>
+                        <Span Style="{StaticResource Important}" Text=" mul&#539;ime "/>
+                        <Span Style="{StaticResource Information}">&#238;n&#539;elegem o colec&#539;ie de obiecte bine determinate &#351;i distincte. Obiectele din care este constituit&#259; mul&#539;imea se numesc elementele mul&#539;imii. Dou&#259; mul&#539;imi sunt egale dac&#259; ele sunt formate din exact acelea&#351;i elemente.</Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
         </StackLayout>
     </ContentPage.Content>
+    
 </ContentPage>

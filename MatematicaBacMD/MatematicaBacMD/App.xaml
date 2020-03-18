@@ -3,6 +3,51 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MatematicaBacMD.App">
     <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="background" TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="#2C3359"/>
+            </Style>
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="BorderColor" Value="#f9f9fa"/>
+                <Setter Property="BorderWidth" Value="1"/>
+                <Setter Property="BorderRadius" Value="100"/>
+                <Setter Property="BackgroundColor" Value="#f9f9fa"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="WidthRequest" Value="300"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="Margin" Value="0, 0, 0, 10"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="FontFamily" Value="Roboto"/>
+            </Style>
+            <Style x:Key="TitleLable" TargetType="Label">
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="Margin" Value="0, 20, 0, 20"/>
+            </Style>
+            <Style x:Key="Information" TargetType="Span">
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <!--<Setter Property="Margin" Value="5,30,5,0"/>-->
+                <!--<Setter Property="HorizontalTextAlignment" Value="Center"/>-->
+            </Style>
+            <Style x:Key="Important" TargetType="Span">
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <!--<Setter Property="Margin" Value="5,30,5,0"/>-->
+                <!--<Setter Property="HorizontalTextAlignment" Value="Center"/>-->
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+            <Style x:Key="Info" TargetType="Label">
+                <!--<Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="Medium"/>-->
+                <!--<Setter Property="Margin" Value="5,30,5,0"/>-->
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <!--<Setter Property="FontAttributes" Value="Bold"/>-->
+            </Style>
+        </ResourceDictionary>
 
     </Application.Resources>
 </Application>

@@ -47,7 +47,7 @@
                 <Button Text="Limite" Style="{StaticResource buttonStyle}" Clicked="btnLimite"/>
                 <Button Text="Derivatele Functiilor" Style="{StaticResource buttonStyle}" Clicked="btnDerivateleFunctiilor"/>
                 <Button Text="Integrale" Style="{StaticResource buttonStyle}" Clicked="btnIntegrale"/>
-                <Button Text="Primitivele functiilor" Style="{StaticResource buttonStyle}" Clicked="btnPrimitiveleFunctiei"/>
+                <Button Text="Primitivele functiilor" Style="{StaticResource buttonStyle}" Clicked="btnPrimitiveleFunctiilor"/>
                 <Button Text="Teoria probabilitatilor" Style="{StaticResource buttonStyle}" Clicked="btnTeoriaProbabilitatilor"/>
                 <Button Text="Elemente de statistica si calcul financiar" Style="{StaticResource buttonStyle}" Clicked="btnStatistica"/>
                 <Label Text="Geometrie"
@@ -68,7 +68,7 @@
                 <Button Text="Trunchi de piramida" Style="{StaticResource buttonStyle}" Clicked="btnTrunchiPiramida"/>
                 <Button Text="Cilindru" Style="{StaticResource buttonStyle}" Clicked="btnCilindru"/>
                 <Button Text="Con" Style="{StaticResource buttonStyle}" Clicked="btnCon"/>
-                <Button Text="Trunchi de Con" Style="{StaticResource buttonStyle}" Clicked="btnTriunchiCon"/>
+                <Button Text="Trunchi de Con" Style="{StaticResource buttonStyle}" Clicked="btnTrunchiCon"/>
                 <Button Text="Sfera" Style="{StaticResource buttonStyle}" Clicked="btnSfera"/>
                 <Button Text="Volumul Poliedrelor" Style="{StaticResource buttonStyle}" Clicked="btnVolumPoliedre"/>
             </StackLayout>

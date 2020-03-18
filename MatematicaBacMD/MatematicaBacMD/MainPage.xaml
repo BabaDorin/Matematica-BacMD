@@ -38,6 +38,7 @@
                 <Button Text="Combinatorica" Style="{StaticResource buttonStyle}" Clicked="btnCombinatorica"/>
                 <Button Text="Radicali" Style="{StaticResource buttonStyle}" Clicked="btnRadicali"/>
                 <Button Text="Ridicarea la putere" Style="{StaticResource buttonStyle}" Clicked="btnPutere"/>
+                <Button Text="Logaritmi" Style="{StaticResource buttonStyle}" Clicked="btnLogaritmi"/>
                 <Button Text="Ecuatii" Style="{StaticResource buttonStyle}" Clicked="btnEcuatii"/>
                 <Button Text="Inecuatii" Style="{StaticResource buttonStyle}" Clicked="btnInecuatii"/>
                 <Button Text="Functii" Style="{StaticResource buttonStyle}" Clicked="btnFunctii"/>

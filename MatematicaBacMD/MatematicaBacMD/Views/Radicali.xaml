@@ -1,12 +1,80 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MatematicaBacMD.Views.Radicali">
+             x:Class="MatematicaBacMD.Views.Radicali"
+             Style="{StaticResource background}">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Radicali"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Padding="15">
+                <Label Text="Radicali" Style="{StaticResource TitleLable}"/>
+                <BoxView HeightRequest="2" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Margin="0,25,0,10">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Style="{StaticResource Information}" Text="&#206;n matematic&#259;, radicalul unui num&#259;r reprezint&#259; un alt num&#259;r,  care ridicat la o putere cu exponent frac&#539;ionar (numitorul exponentului  puterii fiind denumit ordinul radicalului) este egal cu num&#259;rul dat.  Dac&#259; ordinul unui radical nu este precizat, atunci este vorba implicit de radicalul de ordinul 2, denumit &#351;i r&#259;d&#259;cin&#259; p&#259;trat&#259; "/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Style="{StaticResource Important}" Text="Propriet&#259;&#539;ile radicalilor&#10;&#10;"/>
+                            <Span Style="{StaticResource Information}" Text="Radicalul produsului este egal cu produsul radicalilor"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Image Source="i8.png"  Margin="0, -10, 0, 10"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Style="{StaticResource Information}" Text="Radicalul c&#226;tului este egal cu c&#226;tul radicalilor"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Image Source="i9.png"  Margin="0, -10, 0, 10"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Style="{StaticResource Information}" Text="Ridicarea la putere a unui radical"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Image Source="i10.png"  Margin="0, -10, 0, 10"/>
+                <Image Source="i11.png"  Margin="0, -10, 0, 10"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Style="{StaticResource Information}" Text="Exemple"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Image Source="i12.png"  Margin="0, -10, 0, 10"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Style="{StaticResource Information}" Text="Simplificarea ordinului radicalului"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Image Source="i13.png"  Margin="0, -10, 0, 10"/>
+                <Image Source="i14.png"  Margin="0, -10, 0, 10"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Style="{StaticResource Information}" Text="Altele"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Image Source="i15.png"  Margin="0, -10, 0, 10"/>
+            </StackLayout>
+
+        </ScrollView>
     </ContentPage.Content>
+
 </ContentPage>

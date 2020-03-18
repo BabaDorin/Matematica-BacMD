@@ -23,9 +23,9 @@ namespace MatematicaBacMD
             InitializeComponent();
         }
 
-        async void Button_Clicked(object sender, EventArgs e)
+        async void btnPutere(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Page1());
+            await Navigation.PushAsync(new Putere());
         }
 
         async void btnMultimi(object sender, EventArgs e)

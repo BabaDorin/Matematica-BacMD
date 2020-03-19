@@ -7,7 +7,6 @@ using Xamarin.Forms;
 using System.ComponentModel;
 using System.Diagnostics;
 using MatematicaBacMD.Views;
-using System.Diagnostics;
 
 namespace MatematicaBacMD
 {

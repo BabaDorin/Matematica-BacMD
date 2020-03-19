@@ -24,7 +24,7 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i8.png"  Margin="0, -10, 0, 10"/>
+                <Image Source="i8.jpg"  Margin="0, -10, 0, 10"/>
                 <BoxView HeightRequest="1" BackgroundColor="White"/>
                 <Label Style="{StaticResource Info}" Margin="0,20,0,10">
                     <Label.FormattedText>
@@ -33,7 +33,7 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i9.png"  Margin="0, -10, 0, 10"/>
+                <Image Source="i9.jpg"  Margin="0, -10, 0, 10"/>
                 <BoxView HeightRequest="1" BackgroundColor="White"/>
                 <Label Style="{StaticResource Info}" Margin="0,20,0,10">
                     <Label.FormattedText>
@@ -42,8 +42,8 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i10.png"  Margin="0, -10, 0, 10"/>
-                <Image Source="i11.png"  Margin="0, -10, 0, 10"/>
+                <Image Source="i10.jpg"  Margin="0, -10, 0, 10"/>
+                <Image Source="i11.jpg"  Margin="0, -10, 0, 10"/>
                 <BoxView HeightRequest="1" BackgroundColor="White"/>
                 <Label Style="{StaticResource Info}" Margin="0,20,0,10">
                     <Label.FormattedText>
@@ -52,7 +52,7 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i12.png"  Margin="0, -10, 0, 10"/>
+                <Image Source="i12.jpg"  Margin="0, -10, 0, 10"/>
                 <BoxView HeightRequest="1" BackgroundColor="White"/>
                 <Label Style="{StaticResource Info}" Margin="0,20,0,10">
                     <Label.FormattedText>
@@ -61,8 +61,8 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i13.png"  Margin="0, -10, 0, 10"/>
-                <Image Source="i14.png"  Margin="0, -10, 0, 10"/>
+                <Image Source="i13.jpg"  Margin="0, -10, 0, 10"/>
+                <Image Source="i14.jpg"  Margin="0, -10, 0, 10"/>
                 <BoxView HeightRequest="1" BackgroundColor="White"/>
                 <Label Style="{StaticResource Info}" Margin="0,20,0,10">
                     <Label.FormattedText>
@@ -71,7 +71,7 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i15.png"  Margin="0, -10, 0, 10"/>
+                <Image Source="i15.jpg"  Margin="0, -10, 0, 10"/>
             </StackLayout>
 
         </ScrollView>

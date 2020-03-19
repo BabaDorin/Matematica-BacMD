@@ -7,6 +7,7 @@ using Xamarin.Forms;
 using System.ComponentModel;
 using System.Diagnostics;
 using MatematicaBacMD.Views;
+using System.Diagnostics;
 
 namespace MatematicaBacMD
 {
@@ -55,6 +56,7 @@ namespace MatematicaBacMD
 
         async void btnEcuatii(object sender, EventArgs e)
         {
+            //App.Current.MainPage = new Ecuatii();
             await Navigation.PushAsync(new Ecuatii());
         }
 
@@ -84,6 +86,13 @@ namespace MatematicaBacMD
 
         async void btnLimite(object sender, EventArgs e)
         {
+            var existingPages = Navigation.NavigationStack.ToList();
+            Debug.WriteLine(existingPages.Count() + "existing pages");
+            foreach (var page in existingPages)
+            {
+                Navigation.RemovePage(page);
+            }
+            Debug.WriteLine("Done");
             await Navigation.PushAsync(new Limite());
         }
 

@@ -15,7 +15,7 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i16.png"  Margin="0, -10, 0, 10"/>
+                <Image Source="i16.jpg"  Margin="0, -10, 0, 10"/>
             </StackLayout>
 
         </ScrollView>

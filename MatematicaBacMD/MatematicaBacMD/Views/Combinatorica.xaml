@@ -26,7 +26,7 @@ De exemplu, fiind date trei fructe (un m&#259;r, o portocal&#259; &#351;i o par&
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i2.png"  Margin="0, -10, 0, 10"/>
+                <Image Source="i2.jpg"  Margin="0, -10, 0, 10"/>
                 <Label Style="{StaticResource Info}" Margin="0,20,0,10">
                     <Label.FormattedText>
                         <FormattedString>
@@ -34,7 +34,7 @@ De exemplu, fiind date trei fructe (un m&#259;r, o portocal&#259; &#351;i o par&
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i3.png"  Margin="0, -10, 0, 10"/>
+                <Image Source="i3.jpg"  Margin="0, -10, 0, 10"/>
                 <Label Style="{StaticResource Info}" Margin="0,20,0,10">
                     <Label.FormattedText>
                         <FormattedString>
@@ -42,7 +42,7 @@ De exemplu, fiind date trei fructe (un m&#259;r, o portocal&#259; &#351;i o par&
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i4.png"  Margin="0, -10, 0, 10"/>
+                <Image Source="i4.jpg"  Margin="0, -10, 0, 10"/>
                 <BoxView HeightRequest="1" BackgroundColor="White"/>
                 <Label Style="{StaticResource Info}" Margin="0,20,0,10">
                     <Label.FormattedText>
@@ -53,7 +53,7 @@ Defini&#539;ie: Dac&#259; A este o mul&#539;ime cu n elemente, atunci submul&#53
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i5.png"  Margin="0, -10, 0, 10"/>
+                <Image Source="i5.jpg"  Margin="0, -10, 0, 10"/>
                 <Label Style="{StaticResource Info}" Margin="0,20,0,10">
                     <Label.FormattedText>
                         <FormattedString>
@@ -75,7 +75,7 @@ de la 1 la n, cunoscut ca n! (n factorial)"/>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i7.png"  Margin="0, -10, 0, 10"/>
+                <Image Source="i7.jpg"  Margin="0, -10, 0, 10"/>
             </StackLayout>
 
         </ScrollView>

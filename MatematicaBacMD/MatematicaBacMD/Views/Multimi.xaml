@@ -42,7 +42,7 @@ Mul&#539;imea numerelor ra&#539;ionale:"/>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i1.png"  Margin="0, -10, 0, 10"/>
+                <Image Source="i1.jpg"  Margin="0, -10, 0, 10"/>
                 <Label Margin="0,0,0,10" Style="{StaticResource Info}"
                        Text="Mul&#539;imea numerelor reale: R&#10;&#10;
 Mul&#539;imea numerelor complexe:&#10; C = {x + iy | x, y &#8712; R}&#10;&#10;

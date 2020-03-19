@@ -85,10 +85,10 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\drawable-hdpi\" />
     <Folder Include="Resources\drawable-xhdpi\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
+    <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MatematicaBacMD\MatematicaBacMD.csproj">
@@ -97,91 +97,88 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\bg.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bg.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i1.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i2.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i2.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i3.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i3.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i4.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i4.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i5.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i5.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i6.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i6.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i7.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i7.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i8.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i8.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i9.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i10.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i10.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i11.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i11.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i13.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i12.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i14.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i13.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i12.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i14.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i15.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i15.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i16.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i16.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i17.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i17.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i18.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i18.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i19.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i19.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i20.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i20.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i21.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i21.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i22.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i22.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i23.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i23.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i24.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i24.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i25.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i25.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i26.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\i26.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i27.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\i234.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\i27.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

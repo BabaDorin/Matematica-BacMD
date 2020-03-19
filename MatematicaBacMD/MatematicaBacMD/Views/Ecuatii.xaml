@@ -33,7 +33,7 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i20.png"  Margin="0, -10, 0, 10"/>
+                <Image Source="i20.jpg"  Margin="0, -10, 0, 10"/>
                 <Label Style="{StaticResource Info}" Margin="0,20,0,10">
                     <Label.FormattedText>
                         <FormattedString>
@@ -50,7 +50,7 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i21.png"  Margin="0, -10, 0, 10"/>
+                <Image Source="i21.jpg"  Margin="0, -10, 0, 10"/>
                 <Label Style="{StaticResource Info}" Margin="0,20,0,10">
                     <Label.FormattedText>
                         <FormattedString>

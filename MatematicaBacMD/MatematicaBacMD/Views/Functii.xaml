@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MatematicaBacMD.Views.Functii"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              Style="{StaticResource background}">
     <ContentPage.Content>
         <ScrollView>
@@ -9,8 +10,16 @@
                 <Label Text="Func&#539;ii" Style="{StaticResource TitleLable}"/>
                 <BoxView HeightRequest="1" BackgroundColor="White"/>
                 <Label Style="{StaticResource Importantus}" Margin="0,20,0,10" Text="Propriet&#259;&#539;i&#10;&#10;"/>
-                <Image Source="i31.jpg" Margin="0, -10, 0, 10"/>
+                <!--<Image x:Name="img"/>
+                <Image x:Name="img1"/>
+                <Image x:Name="img2"/>-->
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
+    <ffimageloading:CachedImage HorizontalOptions="Center" VerticalOptions="Center"
+			WidthRequest="300" HeightRequest="300"
+			DownsampleToViewSize="true"
+			Source = "http://loremflickr.com/600/600/nature?filename=simple.jpg">
+    </ffimageloading:CachedImage>
 </ContentPage>

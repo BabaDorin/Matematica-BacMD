@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace MatematicaBacMD.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Trigonometrie : ContentPage
+	public partial class FormuleTrigonometrie : ContentPage
 	{
-		public Trigonometrie ()
+		public FormuleTrigonometrie ()
 		{
 			InitializeComponent ();
 		}
-
-        async void Button_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new FormuleTrigonometrie());
-        }
-    }
+	}
 }

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MatematicaBacMD.Views.Trigonometrie"
+             x:Class="MatematicaBacMD.Views.FormuleTrigonometrie"
              Style="{StaticResource background}">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="15">
-                <Label Text="Trigonometrie" Style="{StaticResource TitleLable}"/>
+                <Label Text="Formule trigonometrice" Style="{StaticResource TitleLable}"/>
                 <BoxView HeightRequest="2" BackgroundColor="White"/>
-                <Image Source="i32.jpg" Margin="0, 0, 0, 10"/>
-                <Image Source="i33.jpg" Margin="0, -10, 0, 10"/>
-                <Button Style="{StaticResource buttonStyle}" Text="Formule trigonometrice" Clicked="Button_Clicked"/>
+                <Image Source="i34.jpg" Margin="0, 0, 0, 0"/>
+                <Image Source="i35.jpg" Margin="0, 0, 0, 0"/>
+                <Image Source="i36.jpg" Margin="0, 0, 0, 0"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

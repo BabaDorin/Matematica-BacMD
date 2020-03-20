@@ -13,13 +13,14 @@
                 <!--<Image x:Name="img"/>
                 <Image x:Name="img1"/>
                 <Image x:Name="img2"/>-->
-
+                <Image Source="i30.jpg" Margin="0,0,0,0"></Image>
+            <ffimageloading:CachedImage
+			WidthRequest="300" HeightRequest="300"
+                Source="i36.jpg">
+		    </ffimageloading:CachedImage>
+               
+              
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
-    <ffimageloading:CachedImage HorizontalOptions="Center" VerticalOptions="Center"
-			WidthRequest="300" HeightRequest="300"
-			DownsampleToViewSize="true"
-			Source = "http://loremflickr.com/600/600/nature?filename=simple.jpg">
-    </ffimageloading:CachedImage>
 </ContentPage>

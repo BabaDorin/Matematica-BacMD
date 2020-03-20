@@ -80,12 +80,14 @@
                 <ffimageloading:CachedImage
                         WidthRequest="200"
                         HeightRequest="47"
+                    BitmapOptimizations="True"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         Source="i22.jpg"/>
                 <ffimageloading:CachedImage
                         WidthRequest="500"
                         HeightRequest="25"
+                    BitmapOptimizations="True"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         Source="i23.jpg"/>
@@ -94,18 +96,21 @@
                         HeightRequest="37"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
+                    BitmapOptimizations="True"
                         Source="i24.jpg"/>
                 <ffimageloading:CachedImage
                         WidthRequest="500"
                         HeightRequest="39"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
+                    BitmapOptimizations="True"
                         Source="i25.jpg"/>
                 <ffimageloading:CachedImage
                         WidthRequest="500"
                         HeightRequest="67"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
+                    BitmapOptimizations="True"
                         Source="i26.jpg"/>
                 <BoxView HeightRequest="1" BackgroundColor="White"/>
                 <ffimageloading:CachedImage
@@ -113,6 +118,7 @@
                         HeightRequest="492"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
+                        BitmapOptimizations="True"
                         Source="i27.jpg"/>
             </StackLayout>
         </ScrollView>

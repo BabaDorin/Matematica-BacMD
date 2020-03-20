@@ -5152,6 +5152,2582 @@ namespace MatematicaBacMD.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingEnd = global::MatematicaBacMD.Droid.Resource.Styleable.View_paddingEnd;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingStart = global::MatematicaBacMD.Droid.Resource.Styleable.View_paddingStart;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_theme = global::MatematicaBacMD.Droid.Resource.Styleable.View_theme;
+			global::XamarinFormsGesture.Resource.Animation.abc_fade_in = global::MatematicaBacMD.Droid.Resource.Animation.abc_fade_in;
+			global::XamarinFormsGesture.Resource.Animation.abc_fade_out = global::MatematicaBacMD.Droid.Resource.Animation.abc_fade_out;
+			global::XamarinFormsGesture.Resource.Animation.abc_grow_fade_in_from_bottom = global::MatematicaBacMD.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::XamarinFormsGesture.Resource.Animation.abc_popup_enter = global::MatematicaBacMD.Droid.Resource.Animation.abc_popup_enter;
+			global::XamarinFormsGesture.Resource.Animation.abc_popup_exit = global::MatematicaBacMD.Droid.Resource.Animation.abc_popup_exit;
+			global::XamarinFormsGesture.Resource.Animation.abc_shrink_fade_out_from_bottom = global::MatematicaBacMD.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::XamarinFormsGesture.Resource.Animation.abc_slide_in_bottom = global::MatematicaBacMD.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::XamarinFormsGesture.Resource.Animation.abc_slide_in_top = global::MatematicaBacMD.Droid.Resource.Animation.abc_slide_in_top;
+			global::XamarinFormsGesture.Resource.Animation.abc_slide_out_bottom = global::MatematicaBacMD.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::XamarinFormsGesture.Resource.Animation.abc_slide_out_top = global::MatematicaBacMD.Droid.Resource.Animation.abc_slide_out_top;
+			global::XamarinFormsGesture.Resource.Animation.abc_tooltip_enter = global::MatematicaBacMD.Droid.Resource.Animation.abc_tooltip_enter;
+			global::XamarinFormsGesture.Resource.Animation.abc_tooltip_exit = global::MatematicaBacMD.Droid.Resource.Animation.abc_tooltip_exit;
+			global::XamarinFormsGesture.Resource.Animation.design_bottom_sheet_slide_in = global::MatematicaBacMD.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::XamarinFormsGesture.Resource.Animation.design_bottom_sheet_slide_out = global::MatematicaBacMD.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::XamarinFormsGesture.Resource.Animation.design_snackbar_in = global::MatematicaBacMD.Droid.Resource.Animation.design_snackbar_in;
+			global::XamarinFormsGesture.Resource.Animation.design_snackbar_out = global::MatematicaBacMD.Droid.Resource.Animation.design_snackbar_out;
+			global::XamarinFormsGesture.Resource.Animation.EnterFromLeft = global::MatematicaBacMD.Droid.Resource.Animation.EnterFromLeft;
+			global::XamarinFormsGesture.Resource.Animation.EnterFromRight = global::MatematicaBacMD.Droid.Resource.Animation.EnterFromRight;
+			global::XamarinFormsGesture.Resource.Animation.ExitToLeft = global::MatematicaBacMD.Droid.Resource.Animation.ExitToLeft;
+			global::XamarinFormsGesture.Resource.Animation.ExitToRight = global::MatematicaBacMD.Droid.Resource.Animation.ExitToRight;
+			global::XamarinFormsGesture.Resource.Animator.design_appbar_state_list_animator = global::MatematicaBacMD.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::XamarinFormsGesture.Resource.Animator.design_fab_hide_motion_spec = global::MatematicaBacMD.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::XamarinFormsGesture.Resource.Animator.design_fab_show_motion_spec = global::MatematicaBacMD.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::XamarinFormsGesture.Resource.Animator.mtrl_btn_state_list_anim = global::MatematicaBacMD.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::XamarinFormsGesture.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::MatematicaBacMD.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::XamarinFormsGesture.Resource.Animator.mtrl_chip_state_list_anim = global::MatematicaBacMD.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::XamarinFormsGesture.Resource.Animator.mtrl_fab_hide_motion_spec = global::MatematicaBacMD.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::XamarinFormsGesture.Resource.Animator.mtrl_fab_show_motion_spec = global::MatematicaBacMD.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::XamarinFormsGesture.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::MatematicaBacMD.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::XamarinFormsGesture.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::MatematicaBacMD.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::XamarinFormsGesture.Resource.Attribute.actionBarDivider = global::MatematicaBacMD.Droid.Resource.Attribute.actionBarDivider;
+			global::XamarinFormsGesture.Resource.Attribute.actionBarItemBackground = global::MatematicaBacMD.Droid.Resource.Attribute.actionBarItemBackground;
+			global::XamarinFormsGesture.Resource.Attribute.actionBarPopupTheme = global::MatematicaBacMD.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::XamarinFormsGesture.Resource.Attribute.actionBarSize = global::MatematicaBacMD.Droid.Resource.Attribute.actionBarSize;
+			global::XamarinFormsGesture.Resource.Attribute.actionBarSplitStyle = global::MatematicaBacMD.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::XamarinFormsGesture.Resource.Attribute.actionBarStyle = global::MatematicaBacMD.Droid.Resource.Attribute.actionBarStyle;
+			global::XamarinFormsGesture.Resource.Attribute.actionBarTabBarStyle = global::MatematicaBacMD.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::XamarinFormsGesture.Resource.Attribute.actionBarTabStyle = global::MatematicaBacMD.Droid.Resource.Attribute.actionBarTabStyle;
+			global::XamarinFormsGesture.Resource.Attribute.actionBarTabTextStyle = global::MatematicaBacMD.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::XamarinFormsGesture.Resource.Attribute.actionBarTheme = global::MatematicaBacMD.Droid.Resource.Attribute.actionBarTheme;
+			global::XamarinFormsGesture.Resource.Attribute.actionBarWidgetTheme = global::MatematicaBacMD.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::XamarinFormsGesture.Resource.Attribute.actionButtonStyle = global::MatematicaBacMD.Droid.Resource.Attribute.actionButtonStyle;
+			global::XamarinFormsGesture.Resource.Attribute.actionDropDownStyle = global::MatematicaBacMD.Droid.Resource.Attribute.actionDropDownStyle;
+			global::XamarinFormsGesture.Resource.Attribute.actionLayout = global::MatematicaBacMD.Droid.Resource.Attribute.actionLayout;
+			global::XamarinFormsGesture.Resource.Attribute.actionMenuTextAppearance = global::MatematicaBacMD.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::XamarinFormsGesture.Resource.Attribute.actionMenuTextColor = global::MatematicaBacMD.Droid.Resource.Attribute.actionMenuTextColor;
+			global::XamarinFormsGesture.Resource.Attribute.actionModeBackground = global::MatematicaBacMD.Droid.Resource.Attribute.actionModeBackground;
+			global::XamarinFormsGesture.Resource.Attribute.actionModeCloseButtonStyle = global::MatematicaBacMD.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::XamarinFormsGesture.Resource.Attribute.actionModeCloseDrawable = global::MatematicaBacMD.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::XamarinFormsGesture.Resource.Attribute.actionModeCopyDrawable = global::MatematicaBacMD.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::XamarinFormsGesture.Resource.Attribute.actionModeCutDrawable = global::MatematicaBacMD.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::XamarinFormsGesture.Resource.Attribute.actionModeFindDrawable = global::MatematicaBacMD.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::XamarinFormsGesture.Resource.Attribute.actionModePasteDrawable = global::MatematicaBacMD.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::XamarinFormsGesture.Resource.Attribute.actionModePopupWindowStyle = global::MatematicaBacMD.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::XamarinFormsGesture.Resource.Attribute.actionModeSelectAllDrawable = global::MatematicaBacMD.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::XamarinFormsGesture.Resource.Attribute.actionModeShareDrawable = global::MatematicaBacMD.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::XamarinFormsGesture.Resource.Attribute.actionModeSplitBackground = global::MatematicaBacMD.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::XamarinFormsGesture.Resource.Attribute.actionModeStyle = global::MatematicaBacMD.Droid.Resource.Attribute.actionModeStyle;
+			global::XamarinFormsGesture.Resource.Attribute.actionModeWebSearchDrawable = global::MatematicaBacMD.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::XamarinFormsGesture.Resource.Attribute.actionOverflowButtonStyle = global::MatematicaBacMD.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::XamarinFormsGesture.Resource.Attribute.actionOverflowMenuStyle = global::MatematicaBacMD.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::XamarinFormsGesture.Resource.Attribute.actionProviderClass = global::MatematicaBacMD.Droid.Resource.Attribute.actionProviderClass;
+			global::XamarinFormsGesture.Resource.Attribute.actionViewClass = global::MatematicaBacMD.Droid.Resource.Attribute.actionViewClass;
+			global::XamarinFormsGesture.Resource.Attribute.activityChooserViewStyle = global::MatematicaBacMD.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::XamarinFormsGesture.Resource.Attribute.alertDialogButtonGroupStyle = global::MatematicaBacMD.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::XamarinFormsGesture.Resource.Attribute.alertDialogCenterButtons = global::MatematicaBacMD.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::XamarinFormsGesture.Resource.Attribute.alertDialogStyle = global::MatematicaBacMD.Droid.Resource.Attribute.alertDialogStyle;
+			global::XamarinFormsGesture.Resource.Attribute.alertDialogTheme = global::MatematicaBacMD.Droid.Resource.Attribute.alertDialogTheme;
+			global::XamarinFormsGesture.Resource.Attribute.allowStacking = global::MatematicaBacMD.Droid.Resource.Attribute.allowStacking;
+			global::XamarinFormsGesture.Resource.Attribute.alpha = global::MatematicaBacMD.Droid.Resource.Attribute.alpha;
+			global::XamarinFormsGesture.Resource.Attribute.alphabeticModifiers = global::MatematicaBacMD.Droid.Resource.Attribute.alphabeticModifiers;
+			global::XamarinFormsGesture.Resource.Attribute.arrowHeadLength = global::MatematicaBacMD.Droid.Resource.Attribute.arrowHeadLength;
+			global::XamarinFormsGesture.Resource.Attribute.arrowShaftLength = global::MatematicaBacMD.Droid.Resource.Attribute.arrowShaftLength;
+			global::XamarinFormsGesture.Resource.Attribute.autoCompleteTextViewStyle = global::MatematicaBacMD.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::XamarinFormsGesture.Resource.Attribute.autoSizeMaxTextSize = global::MatematicaBacMD.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::XamarinFormsGesture.Resource.Attribute.autoSizeMinTextSize = global::MatematicaBacMD.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::XamarinFormsGesture.Resource.Attribute.autoSizePresetSizes = global::MatematicaBacMD.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::XamarinFormsGesture.Resource.Attribute.autoSizeStepGranularity = global::MatematicaBacMD.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::XamarinFormsGesture.Resource.Attribute.autoSizeTextType = global::MatematicaBacMD.Droid.Resource.Attribute.autoSizeTextType;
+			global::XamarinFormsGesture.Resource.Attribute.background = global::MatematicaBacMD.Droid.Resource.Attribute.background;
+			global::XamarinFormsGesture.Resource.Attribute.backgroundSplit = global::MatematicaBacMD.Droid.Resource.Attribute.backgroundSplit;
+			global::XamarinFormsGesture.Resource.Attribute.backgroundStacked = global::MatematicaBacMD.Droid.Resource.Attribute.backgroundStacked;
+			global::XamarinFormsGesture.Resource.Attribute.backgroundTint = global::MatematicaBacMD.Droid.Resource.Attribute.backgroundTint;
+			global::XamarinFormsGesture.Resource.Attribute.backgroundTintMode = global::MatematicaBacMD.Droid.Resource.Attribute.backgroundTintMode;
+			global::XamarinFormsGesture.Resource.Attribute.barLength = global::MatematicaBacMD.Droid.Resource.Attribute.barLength;
+			global::XamarinFormsGesture.Resource.Attribute.behavior_autoHide = global::MatematicaBacMD.Droid.Resource.Attribute.behavior_autoHide;
+			global::XamarinFormsGesture.Resource.Attribute.behavior_fitToContents = global::MatematicaBacMD.Droid.Resource.Attribute.behavior_fitToContents;
+			global::XamarinFormsGesture.Resource.Attribute.behavior_hideable = global::MatematicaBacMD.Droid.Resource.Attribute.behavior_hideable;
+			global::XamarinFormsGesture.Resource.Attribute.behavior_overlapTop = global::MatematicaBacMD.Droid.Resource.Attribute.behavior_overlapTop;
+			global::XamarinFormsGesture.Resource.Attribute.behavior_peekHeight = global::MatematicaBacMD.Droid.Resource.Attribute.behavior_peekHeight;
+			global::XamarinFormsGesture.Resource.Attribute.behavior_skipCollapsed = global::MatematicaBacMD.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::XamarinFormsGesture.Resource.Attribute.borderlessButtonStyle = global::MatematicaBacMD.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::XamarinFormsGesture.Resource.Attribute.borderWidth = global::MatematicaBacMD.Droid.Resource.Attribute.borderWidth;
+			global::XamarinFormsGesture.Resource.Attribute.bottomAppBarStyle = global::MatematicaBacMD.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::XamarinFormsGesture.Resource.Attribute.bottomNavigationStyle = global::MatematicaBacMD.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::XamarinFormsGesture.Resource.Attribute.bottomSheetDialogTheme = global::MatematicaBacMD.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::XamarinFormsGesture.Resource.Attribute.bottomSheetStyle = global::MatematicaBacMD.Droid.Resource.Attribute.bottomSheetStyle;
+			global::XamarinFormsGesture.Resource.Attribute.boxBackgroundColor = global::MatematicaBacMD.Droid.Resource.Attribute.boxBackgroundColor;
+			global::XamarinFormsGesture.Resource.Attribute.boxBackgroundMode = global::MatematicaBacMD.Droid.Resource.Attribute.boxBackgroundMode;
+			global::XamarinFormsGesture.Resource.Attribute.boxCollapsedPaddingTop = global::MatematicaBacMD.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::XamarinFormsGesture.Resource.Attribute.boxCornerRadiusBottomEnd = global::MatematicaBacMD.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::XamarinFormsGesture.Resource.Attribute.boxCornerRadiusBottomStart = global::MatematicaBacMD.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::XamarinFormsGesture.Resource.Attribute.boxCornerRadiusTopEnd = global::MatematicaBacMD.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::XamarinFormsGesture.Resource.Attribute.boxCornerRadiusTopStart = global::MatematicaBacMD.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::XamarinFormsGesture.Resource.Attribute.boxStrokeColor = global::MatematicaBacMD.Droid.Resource.Attribute.boxStrokeColor;
+			global::XamarinFormsGesture.Resource.Attribute.boxStrokeWidth = global::MatematicaBacMD.Droid.Resource.Attribute.boxStrokeWidth;
+			global::XamarinFormsGesture.Resource.Attribute.buttonBarButtonStyle = global::MatematicaBacMD.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::XamarinFormsGesture.Resource.Attribute.buttonBarNegativeButtonStyle = global::MatematicaBacMD.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::XamarinFormsGesture.Resource.Attribute.buttonBarNeutralButtonStyle = global::MatematicaBacMD.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::XamarinFormsGesture.Resource.Attribute.buttonBarPositiveButtonStyle = global::MatematicaBacMD.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::XamarinFormsGesture.Resource.Attribute.buttonBarStyle = global::MatematicaBacMD.Droid.Resource.Attribute.buttonBarStyle;
+			global::XamarinFormsGesture.Resource.Attribute.buttonGravity = global::MatematicaBacMD.Droid.Resource.Attribute.buttonGravity;
+			global::XamarinFormsGesture.Resource.Attribute.buttonIconDimen = global::MatematicaBacMD.Droid.Resource.Attribute.buttonIconDimen;
+			global::XamarinFormsGesture.Resource.Attribute.buttonPanelSideLayout = global::MatematicaBacMD.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::XamarinFormsGesture.Resource.Attribute.buttonStyle = global::MatematicaBacMD.Droid.Resource.Attribute.buttonStyle;
+			global::XamarinFormsGesture.Resource.Attribute.buttonStyleSmall = global::MatematicaBacMD.Droid.Resource.Attribute.buttonStyleSmall;
+			global::XamarinFormsGesture.Resource.Attribute.buttonTint = global::MatematicaBacMD.Droid.Resource.Attribute.buttonTint;
+			global::XamarinFormsGesture.Resource.Attribute.buttonTintMode = global::MatematicaBacMD.Droid.Resource.Attribute.buttonTintMode;
+			global::XamarinFormsGesture.Resource.Attribute.cardBackgroundColor = global::MatematicaBacMD.Droid.Resource.Attribute.cardBackgroundColor;
+			global::XamarinFormsGesture.Resource.Attribute.cardCornerRadius = global::MatematicaBacMD.Droid.Resource.Attribute.cardCornerRadius;
+			global::XamarinFormsGesture.Resource.Attribute.cardElevation = global::MatematicaBacMD.Droid.Resource.Attribute.cardElevation;
+			global::XamarinFormsGesture.Resource.Attribute.cardMaxElevation = global::MatematicaBacMD.Droid.Resource.Attribute.cardMaxElevation;
+			global::XamarinFormsGesture.Resource.Attribute.cardPreventCornerOverlap = global::MatematicaBacMD.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::XamarinFormsGesture.Resource.Attribute.cardUseCompatPadding = global::MatematicaBacMD.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::XamarinFormsGesture.Resource.Attribute.cardViewStyle = global::MatematicaBacMD.Droid.Resource.Attribute.cardViewStyle;
+			global::XamarinFormsGesture.Resource.Attribute.checkboxStyle = global::MatematicaBacMD.Droid.Resource.Attribute.checkboxStyle;
+			global::XamarinFormsGesture.Resource.Attribute.checkedChip = global::MatematicaBacMD.Droid.Resource.Attribute.checkedChip;
+			global::XamarinFormsGesture.Resource.Attribute.checkedIcon = global::MatematicaBacMD.Droid.Resource.Attribute.checkedIcon;
+			global::XamarinFormsGesture.Resource.Attribute.checkedIconEnabled = global::MatematicaBacMD.Droid.Resource.Attribute.checkedIconEnabled;
+			global::XamarinFormsGesture.Resource.Attribute.checkedIconVisible = global::MatematicaBacMD.Droid.Resource.Attribute.checkedIconVisible;
+			global::XamarinFormsGesture.Resource.Attribute.checkedTextViewStyle = global::MatematicaBacMD.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::XamarinFormsGesture.Resource.Attribute.chipBackgroundColor = global::MatematicaBacMD.Droid.Resource.Attribute.chipBackgroundColor;
+			global::XamarinFormsGesture.Resource.Attribute.chipCornerRadius = global::MatematicaBacMD.Droid.Resource.Attribute.chipCornerRadius;
+			global::XamarinFormsGesture.Resource.Attribute.chipEndPadding = global::MatematicaBacMD.Droid.Resource.Attribute.chipEndPadding;
+			global::XamarinFormsGesture.Resource.Attribute.chipGroupStyle = global::MatematicaBacMD.Droid.Resource.Attribute.chipGroupStyle;
+			global::XamarinFormsGesture.Resource.Attribute.chipIcon = global::MatematicaBacMD.Droid.Resource.Attribute.chipIcon;
+			global::XamarinFormsGesture.Resource.Attribute.chipIconEnabled = global::MatematicaBacMD.Droid.Resource.Attribute.chipIconEnabled;
+			global::XamarinFormsGesture.Resource.Attribute.chipIconSize = global::MatematicaBacMD.Droid.Resource.Attribute.chipIconSize;
+			global::XamarinFormsGesture.Resource.Attribute.chipIconTint = global::MatematicaBacMD.Droid.Resource.Attribute.chipIconTint;
+			global::XamarinFormsGesture.Resource.Attribute.chipIconVisible = global::MatematicaBacMD.Droid.Resource.Attribute.chipIconVisible;
+			global::XamarinFormsGesture.Resource.Attribute.chipMinHeight = global::MatematicaBacMD.Droid.Resource.Attribute.chipMinHeight;
+			global::XamarinFormsGesture.Resource.Attribute.chipSpacing = global::MatematicaBacMD.Droid.Resource.Attribute.chipSpacing;
+			global::XamarinFormsGesture.Resource.Attribute.chipSpacingHorizontal = global::MatematicaBacMD.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::XamarinFormsGesture.Resource.Attribute.chipSpacingVertical = global::MatematicaBacMD.Droid.Resource.Attribute.chipSpacingVertical;
+			global::XamarinFormsGesture.Resource.Attribute.chipStandaloneStyle = global::MatematicaBacMD.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::XamarinFormsGesture.Resource.Attribute.chipStartPadding = global::MatematicaBacMD.Droid.Resource.Attribute.chipStartPadding;
+			global::XamarinFormsGesture.Resource.Attribute.chipStrokeColor = global::MatematicaBacMD.Droid.Resource.Attribute.chipStrokeColor;
+			global::XamarinFormsGesture.Resource.Attribute.chipStrokeWidth = global::MatematicaBacMD.Droid.Resource.Attribute.chipStrokeWidth;
+			global::XamarinFormsGesture.Resource.Attribute.chipStyle = global::MatematicaBacMD.Droid.Resource.Attribute.chipStyle;
+			global::XamarinFormsGesture.Resource.Attribute.closeIcon = global::MatematicaBacMD.Droid.Resource.Attribute.closeIcon;
+			global::XamarinFormsGesture.Resource.Attribute.closeIconEnabled = global::MatematicaBacMD.Droid.Resource.Attribute.closeIconEnabled;
+			global::XamarinFormsGesture.Resource.Attribute.closeIconEndPadding = global::MatematicaBacMD.Droid.Resource.Attribute.closeIconEndPadding;
+			global::XamarinFormsGesture.Resource.Attribute.closeIconSize = global::MatematicaBacMD.Droid.Resource.Attribute.closeIconSize;
+			global::XamarinFormsGesture.Resource.Attribute.closeIconStartPadding = global::MatematicaBacMD.Droid.Resource.Attribute.closeIconStartPadding;
+			global::XamarinFormsGesture.Resource.Attribute.closeIconTint = global::MatematicaBacMD.Droid.Resource.Attribute.closeIconTint;
+			global::XamarinFormsGesture.Resource.Attribute.closeIconVisible = global::MatematicaBacMD.Droid.Resource.Attribute.closeIconVisible;
+			global::XamarinFormsGesture.Resource.Attribute.closeItemLayout = global::MatematicaBacMD.Droid.Resource.Attribute.closeItemLayout;
+			global::XamarinFormsGesture.Resource.Attribute.collapseContentDescription = global::MatematicaBacMD.Droid.Resource.Attribute.collapseContentDescription;
+			global::XamarinFormsGesture.Resource.Attribute.collapsedTitleGravity = global::MatematicaBacMD.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::XamarinFormsGesture.Resource.Attribute.collapsedTitleTextAppearance = global::MatematicaBacMD.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::XamarinFormsGesture.Resource.Attribute.collapseIcon = global::MatematicaBacMD.Droid.Resource.Attribute.collapseIcon;
+			global::XamarinFormsGesture.Resource.Attribute.color = global::MatematicaBacMD.Droid.Resource.Attribute.color;
+			global::XamarinFormsGesture.Resource.Attribute.colorAccent = global::MatematicaBacMD.Droid.Resource.Attribute.colorAccent;
+			global::XamarinFormsGesture.Resource.Attribute.colorBackgroundFloating = global::MatematicaBacMD.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::XamarinFormsGesture.Resource.Attribute.colorButtonNormal = global::MatematicaBacMD.Droid.Resource.Attribute.colorButtonNormal;
+			global::XamarinFormsGesture.Resource.Attribute.colorControlActivated = global::MatematicaBacMD.Droid.Resource.Attribute.colorControlActivated;
+			global::XamarinFormsGesture.Resource.Attribute.colorControlHighlight = global::MatematicaBacMD.Droid.Resource.Attribute.colorControlHighlight;
+			global::XamarinFormsGesture.Resource.Attribute.colorControlNormal = global::MatematicaBacMD.Droid.Resource.Attribute.colorControlNormal;
+			global::XamarinFormsGesture.Resource.Attribute.colorError = global::MatematicaBacMD.Droid.Resource.Attribute.colorError;
+			global::XamarinFormsGesture.Resource.Attribute.colorPrimary = global::MatematicaBacMD.Droid.Resource.Attribute.colorPrimary;
+			global::XamarinFormsGesture.Resource.Attribute.colorPrimaryDark = global::MatematicaBacMD.Droid.Resource.Attribute.colorPrimaryDark;
+			global::XamarinFormsGesture.Resource.Attribute.colorSecondary = global::MatematicaBacMD.Droid.Resource.Attribute.colorSecondary;
+			global::XamarinFormsGesture.Resource.Attribute.colorSwitchThumbNormal = global::MatematicaBacMD.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::XamarinFormsGesture.Resource.Attribute.commitIcon = global::MatematicaBacMD.Droid.Resource.Attribute.commitIcon;
+			global::XamarinFormsGesture.Resource.Attribute.contentDescription = global::MatematicaBacMD.Droid.Resource.Attribute.contentDescription;
+			global::XamarinFormsGesture.Resource.Attribute.contentInsetEnd = global::MatematicaBacMD.Droid.Resource.Attribute.contentInsetEnd;
+			global::XamarinFormsGesture.Resource.Attribute.contentInsetEndWithActions = global::MatematicaBacMD.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::XamarinFormsGesture.Resource.Attribute.contentInsetLeft = global::MatematicaBacMD.Droid.Resource.Attribute.contentInsetLeft;
+			global::XamarinFormsGesture.Resource.Attribute.contentInsetRight = global::MatematicaBacMD.Droid.Resource.Attribute.contentInsetRight;
+			global::XamarinFormsGesture.Resource.Attribute.contentInsetStart = global::MatematicaBacMD.Droid.Resource.Attribute.contentInsetStart;
+			global::XamarinFormsGesture.Resource.Attribute.contentInsetStartWithNavigation = global::MatematicaBacMD.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::XamarinFormsGesture.Resource.Attribute.contentPadding = global::MatematicaBacMD.Droid.Resource.Attribute.contentPadding;
+			global::XamarinFormsGesture.Resource.Attribute.contentPaddingBottom = global::MatematicaBacMD.Droid.Resource.Attribute.contentPaddingBottom;
+			global::XamarinFormsGesture.Resource.Attribute.contentPaddingLeft = global::MatematicaBacMD.Droid.Resource.Attribute.contentPaddingLeft;
+			global::XamarinFormsGesture.Resource.Attribute.contentPaddingRight = global::MatematicaBacMD.Droid.Resource.Attribute.contentPaddingRight;
+			global::XamarinFormsGesture.Resource.Attribute.contentPaddingTop = global::MatematicaBacMD.Droid.Resource.Attribute.contentPaddingTop;
+			global::XamarinFormsGesture.Resource.Attribute.contentScrim = global::MatematicaBacMD.Droid.Resource.Attribute.contentScrim;
+			global::XamarinFormsGesture.Resource.Attribute.controlBackground = global::MatematicaBacMD.Droid.Resource.Attribute.controlBackground;
+			global::XamarinFormsGesture.Resource.Attribute.coordinatorLayoutStyle = global::MatematicaBacMD.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::XamarinFormsGesture.Resource.Attribute.cornerRadius = global::MatematicaBacMD.Droid.Resource.Attribute.cornerRadius;
+			global::XamarinFormsGesture.Resource.Attribute.counterEnabled = global::MatematicaBacMD.Droid.Resource.Attribute.counterEnabled;
+			global::XamarinFormsGesture.Resource.Attribute.counterMaxLength = global::MatematicaBacMD.Droid.Resource.Attribute.counterMaxLength;
+			global::XamarinFormsGesture.Resource.Attribute.counterOverflowTextAppearance = global::MatematicaBacMD.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::XamarinFormsGesture.Resource.Attribute.counterTextAppearance = global::MatematicaBacMD.Droid.Resource.Attribute.counterTextAppearance;
+			global::XamarinFormsGesture.Resource.Attribute.customNavigationLayout = global::MatematicaBacMD.Droid.Resource.Attribute.customNavigationLayout;
+			global::XamarinFormsGesture.Resource.Attribute.defaultQueryHint = global::MatematicaBacMD.Droid.Resource.Attribute.defaultQueryHint;
+			global::XamarinFormsGesture.Resource.Attribute.dialogCornerRadius = global::MatematicaBacMD.Droid.Resource.Attribute.dialogCornerRadius;
+			global::XamarinFormsGesture.Resource.Attribute.dialogPreferredPadding = global::MatematicaBacMD.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::XamarinFormsGesture.Resource.Attribute.dialogTheme = global::MatematicaBacMD.Droid.Resource.Attribute.dialogTheme;
+			global::XamarinFormsGesture.Resource.Attribute.displayOptions = global::MatematicaBacMD.Droid.Resource.Attribute.displayOptions;
+			global::XamarinFormsGesture.Resource.Attribute.divider = global::MatematicaBacMD.Droid.Resource.Attribute.divider;
+			global::XamarinFormsGesture.Resource.Attribute.dividerHorizontal = global::MatematicaBacMD.Droid.Resource.Attribute.dividerHorizontal;
+			global::XamarinFormsGesture.Resource.Attribute.dividerPadding = global::MatematicaBacMD.Droid.Resource.Attribute.dividerPadding;
+			global::XamarinFormsGesture.Resource.Attribute.dividerVertical = global::MatematicaBacMD.Droid.Resource.Attribute.dividerVertical;
+			global::XamarinFormsGesture.Resource.Attribute.drawableSize = global::MatematicaBacMD.Droid.Resource.Attribute.drawableSize;
+			global::XamarinFormsGesture.Resource.Attribute.drawerArrowStyle = global::MatematicaBacMD.Droid.Resource.Attribute.drawerArrowStyle;
+			global::XamarinFormsGesture.Resource.Attribute.dropdownListPreferredItemHeight = global::MatematicaBacMD.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::XamarinFormsGesture.Resource.Attribute.dropDownListViewStyle = global::MatematicaBacMD.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::XamarinFormsGesture.Resource.Attribute.editTextBackground = global::MatematicaBacMD.Droid.Resource.Attribute.editTextBackground;
+			global::XamarinFormsGesture.Resource.Attribute.editTextColor = global::MatematicaBacMD.Droid.Resource.Attribute.editTextColor;
+			global::XamarinFormsGesture.Resource.Attribute.editTextStyle = global::MatematicaBacMD.Droid.Resource.Attribute.editTextStyle;
+			global::XamarinFormsGesture.Resource.Attribute.elevation = global::MatematicaBacMD.Droid.Resource.Attribute.elevation;
+			global::XamarinFormsGesture.Resource.Attribute.enforceMaterialTheme = global::MatematicaBacMD.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::XamarinFormsGesture.Resource.Attribute.enforceTextAppearance = global::MatematicaBacMD.Droid.Resource.Attribute.enforceTextAppearance;
+			global::XamarinFormsGesture.Resource.Attribute.errorEnabled = global::MatematicaBacMD.Droid.Resource.Attribute.errorEnabled;
+			global::XamarinFormsGesture.Resource.Attribute.errorTextAppearance = global::MatematicaBacMD.Droid.Resource.Attribute.errorTextAppearance;
+			global::XamarinFormsGesture.Resource.Attribute.expandActivityOverflowButtonDrawable = global::MatematicaBacMD.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::XamarinFormsGesture.Resource.Attribute.expanded = global::MatematicaBacMD.Droid.Resource.Attribute.expanded;
+			global::XamarinFormsGesture.Resource.Attribute.expandedTitleGravity = global::MatematicaBacMD.Droid.Resource.Attribute.expandedTitleGravity;
+			global::XamarinFormsGesture.Resource.Attribute.expandedTitleMargin = global::MatematicaBacMD.Droid.Resource.Attribute.expandedTitleMargin;
+			global::XamarinFormsGesture.Resource.Attribute.expandedTitleMarginBottom = global::MatematicaBacMD.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::XamarinFormsGesture.Resource.Attribute.expandedTitleMarginEnd = global::MatematicaBacMD.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::XamarinFormsGesture.Resource.Attribute.expandedTitleMarginStart = global::MatematicaBacMD.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::XamarinFormsGesture.Resource.Attribute.expandedTitleMarginTop = global::MatematicaBacMD.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::XamarinFormsGesture.Resource.Attribute.expandedTitleTextAppearance = global::MatematicaBacMD.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::XamarinFormsGesture.Resource.Attribute.fabAlignmentMode = global::MatematicaBacMD.Droid.Resource.Attribute.fabAlignmentMode;
+			global::XamarinFormsGesture.Resource.Attribute.fabCradleMargin = global::MatematicaBacMD.Droid.Resource.Attribute.fabCradleMargin;
+			global::XamarinFormsGesture.Resource.Attribute.fabCradleRoundedCornerRadius = global::MatematicaBacMD.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::XamarinFormsGesture.Resource.Attribute.fabCradleVerticalOffset = global::MatematicaBacMD.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::XamarinFormsGesture.Resource.Attribute.fabCustomSize = global::MatematicaBacMD.Droid.Resource.Attribute.fabCustomSize;
+			global::XamarinFormsGesture.Resource.Attribute.fabSize = global::MatematicaBacMD.Droid.Resource.Attribute.fabSize;
+			global::XamarinFormsGesture.Resource.Attribute.fastScrollEnabled = global::MatematicaBacMD.Droid.Resource.Attribute.fastScrollEnabled;
+			global::XamarinFormsGesture.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::MatematicaBacMD.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::XamarinFormsGesture.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::MatematicaBacMD.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::XamarinFormsGesture.Resource.Attribute.fastScrollVerticalThumbDrawable = global::MatematicaBacMD.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::XamarinFormsGesture.Resource.Attribute.fastScrollVerticalTrackDrawable = global::MatematicaBacMD.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::XamarinFormsGesture.Resource.Attribute.firstBaselineToTopHeight = global::MatematicaBacMD.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::XamarinFormsGesture.Resource.Attribute.floatingActionButtonStyle = global::MatematicaBacMD.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::XamarinFormsGesture.Resource.Attribute.font = global::MatematicaBacMD.Droid.Resource.Attribute.font;
+			global::XamarinFormsGesture.Resource.Attribute.fontFamily = global::MatematicaBacMD.Droid.Resource.Attribute.fontFamily;
+			global::XamarinFormsGesture.Resource.Attribute.fontProviderAuthority = global::MatematicaBacMD.Droid.Resource.Attribute.fontProviderAuthority;
+			global::XamarinFormsGesture.Resource.Attribute.fontProviderCerts = global::MatematicaBacMD.Droid.Resource.Attribute.fontProviderCerts;
+			global::XamarinFormsGesture.Resource.Attribute.fontProviderFetchStrategy = global::MatematicaBacMD.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::XamarinFormsGesture.Resource.Attribute.fontProviderFetchTimeout = global::MatematicaBacMD.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::XamarinFormsGesture.Resource.Attribute.fontProviderPackage = global::MatematicaBacMD.Droid.Resource.Attribute.fontProviderPackage;
+			global::XamarinFormsGesture.Resource.Attribute.fontProviderQuery = global::MatematicaBacMD.Droid.Resource.Attribute.fontProviderQuery;
+			global::XamarinFormsGesture.Resource.Attribute.fontStyle = global::MatematicaBacMD.Droid.Resource.Attribute.fontStyle;
+			global::XamarinFormsGesture.Resource.Attribute.fontVariationSettings = global::MatematicaBacMD.Droid.Resource.Attribute.fontVariationSettings;
+			global::XamarinFormsGesture.Resource.Attribute.fontWeight = global::MatematicaBacMD.Droid.Resource.Attribute.fontWeight;
+			global::XamarinFormsGesture.Resource.Attribute.foregroundInsidePadding = global::MatematicaBacMD.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::XamarinFormsGesture.Resource.Attribute.gapBetweenBars = global::MatematicaBacMD.Droid.Resource.Attribute.gapBetweenBars;
+			global::XamarinFormsGesture.Resource.Attribute.goIcon = global::MatematicaBacMD.Droid.Resource.Attribute.goIcon;
+			global::XamarinFormsGesture.Resource.Attribute.headerLayout = global::MatematicaBacMD.Droid.Resource.Attribute.headerLayout;
+			global::XamarinFormsGesture.Resource.Attribute.height = global::MatematicaBacMD.Droid.Resource.Attribute.height;
+			global::XamarinFormsGesture.Resource.Attribute.helperText = global::MatematicaBacMD.Droid.Resource.Attribute.helperText;
+			global::XamarinFormsGesture.Resource.Attribute.helperTextEnabled = global::MatematicaBacMD.Droid.Resource.Attribute.helperTextEnabled;
+			global::XamarinFormsGesture.Resource.Attribute.helperTextTextAppearance = global::MatematicaBacMD.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::XamarinFormsGesture.Resource.Attribute.hideMotionSpec = global::MatematicaBacMD.Droid.Resource.Attribute.hideMotionSpec;
+			global::XamarinFormsGesture.Resource.Attribute.hideOnContentScroll = global::MatematicaBacMD.Droid.Resource.Attribute.hideOnContentScroll;
+			global::XamarinFormsGesture.Resource.Attribute.hideOnScroll = global::MatematicaBacMD.Droid.Resource.Attribute.hideOnScroll;
+			global::XamarinFormsGesture.Resource.Attribute.hintAnimationEnabled = global::MatematicaBacMD.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::XamarinFormsGesture.Resource.Attribute.hintEnabled = global::MatematicaBacMD.Droid.Resource.Attribute.hintEnabled;
+			global::XamarinFormsGesture.Resource.Attribute.hintTextAppearance = global::MatematicaBacMD.Droid.Resource.Attribute.hintTextAppearance;
+			global::XamarinFormsGesture.Resource.Attribute.homeAsUpIndicator = global::MatematicaBacMD.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::XamarinFormsGesture.Resource.Attribute.homeLayout = global::MatematicaBacMD.Droid.Resource.Attribute.homeLayout;
+			global::XamarinFormsGesture.Resource.Attribute.hoveredFocusedTranslationZ = global::MatematicaBacMD.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::XamarinFormsGesture.Resource.Attribute.icon = global::MatematicaBacMD.Droid.Resource.Attribute.icon;
+			global::XamarinFormsGesture.Resource.Attribute.iconEndPadding = global::MatematicaBacMD.Droid.Resource.Attribute.iconEndPadding;
+			global::XamarinFormsGesture.Resource.Attribute.iconGravity = global::MatematicaBacMD.Droid.Resource.Attribute.iconGravity;
+			global::XamarinFormsGesture.Resource.Attribute.iconifiedByDefault = global::MatematicaBacMD.Droid.Resource.Attribute.iconifiedByDefault;
+			global::XamarinFormsGesture.Resource.Attribute.iconPadding = global::MatematicaBacMD.Droid.Resource.Attribute.iconPadding;
+			global::XamarinFormsGesture.Resource.Attribute.iconSize = global::MatematicaBacMD.Droid.Resource.Attribute.iconSize;
+			global::XamarinFormsGesture.Resource.Attribute.iconStartPadding = global::MatematicaBacMD.Droid.Resource.Attribute.iconStartPadding;
+			global::XamarinFormsGesture.Resource.Attribute.iconTint = global::MatematicaBacMD.Droid.Resource.Attribute.iconTint;
+			global::XamarinFormsGesture.Resource.Attribute.iconTintMode = global::MatematicaBacMD.Droid.Resource.Attribute.iconTintMode;
+			global::XamarinFormsGesture.Resource.Attribute.imageButtonStyle = global::MatematicaBacMD.Droid.Resource.Attribute.imageButtonStyle;
+			global::XamarinFormsGesture.Resource.Attribute.indeterminateProgressStyle = global::MatematicaBacMD.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::XamarinFormsGesture.Resource.Attribute.initialActivityCount = global::MatematicaBacMD.Droid.Resource.Attribute.initialActivityCount;
+			global::XamarinFormsGesture.Resource.Attribute.insetForeground = global::MatematicaBacMD.Droid.Resource.Attribute.insetForeground;
+			global::XamarinFormsGesture.Resource.Attribute.isLightTheme = global::MatematicaBacMD.Droid.Resource.Attribute.isLightTheme;
+			global::XamarinFormsGesture.Resource.Attribute.itemBackground = global::MatematicaBacMD.Droid.Resource.Attribute.itemBackground;
+			global::XamarinFormsGesture.Resource.Attribute.itemHorizontalPadding = global::MatematicaBacMD.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::XamarinFormsGesture.Resource.Attribute.itemHorizontalTranslationEnabled = global::MatematicaBacMD.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::XamarinFormsGesture.Resource.Attribute.itemIconPadding = global::MatematicaBacMD.Droid.Resource.Attribute.itemIconPadding;
+			global::XamarinFormsGesture.Resource.Attribute.itemIconSize = global::MatematicaBacMD.Droid.Resource.Attribute.itemIconSize;
+			global::XamarinFormsGesture.Resource.Attribute.itemIconTint = global::MatematicaBacMD.Droid.Resource.Attribute.itemIconTint;
+			global::XamarinFormsGesture.Resource.Attribute.itemPadding = global::MatematicaBacMD.Droid.Resource.Attribute.itemPadding;
+			global::XamarinFormsGesture.Resource.Attribute.itemSpacing = global::MatematicaBacMD.Droid.Resource.Attribute.itemSpacing;
+			global::XamarinFormsGesture.Resource.Attribute.itemTextAppearance = global::MatematicaBacMD.Droid.Resource.Attribute.itemTextAppearance;
+			global::XamarinFormsGesture.Resource.Attribute.itemTextAppearanceActive = global::MatematicaBacMD.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::XamarinFormsGesture.Resource.Attribute.itemTextAppearanceInactive = global::MatematicaBacMD.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::XamarinFormsGesture.Resource.Attribute.itemTextColor = global::MatematicaBacMD.Droid.Resource.Attribute.itemTextColor;
+			global::XamarinFormsGesture.Resource.Attribute.keylines = global::MatematicaBacMD.Droid.Resource.Attribute.keylines;
+			global::XamarinFormsGesture.Resource.Attribute.labelVisibilityMode = global::MatematicaBacMD.Droid.Resource.Attribute.labelVisibilityMode;
+			global::XamarinFormsGesture.Resource.Attribute.lastBaselineToBottomHeight = global::MatematicaBacMD.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::XamarinFormsGesture.Resource.Attribute.layout = global::MatematicaBacMD.Droid.Resource.Attribute.layout;
+			global::XamarinFormsGesture.Resource.Attribute.layoutManager = global::MatematicaBacMD.Droid.Resource.Attribute.layoutManager;
+			global::XamarinFormsGesture.Resource.Attribute.layout_anchor = global::MatematicaBacMD.Droid.Resource.Attribute.layout_anchor;
+			global::XamarinFormsGesture.Resource.Attribute.layout_anchorGravity = global::MatematicaBacMD.Droid.Resource.Attribute.layout_anchorGravity;
+			global::XamarinFormsGesture.Resource.Attribute.layout_behavior = global::MatematicaBacMD.Droid.Resource.Attribute.layout_behavior;
+			global::XamarinFormsGesture.Resource.Attribute.layout_collapseMode = global::MatematicaBacMD.Droid.Resource.Attribute.layout_collapseMode;
+			global::XamarinFormsGesture.Resource.Attribute.layout_collapseParallaxMultiplier = global::MatematicaBacMD.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::XamarinFormsGesture.Resource.Attribute.layout_dodgeInsetEdges = global::MatematicaBacMD.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::XamarinFormsGesture.Resource.Attribute.layout_insetEdge = global::MatematicaBacMD.Droid.Resource.Attribute.layout_insetEdge;
+			global::XamarinFormsGesture.Resource.Attribute.layout_keyline = global::MatematicaBacMD.Droid.Resource.Attribute.layout_keyline;
+			global::XamarinFormsGesture.Resource.Attribute.layout_scrollFlags = global::MatematicaBacMD.Droid.Resource.Attribute.layout_scrollFlags;
+			global::XamarinFormsGesture.Resource.Attribute.layout_scrollInterpolator = global::MatematicaBacMD.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::XamarinFormsGesture.Resource.Attribute.liftOnScroll = global::MatematicaBacMD.Droid.Resource.Attribute.liftOnScroll;
+			global::XamarinFormsGesture.Resource.Attribute.lineHeight = global::MatematicaBacMD.Droid.Resource.Attribute.lineHeight;
+			global::XamarinFormsGesture.Resource.Attribute.lineSpacing = global::MatematicaBacMD.Droid.Resource.Attribute.lineSpacing;
+			global::XamarinFormsGesture.Resource.Attribute.listChoiceBackgroundIndicator = global::MatematicaBacMD.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::XamarinFormsGesture.Resource.Attribute.listDividerAlertDialog = global::MatematicaBacMD.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::XamarinFormsGesture.Resource.Attribute.listItemLayout = global::MatematicaBacMD.Droid.Resource.Attribute.listItemLayout;
+			global::XamarinFormsGesture.Resource.Attribute.listLayout = global::MatematicaBacMD.Droid.Resource.Attribute.listLayout;
+			global::XamarinFormsGesture.Resource.Attribute.listMenuViewStyle = global::MatematicaBacMD.Droid.Resource.Attribute.listMenuViewStyle;
+			global::XamarinFormsGesture.Resource.Attribute.listPopupWindowStyle = global::MatematicaBacMD.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::XamarinFormsGesture.Resource.Attribute.listPreferredItemHeight = global::MatematicaBacMD.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::XamarinFormsGesture.Resource.Attribute.listPreferredItemHeightLarge = global::MatematicaBacMD.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::XamarinFormsGesture.Resource.Attribute.listPreferredItemHeightSmall = global::MatematicaBacMD.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::XamarinFormsGesture.Resource.Attribute.listPreferredItemPaddingLeft = global::MatematicaBacMD.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::XamarinFormsGesture.Resource.Attribute.listPreferredItemPaddingRight = global::MatematicaBacMD.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::XamarinFormsGesture.Resource.Attribute.logo = global::MatematicaBacMD.Droid.Resource.Attribute.logo;
+			global::XamarinFormsGesture.Resource.Attribute.logoDescription = global::MatematicaBacMD.Droid.Resource.Attribute.logoDescription;
+			global::XamarinFormsGesture.Resource.Attribute.materialButtonStyle = global::MatematicaBacMD.Droid.Resource.Attribute.materialButtonStyle;
+			global::XamarinFormsGesture.Resource.Attribute.materialCardViewStyle = global::MatematicaBacMD.Droid.Resource.Attribute.materialCardViewStyle;
+			global::XamarinFormsGesture.Resource.Attribute.maxActionInlineWidth = global::MatematicaBacMD.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::XamarinFormsGesture.Resource.Attribute.maxButtonHeight = global::MatematicaBacMD.Droid.Resource.Attribute.maxButtonHeight;
+			global::XamarinFormsGesture.Resource.Attribute.maxImageSize = global::MatematicaBacMD.Droid.Resource.Attribute.maxImageSize;
+			global::XamarinFormsGesture.Resource.Attribute.measureWithLargestChild = global::MatematicaBacMD.Droid.Resource.Attribute.measureWithLargestChild;
+			global::XamarinFormsGesture.Resource.Attribute.menu = global::MatematicaBacMD.Droid.Resource.Attribute.menu;
+			global::XamarinFormsGesture.Resource.Attribute.multiChoiceItemLayout = global::MatematicaBacMD.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::XamarinFormsGesture.Resource.Attribute.navigationContentDescription = global::MatematicaBacMD.Droid.Resource.Attribute.navigationContentDescription;
+			global::XamarinFormsGesture.Resource.Attribute.navigationIcon = global::MatematicaBacMD.Droid.Resource.Attribute.navigationIcon;
+			global::XamarinFormsGesture.Resource.Attribute.navigationMode = global::MatematicaBacMD.Droid.Resource.Attribute.navigationMode;
+			global::XamarinFormsGesture.Resource.Attribute.navigationViewStyle = global::MatematicaBacMD.Droid.Resource.Attribute.navigationViewStyle;
+			global::XamarinFormsGesture.Resource.Attribute.numericModifiers = global::MatematicaBacMD.Droid.Resource.Attribute.numericModifiers;
+			global::XamarinFormsGesture.Resource.Attribute.overlapAnchor = global::MatematicaBacMD.Droid.Resource.Attribute.overlapAnchor;
+			global::XamarinFormsGesture.Resource.Attribute.paddingBottomNoButtons = global::MatematicaBacMD.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::XamarinFormsGesture.Resource.Attribute.paddingEnd = global::MatematicaBacMD.Droid.Resource.Attribute.paddingEnd;
+			global::XamarinFormsGesture.Resource.Attribute.paddingStart = global::MatematicaBacMD.Droid.Resource.Attribute.paddingStart;
+			global::XamarinFormsGesture.Resource.Attribute.paddingTopNoTitle = global::MatematicaBacMD.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::XamarinFormsGesture.Resource.Attribute.panelBackground = global::MatematicaBacMD.Droid.Resource.Attribute.panelBackground;
+			global::XamarinFormsGesture.Resource.Attribute.panelMenuListTheme = global::MatematicaBacMD.Droid.Resource.Attribute.panelMenuListTheme;
+			global::XamarinFormsGesture.Resource.Attribute.panelMenuListWidth = global::MatematicaBacMD.Droid.Resource.Attribute.panelMenuListWidth;
+			global::XamarinFormsGesture.Resource.Attribute.passwordToggleContentDescription = global::MatematicaBacMD.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::XamarinFormsGesture.Resource.Attribute.passwordToggleDrawable = global::MatematicaBacMD.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::XamarinFormsGesture.Resource.Attribute.passwordToggleEnabled = global::MatematicaBacMD.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::XamarinFormsGesture.Resource.Attribute.passwordToggleTint = global::MatematicaBacMD.Droid.Resource.Attribute.passwordToggleTint;
+			global::XamarinFormsGesture.Resource.Attribute.passwordToggleTintMode = global::MatematicaBacMD.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::XamarinFormsGesture.Resource.Attribute.popupMenuStyle = global::MatematicaBacMD.Droid.Resource.Attribute.popupMenuStyle;
+			global::XamarinFormsGesture.Resource.Attribute.popupTheme = global::MatematicaBacMD.Droid.Resource.Attribute.popupTheme;
+			global::XamarinFormsGesture.Resource.Attribute.popupWindowStyle = global::MatematicaBacMD.Droid.Resource.Attribute.popupWindowStyle;
+			global::XamarinFormsGesture.Resource.Attribute.preserveIconSpacing = global::MatematicaBacMD.Droid.Resource.Attribute.preserveIconSpacing;
+			global::XamarinFormsGesture.Resource.Attribute.pressedTranslationZ = global::MatematicaBacMD.Droid.Resource.Attribute.pressedTranslationZ;
+			global::XamarinFormsGesture.Resource.Attribute.progressBarPadding = global::MatematicaBacMD.Droid.Resource.Attribute.progressBarPadding;
+			global::XamarinFormsGesture.Resource.Attribute.progressBarStyle = global::MatematicaBacMD.Droid.Resource.Attribute.progressBarStyle;
+			global::XamarinFormsGesture.Resource.Attribute.queryBackground = global::MatematicaBacMD.Droid.Resource.Attribute.queryBackground;
+			global::XamarinFormsGesture.Resource.Attribute.queryHint = global::MatematicaBacMD.Droid.Resource.Attribute.queryHint;
+			global::XamarinFormsGesture.Resource.Attribute.radioButtonStyle = global::MatematicaBacMD.Droid.Resource.Attribute.radioButtonStyle;
+			global::XamarinFormsGesture.Resource.Attribute.ratingBarStyle = global::MatematicaBacMD.Droid.Resource.Attribute.ratingBarStyle;
+			global::XamarinFormsGesture.Resource.Attribute.ratingBarStyleIndicator = global::MatematicaBacMD.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::XamarinFormsGesture.Resource.Attribute.ratingBarStyleSmall = global::MatematicaBacMD.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::XamarinFormsGesture.Resource.Attribute.reverseLayout = global::MatematicaBacMD.Droid.Resource.Attribute.reverseLayout;
+			global::XamarinFormsGesture.Resource.Attribute.rippleColor = global::MatematicaBacMD.Droid.Resource.Attribute.rippleColor;
+			global::XamarinFormsGesture.Resource.Attribute.scrimAnimationDuration = global::MatematicaBacMD.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::XamarinFormsGesture.Resource.Attribute.scrimBackground = global::MatematicaBacMD.Droid.Resource.Attribute.scrimBackground;
+			global::XamarinFormsGesture.Resource.Attribute.scrimVisibleHeightTrigger = global::MatematicaBacMD.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::XamarinFormsGesture.Resource.Attribute.searchHintIcon = global::MatematicaBacMD.Droid.Resource.Attribute.searchHintIcon;
+			global::XamarinFormsGesture.Resource.Attribute.searchIcon = global::MatematicaBacMD.Droid.Resource.Attribute.searchIcon;
+			global::XamarinFormsGesture.Resource.Attribute.searchViewStyle = global::MatematicaBacMD.Droid.Resource.Attribute.searchViewStyle;
+			global::XamarinFormsGesture.Resource.Attribute.seekBarStyle = global::MatematicaBacMD.Droid.Resource.Attribute.seekBarStyle;
+			global::XamarinFormsGesture.Resource.Attribute.selectableItemBackground = global::MatematicaBacMD.Droid.Resource.Attribute.selectableItemBackground;
+			global::XamarinFormsGesture.Resource.Attribute.selectableItemBackgroundBorderless = global::MatematicaBacMD.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::XamarinFormsGesture.Resource.Attribute.showAsAction = global::MatematicaBacMD.Droid.Resource.Attribute.showAsAction;
+			global::XamarinFormsGesture.Resource.Attribute.showDividers = global::MatematicaBacMD.Droid.Resource.Attribute.showDividers;
+			global::XamarinFormsGesture.Resource.Attribute.showMotionSpec = global::MatematicaBacMD.Droid.Resource.Attribute.showMotionSpec;
+			global::XamarinFormsGesture.Resource.Attribute.showText = global::MatematicaBacMD.Droid.Resource.Attribute.showText;
+			global::XamarinFormsGesture.Resource.Attribute.showTitle = global::MatematicaBacMD.Droid.Resource.Attribute.showTitle;
+			global::XamarinFormsGesture.Resource.Attribute.singleChoiceItemLayout = global::MatematicaBacMD.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::XamarinFormsGesture.Resource.Attribute.singleLine = global::MatematicaBacMD.Droid.Resource.Attribute.singleLine;
+			global::XamarinFormsGesture.Resource.Attribute.singleSelection = global::MatematicaBacMD.Droid.Resource.Attribute.singleSelection;
+			global::XamarinFormsGesture.Resource.Attribute.snackbarButtonStyle = global::MatematicaBacMD.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::XamarinFormsGesture.Resource.Attribute.snackbarStyle = global::MatematicaBacMD.Droid.Resource.Attribute.snackbarStyle;
+			global::XamarinFormsGesture.Resource.Attribute.spanCount = global::MatematicaBacMD.Droid.Resource.Attribute.spanCount;
+			global::XamarinFormsGesture.Resource.Attribute.spinBars = global::MatematicaBacMD.Droid.Resource.Attribute.spinBars;
+			global::XamarinFormsGesture.Resource.Attribute.spinnerDropDownItemStyle = global::MatematicaBacMD.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::XamarinFormsGesture.Resource.Attribute.spinnerStyle = global::MatematicaBacMD.Droid.Resource.Attribute.spinnerStyle;
+			global::XamarinFormsGesture.Resource.Attribute.splitTrack = global::MatematicaBacMD.Droid.Resource.Attribute.splitTrack;
+			global::XamarinFormsGesture.Resource.Attribute.srcCompat = global::MatematicaBacMD.Droid.Resource.Attribute.srcCompat;
+			global::XamarinFormsGesture.Resource.Attribute.stackFromEnd = global::MatematicaBacMD.Droid.Resource.Attribute.stackFromEnd;
+			global::XamarinFormsGesture.Resource.Attribute.state_above_anchor = global::MatematicaBacMD.Droid.Resource.Attribute.state_above_anchor;
+			global::XamarinFormsGesture.Resource.Attribute.state_collapsed = global::MatematicaBacMD.Droid.Resource.Attribute.state_collapsed;
+			global::XamarinFormsGesture.Resource.Attribute.state_collapsible = global::MatematicaBacMD.Droid.Resource.Attribute.state_collapsible;
+			global::XamarinFormsGesture.Resource.Attribute.state_liftable = global::MatematicaBacMD.Droid.Resource.Attribute.state_liftable;
+			global::XamarinFormsGesture.Resource.Attribute.state_lifted = global::MatematicaBacMD.Droid.Resource.Attribute.state_lifted;
+			global::XamarinFormsGesture.Resource.Attribute.statusBarBackground = global::MatematicaBacMD.Droid.Resource.Attribute.statusBarBackground;
+			global::XamarinFormsGesture.Resource.Attribute.statusBarScrim = global::MatematicaBacMD.Droid.Resource.Attribute.statusBarScrim;
+			global::XamarinFormsGesture.Resource.Attribute.strokeColor = global::MatematicaBacMD.Droid.Resource.Attribute.strokeColor;
+			global::XamarinFormsGesture.Resource.Attribute.strokeWidth = global::MatematicaBacMD.Droid.Resource.Attribute.strokeWidth;
+			global::XamarinFormsGesture.Resource.Attribute.subMenuArrow = global::MatematicaBacMD.Droid.Resource.Attribute.subMenuArrow;
+			global::XamarinFormsGesture.Resource.Attribute.submitBackground = global::MatematicaBacMD.Droid.Resource.Attribute.submitBackground;
+			global::XamarinFormsGesture.Resource.Attribute.subtitle = global::MatematicaBacMD.Droid.Resource.Attribute.subtitle;
+			global::XamarinFormsGesture.Resource.Attribute.subtitleTextAppearance = global::MatematicaBacMD.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::XamarinFormsGesture.Resource.Attribute.subtitleTextColor = global::MatematicaBacMD.Droid.Resource.Attribute.subtitleTextColor;
+			global::XamarinFormsGesture.Resource.Attribute.subtitleTextStyle = global::MatematicaBacMD.Droid.Resource.Attribute.subtitleTextStyle;
+			global::XamarinFormsGesture.Resource.Attribute.suggestionRowLayout = global::MatematicaBacMD.Droid.Resource.Attribute.suggestionRowLayout;
+			global::XamarinFormsGesture.Resource.Attribute.switchMinWidth = global::MatematicaBacMD.Droid.Resource.Attribute.switchMinWidth;
+			global::XamarinFormsGesture.Resource.Attribute.switchPadding = global::MatematicaBacMD.Droid.Resource.Attribute.switchPadding;
+			global::XamarinFormsGesture.Resource.Attribute.switchStyle = global::MatematicaBacMD.Droid.Resource.Attribute.switchStyle;
+			global::XamarinFormsGesture.Resource.Attribute.switchTextAppearance = global::MatematicaBacMD.Droid.Resource.Attribute.switchTextAppearance;
+			global::XamarinFormsGesture.Resource.Attribute.tabBackground = global::MatematicaBacMD.Droid.Resource.Attribute.tabBackground;
+			global::XamarinFormsGesture.Resource.Attribute.tabContentStart = global::MatematicaBacMD.Droid.Resource.Attribute.tabContentStart;
+			global::XamarinFormsGesture.Resource.Attribute.tabGravity = global::MatematicaBacMD.Droid.Resource.Attribute.tabGravity;
+			global::XamarinFormsGesture.Resource.Attribute.tabIconTint = global::MatematicaBacMD.Droid.Resource.Attribute.tabIconTint;
+			global::XamarinFormsGesture.Resource.Attribute.tabIconTintMode = global::MatematicaBacMD.Droid.Resource.Attribute.tabIconTintMode;
+			global::XamarinFormsGesture.Resource.Attribute.tabIndicator = global::MatematicaBacMD.Droid.Resource.Attribute.tabIndicator;
+			global::XamarinFormsGesture.Resource.Attribute.tabIndicatorAnimationDuration = global::MatematicaBacMD.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::XamarinFormsGesture.Resource.Attribute.tabIndicatorColor = global::MatematicaBacMD.Droid.Resource.Attribute.tabIndicatorColor;
+			global::XamarinFormsGesture.Resource.Attribute.tabIndicatorFullWidth = global::MatematicaBacMD.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::XamarinFormsGesture.Resource.Attribute.tabIndicatorGravity = global::MatematicaBacMD.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::XamarinFormsGesture.Resource.Attribute.tabIndicatorHeight = global::MatematicaBacMD.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::XamarinFormsGesture.Resource.Attribute.tabInlineLabel = global::MatematicaBacMD.Droid.Resource.Attribute.tabInlineLabel;
+			global::XamarinFormsGesture.Resource.Attribute.tabMaxWidth = global::MatematicaBacMD.Droid.Resource.Attribute.tabMaxWidth;
+			global::XamarinFormsGesture.Resource.Attribute.tabMinWidth = global::MatematicaBacMD.Droid.Resource.Attribute.tabMinWidth;
+			global::XamarinFormsGesture.Resource.Attribute.tabMode = global::MatematicaBacMD.Droid.Resource.Attribute.tabMode;
+			global::XamarinFormsGesture.Resource.Attribute.tabPadding = global::MatematicaBacMD.Droid.Resource.Attribute.tabPadding;
+			global::XamarinFormsGesture.Resource.Attribute.tabPaddingBottom = global::MatematicaBacMD.Droid.Resource.Attribute.tabPaddingBottom;
+			global::XamarinFormsGesture.Resource.Attribute.tabPaddingEnd = global::MatematicaBacMD.Droid.Resource.Attribute.tabPaddingEnd;
+			global::XamarinFormsGesture.Resource.Attribute.tabPaddingStart = global::MatematicaBacMD.Droid.Resource.Attribute.tabPaddingStart;
+			global::XamarinFormsGesture.Resource.Attribute.tabPaddingTop = global::MatematicaBacMD.Droid.Resource.Attribute.tabPaddingTop;
+			global::XamarinFormsGesture.Resource.Attribute.tabRippleColor = global::MatematicaBacMD.Droid.Resource.Attribute.tabRippleColor;
+			global::XamarinFormsGesture.Resource.Attribute.tabSelectedTextColor = global::MatematicaBacMD.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::XamarinFormsGesture.Resource.Attribute.tabStyle = global::MatematicaBacMD.Droid.Resource.Attribute.tabStyle;
+			global::XamarinFormsGesture.Resource.Attribute.tabTextAppearance = global::MatematicaBacMD.Droid.Resource.Attribute.tabTextAppearance;
+			global::XamarinFormsGesture.Resource.Attribute.tabTextColor = global::MatematicaBacMD.Droid.Resource.Attribute.tabTextColor;
+			global::XamarinFormsGesture.Resource.Attribute.tabUnboundedRipple = global::MatematicaBacMD.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::XamarinFormsGesture.Resource.Attribute.textAllCaps = global::MatematicaBacMD.Droid.Resource.Attribute.textAllCaps;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceBody1 = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceBody1;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceBody2 = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceBody2;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceButton = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceButton;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceCaption = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceCaption;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceHeadline1 = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceHeadline2 = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceHeadline3 = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceHeadline4 = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceHeadline5 = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceHeadline6 = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceLargePopupMenu = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceListItem = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceListItem;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceListItemSecondary = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceListItemSmall = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceOverline = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceOverline;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearancePopupMenuHeader = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceSearchResultSubtitle = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceSearchResultTitle = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceSmallPopupMenu = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceSubtitle1 = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::XamarinFormsGesture.Resource.Attribute.textAppearanceSubtitle2 = global::MatematicaBacMD.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::XamarinFormsGesture.Resource.Attribute.textColorAlertDialogListItem = global::MatematicaBacMD.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::XamarinFormsGesture.Resource.Attribute.textColorSearchUrl = global::MatematicaBacMD.Droid.Resource.Attribute.textColorSearchUrl;
+			global::XamarinFormsGesture.Resource.Attribute.textEndPadding = global::MatematicaBacMD.Droid.Resource.Attribute.textEndPadding;
+			global::XamarinFormsGesture.Resource.Attribute.textInputStyle = global::MatematicaBacMD.Droid.Resource.Attribute.textInputStyle;
+			global::XamarinFormsGesture.Resource.Attribute.textStartPadding = global::MatematicaBacMD.Droid.Resource.Attribute.textStartPadding;
+			global::XamarinFormsGesture.Resource.Attribute.theme = global::MatematicaBacMD.Droid.Resource.Attribute.theme;
+			global::XamarinFormsGesture.Resource.Attribute.thickness = global::MatematicaBacMD.Droid.Resource.Attribute.thickness;
+			global::XamarinFormsGesture.Resource.Attribute.thumbTextPadding = global::MatematicaBacMD.Droid.Resource.Attribute.thumbTextPadding;
+			global::XamarinFormsGesture.Resource.Attribute.thumbTint = global::MatematicaBacMD.Droid.Resource.Attribute.thumbTint;
+			global::XamarinFormsGesture.Resource.Attribute.thumbTintMode = global::MatematicaBacMD.Droid.Resource.Attribute.thumbTintMode;
+			global::XamarinFormsGesture.Resource.Attribute.tickMark = global::MatematicaBacMD.Droid.Resource.Attribute.tickMark;
+			global::XamarinFormsGesture.Resource.Attribute.tickMarkTint = global::MatematicaBacMD.Droid.Resource.Attribute.tickMarkTint;
+			global::XamarinFormsGesture.Resource.Attribute.tickMarkTintMode = global::MatematicaBacMD.Droid.Resource.Attribute.tickMarkTintMode;
+			global::XamarinFormsGesture.Resource.Attribute.tint = global::MatematicaBacMD.Droid.Resource.Attribute.tint;
+			global::XamarinFormsGesture.Resource.Attribute.tintMode = global::MatematicaBacMD.Droid.Resource.Attribute.tintMode;
+			global::XamarinFormsGesture.Resource.Attribute.title = global::MatematicaBacMD.Droid.Resource.Attribute.title;
+			global::XamarinFormsGesture.Resource.Attribute.titleEnabled = global::MatematicaBacMD.Droid.Resource.Attribute.titleEnabled;
+			global::XamarinFormsGesture.Resource.Attribute.titleMargin = global::MatematicaBacMD.Droid.Resource.Attribute.titleMargin;
+			global::XamarinFormsGesture.Resource.Attribute.titleMarginBottom = global::MatematicaBacMD.Droid.Resource.Attribute.titleMarginBottom;
+			global::XamarinFormsGesture.Resource.Attribute.titleMarginEnd = global::MatematicaBacMD.Droid.Resource.Attribute.titleMarginEnd;
+			global::XamarinFormsGesture.Resource.Attribute.titleMargins = global::MatematicaBacMD.Droid.Resource.Attribute.titleMargins;
+			global::XamarinFormsGesture.Resource.Attribute.titleMarginStart = global::MatematicaBacMD.Droid.Resource.Attribute.titleMarginStart;
+			global::XamarinFormsGesture.Resource.Attribute.titleMarginTop = global::MatematicaBacMD.Droid.Resource.Attribute.titleMarginTop;
+			global::XamarinFormsGesture.Resource.Attribute.titleTextAppearance = global::MatematicaBacMD.Droid.Resource.Attribute.titleTextAppearance;
+			global::XamarinFormsGesture.Resource.Attribute.titleTextColor = global::MatematicaBacMD.Droid.Resource.Attribute.titleTextColor;
+			global::XamarinFormsGesture.Resource.Attribute.titleTextStyle = global::MatematicaBacMD.Droid.Resource.Attribute.titleTextStyle;
+			global::XamarinFormsGesture.Resource.Attribute.toolbarId = global::MatematicaBacMD.Droid.Resource.Attribute.toolbarId;
+			global::XamarinFormsGesture.Resource.Attribute.toolbarNavigationButtonStyle = global::MatematicaBacMD.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::XamarinFormsGesture.Resource.Attribute.toolbarStyle = global::MatematicaBacMD.Droid.Resource.Attribute.toolbarStyle;
+			global::XamarinFormsGesture.Resource.Attribute.tooltipForegroundColor = global::MatematicaBacMD.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::XamarinFormsGesture.Resource.Attribute.tooltipFrameBackground = global::MatematicaBacMD.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::XamarinFormsGesture.Resource.Attribute.tooltipText = global::MatematicaBacMD.Droid.Resource.Attribute.tooltipText;
+			global::XamarinFormsGesture.Resource.Attribute.track = global::MatematicaBacMD.Droid.Resource.Attribute.track;
+			global::XamarinFormsGesture.Resource.Attribute.trackTint = global::MatematicaBacMD.Droid.Resource.Attribute.trackTint;
+			global::XamarinFormsGesture.Resource.Attribute.trackTintMode = global::MatematicaBacMD.Droid.Resource.Attribute.trackTintMode;
+			global::XamarinFormsGesture.Resource.Attribute.ttcIndex = global::MatematicaBacMD.Droid.Resource.Attribute.ttcIndex;
+			global::XamarinFormsGesture.Resource.Attribute.useCompatPadding = global::MatematicaBacMD.Droid.Resource.Attribute.useCompatPadding;
+			global::XamarinFormsGesture.Resource.Attribute.viewInflaterClass = global::MatematicaBacMD.Droid.Resource.Attribute.viewInflaterClass;
+			global::XamarinFormsGesture.Resource.Attribute.voiceIcon = global::MatematicaBacMD.Droid.Resource.Attribute.voiceIcon;
+			global::XamarinFormsGesture.Resource.Attribute.windowActionBar = global::MatematicaBacMD.Droid.Resource.Attribute.windowActionBar;
+			global::XamarinFormsGesture.Resource.Attribute.windowActionBarOverlay = global::MatematicaBacMD.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::XamarinFormsGesture.Resource.Attribute.windowActionModeOverlay = global::MatematicaBacMD.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::XamarinFormsGesture.Resource.Attribute.windowFixedHeightMajor = global::MatematicaBacMD.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::XamarinFormsGesture.Resource.Attribute.windowFixedHeightMinor = global::MatematicaBacMD.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::XamarinFormsGesture.Resource.Attribute.windowFixedWidthMajor = global::MatematicaBacMD.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::XamarinFormsGesture.Resource.Attribute.windowFixedWidthMinor = global::MatematicaBacMD.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::XamarinFormsGesture.Resource.Attribute.windowMinWidthMajor = global::MatematicaBacMD.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::XamarinFormsGesture.Resource.Attribute.windowMinWidthMinor = global::MatematicaBacMD.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::XamarinFormsGesture.Resource.Attribute.windowNoTitle = global::MatematicaBacMD.Droid.Resource.Attribute.windowNoTitle;
+			global::XamarinFormsGesture.Resource.Boolean.abc_action_bar_embed_tabs = global::MatematicaBacMD.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::XamarinFormsGesture.Resource.Boolean.abc_allow_stacked_button_bar = global::MatematicaBacMD.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::XamarinFormsGesture.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::MatematicaBacMD.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::XamarinFormsGesture.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::MatematicaBacMD.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::XamarinFormsGesture.Resource.Color.abc_background_cache_hint_selector_material_dark = global::MatematicaBacMD.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::XamarinFormsGesture.Resource.Color.abc_background_cache_hint_selector_material_light = global::MatematicaBacMD.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::XamarinFormsGesture.Resource.Color.abc_btn_colored_borderless_text_material = global::MatematicaBacMD.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::XamarinFormsGesture.Resource.Color.abc_btn_colored_text_material = global::MatematicaBacMD.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::XamarinFormsGesture.Resource.Color.abc_color_highlight_material = global::MatematicaBacMD.Droid.Resource.Color.abc_color_highlight_material;
+			global::XamarinFormsGesture.Resource.Color.abc_hint_foreground_material_dark = global::MatematicaBacMD.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::XamarinFormsGesture.Resource.Color.abc_hint_foreground_material_light = global::MatematicaBacMD.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::XamarinFormsGesture.Resource.Color.abc_input_method_navigation_guard = global::MatematicaBacMD.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::XamarinFormsGesture.Resource.Color.abc_primary_text_disable_only_material_dark = global::MatematicaBacMD.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::XamarinFormsGesture.Resource.Color.abc_primary_text_disable_only_material_light = global::MatematicaBacMD.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::XamarinFormsGesture.Resource.Color.abc_primary_text_material_dark = global::MatematicaBacMD.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::XamarinFormsGesture.Resource.Color.abc_primary_text_material_light = global::MatematicaBacMD.Droid.Resource.Color.abc_primary_text_material_light;
+			global::XamarinFormsGesture.Resource.Color.abc_search_url_text = global::MatematicaBacMD.Droid.Resource.Color.abc_search_url_text;
+			global::XamarinFormsGesture.Resource.Color.abc_search_url_text_normal = global::MatematicaBacMD.Droid.Resource.Color.abc_search_url_text_normal;
+			global::XamarinFormsGesture.Resource.Color.abc_search_url_text_pressed = global::MatematicaBacMD.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::XamarinFormsGesture.Resource.Color.abc_search_url_text_selected = global::MatematicaBacMD.Droid.Resource.Color.abc_search_url_text_selected;
+			global::XamarinFormsGesture.Resource.Color.abc_secondary_text_material_dark = global::MatematicaBacMD.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::XamarinFormsGesture.Resource.Color.abc_secondary_text_material_light = global::MatematicaBacMD.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::XamarinFormsGesture.Resource.Color.abc_tint_btn_checkable = global::MatematicaBacMD.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::XamarinFormsGesture.Resource.Color.abc_tint_default = global::MatematicaBacMD.Droid.Resource.Color.abc_tint_default;
+			global::XamarinFormsGesture.Resource.Color.abc_tint_edittext = global::MatematicaBacMD.Droid.Resource.Color.abc_tint_edittext;
+			global::XamarinFormsGesture.Resource.Color.abc_tint_seek_thumb = global::MatematicaBacMD.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::XamarinFormsGesture.Resource.Color.abc_tint_spinner = global::MatematicaBacMD.Droid.Resource.Color.abc_tint_spinner;
+			global::XamarinFormsGesture.Resource.Color.abc_tint_switch_track = global::MatematicaBacMD.Droid.Resource.Color.abc_tint_switch_track;
+			global::XamarinFormsGesture.Resource.Color.accent_material_dark = global::MatematicaBacMD.Droid.Resource.Color.accent_material_dark;
+			global::XamarinFormsGesture.Resource.Color.accent_material_light = global::MatematicaBacMD.Droid.Resource.Color.accent_material_light;
+			global::XamarinFormsGesture.Resource.Color.background_floating_material_dark = global::MatematicaBacMD.Droid.Resource.Color.background_floating_material_dark;
+			global::XamarinFormsGesture.Resource.Color.background_floating_material_light = global::MatematicaBacMD.Droid.Resource.Color.background_floating_material_light;
+			global::XamarinFormsGesture.Resource.Color.background_material_dark = global::MatematicaBacMD.Droid.Resource.Color.background_material_dark;
+			global::XamarinFormsGesture.Resource.Color.background_material_light = global::MatematicaBacMD.Droid.Resource.Color.background_material_light;
+			global::XamarinFormsGesture.Resource.Color.bright_foreground_disabled_material_dark = global::MatematicaBacMD.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::XamarinFormsGesture.Resource.Color.bright_foreground_disabled_material_light = global::MatematicaBacMD.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::XamarinFormsGesture.Resource.Color.bright_foreground_inverse_material_dark = global::MatematicaBacMD.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::XamarinFormsGesture.Resource.Color.bright_foreground_inverse_material_light = global::MatematicaBacMD.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::XamarinFormsGesture.Resource.Color.bright_foreground_material_dark = global::MatematicaBacMD.Droid.Resource.Color.bright_foreground_material_dark;
+			global::XamarinFormsGesture.Resource.Color.bright_foreground_material_light = global::MatematicaBacMD.Droid.Resource.Color.bright_foreground_material_light;
+			global::XamarinFormsGesture.Resource.Color.browser_actions_bg_grey = global::MatematicaBacMD.Droid.Resource.Color.browser_actions_bg_grey;
+			global::XamarinFormsGesture.Resource.Color.browser_actions_divider_color = global::MatematicaBacMD.Droid.Resource.Color.browser_actions_divider_color;
+			global::XamarinFormsGesture.Resource.Color.browser_actions_text_color = global::MatematicaBacMD.Droid.Resource.Color.browser_actions_text_color;
+			global::XamarinFormsGesture.Resource.Color.browser_actions_title_color = global::MatematicaBacMD.Droid.Resource.Color.browser_actions_title_color;
+			global::XamarinFormsGesture.Resource.Color.button_material_dark = global::MatematicaBacMD.Droid.Resource.Color.button_material_dark;
+			global::XamarinFormsGesture.Resource.Color.button_material_light = global::MatematicaBacMD.Droid.Resource.Color.button_material_light;
+			global::XamarinFormsGesture.Resource.Color.cardview_dark_background = global::MatematicaBacMD.Droid.Resource.Color.cardview_dark_background;
+			global::XamarinFormsGesture.Resource.Color.cardview_light_background = global::MatematicaBacMD.Droid.Resource.Color.cardview_light_background;
+			global::XamarinFormsGesture.Resource.Color.cardview_shadow_end_color = global::MatematicaBacMD.Droid.Resource.Color.cardview_shadow_end_color;
+			global::XamarinFormsGesture.Resource.Color.cardview_shadow_start_color = global::MatematicaBacMD.Droid.Resource.Color.cardview_shadow_start_color;
+			global::XamarinFormsGesture.Resource.Color.design_bottom_navigation_shadow_color = global::MatematicaBacMD.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::XamarinFormsGesture.Resource.Color.design_default_color_primary = global::MatematicaBacMD.Droid.Resource.Color.design_default_color_primary;
+			global::XamarinFormsGesture.Resource.Color.design_default_color_primary_dark = global::MatematicaBacMD.Droid.Resource.Color.design_default_color_primary_dark;
+			global::XamarinFormsGesture.Resource.Color.design_error = global::MatematicaBacMD.Droid.Resource.Color.design_error;
+			global::XamarinFormsGesture.Resource.Color.design_fab_shadow_end_color = global::MatematicaBacMD.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::XamarinFormsGesture.Resource.Color.design_fab_shadow_mid_color = global::MatematicaBacMD.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::XamarinFormsGesture.Resource.Color.design_fab_shadow_start_color = global::MatematicaBacMD.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::XamarinFormsGesture.Resource.Color.design_fab_stroke_end_inner_color = global::MatematicaBacMD.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::XamarinFormsGesture.Resource.Color.design_fab_stroke_end_outer_color = global::MatematicaBacMD.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::XamarinFormsGesture.Resource.Color.design_fab_stroke_top_inner_color = global::MatematicaBacMD.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::XamarinFormsGesture.Resource.Color.design_fab_stroke_top_outer_color = global::MatematicaBacMD.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::XamarinFormsGesture.Resource.Color.design_snackbar_background_color = global::MatematicaBacMD.Droid.Resource.Color.design_snackbar_background_color;
+			global::XamarinFormsGesture.Resource.Color.design_tint_password_toggle = global::MatematicaBacMD.Droid.Resource.Color.design_tint_password_toggle;
+			global::XamarinFormsGesture.Resource.Color.dim_foreground_disabled_material_dark = global::MatematicaBacMD.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::XamarinFormsGesture.Resource.Color.dim_foreground_disabled_material_light = global::MatematicaBacMD.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::XamarinFormsGesture.Resource.Color.dim_foreground_material_dark = global::MatematicaBacMD.Droid.Resource.Color.dim_foreground_material_dark;
+			global::XamarinFormsGesture.Resource.Color.dim_foreground_material_light = global::MatematicaBacMD.Droid.Resource.Color.dim_foreground_material_light;
+			global::XamarinFormsGesture.Resource.Color.error_color_material_dark = global::MatematicaBacMD.Droid.Resource.Color.error_color_material_dark;
+			global::XamarinFormsGesture.Resource.Color.error_color_material_light = global::MatematicaBacMD.Droid.Resource.Color.error_color_material_light;
+			global::XamarinFormsGesture.Resource.Color.foreground_material_dark = global::MatematicaBacMD.Droid.Resource.Color.foreground_material_dark;
+			global::XamarinFormsGesture.Resource.Color.foreground_material_light = global::MatematicaBacMD.Droid.Resource.Color.foreground_material_light;
+			global::XamarinFormsGesture.Resource.Color.highlighted_text_material_dark = global::MatematicaBacMD.Droid.Resource.Color.highlighted_text_material_dark;
+			global::XamarinFormsGesture.Resource.Color.highlighted_text_material_light = global::MatematicaBacMD.Droid.Resource.Color.highlighted_text_material_light;
+			global::XamarinFormsGesture.Resource.Color.material_blue_grey_800 = global::MatematicaBacMD.Droid.Resource.Color.material_blue_grey_800;
+			global::XamarinFormsGesture.Resource.Color.material_blue_grey_900 = global::MatematicaBacMD.Droid.Resource.Color.material_blue_grey_900;
+			global::XamarinFormsGesture.Resource.Color.material_blue_grey_950 = global::MatematicaBacMD.Droid.Resource.Color.material_blue_grey_950;
+			global::XamarinFormsGesture.Resource.Color.material_deep_teal_200 = global::MatematicaBacMD.Droid.Resource.Color.material_deep_teal_200;
+			global::XamarinFormsGesture.Resource.Color.material_deep_teal_500 = global::MatematicaBacMD.Droid.Resource.Color.material_deep_teal_500;
+			global::XamarinFormsGesture.Resource.Color.material_grey_100 = global::MatematicaBacMD.Droid.Resource.Color.material_grey_100;
+			global::XamarinFormsGesture.Resource.Color.material_grey_300 = global::MatematicaBacMD.Droid.Resource.Color.material_grey_300;
+			global::XamarinFormsGesture.Resource.Color.material_grey_50 = global::MatematicaBacMD.Droid.Resource.Color.material_grey_50;
+			global::XamarinFormsGesture.Resource.Color.material_grey_600 = global::MatematicaBacMD.Droid.Resource.Color.material_grey_600;
+			global::XamarinFormsGesture.Resource.Color.material_grey_800 = global::MatematicaBacMD.Droid.Resource.Color.material_grey_800;
+			global::XamarinFormsGesture.Resource.Color.material_grey_850 = global::MatematicaBacMD.Droid.Resource.Color.material_grey_850;
+			global::XamarinFormsGesture.Resource.Color.material_grey_900 = global::MatematicaBacMD.Droid.Resource.Color.material_grey_900;
+			global::XamarinFormsGesture.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::MatematicaBacMD.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::XamarinFormsGesture.Resource.Color.mtrl_bottom_nav_item_tint = global::MatematicaBacMD.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::XamarinFormsGesture.Resource.Color.mtrl_btn_bg_color_disabled = global::MatematicaBacMD.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::XamarinFormsGesture.Resource.Color.mtrl_btn_bg_color_selector = global::MatematicaBacMD.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::XamarinFormsGesture.Resource.Color.mtrl_btn_ripple_color = global::MatematicaBacMD.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::XamarinFormsGesture.Resource.Color.mtrl_btn_stroke_color_selector = global::MatematicaBacMD.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::XamarinFormsGesture.Resource.Color.mtrl_btn_text_btn_ripple_color = global::MatematicaBacMD.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::XamarinFormsGesture.Resource.Color.mtrl_btn_text_color_disabled = global::MatematicaBacMD.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::XamarinFormsGesture.Resource.Color.mtrl_btn_text_color_selector = global::MatematicaBacMD.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::XamarinFormsGesture.Resource.Color.mtrl_btn_transparent_bg_color = global::MatematicaBacMD.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::XamarinFormsGesture.Resource.Color.mtrl_chip_background_color = global::MatematicaBacMD.Droid.Resource.Color.mtrl_chip_background_color;
+			global::XamarinFormsGesture.Resource.Color.mtrl_chip_close_icon_tint = global::MatematicaBacMD.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::XamarinFormsGesture.Resource.Color.mtrl_chip_ripple_color = global::MatematicaBacMD.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::XamarinFormsGesture.Resource.Color.mtrl_chip_text_color = global::MatematicaBacMD.Droid.Resource.Color.mtrl_chip_text_color;
+			global::XamarinFormsGesture.Resource.Color.mtrl_fab_ripple_color = global::MatematicaBacMD.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::XamarinFormsGesture.Resource.Color.mtrl_scrim_color = global::MatematicaBacMD.Droid.Resource.Color.mtrl_scrim_color;
+			global::XamarinFormsGesture.Resource.Color.mtrl_tabs_colored_ripple_color = global::MatematicaBacMD.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::XamarinFormsGesture.Resource.Color.mtrl_tabs_icon_color_selector = global::MatematicaBacMD.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::XamarinFormsGesture.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::MatematicaBacMD.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::XamarinFormsGesture.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::MatematicaBacMD.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::XamarinFormsGesture.Resource.Color.mtrl_tabs_ripple_color = global::MatematicaBacMD.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::XamarinFormsGesture.Resource.Color.mtrl_textinput_default_box_stroke_color = global::MatematicaBacMD.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::XamarinFormsGesture.Resource.Color.mtrl_textinput_disabled_color = global::MatematicaBacMD.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::XamarinFormsGesture.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::MatematicaBacMD.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::XamarinFormsGesture.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::MatematicaBacMD.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::XamarinFormsGesture.Resource.Color.mtrl_text_btn_text_color_selector = global::MatematicaBacMD.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::XamarinFormsGesture.Resource.Color.notification_action_color_filter = global::MatematicaBacMD.Droid.Resource.Color.notification_action_color_filter;
+			global::XamarinFormsGesture.Resource.Color.notification_icon_bg_color = global::MatematicaBacMD.Droid.Resource.Color.notification_icon_bg_color;
+			global::XamarinFormsGesture.Resource.Color.notification_material_background_media_default_color = global::MatematicaBacMD.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::XamarinFormsGesture.Resource.Color.primary_dark_material_dark = global::MatematicaBacMD.Droid.Resource.Color.primary_dark_material_dark;
+			global::XamarinFormsGesture.Resource.Color.primary_dark_material_light = global::MatematicaBacMD.Droid.Resource.Color.primary_dark_material_light;
+			global::XamarinFormsGesture.Resource.Color.primary_material_dark = global::MatematicaBacMD.Droid.Resource.Color.primary_material_dark;
+			global::XamarinFormsGesture.Resource.Color.primary_material_light = global::MatematicaBacMD.Droid.Resource.Color.primary_material_light;
+			global::XamarinFormsGesture.Resource.Color.primary_text_default_material_dark = global::MatematicaBacMD.Droid.Resource.Color.primary_text_default_material_dark;
+			global::XamarinFormsGesture.Resource.Color.primary_text_default_material_light = global::MatematicaBacMD.Droid.Resource.Color.primary_text_default_material_light;
+			global::XamarinFormsGesture.Resource.Color.primary_text_disabled_material_dark = global::MatematicaBacMD.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::XamarinFormsGesture.Resource.Color.primary_text_disabled_material_light = global::MatematicaBacMD.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::XamarinFormsGesture.Resource.Color.ripple_material_dark = global::MatematicaBacMD.Droid.Resource.Color.ripple_material_dark;
+			global::XamarinFormsGesture.Resource.Color.ripple_material_light = global::MatematicaBacMD.Droid.Resource.Color.ripple_material_light;
+			global::XamarinFormsGesture.Resource.Color.secondary_text_default_material_dark = global::MatematicaBacMD.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::XamarinFormsGesture.Resource.Color.secondary_text_default_material_light = global::MatematicaBacMD.Droid.Resource.Color.secondary_text_default_material_light;
+			global::XamarinFormsGesture.Resource.Color.secondary_text_disabled_material_dark = global::MatematicaBacMD.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::XamarinFormsGesture.Resource.Color.secondary_text_disabled_material_light = global::MatematicaBacMD.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::XamarinFormsGesture.Resource.Color.switch_thumb_disabled_material_dark = global::MatematicaBacMD.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::XamarinFormsGesture.Resource.Color.switch_thumb_disabled_material_light = global::MatematicaBacMD.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::XamarinFormsGesture.Resource.Color.switch_thumb_material_dark = global::MatematicaBacMD.Droid.Resource.Color.switch_thumb_material_dark;
+			global::XamarinFormsGesture.Resource.Color.switch_thumb_material_light = global::MatematicaBacMD.Droid.Resource.Color.switch_thumb_material_light;
+			global::XamarinFormsGesture.Resource.Color.switch_thumb_normal_material_dark = global::MatematicaBacMD.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::XamarinFormsGesture.Resource.Color.switch_thumb_normal_material_light = global::MatematicaBacMD.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::XamarinFormsGesture.Resource.Color.tooltip_background_dark = global::MatematicaBacMD.Droid.Resource.Color.tooltip_background_dark;
+			global::XamarinFormsGesture.Resource.Color.tooltip_background_light = global::MatematicaBacMD.Droid.Resource.Color.tooltip_background_light;
+			global::XamarinFormsGesture.Resource.Dimension.abc_action_bar_content_inset_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::MatematicaBacMD.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::XamarinFormsGesture.Resource.Dimension.abc_action_bar_default_height_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_action_bar_default_padding_end_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_action_bar_default_padding_start_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_action_bar_elevation_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_action_bar_stacked_max_height = global::MatematicaBacMD.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::XamarinFormsGesture.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::MatematicaBacMD.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::XamarinFormsGesture.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_action_button_min_height_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_action_button_min_width_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_action_button_min_width_overflow_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_alert_dialog_button_bar_height = global::MatematicaBacMD.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::XamarinFormsGesture.Resource.Dimension.abc_alert_dialog_button_dimen = global::MatematicaBacMD.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::XamarinFormsGesture.Resource.Dimension.abc_button_inset_horizontal_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_button_inset_vertical_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_button_padding_horizontal_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_button_padding_vertical_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::MatematicaBacMD.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::XamarinFormsGesture.Resource.Dimension.abc_config_prefDialogWidth = global::MatematicaBacMD.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::XamarinFormsGesture.Resource.Dimension.abc_control_corner_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_control_corner_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_control_inset_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_control_inset_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_control_padding_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_control_padding_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_dialog_corner_radius_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_dialog_fixed_height_major = global::MatematicaBacMD.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::XamarinFormsGesture.Resource.Dimension.abc_dialog_fixed_height_minor = global::MatematicaBacMD.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::XamarinFormsGesture.Resource.Dimension.abc_dialog_fixed_width_major = global::MatematicaBacMD.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::XamarinFormsGesture.Resource.Dimension.abc_dialog_fixed_width_minor = global::MatematicaBacMD.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::XamarinFormsGesture.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::MatematicaBacMD.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::XamarinFormsGesture.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::MatematicaBacMD.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::XamarinFormsGesture.Resource.Dimension.abc_dialog_min_width_major = global::MatematicaBacMD.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::XamarinFormsGesture.Resource.Dimension.abc_dialog_min_width_minor = global::MatematicaBacMD.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::XamarinFormsGesture.Resource.Dimension.abc_dialog_padding_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_dialog_padding_top_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_dialog_title_divider_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_disabled_alpha_material_dark = global::MatematicaBacMD.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::XamarinFormsGesture.Resource.Dimension.abc_disabled_alpha_material_light = global::MatematicaBacMD.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::XamarinFormsGesture.Resource.Dimension.abc_dropdownitem_icon_width = global::MatematicaBacMD.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::XamarinFormsGesture.Resource.Dimension.abc_dropdownitem_text_padding_left = global::MatematicaBacMD.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::XamarinFormsGesture.Resource.Dimension.abc_dropdownitem_text_padding_right = global::MatematicaBacMD.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::XamarinFormsGesture.Resource.Dimension.abc_edit_text_inset_bottom_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_edit_text_inset_top_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_floating_window_z = global::MatematicaBacMD.Droid.Resource.Dimension.abc_floating_window_z;
+			global::XamarinFormsGesture.Resource.Dimension.abc_list_item_padding_horizontal_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_panel_menu_list_width = global::MatematicaBacMD.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::XamarinFormsGesture.Resource.Dimension.abc_progress_bar_height_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_search_view_preferred_height = global::MatematicaBacMD.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::XamarinFormsGesture.Resource.Dimension.abc_search_view_preferred_width = global::MatematicaBacMD.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::XamarinFormsGesture.Resource.Dimension.abc_seekbar_track_background_height_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_seekbar_track_progress_height_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_select_dialog_padding_start_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_switch_padding = global::MatematicaBacMD.Droid.Resource.Dimension.abc_switch_padding;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_body_1_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_body_2_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_button_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_caption_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_display_1_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_display_2_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_display_3_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_display_4_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_headline_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_large_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_medium_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_menu_header_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_menu_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_small_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_subhead_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_title_material = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::XamarinFormsGesture.Resource.Dimension.abc_text_size_title_material_toolbar = global::MatematicaBacMD.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::XamarinFormsGesture.Resource.Dimension.browser_actions_context_menu_max_width = global::MatematicaBacMD.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::XamarinFormsGesture.Resource.Dimension.browser_actions_context_menu_min_padding = global::MatematicaBacMD.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::XamarinFormsGesture.Resource.Dimension.cardview_compat_inset_shadow = global::MatematicaBacMD.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::XamarinFormsGesture.Resource.Dimension.cardview_default_elevation = global::MatematicaBacMD.Droid.Resource.Dimension.cardview_default_elevation;
+			global::XamarinFormsGesture.Resource.Dimension.cardview_default_radius = global::MatematicaBacMD.Droid.Resource.Dimension.cardview_default_radius;
+			global::XamarinFormsGesture.Resource.Dimension.compat_button_inset_horizontal_material = global::MatematicaBacMD.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::XamarinFormsGesture.Resource.Dimension.compat_button_inset_vertical_material = global::MatematicaBacMD.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::XamarinFormsGesture.Resource.Dimension.compat_button_padding_horizontal_material = global::MatematicaBacMD.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::XamarinFormsGesture.Resource.Dimension.compat_button_padding_vertical_material = global::MatematicaBacMD.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::XamarinFormsGesture.Resource.Dimension.compat_control_corner_material = global::MatematicaBacMD.Droid.Resource.Dimension.compat_control_corner_material;
+			global::XamarinFormsGesture.Resource.Dimension.compat_notification_large_icon_max_height = global::MatematicaBacMD.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::XamarinFormsGesture.Resource.Dimension.compat_notification_large_icon_max_width = global::MatematicaBacMD.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::XamarinFormsGesture.Resource.Dimension.design_appbar_elevation = global::MatematicaBacMD.Droid.Resource.Dimension.design_appbar_elevation;
+			global::XamarinFormsGesture.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::MatematicaBacMD.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::XamarinFormsGesture.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::MatematicaBacMD.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::XamarinFormsGesture.Resource.Dimension.design_bottom_navigation_active_text_size = global::MatematicaBacMD.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::XamarinFormsGesture.Resource.Dimension.design_bottom_navigation_elevation = global::MatematicaBacMD.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::XamarinFormsGesture.Resource.Dimension.design_bottom_navigation_height = global::MatematicaBacMD.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::XamarinFormsGesture.Resource.Dimension.design_bottom_navigation_icon_size = global::MatematicaBacMD.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::XamarinFormsGesture.Resource.Dimension.design_bottom_navigation_item_max_width = global::MatematicaBacMD.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::XamarinFormsGesture.Resource.Dimension.design_bottom_navigation_item_min_width = global::MatematicaBacMD.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::XamarinFormsGesture.Resource.Dimension.design_bottom_navigation_margin = global::MatematicaBacMD.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::XamarinFormsGesture.Resource.Dimension.design_bottom_navigation_shadow_height = global::MatematicaBacMD.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::XamarinFormsGesture.Resource.Dimension.design_bottom_navigation_text_size = global::MatematicaBacMD.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::XamarinFormsGesture.Resource.Dimension.design_bottom_sheet_modal_elevation = global::MatematicaBacMD.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::XamarinFormsGesture.Resource.Dimension.design_bottom_sheet_peek_height_min = global::MatematicaBacMD.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::XamarinFormsGesture.Resource.Dimension.design_fab_border_width = global::MatematicaBacMD.Droid.Resource.Dimension.design_fab_border_width;
+			global::XamarinFormsGesture.Resource.Dimension.design_fab_elevation = global::MatematicaBacMD.Droid.Resource.Dimension.design_fab_elevation;
+			global::XamarinFormsGesture.Resource.Dimension.design_fab_image_size = global::MatematicaBacMD.Droid.Resource.Dimension.design_fab_image_size;
+			global::XamarinFormsGesture.Resource.Dimension.design_fab_size_mini = global::MatematicaBacMD.Droid.Resource.Dimension.design_fab_size_mini;
+			global::XamarinFormsGesture.Resource.Dimension.design_fab_size_normal = global::MatematicaBacMD.Droid.Resource.Dimension.design_fab_size_normal;
+			global::XamarinFormsGesture.Resource.Dimension.design_fab_translation_z_hovered_focused = global::MatematicaBacMD.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::XamarinFormsGesture.Resource.Dimension.design_fab_translation_z_pressed = global::MatematicaBacMD.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::XamarinFormsGesture.Resource.Dimension.design_navigation_elevation = global::MatematicaBacMD.Droid.Resource.Dimension.design_navigation_elevation;
+			global::XamarinFormsGesture.Resource.Dimension.design_navigation_icon_padding = global::MatematicaBacMD.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::XamarinFormsGesture.Resource.Dimension.design_navigation_icon_size = global::MatematicaBacMD.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::XamarinFormsGesture.Resource.Dimension.design_navigation_item_horizontal_padding = global::MatematicaBacMD.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::XamarinFormsGesture.Resource.Dimension.design_navigation_item_icon_padding = global::MatematicaBacMD.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::XamarinFormsGesture.Resource.Dimension.design_navigation_max_width = global::MatematicaBacMD.Droid.Resource.Dimension.design_navigation_max_width;
+			global::XamarinFormsGesture.Resource.Dimension.design_navigation_padding_bottom = global::MatematicaBacMD.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::XamarinFormsGesture.Resource.Dimension.design_navigation_separator_vertical_padding = global::MatematicaBacMD.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::XamarinFormsGesture.Resource.Dimension.design_snackbar_action_inline_max_width = global::MatematicaBacMD.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::XamarinFormsGesture.Resource.Dimension.design_snackbar_background_corner_radius = global::MatematicaBacMD.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::XamarinFormsGesture.Resource.Dimension.design_snackbar_elevation = global::MatematicaBacMD.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::XamarinFormsGesture.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::MatematicaBacMD.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::XamarinFormsGesture.Resource.Dimension.design_snackbar_max_width = global::MatematicaBacMD.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::XamarinFormsGesture.Resource.Dimension.design_snackbar_min_width = global::MatematicaBacMD.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::XamarinFormsGesture.Resource.Dimension.design_snackbar_padding_horizontal = global::MatematicaBacMD.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::XamarinFormsGesture.Resource.Dimension.design_snackbar_padding_vertical = global::MatematicaBacMD.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::XamarinFormsGesture.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::MatematicaBacMD.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::XamarinFormsGesture.Resource.Dimension.design_snackbar_text_size = global::MatematicaBacMD.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::XamarinFormsGesture.Resource.Dimension.design_tab_max_width = global::MatematicaBacMD.Droid.Resource.Dimension.design_tab_max_width;
+			global::XamarinFormsGesture.Resource.Dimension.design_tab_scrollable_min_width = global::MatematicaBacMD.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::XamarinFormsGesture.Resource.Dimension.design_tab_text_size = global::MatematicaBacMD.Droid.Resource.Dimension.design_tab_text_size;
+			global::XamarinFormsGesture.Resource.Dimension.design_tab_text_size_2line = global::MatematicaBacMD.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::XamarinFormsGesture.Resource.Dimension.design_textinput_caption_translate_y = global::MatematicaBacMD.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::XamarinFormsGesture.Resource.Dimension.disabled_alpha_material_dark = global::MatematicaBacMD.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::XamarinFormsGesture.Resource.Dimension.disabled_alpha_material_light = global::MatematicaBacMD.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::XamarinFormsGesture.Resource.Dimension.fastscroll_default_thickness = global::MatematicaBacMD.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::XamarinFormsGesture.Resource.Dimension.fastscroll_margin = global::MatematicaBacMD.Droid.Resource.Dimension.fastscroll_margin;
+			global::XamarinFormsGesture.Resource.Dimension.fastscroll_minimum_range = global::MatematicaBacMD.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::XamarinFormsGesture.Resource.Dimension.highlight_alpha_material_colored = global::MatematicaBacMD.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::XamarinFormsGesture.Resource.Dimension.highlight_alpha_material_dark = global::MatematicaBacMD.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::XamarinFormsGesture.Resource.Dimension.highlight_alpha_material_light = global::MatematicaBacMD.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::XamarinFormsGesture.Resource.Dimension.hint_alpha_material_dark = global::MatematicaBacMD.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::XamarinFormsGesture.Resource.Dimension.hint_alpha_material_light = global::MatematicaBacMD.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::XamarinFormsGesture.Resource.Dimension.hint_pressed_alpha_material_dark = global::MatematicaBacMD.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::XamarinFormsGesture.Resource.Dimension.hint_pressed_alpha_material_light = global::MatematicaBacMD.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::XamarinFormsGesture.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::MatematicaBacMD.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::XamarinFormsGesture.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::MatematicaBacMD.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::XamarinFormsGesture.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::MatematicaBacMD.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_bottomappbar_height = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_corner_radius = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_disabled_elevation = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_disabled_z = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_elevation = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_focused_z = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_hovered_z = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_icon_padding = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_inset = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_letter_spacing = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_padding_bottom = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_padding_left = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_padding_right = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_padding_top = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_pressed_z = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_stroke_size = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_text_size = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_btn_z = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_btn_z;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_card_elevation = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_card_spacing = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_chip_pressed_translation_z = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_chip_text_size = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_fab_elevation = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_fab_translation_z_pressed = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_navigation_elevation = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_navigation_item_icon_padding = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_snackbar_margin = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_textinput_box_padding_end = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::XamarinFormsGesture.Resource.Dimension.mtrl_toolbar_default_height = global::MatematicaBacMD.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::XamarinFormsGesture.Resource.Dimension.notification_action_icon_size = global::MatematicaBacMD.Droid.Resource.Dimension.notification_action_icon_size;
+			global::XamarinFormsGesture.Resource.Dimension.notification_action_text_size = global::MatematicaBacMD.Droid.Resource.Dimension.notification_action_text_size;
+			global::XamarinFormsGesture.Resource.Dimension.notification_big_circle_margin = global::MatematicaBacMD.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::XamarinFormsGesture.Resource.Dimension.notification_content_margin_start = global::MatematicaBacMD.Droid.Resource.Dimension.notification_content_margin_start;
+			global::XamarinFormsGesture.Resource.Dimension.notification_large_icon_height = global::MatematicaBacMD.Droid.Resource.Dimension.notification_large_icon_height;
+			global::XamarinFormsGesture.Resource.Dimension.notification_large_icon_width = global::MatematicaBacMD.Droid.Resource.Dimension.notification_large_icon_width;
+			global::XamarinFormsGesture.Resource.Dimension.notification_main_column_padding_top = global::MatematicaBacMD.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::XamarinFormsGesture.Resource.Dimension.notification_media_narrow_margin = global::MatematicaBacMD.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::XamarinFormsGesture.Resource.Dimension.notification_right_icon_size = global::MatematicaBacMD.Droid.Resource.Dimension.notification_right_icon_size;
+			global::XamarinFormsGesture.Resource.Dimension.notification_right_side_padding_top = global::MatematicaBacMD.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::XamarinFormsGesture.Resource.Dimension.notification_small_icon_background_padding = global::MatematicaBacMD.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::XamarinFormsGesture.Resource.Dimension.notification_small_icon_size_as_large = global::MatematicaBacMD.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::XamarinFormsGesture.Resource.Dimension.notification_subtext_size = global::MatematicaBacMD.Droid.Resource.Dimension.notification_subtext_size;
+			global::XamarinFormsGesture.Resource.Dimension.notification_top_pad = global::MatematicaBacMD.Droid.Resource.Dimension.notification_top_pad;
+			global::XamarinFormsGesture.Resource.Dimension.notification_top_pad_large_text = global::MatematicaBacMD.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::XamarinFormsGesture.Resource.Dimension.subtitle_corner_radius = global::MatematicaBacMD.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::XamarinFormsGesture.Resource.Dimension.subtitle_outline_width = global::MatematicaBacMD.Droid.Resource.Dimension.subtitle_outline_width;
+			global::XamarinFormsGesture.Resource.Dimension.subtitle_shadow_offset = global::MatematicaBacMD.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::XamarinFormsGesture.Resource.Dimension.subtitle_shadow_radius = global::MatematicaBacMD.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::XamarinFormsGesture.Resource.Dimension.tooltip_corner_radius = global::MatematicaBacMD.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::XamarinFormsGesture.Resource.Dimension.tooltip_horizontal_padding = global::MatematicaBacMD.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::XamarinFormsGesture.Resource.Dimension.tooltip_margin = global::MatematicaBacMD.Droid.Resource.Dimension.tooltip_margin;
+			global::XamarinFormsGesture.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::MatematicaBacMD.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::XamarinFormsGesture.Resource.Dimension.tooltip_precise_anchor_threshold = global::MatematicaBacMD.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::XamarinFormsGesture.Resource.Dimension.tooltip_vertical_padding = global::MatematicaBacMD.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::XamarinFormsGesture.Resource.Dimension.tooltip_y_offset_non_touch = global::MatematicaBacMD.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::XamarinFormsGesture.Resource.Dimension.tooltip_y_offset_touch = global::MatematicaBacMD.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_action_bar_item_background_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_btn_borderless_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_btn_check_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_btn_check_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::MatematicaBacMD.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::XamarinFormsGesture.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::MatematicaBacMD.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::XamarinFormsGesture.Resource.Drawable.abc_btn_colored_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_btn_default_mtrl_shape = global::MatematicaBacMD.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::XamarinFormsGesture.Resource.Drawable.abc_btn_radio_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::MatematicaBacMD.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::XamarinFormsGesture.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::MatematicaBacMD.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::XamarinFormsGesture.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::MatematicaBacMD.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::XamarinFormsGesture.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::MatematicaBacMD.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::XamarinFormsGesture.Resource.Drawable.abc_cab_background_internal_bg = global::MatematicaBacMD.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::XamarinFormsGesture.Resource.Drawable.abc_cab_background_top_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_control_background_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_control_background_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_dialog_material_background = global::MatematicaBacMD.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::XamarinFormsGesture.Resource.Drawable.abc_edit_text_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_edit_text_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_ab_back_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_clear_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_go_search_api_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_menu_overflow_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_search_api_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_star_black_16dp = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_star_black_36dp = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_star_black_48dp = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_star_half_black_16dp = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_star_half_black_36dp = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_star_half_black_48dp = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ic_voice_search_api_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_item_background_holo_dark = global::MatematicaBacMD.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::XamarinFormsGesture.Resource.Drawable.abc_item_background_holo_light = global::MatematicaBacMD.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::XamarinFormsGesture.Resource.Drawable.abc_list_divider_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_list_divider_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_list_divider_mtrl_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_list_focused_holo = global::MatematicaBacMD.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::XamarinFormsGesture.Resource.Drawable.abc_list_longpressed_holo = global::MatematicaBacMD.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::XamarinFormsGesture.Resource.Drawable.abc_list_pressed_holo_dark = global::MatematicaBacMD.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::XamarinFormsGesture.Resource.Drawable.abc_list_pressed_holo_light = global::MatematicaBacMD.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::XamarinFormsGesture.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::MatematicaBacMD.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::XamarinFormsGesture.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::MatematicaBacMD.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::XamarinFormsGesture.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::MatematicaBacMD.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::XamarinFormsGesture.Resource.Drawable.abc_list_selector_disabled_holo_light = global::MatematicaBacMD.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::XamarinFormsGesture.Resource.Drawable.abc_list_selector_holo_dark = global::MatematicaBacMD.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::XamarinFormsGesture.Resource.Drawable.abc_list_selector_holo_light = global::MatematicaBacMD.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::XamarinFormsGesture.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::MatematicaBacMD.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::XamarinFormsGesture.Resource.Drawable.abc_popup_background_mtrl_mult = global::MatematicaBacMD.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ratingbar_indicator_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ratingbar_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_ratingbar_small_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::MatematicaBacMD.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::XamarinFormsGesture.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::MatematicaBacMD.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::XamarinFormsGesture.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_seekbar_thumb_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_seekbar_tick_mark_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_seekbar_track_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_spinner_textfield_background_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_switch_thumb_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_switch_track_mtrl_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_tab_indicator_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::MatematicaBacMD.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::XamarinFormsGesture.Resource.Drawable.abc_textfield_search_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_text_cursor_material = global::MatematicaBacMD.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::XamarinFormsGesture.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::MatematicaBacMD.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::XamarinFormsGesture.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::MatematicaBacMD.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::XamarinFormsGesture.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::MatematicaBacMD.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::XamarinFormsGesture.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::MatematicaBacMD.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::XamarinFormsGesture.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::MatematicaBacMD.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::XamarinFormsGesture.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::MatematicaBacMD.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::XamarinFormsGesture.Resource.Drawable.abc_vector_test = global::MatematicaBacMD.Droid.Resource.Drawable.abc_vector_test;
+			global::XamarinFormsGesture.Resource.Drawable.avd_hide_password = global::MatematicaBacMD.Droid.Resource.Drawable.avd_hide_password;
+			global::XamarinFormsGesture.Resource.Drawable.avd_show_password = global::MatematicaBacMD.Droid.Resource.Drawable.avd_show_password;
+			global::XamarinFormsGesture.Resource.Drawable.design_bottom_navigation_item_background = global::MatematicaBacMD.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::XamarinFormsGesture.Resource.Drawable.design_fab_background = global::MatematicaBacMD.Droid.Resource.Drawable.design_fab_background;
+			global::XamarinFormsGesture.Resource.Drawable.design_ic_visibility = global::MatematicaBacMD.Droid.Resource.Drawable.design_ic_visibility;
+			global::XamarinFormsGesture.Resource.Drawable.design_ic_visibility_off = global::MatematicaBacMD.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::XamarinFormsGesture.Resource.Drawable.design_password_eye = global::MatematicaBacMD.Droid.Resource.Drawable.design_password_eye;
+			global::XamarinFormsGesture.Resource.Drawable.design_snackbar_background = global::MatematicaBacMD.Droid.Resource.Drawable.design_snackbar_background;
+			global::XamarinFormsGesture.Resource.Drawable.ic_mtrl_chip_checked_black = global::MatematicaBacMD.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::XamarinFormsGesture.Resource.Drawable.ic_mtrl_chip_checked_circle = global::MatematicaBacMD.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::XamarinFormsGesture.Resource.Drawable.ic_mtrl_chip_close_circle = global::MatematicaBacMD.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::XamarinFormsGesture.Resource.Drawable.mtrl_snackbar_background = global::MatematicaBacMD.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::XamarinFormsGesture.Resource.Drawable.mtrl_tabs_default_indicator = global::MatematicaBacMD.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::XamarinFormsGesture.Resource.Drawable.navigation_empty_icon = global::MatematicaBacMD.Droid.Resource.Drawable.navigation_empty_icon;
+			global::XamarinFormsGesture.Resource.Drawable.notification_action_background = global::MatematicaBacMD.Droid.Resource.Drawable.notification_action_background;
+			global::XamarinFormsGesture.Resource.Drawable.notification_bg = global::MatematicaBacMD.Droid.Resource.Drawable.notification_bg;
+			global::XamarinFormsGesture.Resource.Drawable.notification_bg_low = global::MatematicaBacMD.Droid.Resource.Drawable.notification_bg_low;
+			global::XamarinFormsGesture.Resource.Drawable.notification_bg_low_normal = global::MatematicaBacMD.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::XamarinFormsGesture.Resource.Drawable.notification_bg_low_pressed = global::MatematicaBacMD.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::XamarinFormsGesture.Resource.Drawable.notification_bg_normal = global::MatematicaBacMD.Droid.Resource.Drawable.notification_bg_normal;
+			global::XamarinFormsGesture.Resource.Drawable.notification_bg_normal_pressed = global::MatematicaBacMD.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::XamarinFormsGesture.Resource.Drawable.notification_icon_background = global::MatematicaBacMD.Droid.Resource.Drawable.notification_icon_background;
+			global::XamarinFormsGesture.Resource.Drawable.notification_template_icon_bg = global::MatematicaBacMD.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::XamarinFormsGesture.Resource.Drawable.notification_template_icon_low_bg = global::MatematicaBacMD.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::XamarinFormsGesture.Resource.Drawable.notification_tile_bg = global::MatematicaBacMD.Droid.Resource.Drawable.notification_tile_bg;
+			global::XamarinFormsGesture.Resource.Drawable.notify_panel_notification_icon_bg = global::MatematicaBacMD.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::XamarinFormsGesture.Resource.Drawable.tooltip_frame_dark = global::MatematicaBacMD.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::XamarinFormsGesture.Resource.Drawable.tooltip_frame_light = global::MatematicaBacMD.Droid.Resource.Drawable.tooltip_frame_light;
+			global::XamarinFormsGesture.Resource.Id.action0 = global::MatematicaBacMD.Droid.Resource.Id.action0;
+			global::XamarinFormsGesture.Resource.Id.actions = global::MatematicaBacMD.Droid.Resource.Id.actions;
+			global::XamarinFormsGesture.Resource.Id.action_bar = global::MatematicaBacMD.Droid.Resource.Id.action_bar;
+			global::XamarinFormsGesture.Resource.Id.action_bar_activity_content = global::MatematicaBacMD.Droid.Resource.Id.action_bar_activity_content;
+			global::XamarinFormsGesture.Resource.Id.action_bar_container = global::MatematicaBacMD.Droid.Resource.Id.action_bar_container;
+			global::XamarinFormsGesture.Resource.Id.action_bar_root = global::MatematicaBacMD.Droid.Resource.Id.action_bar_root;
+			global::XamarinFormsGesture.Resource.Id.action_bar_spinner = global::MatematicaBacMD.Droid.Resource.Id.action_bar_spinner;
+			global::XamarinFormsGesture.Resource.Id.action_bar_subtitle = global::MatematicaBacMD.Droid.Resource.Id.action_bar_subtitle;
+			global::XamarinFormsGesture.Resource.Id.action_bar_title = global::MatematicaBacMD.Droid.Resource.Id.action_bar_title;
+			global::XamarinFormsGesture.Resource.Id.action_container = global::MatematicaBacMD.Droid.Resource.Id.action_container;
+			global::XamarinFormsGesture.Resource.Id.action_context_bar = global::MatematicaBacMD.Droid.Resource.Id.action_context_bar;
+			global::XamarinFormsGesture.Resource.Id.action_divider = global::MatematicaBacMD.Droid.Resource.Id.action_divider;
+			global::XamarinFormsGesture.Resource.Id.action_image = global::MatematicaBacMD.Droid.Resource.Id.action_image;
+			global::XamarinFormsGesture.Resource.Id.action_menu_divider = global::MatematicaBacMD.Droid.Resource.Id.action_menu_divider;
+			global::XamarinFormsGesture.Resource.Id.action_menu_presenter = global::MatematicaBacMD.Droid.Resource.Id.action_menu_presenter;
+			global::XamarinFormsGesture.Resource.Id.action_mode_bar = global::MatematicaBacMD.Droid.Resource.Id.action_mode_bar;
+			global::XamarinFormsGesture.Resource.Id.action_mode_bar_stub = global::MatematicaBacMD.Droid.Resource.Id.action_mode_bar_stub;
+			global::XamarinFormsGesture.Resource.Id.action_mode_close_button = global::MatematicaBacMD.Droid.Resource.Id.action_mode_close_button;
+			global::XamarinFormsGesture.Resource.Id.action_text = global::MatematicaBacMD.Droid.Resource.Id.action_text;
+			global::XamarinFormsGesture.Resource.Id.activity_chooser_view_content = global::MatematicaBacMD.Droid.Resource.Id.activity_chooser_view_content;
+			global::XamarinFormsGesture.Resource.Id.add = global::MatematicaBacMD.Droid.Resource.Id.add;
+			global::XamarinFormsGesture.Resource.Id.alertTitle = global::MatematicaBacMD.Droid.Resource.Id.alertTitle;
+			global::XamarinFormsGesture.Resource.Id.all = global::MatematicaBacMD.Droid.Resource.Id.all;
+			global::XamarinFormsGesture.Resource.Id.ALT = global::MatematicaBacMD.Droid.Resource.Id.ALT;
+			global::XamarinFormsGesture.Resource.Id.always = global::MatematicaBacMD.Droid.Resource.Id.always;
+			global::XamarinFormsGesture.Resource.Id.async = global::MatematicaBacMD.Droid.Resource.Id.async;
+			global::XamarinFormsGesture.Resource.Id.auto = global::MatematicaBacMD.Droid.Resource.Id.auto;
+			global::XamarinFormsGesture.Resource.Id.beginning = global::MatematicaBacMD.Droid.Resource.Id.beginning;
+			global::XamarinFormsGesture.Resource.Id.blocking = global::MatematicaBacMD.Droid.Resource.Id.blocking;
+			global::XamarinFormsGesture.Resource.Id.bottom = global::MatematicaBacMD.Droid.Resource.Id.bottom;
+			global::XamarinFormsGesture.Resource.Id.bottomtab_navarea = global::MatematicaBacMD.Droid.Resource.Id.bottomtab_navarea;
+			global::XamarinFormsGesture.Resource.Id.bottomtab_tabbar = global::MatematicaBacMD.Droid.Resource.Id.bottomtab_tabbar;
+			global::XamarinFormsGesture.Resource.Id.browser_actions_header_text = global::MatematicaBacMD.Droid.Resource.Id.browser_actions_header_text;
+			global::XamarinFormsGesture.Resource.Id.browser_actions_menu_items = global::MatematicaBacMD.Droid.Resource.Id.browser_actions_menu_items;
+			global::XamarinFormsGesture.Resource.Id.browser_actions_menu_item_icon = global::MatematicaBacMD.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::XamarinFormsGesture.Resource.Id.browser_actions_menu_item_text = global::MatematicaBacMD.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::XamarinFormsGesture.Resource.Id.browser_actions_menu_view = global::MatematicaBacMD.Droid.Resource.Id.browser_actions_menu_view;
+			global::XamarinFormsGesture.Resource.Id.buttonPanel = global::MatematicaBacMD.Droid.Resource.Id.buttonPanel;
+			global::XamarinFormsGesture.Resource.Id.cancel_action = global::MatematicaBacMD.Droid.Resource.Id.cancel_action;
+			global::XamarinFormsGesture.Resource.Id.center = global::MatematicaBacMD.Droid.Resource.Id.center;
+			global::XamarinFormsGesture.Resource.Id.center_horizontal = global::MatematicaBacMD.Droid.Resource.Id.center_horizontal;
+			global::XamarinFormsGesture.Resource.Id.center_vertical = global::MatematicaBacMD.Droid.Resource.Id.center_vertical;
+			global::XamarinFormsGesture.Resource.Id.checkbox = global::MatematicaBacMD.Droid.Resource.Id.checkbox;
+			global::XamarinFormsGesture.Resource.Id.chronometer = global::MatematicaBacMD.Droid.Resource.Id.chronometer;
+			global::XamarinFormsGesture.Resource.Id.clip_horizontal = global::MatematicaBacMD.Droid.Resource.Id.clip_horizontal;
+			global::XamarinFormsGesture.Resource.Id.clip_vertical = global::MatematicaBacMD.Droid.Resource.Id.clip_vertical;
+			global::XamarinFormsGesture.Resource.Id.collapseActionView = global::MatematicaBacMD.Droid.Resource.Id.collapseActionView;
+			global::XamarinFormsGesture.Resource.Id.container = global::MatematicaBacMD.Droid.Resource.Id.container;
+			global::XamarinFormsGesture.Resource.Id.content = global::MatematicaBacMD.Droid.Resource.Id.content;
+			global::XamarinFormsGesture.Resource.Id.contentPanel = global::MatematicaBacMD.Droid.Resource.Id.contentPanel;
+			global::XamarinFormsGesture.Resource.Id.coordinator = global::MatematicaBacMD.Droid.Resource.Id.coordinator;
+			global::XamarinFormsGesture.Resource.Id.CTRL = global::MatematicaBacMD.Droid.Resource.Id.CTRL;
+			global::XamarinFormsGesture.Resource.Id.custom = global::MatematicaBacMD.Droid.Resource.Id.custom;
+			global::XamarinFormsGesture.Resource.Id.customPanel = global::MatematicaBacMD.Droid.Resource.Id.customPanel;
+			global::XamarinFormsGesture.Resource.Id.decor_content_parent = global::MatematicaBacMD.Droid.Resource.Id.decor_content_parent;
+			global::XamarinFormsGesture.Resource.Id.default_activity_button = global::MatematicaBacMD.Droid.Resource.Id.default_activity_button;
+			global::XamarinFormsGesture.Resource.Id.design_bottom_sheet = global::MatematicaBacMD.Droid.Resource.Id.design_bottom_sheet;
+			global::XamarinFormsGesture.Resource.Id.design_menu_item_action_area = global::MatematicaBacMD.Droid.Resource.Id.design_menu_item_action_area;
+			global::XamarinFormsGesture.Resource.Id.design_menu_item_action_area_stub = global::MatematicaBacMD.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::XamarinFormsGesture.Resource.Id.design_menu_item_text = global::MatematicaBacMD.Droid.Resource.Id.design_menu_item_text;
+			global::XamarinFormsGesture.Resource.Id.design_navigation_view = global::MatematicaBacMD.Droid.Resource.Id.design_navigation_view;
+			global::XamarinFormsGesture.Resource.Id.disableHome = global::MatematicaBacMD.Droid.Resource.Id.disableHome;
+			global::XamarinFormsGesture.Resource.Id.edit_query = global::MatematicaBacMD.Droid.Resource.Id.edit_query;
+			global::XamarinFormsGesture.Resource.Id.end = global::MatematicaBacMD.Droid.Resource.Id.end;
+			global::XamarinFormsGesture.Resource.Id.end_padder = global::MatematicaBacMD.Droid.Resource.Id.end_padder;
+			global::XamarinFormsGesture.Resource.Id.enterAlways = global::MatematicaBacMD.Droid.Resource.Id.enterAlways;
+			global::XamarinFormsGesture.Resource.Id.enterAlwaysCollapsed = global::MatematicaBacMD.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::XamarinFormsGesture.Resource.Id.exitUntilCollapsed = global::MatematicaBacMD.Droid.Resource.Id.exitUntilCollapsed;
+			global::XamarinFormsGesture.Resource.Id.expanded_menu = global::MatematicaBacMD.Droid.Resource.Id.expanded_menu;
+			global::XamarinFormsGesture.Resource.Id.expand_activities_button = global::MatematicaBacMD.Droid.Resource.Id.expand_activities_button;
+			global::XamarinFormsGesture.Resource.Id.fill = global::MatematicaBacMD.Droid.Resource.Id.fill;
+			global::XamarinFormsGesture.Resource.Id.filled = global::MatematicaBacMD.Droid.Resource.Id.filled;
+			global::XamarinFormsGesture.Resource.Id.fill_horizontal = global::MatematicaBacMD.Droid.Resource.Id.fill_horizontal;
+			global::XamarinFormsGesture.Resource.Id.fill_vertical = global::MatematicaBacMD.Droid.Resource.Id.fill_vertical;
+			global::XamarinFormsGesture.Resource.Id.@fixed = global::MatematicaBacMD.Droid.Resource.Id.@fixed;
+			global::XamarinFormsGesture.Resource.Id.flyoutcontent_appbar = global::MatematicaBacMD.Droid.Resource.Id.flyoutcontent_appbar;
+			global::XamarinFormsGesture.Resource.Id.flyoutcontent_recycler = global::MatematicaBacMD.Droid.Resource.Id.flyoutcontent_recycler;
+			global::XamarinFormsGesture.Resource.Id.forever = global::MatematicaBacMD.Droid.Resource.Id.forever;
+			global::XamarinFormsGesture.Resource.Id.FUNCTION = global::MatematicaBacMD.Droid.Resource.Id.FUNCTION;
+			global::XamarinFormsGesture.Resource.Id.ghost_view = global::MatematicaBacMD.Droid.Resource.Id.ghost_view;
+			global::XamarinFormsGesture.Resource.Id.group_divider = global::MatematicaBacMD.Droid.Resource.Id.group_divider;
+			global::XamarinFormsGesture.Resource.Id.home = global::MatematicaBacMD.Droid.Resource.Id.home;
+			global::XamarinFormsGesture.Resource.Id.homeAsUp = global::MatematicaBacMD.Droid.Resource.Id.homeAsUp;
+			global::XamarinFormsGesture.Resource.Id.icon = global::MatematicaBacMD.Droid.Resource.Id.icon;
+			global::XamarinFormsGesture.Resource.Id.icon_group = global::MatematicaBacMD.Droid.Resource.Id.icon_group;
+			global::XamarinFormsGesture.Resource.Id.ifRoom = global::MatematicaBacMD.Droid.Resource.Id.ifRoom;
+			global::XamarinFormsGesture.Resource.Id.image = global::MatematicaBacMD.Droid.Resource.Id.image;
+			global::XamarinFormsGesture.Resource.Id.info = global::MatematicaBacMD.Droid.Resource.Id.info;
+			global::XamarinFormsGesture.Resource.Id.italic = global::MatematicaBacMD.Droid.Resource.Id.italic;
+			global::XamarinFormsGesture.Resource.Id.item_touch_helper_previous_elevation = global::MatematicaBacMD.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::XamarinFormsGesture.Resource.Id.labeled = global::MatematicaBacMD.Droid.Resource.Id.labeled;
+			global::XamarinFormsGesture.Resource.Id.largeLabel = global::MatematicaBacMD.Droid.Resource.Id.largeLabel;
+			global::XamarinFormsGesture.Resource.Id.left = global::MatematicaBacMD.Droid.Resource.Id.left;
+			global::XamarinFormsGesture.Resource.Id.line1 = global::MatematicaBacMD.Droid.Resource.Id.line1;
+			global::XamarinFormsGesture.Resource.Id.line3 = global::MatematicaBacMD.Droid.Resource.Id.line3;
+			global::XamarinFormsGesture.Resource.Id.listMode = global::MatematicaBacMD.Droid.Resource.Id.listMode;
+			global::XamarinFormsGesture.Resource.Id.list_item = global::MatematicaBacMD.Droid.Resource.Id.list_item;
+			global::XamarinFormsGesture.Resource.Id.main_appbar = global::MatematicaBacMD.Droid.Resource.Id.main_appbar;
+			global::XamarinFormsGesture.Resource.Id.main_tablayout = global::MatematicaBacMD.Droid.Resource.Id.main_tablayout;
+			global::XamarinFormsGesture.Resource.Id.main_toolbar = global::MatematicaBacMD.Droid.Resource.Id.main_toolbar;
+			global::XamarinFormsGesture.Resource.Id.main_viewpager = global::MatematicaBacMD.Droid.Resource.Id.main_viewpager;
+			global::XamarinFormsGesture.Resource.Id.masked = global::MatematicaBacMD.Droid.Resource.Id.masked;
+			global::XamarinFormsGesture.Resource.Id.media_actions = global::MatematicaBacMD.Droid.Resource.Id.media_actions;
+			global::XamarinFormsGesture.Resource.Id.message = global::MatematicaBacMD.Droid.Resource.Id.message;
+			global::XamarinFormsGesture.Resource.Id.META = global::MatematicaBacMD.Droid.Resource.Id.META;
+			global::XamarinFormsGesture.Resource.Id.middle = global::MatematicaBacMD.Droid.Resource.Id.middle;
+			global::XamarinFormsGesture.Resource.Id.mini = global::MatematicaBacMD.Droid.Resource.Id.mini;
+			global::XamarinFormsGesture.Resource.Id.mtrl_child_content_container = global::MatematicaBacMD.Droid.Resource.Id.mtrl_child_content_container;
+			global::XamarinFormsGesture.Resource.Id.mtrl_internal_children_alpha_tag = global::MatematicaBacMD.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::XamarinFormsGesture.Resource.Id.multiply = global::MatematicaBacMD.Droid.Resource.Id.multiply;
+			global::XamarinFormsGesture.Resource.Id.navigation_header_container = global::MatematicaBacMD.Droid.Resource.Id.navigation_header_container;
+			global::XamarinFormsGesture.Resource.Id.never = global::MatematicaBacMD.Droid.Resource.Id.never;
+			global::XamarinFormsGesture.Resource.Id.none = global::MatematicaBacMD.Droid.Resource.Id.none;
+			global::XamarinFormsGesture.Resource.Id.normal = global::MatematicaBacMD.Droid.Resource.Id.normal;
+			global::XamarinFormsGesture.Resource.Id.notification_background = global::MatematicaBacMD.Droid.Resource.Id.notification_background;
+			global::XamarinFormsGesture.Resource.Id.notification_main_column = global::MatematicaBacMD.Droid.Resource.Id.notification_main_column;
+			global::XamarinFormsGesture.Resource.Id.notification_main_column_container = global::MatematicaBacMD.Droid.Resource.Id.notification_main_column_container;
+			global::XamarinFormsGesture.Resource.Id.outline = global::MatematicaBacMD.Droid.Resource.Id.outline;
+			global::XamarinFormsGesture.Resource.Id.parallax = global::MatematicaBacMD.Droid.Resource.Id.parallax;
+			global::XamarinFormsGesture.Resource.Id.parentPanel = global::MatematicaBacMD.Droid.Resource.Id.parentPanel;
+			global::XamarinFormsGesture.Resource.Id.parent_matrix = global::MatematicaBacMD.Droid.Resource.Id.parent_matrix;
+			global::XamarinFormsGesture.Resource.Id.pin = global::MatematicaBacMD.Droid.Resource.Id.pin;
+			global::XamarinFormsGesture.Resource.Id.progress_circular = global::MatematicaBacMD.Droid.Resource.Id.progress_circular;
+			global::XamarinFormsGesture.Resource.Id.progress_horizontal = global::MatematicaBacMD.Droid.Resource.Id.progress_horizontal;
+			global::XamarinFormsGesture.Resource.Id.radio = global::MatematicaBacMD.Droid.Resource.Id.radio;
+			global::XamarinFormsGesture.Resource.Id.right = global::MatematicaBacMD.Droid.Resource.Id.right;
+			global::XamarinFormsGesture.Resource.Id.right_icon = global::MatematicaBacMD.Droid.Resource.Id.right_icon;
+			global::XamarinFormsGesture.Resource.Id.right_side = global::MatematicaBacMD.Droid.Resource.Id.right_side;
+			global::XamarinFormsGesture.Resource.Id.save_image_matrix = global::MatematicaBacMD.Droid.Resource.Id.save_image_matrix;
+			global::XamarinFormsGesture.Resource.Id.save_non_transition_alpha = global::MatematicaBacMD.Droid.Resource.Id.save_non_transition_alpha;
+			global::XamarinFormsGesture.Resource.Id.save_scale_type = global::MatematicaBacMD.Droid.Resource.Id.save_scale_type;
+			global::XamarinFormsGesture.Resource.Id.screen = global::MatematicaBacMD.Droid.Resource.Id.screen;
+			global::XamarinFormsGesture.Resource.Id.scroll = global::MatematicaBacMD.Droid.Resource.Id.scroll;
+			global::XamarinFormsGesture.Resource.Id.scrollable = global::MatematicaBacMD.Droid.Resource.Id.scrollable;
+			global::XamarinFormsGesture.Resource.Id.scrollIndicatorDown = global::MatematicaBacMD.Droid.Resource.Id.scrollIndicatorDown;
+			global::XamarinFormsGesture.Resource.Id.scrollIndicatorUp = global::MatematicaBacMD.Droid.Resource.Id.scrollIndicatorUp;
+			global::XamarinFormsGesture.Resource.Id.scrollView = global::MatematicaBacMD.Droid.Resource.Id.scrollView;
+			global::XamarinFormsGesture.Resource.Id.search_badge = global::MatematicaBacMD.Droid.Resource.Id.search_badge;
+			global::XamarinFormsGesture.Resource.Id.search_bar = global::MatematicaBacMD.Droid.Resource.Id.search_bar;
+			global::XamarinFormsGesture.Resource.Id.search_button = global::MatematicaBacMD.Droid.Resource.Id.search_button;
+			global::XamarinFormsGesture.Resource.Id.search_close_btn = global::MatematicaBacMD.Droid.Resource.Id.search_close_btn;
+			global::XamarinFormsGesture.Resource.Id.search_edit_frame = global::MatematicaBacMD.Droid.Resource.Id.search_edit_frame;
+			global::XamarinFormsGesture.Resource.Id.search_go_btn = global::MatematicaBacMD.Droid.Resource.Id.search_go_btn;
+			global::XamarinFormsGesture.Resource.Id.search_mag_icon = global::MatematicaBacMD.Droid.Resource.Id.search_mag_icon;
+			global::XamarinFormsGesture.Resource.Id.search_plate = global::MatematicaBacMD.Droid.Resource.Id.search_plate;
+			global::XamarinFormsGesture.Resource.Id.search_src_text = global::MatematicaBacMD.Droid.Resource.Id.search_src_text;
+			global::XamarinFormsGesture.Resource.Id.search_voice_btn = global::MatematicaBacMD.Droid.Resource.Id.search_voice_btn;
+			global::XamarinFormsGesture.Resource.Id.selected = global::MatematicaBacMD.Droid.Resource.Id.selected;
+			global::XamarinFormsGesture.Resource.Id.select_dialog_listview = global::MatematicaBacMD.Droid.Resource.Id.select_dialog_listview;
+			global::XamarinFormsGesture.Resource.Id.shellcontent_appbar = global::MatematicaBacMD.Droid.Resource.Id.shellcontent_appbar;
+			global::XamarinFormsGesture.Resource.Id.shellcontent_toolbar = global::MatematicaBacMD.Droid.Resource.Id.shellcontent_toolbar;
+			global::XamarinFormsGesture.Resource.Id.SHIFT = global::MatematicaBacMD.Droid.Resource.Id.SHIFT;
+			global::XamarinFormsGesture.Resource.Id.shortcut = global::MatematicaBacMD.Droid.Resource.Id.shortcut;
+			global::XamarinFormsGesture.Resource.Id.showCustom = global::MatematicaBacMD.Droid.Resource.Id.showCustom;
+			global::XamarinFormsGesture.Resource.Id.showHome = global::MatematicaBacMD.Droid.Resource.Id.showHome;
+			global::XamarinFormsGesture.Resource.Id.showTitle = global::MatematicaBacMD.Droid.Resource.Id.showTitle;
+			global::XamarinFormsGesture.Resource.Id.smallLabel = global::MatematicaBacMD.Droid.Resource.Id.smallLabel;
+			global::XamarinFormsGesture.Resource.Id.snackbar_action = global::MatematicaBacMD.Droid.Resource.Id.snackbar_action;
+			global::XamarinFormsGesture.Resource.Id.snackbar_text = global::MatematicaBacMD.Droid.Resource.Id.snackbar_text;
+			global::XamarinFormsGesture.Resource.Id.snap = global::MatematicaBacMD.Droid.Resource.Id.snap;
+			global::XamarinFormsGesture.Resource.Id.snapMargins = global::MatematicaBacMD.Droid.Resource.Id.snapMargins;
+			global::XamarinFormsGesture.Resource.Id.spacer = global::MatematicaBacMD.Droid.Resource.Id.spacer;
+			global::XamarinFormsGesture.Resource.Id.split_action_bar = global::MatematicaBacMD.Droid.Resource.Id.split_action_bar;
+			global::XamarinFormsGesture.Resource.Id.src_atop = global::MatematicaBacMD.Droid.Resource.Id.src_atop;
+			global::XamarinFormsGesture.Resource.Id.src_in = global::MatematicaBacMD.Droid.Resource.Id.src_in;
+			global::XamarinFormsGesture.Resource.Id.src_over = global::MatematicaBacMD.Droid.Resource.Id.src_over;
+			global::XamarinFormsGesture.Resource.Id.start = global::MatematicaBacMD.Droid.Resource.Id.start;
+			global::XamarinFormsGesture.Resource.Id.status_bar_latest_event_content = global::MatematicaBacMD.Droid.Resource.Id.status_bar_latest_event_content;
+			global::XamarinFormsGesture.Resource.Id.stretch = global::MatematicaBacMD.Droid.Resource.Id.stretch;
+			global::XamarinFormsGesture.Resource.Id.submenuarrow = global::MatematicaBacMD.Droid.Resource.Id.submenuarrow;
+			global::XamarinFormsGesture.Resource.Id.submit_area = global::MatematicaBacMD.Droid.Resource.Id.submit_area;
+			global::XamarinFormsGesture.Resource.Id.SYM = global::MatematicaBacMD.Droid.Resource.Id.SYM;
+			global::XamarinFormsGesture.Resource.Id.tabMode = global::MatematicaBacMD.Droid.Resource.Id.tabMode;
+			global::XamarinFormsGesture.Resource.Id.tag_transition_group = global::MatematicaBacMD.Droid.Resource.Id.tag_transition_group;
+			global::XamarinFormsGesture.Resource.Id.tag_unhandled_key_event_manager = global::MatematicaBacMD.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::XamarinFormsGesture.Resource.Id.tag_unhandled_key_listeners = global::MatematicaBacMD.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::XamarinFormsGesture.Resource.Id.text = global::MatematicaBacMD.Droid.Resource.Id.text;
+			global::XamarinFormsGesture.Resource.Id.text2 = global::MatematicaBacMD.Droid.Resource.Id.text2;
+			global::XamarinFormsGesture.Resource.Id.textinput_counter = global::MatematicaBacMD.Droid.Resource.Id.textinput_counter;
+			global::XamarinFormsGesture.Resource.Id.textinput_error = global::MatematicaBacMD.Droid.Resource.Id.textinput_error;
+			global::XamarinFormsGesture.Resource.Id.textinput_helper_text = global::MatematicaBacMD.Droid.Resource.Id.textinput_helper_text;
+			global::XamarinFormsGesture.Resource.Id.textSpacerNoButtons = global::MatematicaBacMD.Droid.Resource.Id.textSpacerNoButtons;
+			global::XamarinFormsGesture.Resource.Id.textSpacerNoTitle = global::MatematicaBacMD.Droid.Resource.Id.textSpacerNoTitle;
+			global::XamarinFormsGesture.Resource.Id.textStart = global::MatematicaBacMD.Droid.Resource.Id.textStart;
+			global::XamarinFormsGesture.Resource.Id.text_input_password_toggle = global::MatematicaBacMD.Droid.Resource.Id.text_input_password_toggle;
+			global::XamarinFormsGesture.Resource.Id.time = global::MatematicaBacMD.Droid.Resource.Id.time;
+			global::XamarinFormsGesture.Resource.Id.title = global::MatematicaBacMD.Droid.Resource.Id.title;
+			global::XamarinFormsGesture.Resource.Id.titleDividerNoCustom = global::MatematicaBacMD.Droid.Resource.Id.titleDividerNoCustom;
+			global::XamarinFormsGesture.Resource.Id.title_template = global::MatematicaBacMD.Droid.Resource.Id.title_template;
+			global::XamarinFormsGesture.Resource.Id.top = global::MatematicaBacMD.Droid.Resource.Id.top;
+			global::XamarinFormsGesture.Resource.Id.topPanel = global::MatematicaBacMD.Droid.Resource.Id.topPanel;
+			global::XamarinFormsGesture.Resource.Id.touch_outside = global::MatematicaBacMD.Droid.Resource.Id.touch_outside;
+			global::XamarinFormsGesture.Resource.Id.transition_current_scene = global::MatematicaBacMD.Droid.Resource.Id.transition_current_scene;
+			global::XamarinFormsGesture.Resource.Id.transition_layout_save = global::MatematicaBacMD.Droid.Resource.Id.transition_layout_save;
+			global::XamarinFormsGesture.Resource.Id.transition_position = global::MatematicaBacMD.Droid.Resource.Id.transition_position;
+			global::XamarinFormsGesture.Resource.Id.transition_scene_layoutid_cache = global::MatematicaBacMD.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::XamarinFormsGesture.Resource.Id.transition_transform = global::MatematicaBacMD.Droid.Resource.Id.transition_transform;
+			global::XamarinFormsGesture.Resource.Id.uniform = global::MatematicaBacMD.Droid.Resource.Id.uniform;
+			global::XamarinFormsGesture.Resource.Id.unlabeled = global::MatematicaBacMD.Droid.Resource.Id.unlabeled;
+			global::XamarinFormsGesture.Resource.Id.up = global::MatematicaBacMD.Droid.Resource.Id.up;
+			global::XamarinFormsGesture.Resource.Id.useLogo = global::MatematicaBacMD.Droid.Resource.Id.useLogo;
+			global::XamarinFormsGesture.Resource.Id.view_offset_helper = global::MatematicaBacMD.Droid.Resource.Id.view_offset_helper;
+			global::XamarinFormsGesture.Resource.Id.visible = global::MatematicaBacMD.Droid.Resource.Id.visible;
+			global::XamarinFormsGesture.Resource.Id.withText = global::MatematicaBacMD.Droid.Resource.Id.withText;
+			global::XamarinFormsGesture.Resource.Id.wrap_content = global::MatematicaBacMD.Droid.Resource.Id.wrap_content;
+			global::XamarinFormsGesture.Resource.Integer.abc_config_activityDefaultDur = global::MatematicaBacMD.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::XamarinFormsGesture.Resource.Integer.abc_config_activityShortDur = global::MatematicaBacMD.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::XamarinFormsGesture.Resource.Integer.app_bar_elevation_anim_duration = global::MatematicaBacMD.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::XamarinFormsGesture.Resource.Integer.bottom_sheet_slide_duration = global::MatematicaBacMD.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::XamarinFormsGesture.Resource.Integer.cancel_button_image_alpha = global::MatematicaBacMD.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::XamarinFormsGesture.Resource.Integer.config_tooltipAnimTime = global::MatematicaBacMD.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::XamarinFormsGesture.Resource.Integer.design_snackbar_text_max_lines = global::MatematicaBacMD.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::XamarinFormsGesture.Resource.Integer.design_tab_indicator_anim_duration_ms = global::MatematicaBacMD.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::XamarinFormsGesture.Resource.Integer.hide_password_duration = global::MatematicaBacMD.Droid.Resource.Integer.hide_password_duration;
+			global::XamarinFormsGesture.Resource.Integer.mtrl_btn_anim_delay_ms = global::MatematicaBacMD.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::XamarinFormsGesture.Resource.Integer.mtrl_btn_anim_duration_ms = global::MatematicaBacMD.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::XamarinFormsGesture.Resource.Integer.mtrl_chip_anim_duration = global::MatematicaBacMD.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::XamarinFormsGesture.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::MatematicaBacMD.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::XamarinFormsGesture.Resource.Integer.show_password_duration = global::MatematicaBacMD.Droid.Resource.Integer.show_password_duration;
+			global::XamarinFormsGesture.Resource.Integer.status_bar_notification_info_maxnum = global::MatematicaBacMD.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::XamarinFormsGesture.Resource.Interpolator.mtrl_fast_out_linear_in = global::MatematicaBacMD.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::XamarinFormsGesture.Resource.Interpolator.mtrl_fast_out_slow_in = global::MatematicaBacMD.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::XamarinFormsGesture.Resource.Interpolator.mtrl_linear = global::MatematicaBacMD.Droid.Resource.Interpolator.mtrl_linear;
+			global::XamarinFormsGesture.Resource.Interpolator.mtrl_linear_out_slow_in = global::MatematicaBacMD.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::XamarinFormsGesture.Resource.Layout.abc_action_bar_title_item = global::MatematicaBacMD.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::XamarinFormsGesture.Resource.Layout.abc_action_bar_up_container = global::MatematicaBacMD.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::XamarinFormsGesture.Resource.Layout.abc_action_menu_item_layout = global::MatematicaBacMD.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::XamarinFormsGesture.Resource.Layout.abc_action_menu_layout = global::MatematicaBacMD.Droid.Resource.Layout.abc_action_menu_layout;
+			global::XamarinFormsGesture.Resource.Layout.abc_action_mode_bar = global::MatematicaBacMD.Droid.Resource.Layout.abc_action_mode_bar;
+			global::XamarinFormsGesture.Resource.Layout.abc_action_mode_close_item_material = global::MatematicaBacMD.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::XamarinFormsGesture.Resource.Layout.abc_activity_chooser_view = global::MatematicaBacMD.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::XamarinFormsGesture.Resource.Layout.abc_activity_chooser_view_list_item = global::MatematicaBacMD.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::XamarinFormsGesture.Resource.Layout.abc_alert_dialog_button_bar_material = global::MatematicaBacMD.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::XamarinFormsGesture.Resource.Layout.abc_alert_dialog_material = global::MatematicaBacMD.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::XamarinFormsGesture.Resource.Layout.abc_alert_dialog_title_material = global::MatematicaBacMD.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::XamarinFormsGesture.Resource.Layout.abc_cascading_menu_item_layout = global::MatematicaBacMD.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::XamarinFormsGesture.Resource.Layout.abc_dialog_title_material = global::MatematicaBacMD.Droid.Resource.Layout.abc_dialog_title_material;
+			global::XamarinFormsGesture.Resource.Layout.abc_expanded_menu_layout = global::MatematicaBacMD.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::XamarinFormsGesture.Resource.Layout.abc_list_menu_item_checkbox = global::MatematicaBacMD.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::XamarinFormsGesture.Resource.Layout.abc_list_menu_item_icon = global::MatematicaBacMD.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::XamarinFormsGesture.Resource.Layout.abc_list_menu_item_layout = global::MatematicaBacMD.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::XamarinFormsGesture.Resource.Layout.abc_list_menu_item_radio = global::MatematicaBacMD.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::XamarinFormsGesture.Resource.Layout.abc_popup_menu_header_item_layout = global::MatematicaBacMD.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::XamarinFormsGesture.Resource.Layout.abc_popup_menu_item_layout = global::MatematicaBacMD.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::XamarinFormsGesture.Resource.Layout.abc_screen_content_include = global::MatematicaBacMD.Droid.Resource.Layout.abc_screen_content_include;
+			global::XamarinFormsGesture.Resource.Layout.abc_screen_simple = global::MatematicaBacMD.Droid.Resource.Layout.abc_screen_simple;
+			global::XamarinFormsGesture.Resource.Layout.abc_screen_simple_overlay_action_mode = global::MatematicaBacMD.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::XamarinFormsGesture.Resource.Layout.abc_screen_toolbar = global::MatematicaBacMD.Droid.Resource.Layout.abc_screen_toolbar;
+			global::XamarinFormsGesture.Resource.Layout.abc_search_dropdown_item_icons_2line = global::MatematicaBacMD.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::XamarinFormsGesture.Resource.Layout.abc_search_view = global::MatematicaBacMD.Droid.Resource.Layout.abc_search_view;
+			global::XamarinFormsGesture.Resource.Layout.abc_select_dialog_material = global::MatematicaBacMD.Droid.Resource.Layout.abc_select_dialog_material;
+			global::XamarinFormsGesture.Resource.Layout.abc_tooltip = global::MatematicaBacMD.Droid.Resource.Layout.abc_tooltip;
+			global::XamarinFormsGesture.Resource.Layout.BottomTabLayout = global::MatematicaBacMD.Droid.Resource.Layout.BottomTabLayout;
+			global::XamarinFormsGesture.Resource.Layout.browser_actions_context_menu_page = global::MatematicaBacMD.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::XamarinFormsGesture.Resource.Layout.browser_actions_context_menu_row = global::MatematicaBacMD.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::XamarinFormsGesture.Resource.Layout.design_bottom_navigation_item = global::MatematicaBacMD.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::XamarinFormsGesture.Resource.Layout.design_bottom_sheet_dialog = global::MatematicaBacMD.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::XamarinFormsGesture.Resource.Layout.design_layout_snackbar = global::MatematicaBacMD.Droid.Resource.Layout.design_layout_snackbar;
+			global::XamarinFormsGesture.Resource.Layout.design_layout_snackbar_include = global::MatematicaBacMD.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::XamarinFormsGesture.Resource.Layout.design_layout_tab_icon = global::MatematicaBacMD.Droid.Resource.Layout.design_layout_tab_icon;
+			global::XamarinFormsGesture.Resource.Layout.design_layout_tab_text = global::MatematicaBacMD.Droid.Resource.Layout.design_layout_tab_text;
+			global::XamarinFormsGesture.Resource.Layout.design_menu_item_action_area = global::MatematicaBacMD.Droid.Resource.Layout.design_menu_item_action_area;
+			global::XamarinFormsGesture.Resource.Layout.design_navigation_item = global::MatematicaBacMD.Droid.Resource.Layout.design_navigation_item;
+			global::XamarinFormsGesture.Resource.Layout.design_navigation_item_header = global::MatematicaBacMD.Droid.Resource.Layout.design_navigation_item_header;
+			global::XamarinFormsGesture.Resource.Layout.design_navigation_item_separator = global::MatematicaBacMD.Droid.Resource.Layout.design_navigation_item_separator;
+			global::XamarinFormsGesture.Resource.Layout.design_navigation_item_subheader = global::MatematicaBacMD.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::XamarinFormsGesture.Resource.Layout.design_navigation_menu = global::MatematicaBacMD.Droid.Resource.Layout.design_navigation_menu;
+			global::XamarinFormsGesture.Resource.Layout.design_navigation_menu_item = global::MatematicaBacMD.Droid.Resource.Layout.design_navigation_menu_item;
+			global::XamarinFormsGesture.Resource.Layout.design_text_input_password_icon = global::MatematicaBacMD.Droid.Resource.Layout.design_text_input_password_icon;
+			global::XamarinFormsGesture.Resource.Layout.FlyoutContent = global::MatematicaBacMD.Droid.Resource.Layout.FlyoutContent;
+			global::XamarinFormsGesture.Resource.Layout.mtrl_layout_snackbar = global::MatematicaBacMD.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::XamarinFormsGesture.Resource.Layout.mtrl_layout_snackbar_include = global::MatematicaBacMD.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::XamarinFormsGesture.Resource.Layout.notification_action = global::MatematicaBacMD.Droid.Resource.Layout.notification_action;
+			global::XamarinFormsGesture.Resource.Layout.notification_action_tombstone = global::MatematicaBacMD.Droid.Resource.Layout.notification_action_tombstone;
+			global::XamarinFormsGesture.Resource.Layout.notification_media_action = global::MatematicaBacMD.Droid.Resource.Layout.notification_media_action;
+			global::XamarinFormsGesture.Resource.Layout.notification_media_cancel_action = global::MatematicaBacMD.Droid.Resource.Layout.notification_media_cancel_action;
+			global::XamarinFormsGesture.Resource.Layout.notification_template_big_media = global::MatematicaBacMD.Droid.Resource.Layout.notification_template_big_media;
+			global::XamarinFormsGesture.Resource.Layout.notification_template_big_media_custom = global::MatematicaBacMD.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::XamarinFormsGesture.Resource.Layout.notification_template_big_media_narrow = global::MatematicaBacMD.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::XamarinFormsGesture.Resource.Layout.notification_template_big_media_narrow_custom = global::MatematicaBacMD.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::XamarinFormsGesture.Resource.Layout.notification_template_custom_big = global::MatematicaBacMD.Droid.Resource.Layout.notification_template_custom_big;
+			global::XamarinFormsGesture.Resource.Layout.notification_template_icon_group = global::MatematicaBacMD.Droid.Resource.Layout.notification_template_icon_group;
+			global::XamarinFormsGesture.Resource.Layout.notification_template_lines_media = global::MatematicaBacMD.Droid.Resource.Layout.notification_template_lines_media;
+			global::XamarinFormsGesture.Resource.Layout.notification_template_media = global::MatematicaBacMD.Droid.Resource.Layout.notification_template_media;
+			global::XamarinFormsGesture.Resource.Layout.notification_template_media_custom = global::MatematicaBacMD.Droid.Resource.Layout.notification_template_media_custom;
+			global::XamarinFormsGesture.Resource.Layout.notification_template_part_chronometer = global::MatematicaBacMD.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::XamarinFormsGesture.Resource.Layout.notification_template_part_time = global::MatematicaBacMD.Droid.Resource.Layout.notification_template_part_time;
+			global::XamarinFormsGesture.Resource.Layout.RootLayout = global::MatematicaBacMD.Droid.Resource.Layout.RootLayout;
+			global::XamarinFormsGesture.Resource.Layout.select_dialog_item_material = global::MatematicaBacMD.Droid.Resource.Layout.select_dialog_item_material;
+			global::XamarinFormsGesture.Resource.Layout.select_dialog_multichoice_material = global::MatematicaBacMD.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::XamarinFormsGesture.Resource.Layout.select_dialog_singlechoice_material = global::MatematicaBacMD.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::XamarinFormsGesture.Resource.Layout.ShellContent = global::MatematicaBacMD.Droid.Resource.Layout.ShellContent;
+			global::XamarinFormsGesture.Resource.Layout.support_simple_spinner_dropdown_item = global::MatematicaBacMD.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::XamarinFormsGesture.Resource.String.abc_action_bar_home_description = global::MatematicaBacMD.Droid.Resource.String.abc_action_bar_home_description;
+			global::XamarinFormsGesture.Resource.String.abc_action_bar_up_description = global::MatematicaBacMD.Droid.Resource.String.abc_action_bar_up_description;
+			global::XamarinFormsGesture.Resource.String.abc_action_menu_overflow_description = global::MatematicaBacMD.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::XamarinFormsGesture.Resource.String.abc_action_mode_done = global::MatematicaBacMD.Droid.Resource.String.abc_action_mode_done;
+			global::XamarinFormsGesture.Resource.String.abc_activitychooserview_choose_application = global::MatematicaBacMD.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::XamarinFormsGesture.Resource.String.abc_activity_chooser_view_see_all = global::MatematicaBacMD.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::XamarinFormsGesture.Resource.String.abc_capital_off = global::MatematicaBacMD.Droid.Resource.String.abc_capital_off;
+			global::XamarinFormsGesture.Resource.String.abc_capital_on = global::MatematicaBacMD.Droid.Resource.String.abc_capital_on;
+			global::XamarinFormsGesture.Resource.String.abc_font_family_body_1_material = global::MatematicaBacMD.Droid.Resource.String.abc_font_family_body_1_material;
+			global::XamarinFormsGesture.Resource.String.abc_font_family_body_2_material = global::MatematicaBacMD.Droid.Resource.String.abc_font_family_body_2_material;
+			global::XamarinFormsGesture.Resource.String.abc_font_family_button_material = global::MatematicaBacMD.Droid.Resource.String.abc_font_family_button_material;
+			global::XamarinFormsGesture.Resource.String.abc_font_family_caption_material = global::MatematicaBacMD.Droid.Resource.String.abc_font_family_caption_material;
+			global::XamarinFormsGesture.Resource.String.abc_font_family_display_1_material = global::MatematicaBacMD.Droid.Resource.String.abc_font_family_display_1_material;
+			global::XamarinFormsGesture.Resource.String.abc_font_family_display_2_material = global::MatematicaBacMD.Droid.Resource.String.abc_font_family_display_2_material;
+			global::XamarinFormsGesture.Resource.String.abc_font_family_display_3_material = global::MatematicaBacMD.Droid.Resource.String.abc_font_family_display_3_material;
+			global::XamarinFormsGesture.Resource.String.abc_font_family_display_4_material = global::MatematicaBacMD.Droid.Resource.String.abc_font_family_display_4_material;
+			global::XamarinFormsGesture.Resource.String.abc_font_family_headline_material = global::MatematicaBacMD.Droid.Resource.String.abc_font_family_headline_material;
+			global::XamarinFormsGesture.Resource.String.abc_font_family_menu_material = global::MatematicaBacMD.Droid.Resource.String.abc_font_family_menu_material;
+			global::XamarinFormsGesture.Resource.String.abc_font_family_subhead_material = global::MatematicaBacMD.Droid.Resource.String.abc_font_family_subhead_material;
+			global::XamarinFormsGesture.Resource.String.abc_font_family_title_material = global::MatematicaBacMD.Droid.Resource.String.abc_font_family_title_material;
+			global::XamarinFormsGesture.Resource.String.abc_menu_alt_shortcut_label = global::MatematicaBacMD.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::XamarinFormsGesture.Resource.String.abc_menu_ctrl_shortcut_label = global::MatematicaBacMD.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::XamarinFormsGesture.Resource.String.abc_menu_delete_shortcut_label = global::MatematicaBacMD.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::XamarinFormsGesture.Resource.String.abc_menu_enter_shortcut_label = global::MatematicaBacMD.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::XamarinFormsGesture.Resource.String.abc_menu_function_shortcut_label = global::MatematicaBacMD.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::XamarinFormsGesture.Resource.String.abc_menu_meta_shortcut_label = global::MatematicaBacMD.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::XamarinFormsGesture.Resource.String.abc_menu_shift_shortcut_label = global::MatematicaBacMD.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::XamarinFormsGesture.Resource.String.abc_menu_space_shortcut_label = global::MatematicaBacMD.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::XamarinFormsGesture.Resource.String.abc_menu_sym_shortcut_label = global::MatematicaBacMD.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::XamarinFormsGesture.Resource.String.abc_prepend_shortcut_label = global::MatematicaBacMD.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::XamarinFormsGesture.Resource.String.abc_searchview_description_clear = global::MatematicaBacMD.Droid.Resource.String.abc_searchview_description_clear;
+			global::XamarinFormsGesture.Resource.String.abc_searchview_description_query = global::MatematicaBacMD.Droid.Resource.String.abc_searchview_description_query;
+			global::XamarinFormsGesture.Resource.String.abc_searchview_description_search = global::MatematicaBacMD.Droid.Resource.String.abc_searchview_description_search;
+			global::XamarinFormsGesture.Resource.String.abc_searchview_description_submit = global::MatematicaBacMD.Droid.Resource.String.abc_searchview_description_submit;
+			global::XamarinFormsGesture.Resource.String.abc_searchview_description_voice = global::MatematicaBacMD.Droid.Resource.String.abc_searchview_description_voice;
+			global::XamarinFormsGesture.Resource.String.abc_search_hint = global::MatematicaBacMD.Droid.Resource.String.abc_search_hint;
+			global::XamarinFormsGesture.Resource.String.abc_shareactionprovider_share_with = global::MatematicaBacMD.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::XamarinFormsGesture.Resource.String.abc_shareactionprovider_share_with_application = global::MatematicaBacMD.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::XamarinFormsGesture.Resource.String.abc_toolbar_collapse_description = global::MatematicaBacMD.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::XamarinFormsGesture.Resource.String.appbar_scrolling_view_behavior = global::MatematicaBacMD.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::XamarinFormsGesture.Resource.String.bottom_sheet_behavior = global::MatematicaBacMD.Droid.Resource.String.bottom_sheet_behavior;
+			global::XamarinFormsGesture.Resource.String.character_counter_content_description = global::MatematicaBacMD.Droid.Resource.String.character_counter_content_description;
+			global::XamarinFormsGesture.Resource.String.character_counter_pattern = global::MatematicaBacMD.Droid.Resource.String.character_counter_pattern;
+			global::XamarinFormsGesture.Resource.String.fab_transformation_scrim_behavior = global::MatematicaBacMD.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::XamarinFormsGesture.Resource.String.fab_transformation_sheet_behavior = global::MatematicaBacMD.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::XamarinFormsGesture.Resource.String.hide_bottom_view_on_scroll_behavior = global::MatematicaBacMD.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::XamarinFormsGesture.Resource.String.mtrl_chip_close_icon_content_description = global::MatematicaBacMD.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::XamarinFormsGesture.Resource.String.password_toggle_content_description = global::MatematicaBacMD.Droid.Resource.String.password_toggle_content_description;
+			global::XamarinFormsGesture.Resource.String.path_password_eye = global::MatematicaBacMD.Droid.Resource.String.path_password_eye;
+			global::XamarinFormsGesture.Resource.String.path_password_eye_mask_strike_through = global::MatematicaBacMD.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::XamarinFormsGesture.Resource.String.path_password_eye_mask_visible = global::MatematicaBacMD.Droid.Resource.String.path_password_eye_mask_visible;
+			global::XamarinFormsGesture.Resource.String.path_password_strike_through = global::MatematicaBacMD.Droid.Resource.String.path_password_strike_through;
+			global::XamarinFormsGesture.Resource.String.search_menu_title = global::MatematicaBacMD.Droid.Resource.String.search_menu_title;
+			global::XamarinFormsGesture.Resource.String.status_bar_notification_info_overflow = global::MatematicaBacMD.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::XamarinFormsGesture.Resource.Style.AlertDialog_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.AlertDialog_AppCompat_Light = global::MatematicaBacMD.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::XamarinFormsGesture.Resource.Style.Animation_AppCompat_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Animation_AppCompat_DropDownUp = global::MatematicaBacMD.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::XamarinFormsGesture.Resource.Style.Animation_AppCompat_Tooltip = global::MatematicaBacMD.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::XamarinFormsGesture.Resource.Style.Animation_Design_BottomSheetDialog = global::MatematicaBacMD.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::XamarinFormsGesture.Resource.Style.Base_AlertDialog_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.Base_AlertDialog_AppCompat_Light = global::MatematicaBacMD.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::XamarinFormsGesture.Resource.Style.Base_Animation_AppCompat_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::MatematicaBacMD.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::XamarinFormsGesture.Resource.Style.Base_Animation_AppCompat_Tooltip = global::MatematicaBacMD.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::XamarinFormsGesture.Resource.Style.Base_CardView = global::MatematicaBacMD.Droid.Resource.Style.Base_CardView;
+			global::XamarinFormsGesture.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.Base_DialogWindowTitle_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Button = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Large = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Small = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Title = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::XamarinFormsGesture.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::MatematicaBacMD.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::XamarinFormsGesture.Resource.Style.Base_ThemeOverlay_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::MatematicaBacMD.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::XamarinFormsGesture.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::MatematicaBacMD.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::XamarinFormsGesture.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::MatematicaBacMD.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::XamarinFormsGesture.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::MatematicaBacMD.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::XamarinFormsGesture.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::MatematicaBacMD.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::XamarinFormsGesture.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::MatematicaBacMD.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_AppCompat_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_AppCompat_Light = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_MaterialComponents = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_MaterialComponents_Light = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::XamarinFormsGesture.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::MatematicaBacMD.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::XamarinFormsGesture.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::MatematicaBacMD.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::XamarinFormsGesture.Resource.Style.Base_V14_Theme_MaterialComponents = global::MatematicaBacMD.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::XamarinFormsGesture.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::MatematicaBacMD.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::XamarinFormsGesture.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::MatematicaBacMD.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::XamarinFormsGesture.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::MatematicaBacMD.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::XamarinFormsGesture.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::MatematicaBacMD.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::XamarinFormsGesture.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Base_V21_Theme_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Base_V21_Theme_AppCompat_Light = global::MatematicaBacMD.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::XamarinFormsGesture.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Base_V22_Theme_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.Base_V22_Theme_AppCompat_Light = global::MatematicaBacMD.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::XamarinFormsGesture.Resource.Style.Base_V23_Theme_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.Base_V23_Theme_AppCompat_Light = global::MatematicaBacMD.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::XamarinFormsGesture.Resource.Style.Base_V26_Theme_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.Base_V26_Theme_AppCompat_Light = global::MatematicaBacMD.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::XamarinFormsGesture.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::MatematicaBacMD.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::XamarinFormsGesture.Resource.Style.Base_V28_Theme_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.Base_V28_Theme_AppCompat_Light = global::MatematicaBacMD.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::XamarinFormsGesture.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Base_V7_Theme_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Base_V7_Theme_AppCompat_Light = global::MatematicaBacMD.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::XamarinFormsGesture.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::MatematicaBacMD.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::XamarinFormsGesture.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::MatematicaBacMD.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::XamarinFormsGesture.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::MatematicaBacMD.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ActionBar = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ActionButton = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ActionMode = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Button = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Button_Small = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_EditText = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ImageButton = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ListView = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_RatingBar = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_SearchView = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_SeekBar = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Spinner = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Toolbar = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_Design_TabLayout = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_MaterialComponents_Chip = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::XamarinFormsGesture.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::MatematicaBacMD.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::XamarinFormsGesture.Resource.Style.CardView = global::MatematicaBacMD.Droid.Resource.Style.CardView;
+			global::XamarinFormsGesture.Resource.Style.CardView_Dark = global::MatematicaBacMD.Droid.Resource.Style.CardView_Dark;
+			global::XamarinFormsGesture.Resource.Style.CardView_Light = global::MatematicaBacMD.Droid.Resource.Style.CardView_Light;
+			global::XamarinFormsGesture.Resource.Style.collectionViewStyle = global::MatematicaBacMD.Droid.Resource.Style.collectionViewStyle;
+			global::XamarinFormsGesture.Resource.Style.NestedScrollBarStyle = global::MatematicaBacMD.Droid.Resource.Style.NestedScrollBarStyle;
+			global::XamarinFormsGesture.Resource.Style.Platform_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.Platform_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.Platform_AppCompat_Light = global::MatematicaBacMD.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::XamarinFormsGesture.Resource.Style.Platform_MaterialComponents = global::MatematicaBacMD.Droid.Resource.Style.Platform_MaterialComponents;
+			global::XamarinFormsGesture.Resource.Style.Platform_MaterialComponents_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Platform_MaterialComponents_Light = global::MatematicaBacMD.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::XamarinFormsGesture.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Platform_ThemeOverlay_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::MatematicaBacMD.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::XamarinFormsGesture.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::MatematicaBacMD.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::XamarinFormsGesture.Resource.Style.Platform_V21_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.Platform_V21_AppCompat_Light = global::MatematicaBacMD.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::XamarinFormsGesture.Resource.Style.Platform_V25_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.Platform_V25_AppCompat_Light = global::MatematicaBacMD.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::XamarinFormsGesture.Resource.Style.Platform_Widget_AppCompat_Spinner = global::MatematicaBacMD.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::XamarinFormsGesture.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::MatematicaBacMD.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::XamarinFormsGesture.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::MatematicaBacMD.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::XamarinFormsGesture.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::MatematicaBacMD.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::XamarinFormsGesture.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::MatematicaBacMD.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::XamarinFormsGesture.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::MatematicaBacMD.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::XamarinFormsGesture.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::MatematicaBacMD.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::XamarinFormsGesture.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::MatematicaBacMD.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::XamarinFormsGesture.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::MatematicaBacMD.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::XamarinFormsGesture.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::MatematicaBacMD.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::XamarinFormsGesture.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::MatematicaBacMD.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::XamarinFormsGesture.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::MatematicaBacMD.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::XamarinFormsGesture.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::MatematicaBacMD.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::XamarinFormsGesture.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::MatematicaBacMD.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::XamarinFormsGesture.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::MatematicaBacMD.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::XamarinFormsGesture.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::MatematicaBacMD.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::XamarinFormsGesture.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::MatematicaBacMD.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Body1 = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Body2 = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Button = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Caption = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Display1 = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Display2 = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Display3 = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Display4 = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Headline = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Inverse = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Large = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Medium = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Menu = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Small = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Subhead = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Title = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Tooltip = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Compat_Notification = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Compat_Notification_Info = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Compat_Notification_Media = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Compat_Notification_Time = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Compat_Notification_Title = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Design_Counter = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Design_Counter_Overflow = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Design_Error = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Design_HelperText = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Design_Hint = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Design_Snackbar_Message = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Design_Tab = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_MaterialComponents_Button = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_MaterialComponents_Caption = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_MaterialComponents_Chip = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_MaterialComponents_Overline = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_MaterialComponents_Tab = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::XamarinFormsGesture.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::MatematicaBacMD.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_AppCompat_Dark = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_AppCompat_Light = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_MaterialComponents = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::XamarinFormsGesture.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::MatematicaBacMD.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_CompactMenu = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_DayNight = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_Dialog_Alert = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_Light = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_Light_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::XamarinFormsGesture.Resource.Style.Theme_AppCompat_NoActionBar = global::MatematicaBacMD.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::XamarinFormsGesture.Resource.Style.Theme_Design = global::MatematicaBacMD.Droid.Resource.Style.Theme_Design;
+			global::XamarinFormsGesture.Resource.Style.Theme_Design_BottomSheetDialog = global::MatematicaBacMD.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::XamarinFormsGesture.Resource.Style.Theme_Design_Light = global::MatematicaBacMD.Droid.Resource.Style.Theme_Design_Light;
+			global::XamarinFormsGesture.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::MatematicaBacMD.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::XamarinFormsGesture.Resource.Style.Theme_Design_Light_NoActionBar = global::MatematicaBacMD.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::XamarinFormsGesture.Resource.Style.Theme_Design_NoActionBar = global::MatematicaBacMD.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_Bridge = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_CompactMenu = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_Light = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_NoActionBar = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::XamarinFormsGesture.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::MatematicaBacMD.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ActionBar = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ActionButton = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ActionMode = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ActivityChooserView = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Button = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ButtonBar = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Button_Borderless = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Button_Colored = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Button_Small = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_EditText = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ImageButton = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_ActionBar = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_ActionButton = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_SearchView = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ListMenuView = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ListPopupWindow = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ListView = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ListView_DropDown = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ListView_Menu = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_PopupMenu = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_PopupWindow = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ProgressBar = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_RatingBar = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_RatingBar_Small = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_SearchView = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_SeekBar = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Spinner = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Toolbar = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::XamarinFormsGesture.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::MatematicaBacMD.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::XamarinFormsGesture.Resource.Style.Widget_Compat_NotificationActionContainer = global::MatematicaBacMD.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::XamarinFormsGesture.Resource.Style.Widget_Compat_NotificationActionText = global::MatematicaBacMD.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::XamarinFormsGesture.Resource.Style.Widget_Design_AppBarLayout = global::MatematicaBacMD.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::XamarinFormsGesture.Resource.Style.Widget_Design_BottomNavigationView = global::MatematicaBacMD.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::XamarinFormsGesture.Resource.Style.Widget_Design_BottomSheet_Modal = global::MatematicaBacMD.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::XamarinFormsGesture.Resource.Style.Widget_Design_CollapsingToolbar = global::MatematicaBacMD.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::XamarinFormsGesture.Resource.Style.Widget_Design_FloatingActionButton = global::MatematicaBacMD.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::XamarinFormsGesture.Resource.Style.Widget_Design_NavigationView = global::MatematicaBacMD.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::XamarinFormsGesture.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::MatematicaBacMD.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::XamarinFormsGesture.Resource.Style.Widget_Design_Snackbar = global::MatematicaBacMD.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::XamarinFormsGesture.Resource.Style.Widget_Design_TabLayout = global::MatematicaBacMD.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::XamarinFormsGesture.Resource.Style.Widget_Design_TextInputLayout = global::MatematicaBacMD.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_Button = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_Button_Icon = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_CardView = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_ChipGroup = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_Chip_Action = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_NavigationView = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_Snackbar = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_TabLayout = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::XamarinFormsGesture.Resource.Style.Widget_MaterialComponents_Toolbar = global::MatematicaBacMD.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::XamarinFormsGesture.Resource.Style.Widget_Support_CoordinatorLayout = global::MatematicaBacMD.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBarLayout = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBarLayout;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_background = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_background;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_backgroundSplit = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_backgroundStacked = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_contentInsetEnd = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_contentInsetLeft = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_contentInsetRight = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_contentInsetStart = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_customNavigationLayout = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_displayOptions = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_divider = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_divider;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_elevation = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_elevation;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_height = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_height;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_hideOnContentScroll = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_homeAsUpIndicator = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_homeLayout = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_icon = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_icon;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_itemPadding = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_logo = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_logo;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_navigationMode = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_popupTheme = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_progressBarPadding = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_progressBarStyle = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_subtitle = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_subtitleTextStyle = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_title = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_title;
+			global::XamarinFormsGesture.Resource.Styleable.ActionBar_titleTextStyle = global::MatematicaBacMD.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::XamarinFormsGesture.Resource.Styleable.ActionMenuItemView = global::MatematicaBacMD.Droid.Resource.Styleable.ActionMenuItemView;
+			global::XamarinFormsGesture.Resource.Styleable.ActionMenuItemView_android_minWidth = global::MatematicaBacMD.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::XamarinFormsGesture.Resource.Styleable.ActionMenuView = global::MatematicaBacMD.Droid.Resource.Styleable.ActionMenuView;
+			global::XamarinFormsGesture.Resource.Styleable.ActionMode = global::MatematicaBacMD.Droid.Resource.Styleable.ActionMode;
+			global::XamarinFormsGesture.Resource.Styleable.ActionMode_background = global::MatematicaBacMD.Droid.Resource.Styleable.ActionMode_background;
+			global::XamarinFormsGesture.Resource.Styleable.ActionMode_backgroundSplit = global::MatematicaBacMD.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::XamarinFormsGesture.Resource.Styleable.ActionMode_closeItemLayout = global::MatematicaBacMD.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::XamarinFormsGesture.Resource.Styleable.ActionMode_height = global::MatematicaBacMD.Droid.Resource.Styleable.ActionMode_height;
+			global::XamarinFormsGesture.Resource.Styleable.ActionMode_subtitleTextStyle = global::MatematicaBacMD.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::XamarinFormsGesture.Resource.Styleable.ActionMode_titleTextStyle = global::MatematicaBacMD.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::XamarinFormsGesture.Resource.Styleable.ActivityChooserView = global::MatematicaBacMD.Droid.Resource.Styleable.ActivityChooserView;
+			global::XamarinFormsGesture.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::MatematicaBacMD.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::XamarinFormsGesture.Resource.Styleable.ActivityChooserView_initialActivityCount = global::MatematicaBacMD.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::XamarinFormsGesture.Resource.Styleable.AlertDialog = global::MatematicaBacMD.Droid.Resource.Styleable.AlertDialog;
+			global::XamarinFormsGesture.Resource.Styleable.AlertDialog_android_layout = global::MatematicaBacMD.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::XamarinFormsGesture.Resource.Styleable.AlertDialog_buttonIconDimen = global::MatematicaBacMD.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::XamarinFormsGesture.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::MatematicaBacMD.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::XamarinFormsGesture.Resource.Styleable.AlertDialog_listItemLayout = global::MatematicaBacMD.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::XamarinFormsGesture.Resource.Styleable.AlertDialog_listLayout = global::MatematicaBacMD.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::XamarinFormsGesture.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::MatematicaBacMD.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::XamarinFormsGesture.Resource.Styleable.AlertDialog_showTitle = global::MatematicaBacMD.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::XamarinFormsGesture.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::MatematicaBacMD.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::XamarinFormsGesture.Resource.Styleable.AnimatedStateListDrawableCompat = global::MatematicaBacMD.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::XamarinFormsGesture.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::MatematicaBacMD.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::XamarinFormsGesture.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::MatematicaBacMD.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::XamarinFormsGesture.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::MatematicaBacMD.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::XamarinFormsGesture.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::MatematicaBacMD.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::XamarinFormsGesture.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::MatematicaBacMD.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::XamarinFormsGesture.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::MatematicaBacMD.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::XamarinFormsGesture.Resource.Styleable.AnimatedStateListDrawableItem = global::MatematicaBacMD.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::XamarinFormsGesture.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::MatematicaBacMD.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::XamarinFormsGesture.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::MatematicaBacMD.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::XamarinFormsGesture.Resource.Styleable.AnimatedStateListDrawableTransition = global::MatematicaBacMD.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::XamarinFormsGesture.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::MatematicaBacMD.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::XamarinFormsGesture.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::MatematicaBacMD.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::XamarinFormsGesture.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::MatematicaBacMD.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::XamarinFormsGesture.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::MatematicaBacMD.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::XamarinFormsGesture.Resource.Styleable.AppBarLayout = global::MatematicaBacMD.Droid.Resource.Styleable.AppBarLayout;
+			global::XamarinFormsGesture.Resource.Styleable.AppBarLayoutStates = global::MatematicaBacMD.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::XamarinFormsGesture.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::MatematicaBacMD.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::XamarinFormsGesture.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::MatematicaBacMD.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::XamarinFormsGesture.Resource.Styleable.AppBarLayoutStates_state_liftable = global::MatematicaBacMD.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::XamarinFormsGesture.Resource.Styleable.AppBarLayoutStates_state_lifted = global::MatematicaBacMD.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::XamarinFormsGesture.Resource.Styleable.AppBarLayout_android_background = global::MatematicaBacMD.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::XamarinFormsGesture.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::MatematicaBacMD.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::XamarinFormsGesture.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::MatematicaBacMD.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::XamarinFormsGesture.Resource.Styleable.AppBarLayout_elevation = global::MatematicaBacMD.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::XamarinFormsGesture.Resource.Styleable.AppBarLayout_expanded = global::MatematicaBacMD.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::XamarinFormsGesture.Resource.Styleable.AppBarLayout_Layout = global::MatematicaBacMD.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::XamarinFormsGesture.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::MatematicaBacMD.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::XamarinFormsGesture.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::MatematicaBacMD.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::XamarinFormsGesture.Resource.Styleable.AppBarLayout_liftOnScroll = global::MatematicaBacMD.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatImageView = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatImageView;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatImageView_android_src = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatImageView_srcCompat = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatImageView_tint = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatImageView_tintMode = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatSeekBar = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatSeekBar_android_thumb = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatSeekBar_tickMark = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextHelper = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextView = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextView;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextView_android_textAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextView_fontFamily = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextView_lineHeight = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTextView_textAllCaps = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionBarDivider = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionBarSize = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionBarStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionBarTheme = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionModeBackground = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionModeStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_buttonStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_checkboxStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_colorAccent = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_colorControlActivated = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_colorControlNormal = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_colorError = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_colorPrimary = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_controlBackground = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_dialogTheme = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_dividerVertical = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_editTextBackground = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_editTextColor = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_editTextStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_panelBackground = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_searchViewStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_seekBarStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_spinnerStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_switchStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_toolbarStyle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_windowActionBar = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::XamarinFormsGesture.Resource.Styleable.AppCompatTheme_windowNoTitle = global::MatematicaBacMD.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::XamarinFormsGesture.Resource.Styleable.BottomAppBar = global::MatematicaBacMD.Droid.Resource.Styleable.BottomAppBar;
+			global::XamarinFormsGesture.Resource.Styleable.BottomAppBar_backgroundTint = global::MatematicaBacMD.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::XamarinFormsGesture.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::MatematicaBacMD.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::XamarinFormsGesture.Resource.Styleable.BottomAppBar_fabCradleMargin = global::MatematicaBacMD.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::XamarinFormsGesture.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::MatematicaBacMD.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::XamarinFormsGesture.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::MatematicaBacMD.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::XamarinFormsGesture.Resource.Styleable.BottomAppBar_hideOnScroll = global::MatematicaBacMD.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::XamarinFormsGesture.Resource.Styleable.BottomNavigationView = global::MatematicaBacMD.Droid.Resource.Styleable.BottomNavigationView;
+			global::XamarinFormsGesture.Resource.Styleable.BottomNavigationView_elevation = global::MatematicaBacMD.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::XamarinFormsGesture.Resource.Styleable.BottomNavigationView_itemBackground = global::MatematicaBacMD.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::XamarinFormsGesture.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::MatematicaBacMD.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::XamarinFormsGesture.Resource.Styleable.BottomNavigationView_itemIconSize = global::MatematicaBacMD.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::XamarinFormsGesture.Resource.Styleable.BottomNavigationView_itemIconTint = global::MatematicaBacMD.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::XamarinFormsGesture.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::MatematicaBacMD.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::XamarinFormsGesture.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::MatematicaBacMD.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::XamarinFormsGesture.Resource.Styleable.BottomNavigationView_itemTextColor = global::MatematicaBacMD.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::XamarinFormsGesture.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::MatematicaBacMD.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::XamarinFormsGesture.Resource.Styleable.BottomNavigationView_menu = global::MatematicaBacMD.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::XamarinFormsGesture.Resource.Styleable.BottomSheetBehavior_Layout = global::MatematicaBacMD.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::XamarinFormsGesture.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::MatematicaBacMD.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::XamarinFormsGesture.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::MatematicaBacMD.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::XamarinFormsGesture.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::MatematicaBacMD.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::XamarinFormsGesture.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::MatematicaBacMD.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::XamarinFormsGesture.Resource.Styleable.ButtonBarLayout = global::MatematicaBacMD.Droid.Resource.Styleable.ButtonBarLayout;
+			global::XamarinFormsGesture.Resource.Styleable.ButtonBarLayout_allowStacking = global::MatematicaBacMD.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::XamarinFormsGesture.Resource.Styleable.CardView = global::MatematicaBacMD.Droid.Resource.Styleable.CardView;
+			global::XamarinFormsGesture.Resource.Styleable.CardView_android_minHeight = global::MatematicaBacMD.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::XamarinFormsGesture.Resource.Styleable.CardView_android_minWidth = global::MatematicaBacMD.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::XamarinFormsGesture.Resource.Styleable.CardView_cardBackgroundColor = global::MatematicaBacMD.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::XamarinFormsGesture.Resource.Styleable.CardView_cardCornerRadius = global::MatematicaBacMD.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::XamarinFormsGesture.Resource.Styleable.CardView_cardElevation = global::MatematicaBacMD.Droid.Resource.Styleable.CardView_cardElevation;
+			global::XamarinFormsGesture.Resource.Styleable.CardView_cardMaxElevation = global::MatematicaBacMD.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::XamarinFormsGesture.Resource.Styleable.CardView_cardPreventCornerOverlap = global::MatematicaBacMD.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::XamarinFormsGesture.Resource.Styleable.CardView_cardUseCompatPadding = global::MatematicaBacMD.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::XamarinFormsGesture.Resource.Styleable.CardView_contentPadding = global::MatematicaBacMD.Droid.Resource.Styleable.CardView_contentPadding;
+			global::XamarinFormsGesture.Resource.Styleable.CardView_contentPaddingBottom = global::MatematicaBacMD.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::XamarinFormsGesture.Resource.Styleable.CardView_contentPaddingLeft = global::MatematicaBacMD.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::XamarinFormsGesture.Resource.Styleable.CardView_contentPaddingRight = global::MatematicaBacMD.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::XamarinFormsGesture.Resource.Styleable.CardView_contentPaddingTop = global::MatematicaBacMD.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::XamarinFormsGesture.Resource.Styleable.Chip = global::MatematicaBacMD.Droid.Resource.Styleable.Chip;
+			global::XamarinFormsGesture.Resource.Styleable.ChipGroup = global::MatematicaBacMD.Droid.Resource.Styleable.ChipGroup;
+			global::XamarinFormsGesture.Resource.Styleable.ChipGroup_checkedChip = global::MatematicaBacMD.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::XamarinFormsGesture.Resource.Styleable.ChipGroup_chipSpacing = global::MatematicaBacMD.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::XamarinFormsGesture.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::MatematicaBacMD.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::XamarinFormsGesture.Resource.Styleable.ChipGroup_chipSpacingVertical = global::MatematicaBacMD.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::XamarinFormsGesture.Resource.Styleable.ChipGroup_singleLine = global::MatematicaBacMD.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::XamarinFormsGesture.Resource.Styleable.ChipGroup_singleSelection = global::MatematicaBacMD.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_android_checkable = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_android_checkable;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_android_ellipsize = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_android_maxWidth = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_android_text = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_android_text;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_android_textAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_checkedIcon = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_checkedIconEnabled = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_checkedIconVisible = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_chipBackgroundColor = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_chipCornerRadius = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_chipEndPadding = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_chipIcon = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_chipIcon;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_chipIconEnabled = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_chipIconSize = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_chipIconTint = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_chipIconVisible = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_chipMinHeight = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_chipStartPadding = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_chipStrokeColor = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_chipStrokeWidth = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_closeIcon = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_closeIcon;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_closeIconEnabled = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_closeIconEndPadding = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_closeIconSize = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_closeIconStartPadding = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_closeIconTint = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_closeIconVisible = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_hideMotionSpec = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_iconEndPadding = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_iconStartPadding = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_rippleColor = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_rippleColor;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_showMotionSpec = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_textEndPadding = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::XamarinFormsGesture.Resource.Styleable.Chip_textStartPadding = global::MatematicaBacMD.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_Layout = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_title = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::XamarinFormsGesture.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::MatematicaBacMD.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::XamarinFormsGesture.Resource.Styleable.ColorStateListItem = global::MatematicaBacMD.Droid.Resource.Styleable.ColorStateListItem;
+			global::XamarinFormsGesture.Resource.Styleable.ColorStateListItem_alpha = global::MatematicaBacMD.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::XamarinFormsGesture.Resource.Styleable.ColorStateListItem_android_alpha = global::MatematicaBacMD.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::XamarinFormsGesture.Resource.Styleable.ColorStateListItem_android_color = global::MatematicaBacMD.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::XamarinFormsGesture.Resource.Styleable.CompoundButton = global::MatematicaBacMD.Droid.Resource.Styleable.CompoundButton;
+			global::XamarinFormsGesture.Resource.Styleable.CompoundButton_android_button = global::MatematicaBacMD.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::XamarinFormsGesture.Resource.Styleable.CompoundButton_buttonTint = global::MatematicaBacMD.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::XamarinFormsGesture.Resource.Styleable.CompoundButton_buttonTintMode = global::MatematicaBacMD.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::XamarinFormsGesture.Resource.Styleable.CoordinatorLayout = global::MatematicaBacMD.Droid.Resource.Styleable.CoordinatorLayout;
+			global::XamarinFormsGesture.Resource.Styleable.CoordinatorLayout_keylines = global::MatematicaBacMD.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::XamarinFormsGesture.Resource.Styleable.CoordinatorLayout_Layout = global::MatematicaBacMD.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::XamarinFormsGesture.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::MatematicaBacMD.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::XamarinFormsGesture.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::MatematicaBacMD.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::XamarinFormsGesture.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::MatematicaBacMD.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::XamarinFormsGesture.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::MatematicaBacMD.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::XamarinFormsGesture.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::MatematicaBacMD.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::XamarinFormsGesture.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::MatematicaBacMD.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::XamarinFormsGesture.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::MatematicaBacMD.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::XamarinFormsGesture.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::MatematicaBacMD.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::XamarinFormsGesture.Resource.Styleable.DesignTheme = global::MatematicaBacMD.Droid.Resource.Styleable.DesignTheme;
+			global::XamarinFormsGesture.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::MatematicaBacMD.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::XamarinFormsGesture.Resource.Styleable.DesignTheme_bottomSheetStyle = global::MatematicaBacMD.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::XamarinFormsGesture.Resource.Styleable.DrawerArrowToggle = global::MatematicaBacMD.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::XamarinFormsGesture.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::MatematicaBacMD.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::XamarinFormsGesture.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::MatematicaBacMD.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::XamarinFormsGesture.Resource.Styleable.DrawerArrowToggle_barLength = global::MatematicaBacMD.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::XamarinFormsGesture.Resource.Styleable.DrawerArrowToggle_color = global::MatematicaBacMD.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::XamarinFormsGesture.Resource.Styleable.DrawerArrowToggle_drawableSize = global::MatematicaBacMD.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::XamarinFormsGesture.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::MatematicaBacMD.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::XamarinFormsGesture.Resource.Styleable.DrawerArrowToggle_spinBars = global::MatematicaBacMD.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::XamarinFormsGesture.Resource.Styleable.DrawerArrowToggle_thickness = global::MatematicaBacMD.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::XamarinFormsGesture.Resource.Styleable.FloatingActionButton = global::MatematicaBacMD.Droid.Resource.Styleable.FloatingActionButton;
+			global::XamarinFormsGesture.Resource.Styleable.FloatingActionButton_backgroundTint = global::MatematicaBacMD.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::XamarinFormsGesture.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::MatematicaBacMD.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::XamarinFormsGesture.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::MatematicaBacMD.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::XamarinFormsGesture.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::MatematicaBacMD.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::XamarinFormsGesture.Resource.Styleable.FloatingActionButton_borderWidth = global::MatematicaBacMD.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::XamarinFormsGesture.Resource.Styleable.FloatingActionButton_elevation = global::MatematicaBacMD.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::XamarinFormsGesture.Resource.Styleable.FloatingActionButton_fabCustomSize = global::MatematicaBacMD.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::XamarinFormsGesture.Resource.Styleable.FloatingActionButton_fabSize = global::MatematicaBacMD.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::XamarinFormsGesture.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::MatematicaBacMD.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::XamarinFormsGesture.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::MatematicaBacMD.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::XamarinFormsGesture.Resource.Styleable.FloatingActionButton_maxImageSize = global::MatematicaBacMD.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::XamarinFormsGesture.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::MatematicaBacMD.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::XamarinFormsGesture.Resource.Styleable.FloatingActionButton_rippleColor = global::MatematicaBacMD.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::XamarinFormsGesture.Resource.Styleable.FloatingActionButton_showMotionSpec = global::MatematicaBacMD.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::XamarinFormsGesture.Resource.Styleable.FloatingActionButton_useCompatPadding = global::MatematicaBacMD.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::XamarinFormsGesture.Resource.Styleable.FlowLayout = global::MatematicaBacMD.Droid.Resource.Styleable.FlowLayout;
+			global::XamarinFormsGesture.Resource.Styleable.FlowLayout_itemSpacing = global::MatematicaBacMD.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::XamarinFormsGesture.Resource.Styleable.FlowLayout_lineSpacing = global::MatematicaBacMD.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamily = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamily;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamilyFont = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamilyFont;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamilyFont_android_font = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamilyFont_android_fontStyle = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamilyFont_android_fontWeight = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamilyFont_font = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamilyFont_fontStyle = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamilyFont_fontWeight = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamilyFont_ttcIndex = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamily_fontProviderAuthority = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamily_fontProviderCerts = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamily_fontProviderPackage = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::XamarinFormsGesture.Resource.Styleable.FontFamily_fontProviderQuery = global::MatematicaBacMD.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::XamarinFormsGesture.Resource.Styleable.ForegroundLinearLayout = global::MatematicaBacMD.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::XamarinFormsGesture.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::MatematicaBacMD.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::XamarinFormsGesture.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::MatematicaBacMD.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::XamarinFormsGesture.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::MatematicaBacMD.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::XamarinFormsGesture.Resource.Styleable.GradientColor = global::MatematicaBacMD.Droid.Resource.Styleable.GradientColor;
+			global::XamarinFormsGesture.Resource.Styleable.GradientColorItem = global::MatematicaBacMD.Droid.Resource.Styleable.GradientColorItem;
+			global::XamarinFormsGesture.Resource.Styleable.GradientColorItem_android_color = global::MatematicaBacMD.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::XamarinFormsGesture.Resource.Styleable.GradientColorItem_android_offset = global::MatematicaBacMD.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::XamarinFormsGesture.Resource.Styleable.GradientColor_android_centerColor = global::MatematicaBacMD.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::XamarinFormsGesture.Resource.Styleable.GradientColor_android_centerX = global::MatematicaBacMD.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::XamarinFormsGesture.Resource.Styleable.GradientColor_android_centerY = global::MatematicaBacMD.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::XamarinFormsGesture.Resource.Styleable.GradientColor_android_endColor = global::MatematicaBacMD.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::XamarinFormsGesture.Resource.Styleable.GradientColor_android_endX = global::MatematicaBacMD.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::XamarinFormsGesture.Resource.Styleable.GradientColor_android_endY = global::MatematicaBacMD.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::XamarinFormsGesture.Resource.Styleable.GradientColor_android_gradientRadius = global::MatematicaBacMD.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::XamarinFormsGesture.Resource.Styleable.GradientColor_android_startColor = global::MatematicaBacMD.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::XamarinFormsGesture.Resource.Styleable.GradientColor_android_startX = global::MatematicaBacMD.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::XamarinFormsGesture.Resource.Styleable.GradientColor_android_startY = global::MatematicaBacMD.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::XamarinFormsGesture.Resource.Styleable.GradientColor_android_tileMode = global::MatematicaBacMD.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::XamarinFormsGesture.Resource.Styleable.GradientColor_android_type = global::MatematicaBacMD.Droid.Resource.Styleable.GradientColor_android_type;
+			global::XamarinFormsGesture.Resource.Styleable.LinearLayoutCompat = global::MatematicaBacMD.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::XamarinFormsGesture.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::MatematicaBacMD.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::XamarinFormsGesture.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::MatematicaBacMD.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::XamarinFormsGesture.Resource.Styleable.LinearLayoutCompat_android_gravity = global::MatematicaBacMD.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::XamarinFormsGesture.Resource.Styleable.LinearLayoutCompat_android_orientation = global::MatematicaBacMD.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::XamarinFormsGesture.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::MatematicaBacMD.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::XamarinFormsGesture.Resource.Styleable.LinearLayoutCompat_divider = global::MatematicaBacMD.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::XamarinFormsGesture.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::MatematicaBacMD.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::XamarinFormsGesture.Resource.Styleable.LinearLayoutCompat_Layout = global::MatematicaBacMD.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::XamarinFormsGesture.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::MatematicaBacMD.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::XamarinFormsGesture.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::MatematicaBacMD.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::XamarinFormsGesture.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::MatematicaBacMD.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::XamarinFormsGesture.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::MatematicaBacMD.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::XamarinFormsGesture.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::MatematicaBacMD.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::XamarinFormsGesture.Resource.Styleable.LinearLayoutCompat_showDividers = global::MatematicaBacMD.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::XamarinFormsGesture.Resource.Styleable.ListPopupWindow = global::MatematicaBacMD.Droid.Resource.Styleable.ListPopupWindow;
+			global::XamarinFormsGesture.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::MatematicaBacMD.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::XamarinFormsGesture.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::MatematicaBacMD.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialButton = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialButton;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialButton_android_insetBottom = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialButton_android_insetLeft = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialButton_android_insetRight = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialButton_android_insetTop = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialButton_backgroundTint = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialButton_backgroundTintMode = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialButton_cornerRadius = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialButton_icon = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialButton_icon;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialButton_iconGravity = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialButton_iconPadding = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialButton_iconSize = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialButton_iconTint = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialButton_iconTintMode = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialButton_rippleColor = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialButton_strokeColor = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialButton_strokeWidth = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialCardView = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialCardView;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialCardView_strokeColor = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialCardView_strokeWidth = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::XamarinFormsGesture.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::MatematicaBacMD.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::XamarinFormsGesture.Resource.Styleable.MenuGroup = global::MatematicaBacMD.Droid.Resource.Styleable.MenuGroup;
+			global::XamarinFormsGesture.Resource.Styleable.MenuGroup_android_checkableBehavior = global::MatematicaBacMD.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::XamarinFormsGesture.Resource.Styleable.MenuGroup_android_enabled = global::MatematicaBacMD.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::XamarinFormsGesture.Resource.Styleable.MenuGroup_android_id = global::MatematicaBacMD.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::XamarinFormsGesture.Resource.Styleable.MenuGroup_android_menuCategory = global::MatematicaBacMD.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::XamarinFormsGesture.Resource.Styleable.MenuGroup_android_orderInCategory = global::MatematicaBacMD.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::XamarinFormsGesture.Resource.Styleable.MenuGroup_android_visible = global::MatematicaBacMD.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_actionLayout = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_actionProviderClass = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_actionViewClass = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_alphabeticModifiers = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_android_checkable = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_android_checked = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_android_enabled = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_android_icon = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_android_id = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_android_id;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_android_menuCategory = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_android_numericShortcut = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_android_onClick = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_android_orderInCategory = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_android_title = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_android_title;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_android_titleCondensed = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_android_visible = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_contentDescription = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_iconTint = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_iconTintMode = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_numericModifiers = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_showAsAction = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::XamarinFormsGesture.Resource.Styleable.MenuItem_tooltipText = global::MatematicaBacMD.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::XamarinFormsGesture.Resource.Styleable.MenuView = global::MatematicaBacMD.Droid.Resource.Styleable.MenuView;
+			global::XamarinFormsGesture.Resource.Styleable.MenuView_android_headerBackground = global::MatematicaBacMD.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::XamarinFormsGesture.Resource.Styleable.MenuView_android_horizontalDivider = global::MatematicaBacMD.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::XamarinFormsGesture.Resource.Styleable.MenuView_android_itemBackground = global::MatematicaBacMD.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::XamarinFormsGesture.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::MatematicaBacMD.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::XamarinFormsGesture.Resource.Styleable.MenuView_android_itemTextAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.MenuView_android_verticalDivider = global::MatematicaBacMD.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::XamarinFormsGesture.Resource.Styleable.MenuView_android_windowAnimationStyle = global::MatematicaBacMD.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::XamarinFormsGesture.Resource.Styleable.MenuView_preserveIconSpacing = global::MatematicaBacMD.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::XamarinFormsGesture.Resource.Styleable.MenuView_subMenuArrow = global::MatematicaBacMD.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::XamarinFormsGesture.Resource.Styleable.NavigationView = global::MatematicaBacMD.Droid.Resource.Styleable.NavigationView;
+			global::XamarinFormsGesture.Resource.Styleable.NavigationView_android_background = global::MatematicaBacMD.Droid.Resource.Styleable.NavigationView_android_background;
+			global::XamarinFormsGesture.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::MatematicaBacMD.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::XamarinFormsGesture.Resource.Styleable.NavigationView_android_maxWidth = global::MatematicaBacMD.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::XamarinFormsGesture.Resource.Styleable.NavigationView_elevation = global::MatematicaBacMD.Droid.Resource.Styleable.NavigationView_elevation;
+			global::XamarinFormsGesture.Resource.Styleable.NavigationView_headerLayout = global::MatematicaBacMD.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::XamarinFormsGesture.Resource.Styleable.NavigationView_itemBackground = global::MatematicaBacMD.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::XamarinFormsGesture.Resource.Styleable.NavigationView_itemHorizontalPadding = global::MatematicaBacMD.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::XamarinFormsGesture.Resource.Styleable.NavigationView_itemIconPadding = global::MatematicaBacMD.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::XamarinFormsGesture.Resource.Styleable.NavigationView_itemIconTint = global::MatematicaBacMD.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::XamarinFormsGesture.Resource.Styleable.NavigationView_itemTextAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.NavigationView_itemTextColor = global::MatematicaBacMD.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::XamarinFormsGesture.Resource.Styleable.NavigationView_menu = global::MatematicaBacMD.Droid.Resource.Styleable.NavigationView_menu;
+			global::XamarinFormsGesture.Resource.Styleable.PopupWindow = global::MatematicaBacMD.Droid.Resource.Styleable.PopupWindow;
+			global::XamarinFormsGesture.Resource.Styleable.PopupWindowBackgroundState = global::MatematicaBacMD.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::XamarinFormsGesture.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::MatematicaBacMD.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::XamarinFormsGesture.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::MatematicaBacMD.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::XamarinFormsGesture.Resource.Styleable.PopupWindow_android_popupBackground = global::MatematicaBacMD.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::XamarinFormsGesture.Resource.Styleable.PopupWindow_overlapAnchor = global::MatematicaBacMD.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::XamarinFormsGesture.Resource.Styleable.RecycleListView = global::MatematicaBacMD.Droid.Resource.Styleable.RecycleListView;
+			global::XamarinFormsGesture.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::MatematicaBacMD.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::XamarinFormsGesture.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::MatematicaBacMD.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::XamarinFormsGesture.Resource.Styleable.RecyclerView = global::MatematicaBacMD.Droid.Resource.Styleable.RecyclerView;
+			global::XamarinFormsGesture.Resource.Styleable.RecyclerView_android_descendantFocusability = global::MatematicaBacMD.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::XamarinFormsGesture.Resource.Styleable.RecyclerView_android_orientation = global::MatematicaBacMD.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::XamarinFormsGesture.Resource.Styleable.RecyclerView_fastScrollEnabled = global::MatematicaBacMD.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::XamarinFormsGesture.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::MatematicaBacMD.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::XamarinFormsGesture.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::MatematicaBacMD.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::XamarinFormsGesture.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::MatematicaBacMD.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::XamarinFormsGesture.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::MatematicaBacMD.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::XamarinFormsGesture.Resource.Styleable.RecyclerView_layoutManager = global::MatematicaBacMD.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::XamarinFormsGesture.Resource.Styleable.RecyclerView_reverseLayout = global::MatematicaBacMD.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::XamarinFormsGesture.Resource.Styleable.RecyclerView_spanCount = global::MatematicaBacMD.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::XamarinFormsGesture.Resource.Styleable.RecyclerView_stackFromEnd = global::MatematicaBacMD.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::XamarinFormsGesture.Resource.Styleable.ScrimInsetsFrameLayout = global::MatematicaBacMD.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::XamarinFormsGesture.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::MatematicaBacMD.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::XamarinFormsGesture.Resource.Styleable.ScrollingViewBehavior_Layout = global::MatematicaBacMD.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::XamarinFormsGesture.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::MatematicaBacMD.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView_android_focusable = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView_android_imeOptions = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView_android_inputType = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView_android_maxWidth = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView_closeIcon = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView_commitIcon = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView_defaultQueryHint = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView_goIcon = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView_goIcon;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView_iconifiedByDefault = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView_layout = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView_layout;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView_queryBackground = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView_queryHint = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView_queryHint;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView_searchHintIcon = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView_searchIcon = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView_submitBackground = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView_suggestionRowLayout = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::XamarinFormsGesture.Resource.Styleable.SearchView_voiceIcon = global::MatematicaBacMD.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::XamarinFormsGesture.Resource.Styleable.Snackbar = global::MatematicaBacMD.Droid.Resource.Styleable.Snackbar;
+			global::XamarinFormsGesture.Resource.Styleable.SnackbarLayout = global::MatematicaBacMD.Droid.Resource.Styleable.SnackbarLayout;
+			global::XamarinFormsGesture.Resource.Styleable.SnackbarLayout_android_maxWidth = global::MatematicaBacMD.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::XamarinFormsGesture.Resource.Styleable.SnackbarLayout_elevation = global::MatematicaBacMD.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::XamarinFormsGesture.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::MatematicaBacMD.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::XamarinFormsGesture.Resource.Styleable.Snackbar_snackbarButtonStyle = global::MatematicaBacMD.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::XamarinFormsGesture.Resource.Styleable.Snackbar_snackbarStyle = global::MatematicaBacMD.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::XamarinFormsGesture.Resource.Styleable.Spinner = global::MatematicaBacMD.Droid.Resource.Styleable.Spinner;
+			global::XamarinFormsGesture.Resource.Styleable.Spinner_android_dropDownWidth = global::MatematicaBacMD.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::XamarinFormsGesture.Resource.Styleable.Spinner_android_entries = global::MatematicaBacMD.Droid.Resource.Styleable.Spinner_android_entries;
+			global::XamarinFormsGesture.Resource.Styleable.Spinner_android_popupBackground = global::MatematicaBacMD.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::XamarinFormsGesture.Resource.Styleable.Spinner_android_prompt = global::MatematicaBacMD.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::XamarinFormsGesture.Resource.Styleable.Spinner_popupTheme = global::MatematicaBacMD.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::XamarinFormsGesture.Resource.Styleable.StateListDrawable = global::MatematicaBacMD.Droid.Resource.Styleable.StateListDrawable;
+			global::XamarinFormsGesture.Resource.Styleable.StateListDrawableItem = global::MatematicaBacMD.Droid.Resource.Styleable.StateListDrawableItem;
+			global::XamarinFormsGesture.Resource.Styleable.StateListDrawableItem_android_drawable = global::MatematicaBacMD.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::XamarinFormsGesture.Resource.Styleable.StateListDrawable_android_constantSize = global::MatematicaBacMD.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::XamarinFormsGesture.Resource.Styleable.StateListDrawable_android_dither = global::MatematicaBacMD.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::XamarinFormsGesture.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::MatematicaBacMD.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::XamarinFormsGesture.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::MatematicaBacMD.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::XamarinFormsGesture.Resource.Styleable.StateListDrawable_android_variablePadding = global::MatematicaBacMD.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::XamarinFormsGesture.Resource.Styleable.StateListDrawable_android_visible = global::MatematicaBacMD.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::XamarinFormsGesture.Resource.Styleable.SwitchCompat = global::MatematicaBacMD.Droid.Resource.Styleable.SwitchCompat;
+			global::XamarinFormsGesture.Resource.Styleable.SwitchCompat_android_textOff = global::MatematicaBacMD.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::XamarinFormsGesture.Resource.Styleable.SwitchCompat_android_textOn = global::MatematicaBacMD.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::XamarinFormsGesture.Resource.Styleable.SwitchCompat_android_thumb = global::MatematicaBacMD.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::XamarinFormsGesture.Resource.Styleable.SwitchCompat_showText = global::MatematicaBacMD.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::XamarinFormsGesture.Resource.Styleable.SwitchCompat_splitTrack = global::MatematicaBacMD.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::XamarinFormsGesture.Resource.Styleable.SwitchCompat_switchMinWidth = global::MatematicaBacMD.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::XamarinFormsGesture.Resource.Styleable.SwitchCompat_switchPadding = global::MatematicaBacMD.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::XamarinFormsGesture.Resource.Styleable.SwitchCompat_switchTextAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.SwitchCompat_thumbTextPadding = global::MatematicaBacMD.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::XamarinFormsGesture.Resource.Styleable.SwitchCompat_thumbTint = global::MatematicaBacMD.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::XamarinFormsGesture.Resource.Styleable.SwitchCompat_thumbTintMode = global::MatematicaBacMD.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::XamarinFormsGesture.Resource.Styleable.SwitchCompat_track = global::MatematicaBacMD.Droid.Resource.Styleable.SwitchCompat_track;
+			global::XamarinFormsGesture.Resource.Styleable.SwitchCompat_trackTint = global::MatematicaBacMD.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::XamarinFormsGesture.Resource.Styleable.SwitchCompat_trackTintMode = global::MatematicaBacMD.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::XamarinFormsGesture.Resource.Styleable.TabItem = global::MatematicaBacMD.Droid.Resource.Styleable.TabItem;
+			global::XamarinFormsGesture.Resource.Styleable.TabItem_android_icon = global::MatematicaBacMD.Droid.Resource.Styleable.TabItem_android_icon;
+			global::XamarinFormsGesture.Resource.Styleable.TabItem_android_layout = global::MatematicaBacMD.Droid.Resource.Styleable.TabItem_android_layout;
+			global::XamarinFormsGesture.Resource.Styleable.TabItem_android_text = global::MatematicaBacMD.Droid.Resource.Styleable.TabItem_android_text;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabBackground = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabContentStart = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabGravity = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabIconTint = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabIconTintMode = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabIndicator = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabIndicatorColor = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabIndicatorGravity = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabIndicatorHeight = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabInlineLabel = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabMaxWidth = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabMinWidth = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabMode = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabPadding = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabPaddingBottom = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabPaddingEnd = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabPaddingStart = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabPaddingTop = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabRippleColor = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabSelectedTextColor = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabTextAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabTextColor = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::XamarinFormsGesture.Resource.Styleable.TabLayout_tabUnboundedRipple = global::MatematicaBacMD.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::XamarinFormsGesture.Resource.Styleable.TextAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.TextAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.TextAppearance_android_fontFamily = global::MatematicaBacMD.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::XamarinFormsGesture.Resource.Styleable.TextAppearance_android_shadowColor = global::MatematicaBacMD.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::XamarinFormsGesture.Resource.Styleable.TextAppearance_android_shadowDx = global::MatematicaBacMD.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::XamarinFormsGesture.Resource.Styleable.TextAppearance_android_shadowDy = global::MatematicaBacMD.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::XamarinFormsGesture.Resource.Styleable.TextAppearance_android_shadowRadius = global::MatematicaBacMD.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::XamarinFormsGesture.Resource.Styleable.TextAppearance_android_textColor = global::MatematicaBacMD.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::XamarinFormsGesture.Resource.Styleable.TextAppearance_android_textColorHint = global::MatematicaBacMD.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::XamarinFormsGesture.Resource.Styleable.TextAppearance_android_textColorLink = global::MatematicaBacMD.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::XamarinFormsGesture.Resource.Styleable.TextAppearance_android_textSize = global::MatematicaBacMD.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::XamarinFormsGesture.Resource.Styleable.TextAppearance_android_textStyle = global::MatematicaBacMD.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::XamarinFormsGesture.Resource.Styleable.TextAppearance_android_typeface = global::MatematicaBacMD.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::XamarinFormsGesture.Resource.Styleable.TextAppearance_fontFamily = global::MatematicaBacMD.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::XamarinFormsGesture.Resource.Styleable.TextAppearance_textAllCaps = global::MatematicaBacMD.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_android_hint = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_android_textColorHint = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_boxStrokeColor = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_counterEnabled = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_counterMaxLength = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_counterTextAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_errorEnabled = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_errorTextAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_helperText = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_helperTextEnabled = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_hintEnabled = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_hintTextAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_passwordToggleTint = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::XamarinFormsGesture.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::MatematicaBacMD.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::XamarinFormsGesture.Resource.Styleable.ThemeEnforcement = global::MatematicaBacMD.Droid.Resource.Styleable.ThemeEnforcement;
+			global::XamarinFormsGesture.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::MatematicaBacMD.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::XamarinFormsGesture.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_android_gravity = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_android_minHeight = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_buttonGravity = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_collapseContentDescription = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_collapseIcon = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_contentInsetEnd = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_contentInsetLeft = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_contentInsetRight = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_contentInsetStart = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_logo = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_logo;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_logoDescription = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_maxButtonHeight = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_navigationContentDescription = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_navigationIcon = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_popupTheme = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_subtitle = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_subtitleTextAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_subtitleTextColor = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_title = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_title;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_titleMargin = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_titleMarginBottom = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_titleMarginEnd = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_titleMargins = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_titleMarginStart = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_titleMarginTop = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_titleTextAppearance = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::XamarinFormsGesture.Resource.Styleable.Toolbar_titleTextColor = global::MatematicaBacMD.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::XamarinFormsGesture.Resource.Styleable.View = global::MatematicaBacMD.Droid.Resource.Styleable.View;
+			global::XamarinFormsGesture.Resource.Styleable.ViewBackgroundHelper = global::MatematicaBacMD.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::XamarinFormsGesture.Resource.Styleable.ViewBackgroundHelper_android_background = global::MatematicaBacMD.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::XamarinFormsGesture.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::MatematicaBacMD.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::XamarinFormsGesture.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::MatematicaBacMD.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::XamarinFormsGesture.Resource.Styleable.ViewStubCompat = global::MatematicaBacMD.Droid.Resource.Styleable.ViewStubCompat;
+			global::XamarinFormsGesture.Resource.Styleable.ViewStubCompat_android_id = global::MatematicaBacMD.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::XamarinFormsGesture.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MatematicaBacMD.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::XamarinFormsGesture.Resource.Styleable.ViewStubCompat_android_layout = global::MatematicaBacMD.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::XamarinFormsGesture.Resource.Styleable.View_android_focusable = global::MatematicaBacMD.Droid.Resource.Styleable.View_android_focusable;
+			global::XamarinFormsGesture.Resource.Styleable.View_android_theme = global::MatematicaBacMD.Droid.Resource.Styleable.View_android_theme;
+			global::XamarinFormsGesture.Resource.Styleable.View_paddingEnd = global::MatematicaBacMD.Droid.Resource.Styleable.View_paddingEnd;
+			global::XamarinFormsGesture.Resource.Styleable.View_paddingStart = global::MatematicaBacMD.Droid.Resource.Styleable.View_paddingStart;
+			global::XamarinFormsGesture.Resource.Styleable.View_theme = global::MatematicaBacMD.Droid.Resource.Styleable.View_theme;
 		}
 		
 		public partial class Animation
@@ -8154,26 +10730,26 @@ namespace MatematicaBacMD.Droid
 			// aapt resource value: 0x7f020054
 			public const int avd_hide_password = 2130837588;
 			
-			// aapt resource value: 0x7f02015a
-			public const int avd_hide_password_1 = 2130837850;
+			// aapt resource value: 0x7f02015f
+			public const int avd_hide_password_1 = 2130837855;
 			
-			// aapt resource value: 0x7f02015b
-			public const int avd_hide_password_2 = 2130837851;
+			// aapt resource value: 0x7f020160
+			public const int avd_hide_password_2 = 2130837856;
 			
-			// aapt resource value: 0x7f02015c
-			public const int avd_hide_password_3 = 2130837852;
+			// aapt resource value: 0x7f020161
+			public const int avd_hide_password_3 = 2130837857;
 			
 			// aapt resource value: 0x7f020055
 			public const int avd_show_password = 2130837589;
 			
-			// aapt resource value: 0x7f02015d
-			public const int avd_show_password_1 = 2130837853;
+			// aapt resource value: 0x7f020162
+			public const int avd_show_password_1 = 2130837858;
 			
-			// aapt resource value: 0x7f02015e
-			public const int avd_show_password_2 = 2130837854;
+			// aapt resource value: 0x7f020163
+			public const int avd_show_password_2 = 2130837859;
 			
-			// aapt resource value: 0x7f02015f
-			public const int avd_show_password_3 = 2130837855;
+			// aapt resource value: 0x7f020164
+			public const int avd_show_password_3 = 2130837860;
 			
 			// aapt resource value: 0x7f020056
 			public const int bg = 2130837590;
@@ -8287,673 +10863,688 @@ namespace MatematicaBacMD.Droid
 			public const int i36 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int i4 = 2130837627;
+			public const int i38 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int i5 = 2130837628;
+			public const int i39 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int i6 = 2130837629;
+			public const int i4 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int i7 = 2130837630;
+			public const int i40 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int i8 = 2130837631;
+			public const int i41 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int i9 = 2130837632;
+			public const int i42 = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_audiotrack_dark = 2130837633;
+			public const int i5 = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_audiotrack_light = 2130837634;
+			public const int i6 = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_dialog_close_dark = 2130837635;
+			public const int i7 = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_dialog_close_light = 2130837636;
+			public const int i8 = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_group_collapse_00 = 2130837637;
+			public const int i9 = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_group_collapse_01 = 2130837638;
+			public const int ic_audiotrack_dark = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_group_collapse_02 = 2130837639;
+			public const int ic_audiotrack_light = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_group_collapse_03 = 2130837640;
+			public const int ic_dialog_close_dark = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_group_collapse_04 = 2130837641;
+			public const int ic_dialog_close_light = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_group_collapse_05 = 2130837642;
+			public const int ic_group_collapse_00 = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_group_collapse_06 = 2130837643;
+			public const int ic_group_collapse_01 = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_group_collapse_07 = 2130837644;
+			public const int ic_group_collapse_02 = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_group_collapse_08 = 2130837645;
+			public const int ic_group_collapse_03 = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_group_collapse_09 = 2130837646;
+			public const int ic_group_collapse_04 = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_group_collapse_10 = 2130837647;
+			public const int ic_group_collapse_05 = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_group_collapse_11 = 2130837648;
+			public const int ic_group_collapse_06 = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_group_collapse_12 = 2130837649;
+			public const int ic_group_collapse_07 = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_group_collapse_13 = 2130837650;
+			public const int ic_group_collapse_08 = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_group_collapse_14 = 2130837651;
+			public const int ic_group_collapse_09 = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_group_collapse_15 = 2130837652;
+			public const int ic_group_collapse_10 = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_group_expand_00 = 2130837653;
+			public const int ic_group_collapse_11 = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_group_expand_01 = 2130837654;
+			public const int ic_group_collapse_12 = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_group_expand_02 = 2130837655;
+			public const int ic_group_collapse_13 = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_group_expand_03 = 2130837656;
+			public const int ic_group_collapse_14 = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_group_expand_04 = 2130837657;
+			public const int ic_group_collapse_15 = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_group_expand_05 = 2130837658;
+			public const int ic_group_expand_00 = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_group_expand_06 = 2130837659;
+			public const int ic_group_expand_01 = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_group_expand_07 = 2130837660;
+			public const int ic_group_expand_02 = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_group_expand_08 = 2130837661;
+			public const int ic_group_expand_03 = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_group_expand_09 = 2130837662;
+			public const int ic_group_expand_04 = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_group_expand_10 = 2130837663;
+			public const int ic_group_expand_05 = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_group_expand_11 = 2130837664;
+			public const int ic_group_expand_06 = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_group_expand_12 = 2130837665;
+			public const int ic_group_expand_07 = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_group_expand_13 = 2130837666;
+			public const int ic_group_expand_08 = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_group_expand_14 = 2130837667;
+			public const int ic_group_expand_09 = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_group_expand_15 = 2130837668;
+			public const int ic_group_expand_10 = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_media_pause_dark = 2130837669;
+			public const int ic_group_expand_11 = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_media_pause_light = 2130837670;
+			public const int ic_group_expand_12 = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_media_play_dark = 2130837671;
+			public const int ic_group_expand_13 = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_media_play_light = 2130837672;
+			public const int ic_group_expand_14 = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_media_stop_dark = 2130837673;
+			public const int ic_group_expand_15 = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_media_stop_light = 2130837674;
+			public const int ic_media_pause_dark = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_00_dark = 2130837675;
+			public const int ic_media_pause_light = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_00_light = 2130837676;
+			public const int ic_media_play_dark = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_01_dark = 2130837677;
+			public const int ic_media_play_light = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_01_light = 2130837678;
+			public const int ic_media_stop_dark = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_02_dark = 2130837679;
+			public const int ic_media_stop_light = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_02_light = 2130837680;
+			public const int ic_mr_button_connected_00_dark = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_03_dark = 2130837681;
+			public const int ic_mr_button_connected_00_light = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_03_light = 2130837682;
+			public const int ic_mr_button_connected_01_dark = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connected_04_dark = 2130837683;
+			public const int ic_mr_button_connected_01_light = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connected_04_light = 2130837684;
+			public const int ic_mr_button_connected_02_dark = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connected_05_dark = 2130837685;
+			public const int ic_mr_button_connected_02_light = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connected_05_light = 2130837686;
+			public const int ic_mr_button_connected_03_dark = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connected_06_dark = 2130837687;
+			public const int ic_mr_button_connected_03_light = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connected_06_light = 2130837688;
+			public const int ic_mr_button_connected_04_dark = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connected_07_dark = 2130837689;
+			public const int ic_mr_button_connected_04_light = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connected_07_light = 2130837690;
+			public const int ic_mr_button_connected_05_dark = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connected_08_dark = 2130837691;
+			public const int ic_mr_button_connected_05_light = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connected_08_light = 2130837692;
+			public const int ic_mr_button_connected_06_dark = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connected_09_dark = 2130837693;
+			public const int ic_mr_button_connected_06_light = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connected_09_light = 2130837694;
+			public const int ic_mr_button_connected_07_dark = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connected_10_dark = 2130837695;
+			public const int ic_mr_button_connected_07_light = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connected_10_light = 2130837696;
+			public const int ic_mr_button_connected_08_dark = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connected_11_dark = 2130837697;
+			public const int ic_mr_button_connected_08_light = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connected_11_light = 2130837698;
+			public const int ic_mr_button_connected_09_dark = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connected_12_dark = 2130837699;
+			public const int ic_mr_button_connected_09_light = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connected_12_light = 2130837700;
+			public const int ic_mr_button_connected_10_dark = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connected_13_dark = 2130837701;
+			public const int ic_mr_button_connected_10_light = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connected_13_light = 2130837702;
+			public const int ic_mr_button_connected_11_dark = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connected_14_dark = 2130837703;
+			public const int ic_mr_button_connected_11_light = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connected_14_light = 2130837704;
+			public const int ic_mr_button_connected_12_dark = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connected_15_dark = 2130837705;
+			public const int ic_mr_button_connected_12_light = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connected_15_light = 2130837706;
+			public const int ic_mr_button_connected_13_dark = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connected_16_dark = 2130837707;
+			public const int ic_mr_button_connected_13_light = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connected_16_light = 2130837708;
+			public const int ic_mr_button_connected_14_dark = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connected_17_dark = 2130837709;
+			public const int ic_mr_button_connected_14_light = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connected_17_light = 2130837710;
+			public const int ic_mr_button_connected_15_dark = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connected_18_dark = 2130837711;
+			public const int ic_mr_button_connected_15_light = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connected_18_light = 2130837712;
+			public const int ic_mr_button_connected_16_dark = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connected_19_dark = 2130837713;
+			public const int ic_mr_button_connected_16_light = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connected_19_light = 2130837714;
+			public const int ic_mr_button_connected_17_dark = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connected_20_dark = 2130837715;
+			public const int ic_mr_button_connected_17_light = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connected_20_light = 2130837716;
+			public const int ic_mr_button_connected_18_dark = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connected_21_dark = 2130837717;
+			public const int ic_mr_button_connected_18_light = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connected_21_light = 2130837718;
+			public const int ic_mr_button_connected_19_dark = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connected_22_dark = 2130837719;
+			public const int ic_mr_button_connected_19_light = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connected_22_light = 2130837720;
+			public const int ic_mr_button_connected_20_dark = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connected_23_dark = 2130837721;
+			public const int ic_mr_button_connected_20_light = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connected_23_light = 2130837722;
+			public const int ic_mr_button_connected_21_dark = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connected_24_dark = 2130837723;
+			public const int ic_mr_button_connected_21_light = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connected_24_light = 2130837724;
+			public const int ic_mr_button_connected_22_dark = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connected_25_dark = 2130837725;
+			public const int ic_mr_button_connected_22_light = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connected_25_light = 2130837726;
+			public const int ic_mr_button_connected_23_dark = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connected_26_dark = 2130837727;
+			public const int ic_mr_button_connected_23_light = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connected_26_light = 2130837728;
+			public const int ic_mr_button_connected_24_dark = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_connected_27_dark = 2130837729;
+			public const int ic_mr_button_connected_24_light = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_connected_27_light = 2130837730;
+			public const int ic_mr_button_connected_25_dark = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_connected_28_dark = 2130837731;
+			public const int ic_mr_button_connected_25_light = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_connected_28_light = 2130837732;
+			public const int ic_mr_button_connected_26_dark = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_connected_29_dark = 2130837733;
+			public const int ic_mr_button_connected_26_light = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_mr_button_connected_29_light = 2130837734;
+			public const int ic_mr_button_connected_27_dark = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_mr_button_connected_30_dark = 2130837735;
+			public const int ic_mr_button_connected_27_light = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_mr_button_connected_30_light = 2130837736;
+			public const int ic_mr_button_connected_28_dark = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_mr_button_connecting_00_dark = 2130837737;
+			public const int ic_mr_button_connected_28_light = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int ic_mr_button_connecting_00_light = 2130837738;
+			public const int ic_mr_button_connected_29_dark = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int ic_mr_button_connecting_01_dark = 2130837739;
+			public const int ic_mr_button_connected_29_light = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int ic_mr_button_connecting_01_light = 2130837740;
+			public const int ic_mr_button_connected_30_dark = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int ic_mr_button_connecting_02_dark = 2130837741;
+			public const int ic_mr_button_connected_30_light = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int ic_mr_button_connecting_02_light = 2130837742;
+			public const int ic_mr_button_connecting_00_dark = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int ic_mr_button_connecting_03_dark = 2130837743;
+			public const int ic_mr_button_connecting_00_light = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int ic_mr_button_connecting_03_light = 2130837744;
+			public const int ic_mr_button_connecting_01_dark = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int ic_mr_button_connecting_04_dark = 2130837745;
+			public const int ic_mr_button_connecting_01_light = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int ic_mr_button_connecting_04_light = 2130837746;
+			public const int ic_mr_button_connecting_02_dark = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int ic_mr_button_connecting_05_dark = 2130837747;
+			public const int ic_mr_button_connecting_02_light = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int ic_mr_button_connecting_05_light = 2130837748;
+			public const int ic_mr_button_connecting_03_dark = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int ic_mr_button_connecting_06_dark = 2130837749;
+			public const int ic_mr_button_connecting_03_light = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int ic_mr_button_connecting_06_light = 2130837750;
+			public const int ic_mr_button_connecting_04_dark = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int ic_mr_button_connecting_07_dark = 2130837751;
+			public const int ic_mr_button_connecting_04_light = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int ic_mr_button_connecting_07_light = 2130837752;
+			public const int ic_mr_button_connecting_05_dark = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int ic_mr_button_connecting_08_dark = 2130837753;
+			public const int ic_mr_button_connecting_05_light = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int ic_mr_button_connecting_08_light = 2130837754;
+			public const int ic_mr_button_connecting_06_dark = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int ic_mr_button_connecting_09_dark = 2130837755;
+			public const int ic_mr_button_connecting_06_light = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int ic_mr_button_connecting_09_light = 2130837756;
+			public const int ic_mr_button_connecting_07_dark = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int ic_mr_button_connecting_10_dark = 2130837757;
+			public const int ic_mr_button_connecting_07_light = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int ic_mr_button_connecting_10_light = 2130837758;
+			public const int ic_mr_button_connecting_08_dark = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int ic_mr_button_connecting_11_dark = 2130837759;
+			public const int ic_mr_button_connecting_08_light = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int ic_mr_button_connecting_11_light = 2130837760;
+			public const int ic_mr_button_connecting_09_dark = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int ic_mr_button_connecting_12_dark = 2130837761;
+			public const int ic_mr_button_connecting_09_light = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int ic_mr_button_connecting_12_light = 2130837762;
+			public const int ic_mr_button_connecting_10_dark = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int ic_mr_button_connecting_13_dark = 2130837763;
+			public const int ic_mr_button_connecting_10_light = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int ic_mr_button_connecting_13_light = 2130837764;
+			public const int ic_mr_button_connecting_11_dark = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int ic_mr_button_connecting_14_dark = 2130837765;
+			public const int ic_mr_button_connecting_11_light = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int ic_mr_button_connecting_14_light = 2130837766;
+			public const int ic_mr_button_connecting_12_dark = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int ic_mr_button_connecting_15_dark = 2130837767;
+			public const int ic_mr_button_connecting_12_light = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int ic_mr_button_connecting_15_light = 2130837768;
+			public const int ic_mr_button_connecting_13_dark = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int ic_mr_button_connecting_16_dark = 2130837769;
+			public const int ic_mr_button_connecting_13_light = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int ic_mr_button_connecting_16_light = 2130837770;
+			public const int ic_mr_button_connecting_14_dark = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int ic_mr_button_connecting_17_dark = 2130837771;
+			public const int ic_mr_button_connecting_14_light = 2130837771;
 			
 			// aapt resource value: 0x7f02010c
-			public const int ic_mr_button_connecting_17_light = 2130837772;
+			public const int ic_mr_button_connecting_15_dark = 2130837772;
 			
 			// aapt resource value: 0x7f02010d
-			public const int ic_mr_button_connecting_18_dark = 2130837773;
+			public const int ic_mr_button_connecting_15_light = 2130837773;
 			
 			// aapt resource value: 0x7f02010e
-			public const int ic_mr_button_connecting_18_light = 2130837774;
+			public const int ic_mr_button_connecting_16_dark = 2130837774;
 			
 			// aapt resource value: 0x7f02010f
-			public const int ic_mr_button_connecting_19_dark = 2130837775;
+			public const int ic_mr_button_connecting_16_light = 2130837775;
 			
 			// aapt resource value: 0x7f020110
-			public const int ic_mr_button_connecting_19_light = 2130837776;
+			public const int ic_mr_button_connecting_17_dark = 2130837776;
 			
 			// aapt resource value: 0x7f020111
-			public const int ic_mr_button_connecting_20_dark = 2130837777;
+			public const int ic_mr_button_connecting_17_light = 2130837777;
 			
 			// aapt resource value: 0x7f020112
-			public const int ic_mr_button_connecting_20_light = 2130837778;
+			public const int ic_mr_button_connecting_18_dark = 2130837778;
 			
 			// aapt resource value: 0x7f020113
-			public const int ic_mr_button_connecting_21_dark = 2130837779;
+			public const int ic_mr_button_connecting_18_light = 2130837779;
 			
 			// aapt resource value: 0x7f020114
-			public const int ic_mr_button_connecting_21_light = 2130837780;
+			public const int ic_mr_button_connecting_19_dark = 2130837780;
 			
 			// aapt resource value: 0x7f020115
-			public const int ic_mr_button_connecting_22_dark = 2130837781;
+			public const int ic_mr_button_connecting_19_light = 2130837781;
 			
 			// aapt resource value: 0x7f020116
-			public const int ic_mr_button_connecting_22_light = 2130837782;
+			public const int ic_mr_button_connecting_20_dark = 2130837782;
 			
 			// aapt resource value: 0x7f020117
-			public const int ic_mr_button_connecting_23_dark = 2130837783;
+			public const int ic_mr_button_connecting_20_light = 2130837783;
 			
 			// aapt resource value: 0x7f020118
-			public const int ic_mr_button_connecting_23_light = 2130837784;
+			public const int ic_mr_button_connecting_21_dark = 2130837784;
 			
 			// aapt resource value: 0x7f020119
-			public const int ic_mr_button_connecting_24_dark = 2130837785;
+			public const int ic_mr_button_connecting_21_light = 2130837785;
 			
 			// aapt resource value: 0x7f02011a
-			public const int ic_mr_button_connecting_24_light = 2130837786;
+			public const int ic_mr_button_connecting_22_dark = 2130837786;
 			
 			// aapt resource value: 0x7f02011b
-			public const int ic_mr_button_connecting_25_dark = 2130837787;
+			public const int ic_mr_button_connecting_22_light = 2130837787;
 			
 			// aapt resource value: 0x7f02011c
-			public const int ic_mr_button_connecting_25_light = 2130837788;
+			public const int ic_mr_button_connecting_23_dark = 2130837788;
 			
 			// aapt resource value: 0x7f02011d
-			public const int ic_mr_button_connecting_26_dark = 2130837789;
+			public const int ic_mr_button_connecting_23_light = 2130837789;
 			
 			// aapt resource value: 0x7f02011e
-			public const int ic_mr_button_connecting_26_light = 2130837790;
+			public const int ic_mr_button_connecting_24_dark = 2130837790;
 			
 			// aapt resource value: 0x7f02011f
-			public const int ic_mr_button_connecting_27_dark = 2130837791;
+			public const int ic_mr_button_connecting_24_light = 2130837791;
 			
 			// aapt resource value: 0x7f020120
-			public const int ic_mr_button_connecting_27_light = 2130837792;
+			public const int ic_mr_button_connecting_25_dark = 2130837792;
 			
 			// aapt resource value: 0x7f020121
-			public const int ic_mr_button_connecting_28_dark = 2130837793;
+			public const int ic_mr_button_connecting_25_light = 2130837793;
 			
 			// aapt resource value: 0x7f020122
-			public const int ic_mr_button_connecting_28_light = 2130837794;
+			public const int ic_mr_button_connecting_26_dark = 2130837794;
 			
 			// aapt resource value: 0x7f020123
-			public const int ic_mr_button_connecting_29_dark = 2130837795;
+			public const int ic_mr_button_connecting_26_light = 2130837795;
 			
 			// aapt resource value: 0x7f020124
-			public const int ic_mr_button_connecting_29_light = 2130837796;
+			public const int ic_mr_button_connecting_27_dark = 2130837796;
 			
 			// aapt resource value: 0x7f020125
-			public const int ic_mr_button_connecting_30_dark = 2130837797;
+			public const int ic_mr_button_connecting_27_light = 2130837797;
 			
 			// aapt resource value: 0x7f020126
-			public const int ic_mr_button_connecting_30_light = 2130837798;
+			public const int ic_mr_button_connecting_28_dark = 2130837798;
 			
 			// aapt resource value: 0x7f020127
-			public const int ic_mr_button_disabled_dark = 2130837799;
+			public const int ic_mr_button_connecting_28_light = 2130837799;
 			
 			// aapt resource value: 0x7f020128
-			public const int ic_mr_button_disabled_light = 2130837800;
+			public const int ic_mr_button_connecting_29_dark = 2130837800;
 			
 			// aapt resource value: 0x7f020129
-			public const int ic_mr_button_disconnected_dark = 2130837801;
+			public const int ic_mr_button_connecting_29_light = 2130837801;
 			
 			// aapt resource value: 0x7f02012a
-			public const int ic_mr_button_disconnected_light = 2130837802;
+			public const int ic_mr_button_connecting_30_dark = 2130837802;
 			
 			// aapt resource value: 0x7f02012b
-			public const int ic_mr_button_grey = 2130837803;
+			public const int ic_mr_button_connecting_30_light = 2130837803;
 			
 			// aapt resource value: 0x7f02012c
-			public const int ic_mtrl_chip_checked_black = 2130837804;
+			public const int ic_mr_button_disabled_dark = 2130837804;
 			
 			// aapt resource value: 0x7f02012d
-			public const int ic_mtrl_chip_checked_circle = 2130837805;
+			public const int ic_mr_button_disabled_light = 2130837805;
 			
 			// aapt resource value: 0x7f02012e
-			public const int ic_mtrl_chip_close_circle = 2130837806;
+			public const int ic_mr_button_disconnected_dark = 2130837806;
 			
 			// aapt resource value: 0x7f02012f
-			public const int ic_vol_type_speaker_dark = 2130837807;
+			public const int ic_mr_button_disconnected_light = 2130837807;
 			
 			// aapt resource value: 0x7f020130
-			public const int ic_vol_type_speaker_group_dark = 2130837808;
+			public const int ic_mr_button_grey = 2130837808;
 			
 			// aapt resource value: 0x7f020131
-			public const int ic_vol_type_speaker_group_light = 2130837809;
+			public const int ic_mtrl_chip_checked_black = 2130837809;
 			
 			// aapt resource value: 0x7f020132
-			public const int ic_vol_type_speaker_light = 2130837810;
+			public const int ic_mtrl_chip_checked_circle = 2130837810;
 			
 			// aapt resource value: 0x7f020133
-			public const int ic_vol_type_tv_dark = 2130837811;
+			public const int ic_mtrl_chip_close_circle = 2130837811;
 			
 			// aapt resource value: 0x7f020134
-			public const int ic_vol_type_tv_light = 2130837812;
+			public const int ic_vol_type_speaker_dark = 2130837812;
 			
 			// aapt resource value: 0x7f020135
-			public const int mr_button_connected_dark = 2130837813;
+			public const int ic_vol_type_speaker_group_dark = 2130837813;
 			
 			// aapt resource value: 0x7f020136
-			public const int mr_button_connected_light = 2130837814;
+			public const int ic_vol_type_speaker_group_light = 2130837814;
 			
 			// aapt resource value: 0x7f020137
-			public const int mr_button_connecting_dark = 2130837815;
+			public const int ic_vol_type_speaker_light = 2130837815;
 			
 			// aapt resource value: 0x7f020138
-			public const int mr_button_connecting_light = 2130837816;
+			public const int ic_vol_type_tv_dark = 2130837816;
 			
 			// aapt resource value: 0x7f020139
-			public const int mr_button_dark = 2130837817;
+			public const int ic_vol_type_tv_light = 2130837817;
 			
 			// aapt resource value: 0x7f02013a
-			public const int mr_button_light = 2130837818;
+			public const int mr_button_connected_dark = 2130837818;
 			
 			// aapt resource value: 0x7f02013b
-			public const int mr_dialog_close_dark = 2130837819;
+			public const int mr_button_connected_light = 2130837819;
 			
 			// aapt resource value: 0x7f02013c
-			public const int mr_dialog_close_light = 2130837820;
+			public const int mr_button_connecting_dark = 2130837820;
 			
 			// aapt resource value: 0x7f02013d
-			public const int mr_dialog_material_background_dark = 2130837821;
+			public const int mr_button_connecting_light = 2130837821;
 			
 			// aapt resource value: 0x7f02013e
-			public const int mr_dialog_material_background_light = 2130837822;
+			public const int mr_button_dark = 2130837822;
 			
 			// aapt resource value: 0x7f02013f
-			public const int mr_group_collapse = 2130837823;
+			public const int mr_button_light = 2130837823;
 			
 			// aapt resource value: 0x7f020140
-			public const int mr_group_expand = 2130837824;
+			public const int mr_dialog_close_dark = 2130837824;
 			
 			// aapt resource value: 0x7f020141
-			public const int mr_media_pause_dark = 2130837825;
+			public const int mr_dialog_close_light = 2130837825;
 			
 			// aapt resource value: 0x7f020142
-			public const int mr_media_pause_light = 2130837826;
+			public const int mr_dialog_material_background_dark = 2130837826;
 			
 			// aapt resource value: 0x7f020143
-			public const int mr_media_play_dark = 2130837827;
+			public const int mr_dialog_material_background_light = 2130837827;
 			
 			// aapt resource value: 0x7f020144
-			public const int mr_media_play_light = 2130837828;
+			public const int mr_group_collapse = 2130837828;
 			
 			// aapt resource value: 0x7f020145
-			public const int mr_media_stop_dark = 2130837829;
+			public const int mr_group_expand = 2130837829;
 			
 			// aapt resource value: 0x7f020146
-			public const int mr_media_stop_light = 2130837830;
+			public const int mr_media_pause_dark = 2130837830;
 			
 			// aapt resource value: 0x7f020147
-			public const int mr_vol_type_audiotrack_dark = 2130837831;
+			public const int mr_media_pause_light = 2130837831;
 			
 			// aapt resource value: 0x7f020148
-			public const int mr_vol_type_audiotrack_light = 2130837832;
+			public const int mr_media_play_dark = 2130837832;
 			
 			// aapt resource value: 0x7f020149
-			public const int mtrl_snackbar_background = 2130837833;
+			public const int mr_media_play_light = 2130837833;
 			
 			// aapt resource value: 0x7f02014a
-			public const int mtrl_tabs_default_indicator = 2130837834;
+			public const int mr_media_stop_dark = 2130837834;
 			
 			// aapt resource value: 0x7f02014b
-			public const int navigation_empty_icon = 2130837835;
+			public const int mr_media_stop_light = 2130837835;
 			
 			// aapt resource value: 0x7f02014c
-			public const int notification_action_background = 2130837836;
+			public const int mr_vol_type_audiotrack_dark = 2130837836;
 			
 			// aapt resource value: 0x7f02014d
-			public const int notification_bg = 2130837837;
+			public const int mr_vol_type_audiotrack_light = 2130837837;
 			
 			// aapt resource value: 0x7f02014e
-			public const int notification_bg_low = 2130837838;
+			public const int mtrl_snackbar_background = 2130837838;
 			
 			// aapt resource value: 0x7f02014f
-			public const int notification_bg_low_normal = 2130837839;
+			public const int mtrl_tabs_default_indicator = 2130837839;
 			
 			// aapt resource value: 0x7f020150
-			public const int notification_bg_low_pressed = 2130837840;
+			public const int navigation_empty_icon = 2130837840;
 			
 			// aapt resource value: 0x7f020151
-			public const int notification_bg_normal = 2130837841;
+			public const int notification_action_background = 2130837841;
 			
 			// aapt resource value: 0x7f020152
-			public const int notification_bg_normal_pressed = 2130837842;
+			public const int notification_bg = 2130837842;
 			
 			// aapt resource value: 0x7f020153
-			public const int notification_icon_background = 2130837843;
-			
-			// aapt resource value: 0x7f020158
-			public const int notification_template_icon_bg = 2130837848;
-			
-			// aapt resource value: 0x7f020159
-			public const int notification_template_icon_low_bg = 2130837849;
+			public const int notification_bg_low = 2130837843;
 			
 			// aapt resource value: 0x7f020154
-			public const int notification_tile_bg = 2130837844;
+			public const int notification_bg_low_normal = 2130837844;
 			
 			// aapt resource value: 0x7f020155
-			public const int notify_panel_notification_icon_bg = 2130837845;
+			public const int notification_bg_low_pressed = 2130837845;
 			
 			// aapt resource value: 0x7f020156
-			public const int tooltip_frame_dark = 2130837846;
+			public const int notification_bg_normal = 2130837846;
 			
 			// aapt resource value: 0x7f020157
-			public const int tooltip_frame_light = 2130837847;
+			public const int notification_bg_normal_pressed = 2130837847;
+			
+			// aapt resource value: 0x7f020158
+			public const int notification_icon_background = 2130837848;
+			
+			// aapt resource value: 0x7f02015d
+			public const int notification_template_icon_bg = 2130837853;
+			
+			// aapt resource value: 0x7f02015e
+			public const int notification_template_icon_low_bg = 2130837854;
+			
+			// aapt resource value: 0x7f020159
+			public const int notification_tile_bg = 2130837849;
+			
+			// aapt resource value: 0x7f02015a
+			public const int notify_panel_notification_icon_bg = 2130837850;
+			
+			// aapt resource value: 0x7f02015b
+			public const int tooltip_frame_dark = 2130837851;
+			
+			// aapt resource value: 0x7f02015c
+			public const int tooltip_frame_light = 2130837852;
 			
 			static Drawable()
 			{

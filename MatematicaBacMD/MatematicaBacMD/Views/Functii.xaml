@@ -8,18 +8,16 @@
         <ScrollView>
             <StackLayout Padding="15">
                 <Label Text="Func&#539;ii" Style="{StaticResource TitleLable}"/>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Importantus}" Margin="0,20,0,10" Text="Propriet&#259;&#539;i&#10;&#10;"/>
-                <!--<Image x:Name="img"/>
-                <Image x:Name="img1"/>
-                <Image x:Name="img2"/>-->
-                <Image Source="i30.jpg" Margin="0,0,0,0"></Image>
-            <ffimageloading:CachedImage
-			WidthRequest="300" HeightRequest="300"
-                Source="i36.jpg">
-		    </ffimageloading:CachedImage>
-               
-              
+                <BoxView HeightRequest="2" BackgroundColor="White"/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="1500"
+                        Aspect="Fill"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i31.jpg">
+                </ffimageloading:CachedImage>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

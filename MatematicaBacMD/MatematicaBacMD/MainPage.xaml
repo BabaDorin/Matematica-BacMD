@@ -4,30 +4,18 @@
              xmlns:local="clr-namespace:MatematicaBacMD"
              x:Class="MatematicaBacMD.MainPage"
              NavigationPage.HasNavigationBar="false"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              BackgroundColor="#2C3359">
-
-    <!--<ContentPage.Resources>
-        <ResourceDictionary>
-            <Style x:Key="buttonStyle" TargetType="Button">
-                <Setter Property="TextColor" Value="Black"/>
-                <Setter Property="BorderColor" Value="#f9f9fa"/>
-                <Setter Property="BorderWidth" Value="1"/>
-                <Setter Property="BorderRadius" Value="100"/>
-                <Setter Property="BackgroundColor" Value="#f9f9fa"/>
-                <Setter Property="FontAttributes" Value="Bold"/>
-                <Setter Property="WidthRequest" Value="300"/>
-                <Setter Property="HorizontalOptions" Value="Center"/>
-                <Setter Property="Margin" Value="0, 0, 0, 10"/>
-                <Setter Property="FontSize" Value="Medium"/>
-                <Setter Property="FontFamily" Value="Roboto"/>
-            </Style>
-        </ResourceDictionary>
-    </ContentPage.Resources>-->
-    
     
     <ScrollView>
         <StackLayout>
-            <Image Source="bg.jpg"  Margin="0, 0, 0, 18"/>
+            <ffimageloading:CachedImage
+                Margin="0"
+                        WidthRequest="500"
+                        HeightRequest="300"
+                        HorizontalOptions="Center" 
+                    Source="bg.jpg">
+            </ffimageloading:CachedImage>
             <StackLayout>
                 <Label Text="Algebra"
                    TextColor="White"

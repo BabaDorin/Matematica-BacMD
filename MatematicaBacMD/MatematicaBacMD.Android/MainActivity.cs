@@ -18,7 +18,7 @@ namespace MatematicaBacMD.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
-            FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer:false);
+            FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer:true);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
         }

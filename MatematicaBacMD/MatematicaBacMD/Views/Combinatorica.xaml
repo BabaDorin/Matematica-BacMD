@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MatematicaBacMD.Views.Combinatorica"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              Style="{StaticResource background}">
     <ContentPage.Content>
         <ScrollView>
@@ -26,7 +27,13 @@ De exemplu, fiind date trei fructe (un m&#259;r, o portocal&#259; &#351;i o par&
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i2.jpg"  Margin="0, -10, 0, 10"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="250"
+                        HeightRequest="60"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i2.jpg">
+                </ffimageloading:CachedImage>
                 <Label Style="{StaticResource Info}" Margin="0,20,0,10">
                     <Label.FormattedText>
                         <FormattedString>
@@ -34,7 +41,13 @@ De exemplu, fiind date trei fructe (un m&#259;r, o portocal&#259; &#351;i o par&
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i3.jpg"  Margin="0, -10, 0, 10"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="400"
+                        HeightRequest="60"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i3.jpg">
+                </ffimageloading:CachedImage>
                 <Label Style="{StaticResource Info}" Margin="0,20,0,10">
                     <Label.FormattedText>
                         <FormattedString>
@@ -42,7 +55,13 @@ De exemplu, fiind date trei fructe (un m&#259;r, o portocal&#259; &#351;i o par&
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i4.jpg"  Margin="0, -10, 0, 10"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="500"
+                        HeightRequest="318"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i4.jpg">
+                </ffimageloading:CachedImage>
                 <BoxView HeightRequest="1" BackgroundColor="White"/>
                 <Label Style="{StaticResource Info}" Margin="0,20,0,10">
                     <Label.FormattedText>
@@ -53,7 +72,13 @@ Defini&#539;ie: Dac&#259; A este o mul&#539;ime cu n elemente, atunci submul&#53
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i5.jpg"  Margin="0, -10, 0, 10"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="250"
+                        HeightRequest="60"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i5.jpg">
+                </ffimageloading:CachedImage>
                 <Label Style="{StaticResource Info}" Margin="0,20,0,10">
                     <Label.FormattedText>
                         <FormattedString>
@@ -61,6 +86,13 @@ Defini&#539;ie: Dac&#259; A este o mul&#539;ime cu n elemente, atunci submul&#53
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
+                <ffimageloading:CachedImage
+                        WidthRequest="276"
+                        HeightRequest="130"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i6.jpg">
+                </ffimageloading:CachedImage>
                 <BoxView HeightRequest="1" BackgroundColor="White"/>
                 <Label Style="{StaticResource Info}" Margin="0,20,0,10">
                     <Label.FormattedText>
@@ -75,7 +107,13 @@ de la 1 la n, cunoscut ca n! (n factorial)"/>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i7.jpg"  Margin="0, -10, 0, 10"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="178"
+                        HeightRequest="58"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i7.jpg">
+                </ffimageloading:CachedImage>
             </StackLayout>
 
         </ScrollView>

@@ -72,7 +72,7 @@
                 <Label Style="{StaticResource Info}" Margin="0,20,0,10">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Style="{StaticResource Important}" Text="Metode de rezolvare"/>
+                            <Span Style="{StaticResource Important}" Text="Metode de rezolvare&#10;&#10;"/>
                             <Span Style="{StaticResource Information}" Text="Existen&#539;a solu&#539;iilor reale ale ecua&#539;iei de gradul II, precum &#351;i num&#259;rul lor depind de semnul discriminantul "/>
                         </FormattedString>
                     </Label.FormattedText>

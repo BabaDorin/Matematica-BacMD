@@ -36,7 +36,7 @@
                             <Span Style="{StaticResource Important}" Text="Mul&#539;imi Importante&#10;&#10;"/>
                             <Span Style="{StaticResource Information}" Text="Mul&#539;imea numerelor naturale:&#10;
 N = {0, 1, 2, . . . , n, n + 1, . . . }&#10;
-N∗ = {1, 2, . . . , n, n + 1, . . . }&#10;&#10;
+N* = {1, 2, . . . , n, n + 1, . . . }&#10;&#10;
 Mul&#539;imea numerelor &#238;ntregi:&#10;
 Z = {. . . , −2, −1, 0, 1, 2, . . . }&#10;&#10;
 Mul&#539;imea numerelor ra&#539;ionale:"/>

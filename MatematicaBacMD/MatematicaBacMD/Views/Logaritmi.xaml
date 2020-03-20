@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MatematicaBacMD.Views.Logaritmi"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              Style="{StaticResource background}">
     <ContentPage.Content>
         <ScrollView>
@@ -17,17 +18,36 @@
                     </Label.FormattedText>
                 </Label>
                 <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Image Source="i17.jpg"  Margin="0, -10, 0, 10"/>
-                <Image Source="i18.jpg"  Margin="0, -10, 0, 10"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="270"
+                        HeightRequest="71"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i17.jpg"
+                    Margin="0, -5, 0, 0"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="55"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i18.jpg"
+                    Margin="0, -5, 0, 0"/>
                 <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                <Label Style="{StaticResource Info}" Margin="0,20,0,0">
                     <Label.FormattedText>
                         <FormattedString>
                             <Span Style="{StaticResource Important}" Text="Propriet&#259;&#539;i ale logaritmilor&#10;&#10;"/>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Image Source="i19.jpg"  Margin="0, -10, 0, 10" MinimumWidthRequest="550"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="250"
+                        HeightRequest="393"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i19.jpg"
+                    Margin="0, -5, 0, 0"/>
+                <Label Style="{StaticResource Info}" Text="Scuze pentru calitatea imaginilor :*" FontSize="9"/>
             </StackLayout>
 
         </ScrollView>

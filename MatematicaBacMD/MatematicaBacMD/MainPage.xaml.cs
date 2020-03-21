@@ -87,13 +87,6 @@ namespace MatematicaBacMD
 
         async void btnLimite(object sender, EventArgs e)
         {
-            var existingPages = Navigation.NavigationStack.ToList();
-            Debug.WriteLine(existingPages.Count() + "existing pages");
-            foreach (var page in existingPages)
-            {
-                Navigation.RemovePage(page);
-            }
-            Debug.WriteLine("Done");
             await Navigation.PushAsync(new Limite());
         }
 

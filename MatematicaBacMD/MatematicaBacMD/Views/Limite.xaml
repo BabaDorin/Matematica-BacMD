@@ -1,12 +1,108 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MatematicaBacMD.Views.Limite">
+             x:Class="MatematicaBacMD.Views.Limite"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             Style="{StaticResource background}">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Limite"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Padding="15">
+                <Label Text="Limite de func&#539;ii" Style="{StaticResource TitleLable}"/>
+                <BoxView HeightRequest="2" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Opera&#539;ii cu limite de func&#539;ii" Margin="0,20,0,10"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="190"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                        Source="i73.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Limite laterale" Margin="0,20,0,10"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="128"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                        Source="i74.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Formele neexceptate" Margin="0,20,0,10"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="1063"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                        Source="i75.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Formele exceptate" Margin="0,20,0,10"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="83"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                        Source="i76.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Limite remarcabile" Margin="0,20,0,10"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="105"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                        Source="i77.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Calcularea formelor exceptate" Margin="0,20,0,10"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="47"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                        Source="i78.jpg"/>
+                <Label Style="{StaticResource Info}" Text="Se recomand&#259;, dac&#259; este posibil, s&#259; se descompun&#259; &#238;n factori expresiile f(x) si g(x) sau s&#259; se amplifice raportul f(x)/g(x) cu expresii conjugate, simplific&#238;nd apoi cu x - x0, sau s&#259; se aplice limita remarcabil&#259;. " Margin="0,0,0,10"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="47"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                        Source="i79.jpg"/>
+                <Label Style="{StaticResource Info}" Text="Prin extragerea ca factor a func&#539;iilor ce cresc cel mai rapid la infinit. " Margin="0,0,0,10"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="47"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                        Source="i81.jpg"/>
+                <Label Style="{StaticResource Info}" Text="Prin aducerea la numitor comun sau prin amplific&#259;ri cu expresii conjugate. " Margin="0,0,0,10"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="47"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                        Source="i82.jpg"/>
+                <Label Style="{StaticResource Info}" Text="Prin utilizarea limitelor remarcabile pentru num&#259;rul e sau a identit&#259;&#539;ii logaritmice fundamentale." Margin="0,0,0,10"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Regulile lui l'Hospital" Margin="0,20,0,10"/>
+                <Label Style="{StaticResource Importantus}" Text="" Margin="0,20,0,10"/>
+                <Label Style="{StaticResource Info}" Text="Unele limite de func&#539;ii pot fi calculate cu ajutorul derivatelor. Aplicarea urm&#259;toarelor dou&#259; teoreme, numite regulile lui l'Hospital1, fac posibil calculul unor limite de forma "/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="58"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                        Source="i83.jpg"/>
+                <Label Style="{StaticResource Info}" Text="&#206;n cazurile &#238;n care "/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="58"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                        Source="i84.jpg"/>
+                <Label Style="{StaticResource Info}" Text="sau dac&#259; aceste limite s&#238;nt infinite. " Margin="0,0,0,10"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="314"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                        Source="i85.jpg"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

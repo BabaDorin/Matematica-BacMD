@@ -58,22 +58,27 @@
                 <Label Style="{StaticResource Importantus}" Text="Aplica&#539;ii ale derivatelor " Margin="0,20,0,10"/>
                 <Label Style="{StaticResource Importantus}" Text="Intervalele de monotonie" Margin="0,10,0,10"/>
                 <Label Style="{StaticResource Info}" Text="Fie o func&#539;ie f:D->R o func&#539;ie derivabil&#259; pe intervalul D" Margin="0,10,0,0"/>
-                <Label Style="{StaticResource Info}" Text="- Dac&#259; f'(x) > 0, pentru orice x &#8712; D, atunci f este strict cresc&#259;toare pe D&#10;"/>
-                <Label Style="{StaticResource Info}" Text="- Dac&#259; f'(x) < 0, pentru orice x &#8712; D, atunci f este strict descresc&#259;toare pe D&#10;"/>
-                <Label Style="{StaticResource Info}" Text="- Dac&#259; f'(x) &#8805; 0, pentru orice x &#8712; D, atunci f d cre&#351;te pe D&#10;"/>
-                <Label Style="{StaticResource Info}" Text="- Dac&#259; f'(x) &#8804; 0, pentru orice x &#8712; D, atunci f d descre&#351;te pe D&#10;"/>
+                <Label Style="{StaticResource Info}" Text="- Dac&#259; f'(x) &#62; 0, pentru orice x &#8712; D, atunci f este strict cresc&#259;toare pe D&#10;"/>
+                <Label Style="{StaticResource Info}" Text="- Dac&#259; f'(x) &#60; 0, pentru orice x &#8712; D, atunci f este strict descresc&#259;toare pe D&#10;"/>
+                <Label Style="{StaticResource Info}" Text="- Dac&#259; f'(x) &#8805; 0, pentru orice x &#8712; D, atunci f cre&#351;te pe D&#10;"/>
+                <Label Style="{StaticResource Info}" Text="- Dac&#259; f'(x) &#8804; 0, pentru orice x &#8712; D, atunci f descre&#351;te pe D&#10;"/>
                 <BoxView HeightRequest="1" BackgroundColor="White"/>
                 <Label Style="{StaticResource Importantus}" Text="Punctele de extrem" Margin="0,20,0,10"/>
-                <Label Style="{StaticResource Info}" Text="Pentru a determina intervalele de monotonie &#351;i punctele de extrem local al func&#539;iei, proced&#259;m in felul urmator:D&#10; "/>
+                <Label Style="{StaticResource Info}" Text="Pentru a determina intervalele de monotonie &#351;i punctele de extrem local al func&#539;iei, proced&#259;m in felul urmator:&#10; "/>
                 <Label Style="{StaticResource Info}" Text="1) Determin&#259;m f'(x) "/>
                 <Label Style="{StaticResource Info}" Text="2) Rezolv&#259;m ecua&#539;ia f'(x) = 0 "/>
                 <Label Style="{StaticResource Info}" Text="3) Stabilim semnul derivatei f'(x) &#238;n intervalele determinate de zerourile din 2) "/>
                 <Label Style="{StaticResource Info}" Text="4) Stabilim intervalele &#238;n care f'(x) are semn constant, care &#351;i vor fi intervalele de monotonie ale func&#539;iei "/>
                 <Label Style="{StaticResource Info}" Text="5) Stabilim punctele de extrem &#351;i valorile extremale ale func&#539;iei "/>
-                <Label Style="{StaticResource Info}" Text="Teorem&#259;: Dac&#259; f'(x0) = 0, iar f''(x0) diferit 0 [f''(x) = (f'(x))'] atunci x0 este punct de extrem al func&#539;iei. &#10;x0 este punct de maxim local dac&#259; f''(x0) < 0 &#351;i punct de minim local daca f''(x0) > 0. "/>
+                <Label Style="{StaticResource Info}" Text="Teorem&#259;: Dac&#259; f'(x0) = 0, iar f''(x0) diferit 0 [f''(x) = (f'(x))'] atunci x0 este punct de extrem al func&#539;iei. &#10;x0 este punct de maxim local dac&#259; f''(x0) &#60; 0 &#351;i punct de minim local daca f''(x0) > 0. "/>
                 <BoxView HeightRequest="1" BackgroundColor="White"/>
                 <Label Style="{StaticResource Importantus}" Text="Extremele globale" Margin="0,20,0,10"/>
-                <Label Style="{StaticResource Info}" Text="Extremele globale se mai numesc valoarea cea mai mic&#259; &#351;i valoarea cea mai mare ale func&#539;iei f. "/>
+                <Label Style="{StaticResource Info}" Text="Extremele globale se mai numesc valoarea cea mai mic&#259; &#351;i valoarea cea mai mare ale func&#539;iei f. &#10;"/>
+                <Label Style="{StaticResource Info}" Text="Algoritmul de determinare a extremelor globale pentru func&#539;ia f[a,b]->R&#10;"/>
+                <Label Style="{StaticResource Info}" Text="1) Determin&#259;m f'(x) &#351;i punctele din (a,b) &#238;n care f'(x) nu exista. "/>
+                <Label Style="{StaticResource Info}" Text="2) Rezolv&#259;m ecua&#539;ia f'(x) = 0 pe (a,b) "/>
+                <Label Style="{StaticResource Info}" Text="3) Calcul&#259;m valorile func&#539;iei f &#238;n punctele critice din 1) &#351;i 2) &#351;i la capetele segmentului: f(a), f(b). "/>
+                <Label Style="{StaticResource Info}" Text="4) Compar&#259;m valorile din 3): minf(x), maxf(x) sunt extremele globale ale func&#539;iei f. "/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -171,7 +171,6 @@
                     BitmapOptimizations="True"
                         VerticalOptions="Center"
                         Source="i123.jpg"/>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

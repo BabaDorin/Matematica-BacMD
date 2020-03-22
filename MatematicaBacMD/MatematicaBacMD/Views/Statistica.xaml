@@ -1,12 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MatematicaBacMD.Views.Statistica">
+             x:Class="MatematicaBacMD.Views.Statistica"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             Style="{StaticResource background}">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Statistica"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Padding="15">
+                <Label Text="Statistic&#259;" Style="{StaticResource TitleLable}"/>
+                <BoxView HeightRequest="2" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Text="Statistica este &#351;tiin&#539;a care se ocup&#259; cu colectarea, &#238;nregistrarea, gruparea, analiza &#351;i interpretarea datelor referitoare la un anumit fenomen, precum &#351;i cu formularea unor previziuni privind comportarea viitoare a acestui fenomen. Popula&#539;ia statistic&#259; reprezint&#259; o mul&#539;ime de elemente de aceea&#351;i natur&#259;, care au tr&#259;s&#259;turi esen&#539;iale comune &#351;i care sunt supuse unui studiu statistic. Elementele populatiei statistice se numesc unit&#259;&#539;i statistice. Num&#259;rul unit&#259;&#539;ilor statistice se numeste volumul, sau efectivul total al popula&#539;iei statistice, iar tr&#259;s&#259;tura comun&#259; a unit&#259;&#539;ilor statistice se nume&#351;te caracteristic&#259; statistic&#259;, sau variabil&#259; statistic&#259;. " />
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="&#206;nregistrarea &#351;i gruparea datelor" Margin="0,20,0,0"/>
+                <Label Style="{StaticResource Info}" Text="Seria statistic&#259; &#238;ntr-o form&#259; general&#259;" />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="134"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i124.jpg"/>
+                <Label Style="{StaticResource Importantus}" Text="Exemplu" Margin="0,20,0,0"/>
+                <Label Style="{StaticResource Info}" Text="Pentru a verifica cuno&#351;tin&#539;ele la matematic&#259;, fiec&#259;rui elev dintr-un grup de 50 de elevi i-au fost propuse 20 de probleme. Num&#259;rul de probleme rezolvate de elevi este dat &#238;n ordinea prezent&#259;rii lucr&#259;rilor: " />
+                <Label Style="{StaticResource Info}" Text="11, 14, 11, 12, 8, 17, 11, 14, 10, 12, 12, 10, 12, 8, 17, 11, 10, 11, 12, 10, 10, 11, 8, 11, 12, 11, 11, 17, 16, 10, 12, 8, 16, 12, 10, 11, 16, 10, 11, 12, 8, 10, 11, 12, 11, 11, 17, 11, 10, 12." />
+                <Label Style="{StaticResource Info}" Text="Aceste numere formeaz&#259; un tabel de date statistice " />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="107"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i125.jpg"/>
+                <Label Style="{StaticResource Info}" Text="C&#226;nd caracteristica cantitativ&#259; de grupare prezint&#259; un num&#259;r mare de variante, &#238;ndeosebi dac&#259; ea este continu&#259;, se efectueaz&#259; gruparea datelor pe intervale de varia&#539;ie. " Margin="0,20,0,0"/>
+                <Label Style="{StaticResource Importantus}" Text="Exemplu" Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="&#206;nregistr&#226;ndu-se durata de func&#539;ionare a 65 de l&#259;mpi electronice, au fost ob&#539;inute datele (&#238;n ore): " />
+                <Label Style="{StaticResource Info}" Text="13,4  14,7  15,2  15,1  13,0  8,8  14,0  17,9  15,1  16,5  16,6 
+14,2  16,3  14,6  11,7  16,4  15,1  17,6  14,1  18,8  11,6  13,9 
+18,0  12,4  17,2  14,5  16,3  13,7  15,5  16,2  8,4  14,7  15,4 
+11,3  10,7  16,9  15,8  16,1  12,3  14,0  17,7  14,7  16,2  17,1 
+10,1  15,8  18,3  17,5  12,7  20,7  13,5  14,0  15,7  21,9  14,3 
+17,7  15,4  10,9  18,2  17,3  15,2  16,7  17,3  12,1  19,2" />
+                <Label Style="{StaticResource Info}" Text="Grup&#226;nd datele pe intervale (clase), ob&#539;inem tabelul " />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="130"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i126.jpg"/>
+                <Label Style="{StaticResource Info}" Text="La alegerea num&#259;rului de intervale (r) se recomand&#259; s&#259; folosim formula lui Sturges: " />
+                <Label Style="{StaticResource Info}" Text="r&#8776;1+3,322lgn" />
+                <Label Style="{StaticResource Info}" Text="unde n este volumul selec&#539;iei date." />
+                <Label Style="{StaticResource Info}" Text="" />
+                <Label Style="{StaticResource Info}" Text="M&#259;rimea h a intervalului se calculeaz&#259; conform formulei " />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="38"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i127.jpg"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

@@ -60,6 +60,71 @@
                     BitmapOptimizations="True"
                         VerticalOptions="Center"
                         Source="i127.jpg"/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Label Style="{StaticResource Info}" Text="Un tabel statistic poate fi completat cu aceste frecven&#539;e. Complet&#259;nd tabelul din primul exerci&#539;iu, obtinem urm&#259;torul tabel: " />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="155"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i128.jpg"/>
+                <Label Style="{StaticResource Info}" Text="Un tabel statistic poate fi completat cu aceste frecven&#539;e. Complet&#259;nd tabelul din primul exerci&#539;iu, obtinem urm&#259;torul tabel: " />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="155"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i129.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="M&#259;rimi medii ale seriilor statistice " Margin="0,20,0,0"/>
+                <Label Style="{StaticResource Importantus}" Text="Media aritmetic&#259;" Margin="0,10,0,0"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="88"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i130.jpg"/>
+                <Label Style="{StaticResource Info}" Text="ceea ce &#238;nseamn&#259; c&#259; num&#259;rul mediu de probleme rezolvate de un elev este 11,62. Putem trage concluzia c&#259; 30 de elevi (din 50) au rezultate sub medie. " />
+                <Label Style="{StaticResource Importantus}" Text="Mediana unei succesiuni de numere" Margin="0,20,0,10"/>
+                <Label Style="{StaticResource Info}" Text="Mediana (Me) unei succesiuni de n numere, ordonate cresc&#259;tor, este num&#259;rul care se afl&#259; la mijlocul succesiunii. " />
+                <Label Style="{StaticResource Info}" Text="Dac&#259; succesiunea con&#539;ine un num&#259;r impar de variante, atunci mediana este chiar termenul central. Pentru o succesiune cu un num&#259;r par de variante, mediana este media aritmetic&#259; a celor doi termeni centrali. " />
+                <Label Style="{StaticResource Info}" Text="De exemplu, pentru succesiunea 2, 3, 3, 4, 6, 7, 8, 10, 10 avem Me=6, iar pentru succesiunea 1, 2, 2, 4, 7, 9, 9, 10 avem  Me=(4+7)/2=5,5" />
+                <Label Style="{StaticResource Info}" Text="" />
+                <Label Style="{StaticResource Info}" Text="&#206;n cadrul unei serii statistice, Mediana (Me) este valoarea care separ&#259; volumul selec&#539;iei ordonate cresc&#259;tor &#238;n dou&#259; p&#259;r&#539;i egale, dup&#259; num&#259;rul de elemente. Mediana nu este neap&#259;rat una dintre variantele selec&#539;iei." />
+                <Label Style="{StaticResource Info}" Text="&#206;n cazul grup&#259;rii pe variante, mediana se determin&#259; astfel: " />
+                <Label Style="{StaticResource Info}" Text="Fie X o caracteristic&#259; statistic&#259;" />
+                <Label Style="{StaticResource Info}" Text="1) Calcul&#259;m frecven&#539;ele absolute cumulate; " />
+                <Label Style="{StaticResource Info}" Text="2) G&#259;sim prima frecven&#539;&#259; absolut&#259; cumulat&#259; mai mare dec&#226;t (n+1)/2, ea indic&#259; locul medianei: valoarea Me este valoarea variantei corespunz&#259;toare a lui X " />
+                <Label Style="{StaticResource Importantus}" Text="Exemplu" Margin="0,20,0,0"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="169"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i131.jpg"/>
+                <Label Style="{StaticResource Info}" Text="Prima frecven&#539;&#259; absolut&#259; cumulat&#259;, mai mare dec&#226;t 13, este 21, &#351;i aceasta indic&#259; locul medianei: linia variantei xi=7. Prin urmare, Me = 7. " />
+                <Label Style="{StaticResource Info}" Text="&#206;n cazul &#238;n care datele statistice sunt grupate pe intervale, mediana se con&#539;ine &#238;n primul interval a c&#259;rui frecven&#539;&#259; absolut&#259; cumulat&#259; este mai mare dec&#226;t (n+1)/2.  Acest interval se nume&#351;te interval median." />
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Modul" Margin="0,20,0,10"/>
+                <Label Style="{StaticResource Info}" Text="Modul (Mo), sau dominanta, unei serii statistice reprezint&#259; valoarea caracteristicii cu frecven&#539;a cea mai mare " />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="232"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i132.jpg"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="580"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i133.jpg"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

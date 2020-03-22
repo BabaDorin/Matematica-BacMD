@@ -1,12 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MatematicaBacMD.Views.TeoriaProbabilitatilor">
+             x:Class="MatematicaBacMD.Views.TeoriaProbabilitatilor"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             Style="{StaticResource background}">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="TeoriaProbabilitatilor"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Padding="15">
+                <Label Text="Teoria probabilit&#259;&#539;ilor" Style="{StaticResource TitleLable}"/>
+                <BoxView HeightRequest="2" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Text="Se nume&#351;te probabilitate a unui eveniment aleator A raportul dintre num&#259;rul m de rezultate egal posibile favorabile lui A &#351;i num&#259;rul total n de rezultate egal posibile ale experimentului. " />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="56"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i105.jpg"/>
+                <Label Style="{StaticResource Importantus}" Text="Exemplu" Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="Se arunc&#259; o moned&#259;. S&#259; se calculeze probabilitatea c&#259; va c&#259;dea fa&#539;a cu stema (evenimentul A)." />
+                <Label Style="{StaticResource Info}" Text="Rezolvare" />
+                <Label Style="{StaticResource Info}" Text="Evenimentului A &#238;i este favorabil unul dintre cele dou&#259; rezultate posibile echiprobabile. Deci, n=2, m=1 &#351;i P(A)=1/2." />
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                
+                
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

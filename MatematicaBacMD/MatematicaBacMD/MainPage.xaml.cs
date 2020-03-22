@@ -99,12 +99,6 @@ namespace MatematicaBacMD
         {
             await Navigation.PushAsync(new Integrale());
         }
-
-        async void btnPrimitiveleFunctiilor(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new PrimitiveleFunctiilor());
-        }
-
         async void btnTeoriaProbabilitatilor(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new TeoriaProbabilitatilor());

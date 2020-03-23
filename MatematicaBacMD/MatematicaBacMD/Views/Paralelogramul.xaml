@@ -13,7 +13,7 @@
                 <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
-                        HeightRequest ="380"
+                        HeightRequest ="307"
                         Aspect="Fill"
                     BitmapOptimizations="True"
                         HorizontalOptions="Center" 
@@ -22,7 +22,7 @@
                 <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
-                        HeightRequest ="270"
+                        HeightRequest ="234"
                         Aspect="Fill"
                     BitmapOptimizations="True"
                         HorizontalOptions="Center" 

@@ -16,7 +16,7 @@
                 <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
-                        HeightRequest ="430"
+                        HeightRequest ="346"
                         Aspect="Fill"
                     BitmapOptimizations="True"
                         HorizontalOptions="Center" 

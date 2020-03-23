@@ -13,7 +13,7 @@
                 <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
-                        HeightRequest ="781"
+                        HeightRequest ="630"
                         Aspect="Fill"
                     BitmapOptimizations="True"
                         HorizontalOptions="Center" 
@@ -24,7 +24,7 @@
                 <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
-                        HeightRequest ="503"
+                        HeightRequest ="406"
                         Aspect="Fill"
                     BitmapOptimizations="True"
                         HorizontalOptions="Center" 
@@ -35,7 +35,7 @@
                 <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
-                        HeightRequest ="305"
+                        HeightRequest ="246"
                         Aspect="Fill"
                     BitmapOptimizations="True"
                         HorizontalOptions="Center" 
@@ -46,7 +46,7 @@
                 <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
-                        HeightRequest ="107"
+                        HeightRequest ="86"
                         Aspect="Fill"
                     BitmapOptimizations="True"
                         HorizontalOptions="Center" 
@@ -59,7 +59,7 @@
                 <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
-                        HeightRequest ="150"
+                        HeightRequest ="119"
                         Aspect="Fill"
                     BitmapOptimizations="True"
                         HorizontalOptions="Center" 
@@ -71,7 +71,7 @@
                 <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
-                        HeightRequest ="372"
+                        HeightRequest ="300"
                         Aspect="Fill"
                     BitmapOptimizations="True"
                         HorizontalOptions="Center" 
@@ -83,7 +83,7 @@
                 <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
-                        HeightRequest ="294"
+                        HeightRequest ="237"
                         Aspect="Fill"
                     BitmapOptimizations="True"
                         HorizontalOptions="Center" 
@@ -95,7 +95,7 @@
                 <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
-                        HeightRequest ="221"
+                        HeightRequest ="178"
                         Aspect="Fill"
                     BitmapOptimizations="True"
                         HorizontalOptions="Center" 
@@ -107,12 +107,33 @@
                 <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
-                        HeightRequest ="203"
+                        HeightRequest ="163"
                         Aspect="Fill"
                     BitmapOptimizations="True"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i146.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Teorema lui Thales" Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="O paralel&#259; dus&#259; la una dintre laturile unui triunghi determin&#259; pe celelalte dou&#259; laturi sau  prelungirile lor, segmente propor&#539;ionale. "/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="226"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i150.jpg"/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="226"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i151.jpg"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -128,11 +128,6 @@ namespace MatematicaBacMD
             await Navigation.PushAsync(new Trapezul());
         }
 
-        async void btnThales(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Thales());
-        }
-
         async void btnPoligoane(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Poligoane());

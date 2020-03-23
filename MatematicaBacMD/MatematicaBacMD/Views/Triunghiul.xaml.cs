@@ -14,7 +14,7 @@ namespace MatematicaBacMD.Views
 	{
 		public Triunghiul ()
 		{
-			InitializeComponent ();
+			InitializeComponent();
 		}
 	}
 }

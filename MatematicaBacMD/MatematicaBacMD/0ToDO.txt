@@ -1,4 +1,5 @@
 ﻿Calcul financiar - separat
+init ffimageloading for ios.
 
 1) Corectare greseli gramaticale
 2) semnul apartine

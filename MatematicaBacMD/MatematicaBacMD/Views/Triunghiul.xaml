@@ -1,12 +1,119 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MatematicaBacMD.Views.Triunghiul">
+             x:Class="MatematicaBacMD.Views.Triunghiul"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             Style="{StaticResource background}">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Triunghiul"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Padding="15">
+                <Label Text="Triunghiul" Style="{StaticResource TitleLable}"/>
+                <BoxView HeightRequest="2" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Triunghiul arbitrar" Margin="0,10,0,0"/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="781"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i138.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Triunghiul dreptunghic" Margin="0,10,0,0"/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="503"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i139.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Triunghiul echilateral" Margin="0,10,0,0"/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="305"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i140.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Asem&#259;narea triunghiurilor " Margin="0,10,0,0"/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="107"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i141.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Linii importante &#238;n triunghi" Margin="0,10,0,10"/>
+                <Label Style="{StaticResource Importantus}" Text="Linia mijlocie" Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="&#206;ntr-un triunghi, segmentul ale c&#259;rui extremit&#259;&#539;i sunt mijloacele a dou&#259; laturi se nume&#351;te  linie mijlocie a triunghiului. "/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="150"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i142.jpg"/>
+                <Label Style="{StaticResource Importantus}" Text="Bisectoarea" Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="Bisectoarea unui unghi este semidreapta cu originea &#238;n v&#226;rful unghiului, care &#238;mparte acest unghi  &#238;n alte dou&#259; unghiuri de m&#259;suri egale. "/>
+                <Label Style="{StaticResource Info}" Text="&#10;Proprietatea bisectoarei: Un punct din interiorul unui unghi propriu apar&#539;ine bisectoarei unghiului  dac&#259; distan&#539;ele de la punct la laturile unghiului sunt egale. "/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="372"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i143.jpg"/>
+                <Label Style="{StaticResource Importantus}" Text="Mediatoarea" Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="Mediatoarea este perpendiculara dus&#259; prin mijlocul unui segment. "/>
+                <Label Style="{StaticResource Info}" Text="Mediatoarele laturilor triunghiului sunt concurente &#238;n centrul cercului circumscris triunghiului. "/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="294"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i144.jpg"/>
+                <Label Style="{StaticResource Importantus}" Text="Mediana" Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="Mediana unui triunghi este segmentul determinat de un v&#226;rf al triunghiului &#351;i mijlocul laturii  opuse acestuia."/>
+                <Label Style="{StaticResource Info}" Text="Medianele triunghiului sunt concurente &#238;ntr-un punct, numit centru de greutate al triunghiului, &#351;i se &#238;mpart &#238;n punctul de concuren&#539;a &#238;n raportul 2:1 consider&#226;nd de la v&#226;rf. "/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="221"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i145.jpg"/>
+                <Label Style="{StaticResource Importantus}" Text="&#206;n&#259;l&#539;imea " Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="O &#238;n&#259;l&#539;ime a unui triunghi este segmentul determinat de un v&#226;rf al triunghiului &#351;i piciorul perpendicularei dus&#259; din acel v&#226;rf pe dreapta care con&#539;ine latura opus&#259;. "/>
+                <Label Style="{StaticResource Info}" Text="&#206;n&#259;l&#539;imile triunghiului sunt concurente &#238;ntr-un punct, numit ortocentrul triunghiului. "/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="203"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i146.jpg"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

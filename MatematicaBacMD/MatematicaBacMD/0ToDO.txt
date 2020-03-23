@@ -1,5 +1,7 @@
 ﻿Calcul financiar - separat
 init ffimageloading for ios.
+polinoame
+calitate mai buna pentru formule logaritmi
 
 1) Corectare greseli gramaticale
 2) semnul apartine

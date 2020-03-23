@@ -133,11 +133,6 @@ namespace MatematicaBacMD
             await Navigation.PushAsync(new Poligoane());
         }
 
-        async void btnAriiFiguriPlane(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new AriiFiguriPlane());
-        }
-
         async void btnParalelism(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Paralelism());

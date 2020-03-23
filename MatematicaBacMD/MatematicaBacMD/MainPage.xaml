@@ -48,8 +48,7 @@
                 <Button Text="Triunghiul" Style="{StaticResource buttonStyle}" Clicked="btnTriunghiul"/>
                 <Button Text="Paralelogramul" Style="{StaticResource buttonStyle}" Clicked="btnParalelogramul"/>
                 <Button Text="Trapezul" Style="{StaticResource buttonStyle}" Clicked="btnTrapezul"/>
-                <Button Text="Alte poligoane" Style="{StaticResource buttonStyle}" Clicked="btnPoligoane"/>
-                <Button Text="Ariile figurilor plane" Style="{StaticResource buttonStyle}" Clicked="btnAriiFiguriPlane"/>
+                <Button Text="Alte figuri plane" Style="{StaticResource buttonStyle}" Clicked="btnPoligoane"/>
                 <Button Text="Paralelismul dreptelor si planelor" Style="{StaticResource buttonStyle}" Clicked="btnParalelism"/>
                 <Button Text="Perpendiculariatea in spatiu" Style="{StaticResource buttonStyle}" Clicked="btnPerpendicularitate"/>
                 <Button Text="Prisma" Style="{StaticResource buttonStyle}" Clicked="btnPrisma"/>

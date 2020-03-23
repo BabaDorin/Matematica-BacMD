@@ -1,4 +1,5 @@
-﻿Calcul financiar - separat
+﻿x zile pana la bac 
+
 init ffimageloading for ios.
 polinoame
 calitate mai buna pentru formule logaritmi

@@ -1,5 +1,7 @@
 ﻿x zile pana la bac 
-
+Ecuatii cu modul.
+formule cu modul
+formule ridicare la putere
 init ffimageloading for ios.
 polinoame
 calitate mai buna pentru formule logaritmi

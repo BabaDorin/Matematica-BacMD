@@ -38,7 +38,8 @@
                 <Button Text="Derivatele Functiilor" Style="{StaticResource buttonStyle}" Clicked="btnDerivateleFunctiilor"/>
                 <Button Text="Integrale &#351;i primitive " Style="{StaticResource buttonStyle}" Clicked="btnIntegrale"/>
                 <Button Text="Teoria probabilitatilor" Style="{StaticResource buttonStyle}" Clicked="btnTeoriaProbabilitatilor"/>
-                <Button Text="Elemente de statistica si calcul financiar" Style="{StaticResource buttonStyle}" Clicked="btnStatistica"/>
+                <Button Text="Elemente de statistica" Style="{StaticResource buttonStyle}" Clicked="btnStatistica"/>
+                <Button Text="Calcul financiar" Style="{StaticResource buttonStyle}" Clicked="btnCalculFinanciar"/>
                 <Label Text="Geometrie"
                    TextColor="White"
                    HorizontalOptions="Center"

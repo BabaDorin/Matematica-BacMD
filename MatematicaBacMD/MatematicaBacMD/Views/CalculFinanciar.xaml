@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MatematicaBacMD.Views.CalculFinanciar"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             Style="{StaticResource background}">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="15">
+                <!--, dob&#226;nd&#259; simpl&#259;, dob&#226;nd&#259; compus&#259;-->
+                <Label Text="Calcul financiar" Style="{StaticResource TitleLable}"/>
+                <BoxView HeightRequest="2" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Procentul" Margin="0,20,0,10"/>
+                <Label Style="{StaticResource Info}" Text="Un procent este a suta parte (o sutime) dintr-o m.1rime ini&#539;ial&#259; (de baz&#259;) G. Pentru a calcula num&#259;rul T care constituie p% dintr-un num&#259;r G, aplic&#259;m formula: " />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="65"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i134.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Dob&#226;nda" Margin="0,10,0,10"/>
+                <Label Style="{StaticResource Info}" Text="Dob&#226;nda D este suma care trebuie achitat&#259; pentru folosirea unui capital K &#238;mprumutat. Rata dob&#226;nzii este raportul dintre m&#259;rimea dob&#226;nzii (de obicei &#238;n perioada de un an) &#351;i m&#259;rimea capitalului &#238;mprumutat. Tradi&#539;ional, ea se exprim&#259; &#238;n procente, deci acest raport se &#238;nmul&#539;e&#351;te cu 100. " />
+                <Label Style="{StaticResource Info}" Text="&#10;Procentele au o aplicare larg&#259; &#238;n domeniul financiar. &#206;n particular, ele se utilizeaz&#259; la determinarea sumei care trebuie achitat&#259; pentru folosirea unui capital K &#238;mprumutat. Aceast&#259; sum&#259; S depinde de m&#259;rimea capitalului &#351;i se determin&#259;, de obicei, ca o parte a sa: de exemplu " />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="143"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i135.jpg"/>
+                <Label Style="{StaticResource Importantus}" Text="Formule generale:&#10;Dobanda simpl&#259; " Margin="0,10,0,0"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="58"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i136.jpg"/>
+                <Label Style="{StaticResource Info}" Text="p - procentul dobanzii" />
+                <Label Style="{StaticResource Info}" Text="n - perioada (ani)" />
+                <Label Style="{StaticResource Info}" Text="D - dobanda calculata" />
+                <Label Style="{StaticResource Info}" Text="S - suma depusa" />
+                <Label Style="{StaticResource Importantus}" Text="Dobanda compus&#259; " Margin="0,10,0,0"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="58"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i137.jpg"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,4 +1,6 @@
-﻿1) Corectare greseli gramaticale
+﻿Calcul financiar - separat
+
+1) Corectare greseli gramaticale
 2) semnul apartine
 3) Prelucreaza primele imagini
 Ecuatii necunoscuta modul

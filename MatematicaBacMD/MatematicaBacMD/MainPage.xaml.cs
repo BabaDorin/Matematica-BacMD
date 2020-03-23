@@ -104,6 +104,10 @@ namespace MatematicaBacMD
             await Navigation.PushAsync(new TeoriaProbabilitatilor());
         }
 
+        async void btnCalculFinanciar(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CalculFinanciar());
+        }
         async void btnStatistica(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Statistica());

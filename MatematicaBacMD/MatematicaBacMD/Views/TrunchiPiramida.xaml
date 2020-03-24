@@ -1,12 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MatematicaBacMD.Views.TrunchiPiramida">
+             x:Class="MatematicaBacMD.Views.TrunchiPiramida"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             Style="{StaticResource background}">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="TrunchiPiramida"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Padding="15">
+                <Label Text="Trunchi de piramida patrulater&#259; / triunghiular&#259; regulat&#259; " Style="{StaticResource TitleLable}"/>
+                <BoxView HeightRequest="2" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Text="Dac&#259; o piramid&#259; este intersectat&#259; de un plan paralel cu baza, atunci se ob&#539;in dou&#259; poliedre situate &#238;n semispa&#539;ii diferite delimitate de acest plan. Unul dintre aceste poliedre este o piramid&#259;, iar cel&#259;lalt poliedru se nume&#351;te trunchi de piramid&#259; " Margin="0,10,0,0"/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="475"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i163.jpg"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

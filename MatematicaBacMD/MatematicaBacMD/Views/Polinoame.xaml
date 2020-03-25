@@ -43,6 +43,7 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i171.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
                 <Label Style="{StaticResource Info}" Text=""/>
                 <Label Style="{StaticResource Info}" Text="Pentru a determina dac&#259; un polinom se &#238;mparte f&#259;r&#259; rest la alt polinom, se poate aplica (&#238;n afar&#259; de descompunerea &#238;n factori) algoritmul &#238;mp&#259;r&#539;irii a dou&#259; polinoame. "/>
                 <ffimageloading:CachedImage
@@ -64,6 +65,16 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i173.jpg"/>
+                <Label Style="{StaticResource Info}" Text="Foarte util pentru determinarea r&#259;d&#259;cinilor unui polinom (&#351;i nu numai) este urm&#259;torul corolar al teoremei lui Bezout. "/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="330"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i174.jpg"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

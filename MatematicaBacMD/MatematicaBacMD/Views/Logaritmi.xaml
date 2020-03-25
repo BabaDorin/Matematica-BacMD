@@ -41,13 +41,12 @@
                     </Label.FormattedText>
                 </Label>
                 <ffimageloading:CachedImage
-                        WidthRequest="250"
-                        HeightRequest="393"
-                        HorizontalOptions="Center" 
+                        WidthRequest="300"
+                        HeightRequest="526"
+                     HorizontalOptions="Center" 
+                    BitmapOptimizations="True"
                         VerticalOptions="Center"
-                    Source="i19.jpg"
-                    Margin="0, -5, 0, 0"/>
-                <Label Style="{StaticResource Info}" Text="Scuze pentru calitatea imaginilor :*" FontSize="9"/>
+                    Source="i168.jpg"/>
             </StackLayout>
 
         </ScrollView>

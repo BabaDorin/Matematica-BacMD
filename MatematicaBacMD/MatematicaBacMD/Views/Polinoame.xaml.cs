@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace MatematicaBacMD.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class VolumPoliedre : ContentPage
+	public partial class Polinoame : ContentPage
 	{
-		public VolumPoliedre ()
+		public Polinoame ()
 		{
 			InitializeComponent ();
 		}

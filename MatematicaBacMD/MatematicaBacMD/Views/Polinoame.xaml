@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MatematicaBacMD.Views.Polinoame"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             Style="{StaticResource background}">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="15">
+                <Label Text="Piramida" Style="{StaticResource TitleLable}"/>
+                <BoxView HeightRequest="2" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Text="Polinomul este o sum&#259; algebric&#259; de monoame. Polinomul ai c&#259;rui coeficien&#539;i sunt egali cu 0 se nume&#351;te polinom nul. Termenul care nu con&#539;ine nedeterminate se nume&#351;te termen liber " Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text=""/>
+                <Label Style="{StaticResource Info}" Text="Pentru rezolvarea unor probleme se utilizeaz&#259; reprezentarea polinoamelor ca produs de factori."/>
+                <Label Style="{StaticResource Info}" Text="Pentru descompunerea &#238;n factori a polinoamelor se aplic&#259;: "/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="188"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i169.jpg"/>
+                <Label Style="{StaticResource Info}" Text=""/>
+                <Label Style="{StaticResource Info}" Text="Polinoamele de gradul I cu coeficien&#539;i reali &#351;i polinoamele de gradul II (trinoamele) cu coeficien&#539;i reali care nu pot fi reprezentate ca produs de factori de gradul I cu coeficien&#539;i reali "/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="23"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i170.jpg"/>
+                <Label Style="{StaticResource Info}" Text="se numesc ireductibile"/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="188"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i171.jpg"/>
+                <Label Style="{StaticResource Info}" Text=""/>
+                <Label Style="{StaticResource Info}" Text="Pentru a determina dac&#259; un polinom se &#238;mparte f&#259;r&#259; rest la alt polinom, se poate aplica (&#238;n afar&#259; de descompunerea &#238;n factori) algoritmul &#238;mp&#259;r&#539;irii a dou&#259; polinoame. "/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="231"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i172.jpg"/>
+                <Label Style="{StaticResource Info}" Text=""/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="250"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i173.jpg"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

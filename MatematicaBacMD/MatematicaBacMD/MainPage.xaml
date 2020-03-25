@@ -30,6 +30,7 @@
                 <Button Text="Ecuatii" Style="{StaticResource buttonStyle}" Clicked="btnEcuatii"/>
                 <Button Text="Inecuatii" Style="{StaticResource buttonStyle}" Clicked="btnInecuatii"/>
                 <Button Text="Functii" Style="{StaticResource buttonStyle}" Clicked="btnFunctii"/>
+                <Button Text="Polinoame" Style="{StaticResource buttonStyle}" Clicked="btnPolinoame"/>
                 <Button Text="Trigonometrie" Style="{StaticResource buttonStyle}" Clicked="btnTrigonometrie"/>
                 <Button Text="Siruri numerice" Style="{StaticResource buttonStyle}" Clicked="btnSiruriNumerice"/>
                 <Button Text="Numere complexe" Style="{StaticResource buttonStyle}" Clicked="btnNumereComplexe"/>
@@ -58,7 +59,6 @@
                 <Button Text="Con" Style="{StaticResource buttonStyle}" Clicked="btnCon"/>
                 <Button Text="Trunchi de Con" Style="{StaticResource buttonStyle}" Clicked="btnTrunchiCon"/>
                 <Button Text="Sfera" Style="{StaticResource buttonStyle}" Clicked="btnSfera"/>
-                <Button Text="Volumul Poliedrelor" Style="{StaticResource buttonStyle}" Clicked="btnVolumPoliedre"/>
             </StackLayout>
         </StackLayout>
     </ScrollView>

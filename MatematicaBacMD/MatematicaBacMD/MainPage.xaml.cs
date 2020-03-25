@@ -40,6 +40,11 @@ namespace MatematicaBacMD
             await Navigation.PushAsync(new Combinatorica());
         }
 
+        async void btnPolinoame(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Polinoame());
+        }
+
         async void btnRadicali(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Radicali());
@@ -176,11 +181,6 @@ namespace MatematicaBacMD
         async void btnSfera(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Sfera());
-        }
-
-        async void btnVolumPoliedre(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new VolumPoliedre());
         }
 
     }

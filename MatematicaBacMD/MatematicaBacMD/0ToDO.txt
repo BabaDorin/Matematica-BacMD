@@ -4,6 +4,9 @@ formule cu modul
 formule ridicare la putere
 init ffimageloading for ios.
 polinoame
+repara semnele apartine
+functie asimptote
+probleme cu maxim si minim (nu alea cu limite)
 calitate mai buna pentru formule logaritmi
 
 1) Corectare greseli gramaticale

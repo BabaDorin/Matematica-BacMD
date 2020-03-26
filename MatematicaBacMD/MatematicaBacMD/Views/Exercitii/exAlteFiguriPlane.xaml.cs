@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MatematicaBacMD.Views
+namespace MatematicaBacMD.Views.Exercitii
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class DerivateleFunctiilor : ContentPage
+	public partial class exAlteFiguriPlane : ContentPage
 	{
-		public DerivateleFunctiilor ()
+		public exAlteFiguriPlane ()
 		{
 			InitializeComponent ();
 		}

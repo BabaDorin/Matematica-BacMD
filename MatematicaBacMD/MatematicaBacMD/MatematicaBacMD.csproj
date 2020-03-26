@@ -47,6 +47,102 @@
     <EmbeddedResource Update="Views\Ecuatii.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exAlteFiguriPlane.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exCalculFinanciar.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exCilindru.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exCombinatorica.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exConul.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exDerivate.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exEcuatii.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exFunctii.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exInecuatii.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exIntegrale.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exLimite.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exLogaritmi.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exMatrici.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exMultimi.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exNumereComplexe.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exParalelismulDreptelor.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exParalelogram.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exPerpendicularitate.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exPiramida.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exPolinoame.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exPrisma.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exRadicali.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exRidicarePutere.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exSfera.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exSiruriNumerice.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exStatistica.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exTeoriaProbabilitatilor.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exTrapez.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exTrigonometrie.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exTriunghi.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exTrunchiCon.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Exercitii\exTrunchiPiramida.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\FormuleTrigonometrie.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -131,104 +227,5 @@
     <EmbeddedResource Update="Views\TrunchiPiramida.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Update="Views\Exercitii\exCalculFinanciar.xaml.cs">
-      <DependentUpon>exCalculFinanciar.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exCilindru.xaml.cs">
-      <DependentUpon>exCilindru.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exCombinatorica.xaml.cs">
-      <DependentUpon>exCombinatorica.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exConul.xaml.cs">
-      <DependentUpon>exConul.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exDerivateleFunctiilor.xaml.cs">
-      <DependentUpon>exDerivateleFunctiilor.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exEcuatii.xaml.cs">
-      <DependentUpon>exEcuatii.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exFunctii.xaml.cs">
-      <DependentUpon>exFunctii.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exInecuatii.xaml.cs">
-      <DependentUpon>exInecuatii.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exIntegrale.xaml.cs">
-      <DependentUpon>exIntegrale.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exLimite.xaml.cs">
-      <DependentUpon>exLimite.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exLogaritmi.xaml.cs">
-      <DependentUpon>exLogaritmi.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exMatrici.xaml.cs">
-      <DependentUpon>exMatrici.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exMultimi.xaml.cs">
-      <DependentUpon>exMultimi.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exNumereComplexe.xaml.cs">
-      <DependentUpon>exNumereComplexe.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exParalelism.xaml.cs">
-      <DependentUpon>exParalelism.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exParalelogramul.xaml.cs">
-      <DependentUpon>exParalelogramul.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exPerpendicularitate.xaml.cs">
-      <DependentUpon>exPerpendicularitate.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exPiramida.xaml.cs">
-      <DependentUpon>exPiramida.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exPoligoane.xaml.cs">
-      <DependentUpon>exPoligoane.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exPolinoame.xaml.cs">
-      <DependentUpon>exPolinoame.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exPrisma.xaml.cs">
-      <DependentUpon>exPrisma.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exPutere.xaml.cs">
-      <DependentUpon>exPutere.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exRadicali.xaml.cs">
-      <DependentUpon>exRadicali.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exSfera.xaml.cs">
-      <DependentUpon>exSfera.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exSiruriNumerice.xaml.cs">
-      <DependentUpon>exSiruriNumerice.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exStatistica.xaml.cs">
-      <DependentUpon>exStatistica.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exTeoriaProbabilitatilor.xaml.cs">
-      <DependentUpon>exTeoriaProbabilitatilor.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exTrapezul.xaml.cs">
-      <DependentUpon>exTrapezul.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exTrigonometrie.xaml.cs">
-      <DependentUpon>exTrigonometrie.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exTriunghiul.xaml.cs">
-      <DependentUpon>exTriunghiul.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exTrunchiCon.xaml.cs">
-      <DependentUpon>exTrunchiCon.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\Exercitii\exTrunchiPiramida.xaml.cs">
-      <DependentUpon>exTrunchiPiramida.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
 </Project>

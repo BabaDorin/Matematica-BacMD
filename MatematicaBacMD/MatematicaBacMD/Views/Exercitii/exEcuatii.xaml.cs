@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Diagnostics;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MatematicaBacMD.Views
+namespace MatematicaBacMD.Views.Exercitii
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Ecuatii : ContentPage
+	public partial class exEcuatii : ContentPage
 	{
-		public Ecuatii ()
+		public exEcuatii ()
 		{
 			InitializeComponent ();
-        }
-    }
+		}
+	}
 }

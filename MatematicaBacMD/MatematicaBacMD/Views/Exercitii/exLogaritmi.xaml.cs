@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MatematicaBacMD.Views
+namespace MatematicaBacMD.Views.Exercitii
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Logaritmi : ContentPage
+	public partial class exLogaritmi : ContentPage
 	{
-		public Logaritmi ()
+		public exLogaritmi ()
 		{
 			InitializeComponent ();
 		}

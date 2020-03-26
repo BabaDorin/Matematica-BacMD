@@ -1,99 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MatematicaBacMD.Views.Integrale"
-             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
-             Style="{StaticResource background}">
+             x:Class="MatematicaBacMD.Views.Exercitii.exIntegrale">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="15">
-                <Label Text="Integrale &#351;i primitive" Style="{StaticResource TitleLable}"/>
-                <BoxView HeightRequest="2" BackgroundColor="White"/>
-                <Label Style="{StaticResource Importantus}" Text="Primitiva func&#539;iei" Margin="0,20,0,0"/>
-                <Label Style="{StaticResource Info}" Text="Fie I un interval deschis din R &#351;i f:I->R o func&#539;ie. Func&#539;ia F, definit&#259; pe intervalul I, se nume&#351;te  primitiv&#259; a func&#539;iei f pe I dac&#259;:&#10;1) F este derivabil&#259; pe I;&#10;2) F'(x) = f(x), pentru orice x &#8712; I. " />
-                <Label Style="{StaticResource Importantus}" Text="Exemplu" Margin="0,10,0,0"/>
-                <Label Style="{StaticResource Info}" Text="Func&#539;ia F:R->R, F(x) = sinx, este o primitiv&#259; a func&#539;iei f:R->R, f(x) = cosx, deoarece (sinx)' = cosx, pentru orice x &#8712; R." />
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Importantus}" Text="Integrala func&#539;iei (nedefinit&#259;)" Margin="0,20,0,0"/>
-                <Label Style="{StaticResource Info}" Text="Se noteaz&#259;" Margin="0,10,0,0"/>
-                <Label Style="{StaticResource Info}" Text="Fie f:I->R (I – interval deschis din R ) o func&#539;ie care admite primitive. Mul&#539;imea primitivelor func&#539;iei f se nume&#351;te integral&#259; nedefinit&#259; a func&#539;iei f " />
-                <ffimageloading:CachedImage
-                        WidthRequest="300"
-                        HeightRequest="240"
-                        HorizontalOptions="Center"
-                    BitmapOptimizations="True"
-                        VerticalOptions="Center"
-                        Source="i97.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="Propriet&#259;&#539;i ale integralei nedefinite " Margin="0,10,0,0"/>
-                <ffimageloading:CachedImage
-                        WidthRequest="300"
-                        HeightRequest="200"
-                        HorizontalOptions="Center"
-                    BitmapOptimizations="True"
-                        VerticalOptions="Center"
-                        Source="i98.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="Tabelul integralelor nedefinite uzuale " Margin="0,10,0,0"/>
-                <ffimageloading:CachedImage
-                        WidthRequest="300"
-                        HeightRequest="814"
-                        HorizontalOptions="Center"
-                    BitmapOptimizations="True"
-                        VerticalOptions="Center"
-                        Source="i101.jpg"/>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Importantus}" Text="Integrala func&#539;iei (definit&#259;)" Margin="0,20,0,0"/>
-                <Label Style="{StaticResource Info}" Text="Fie F:[a, b]->R o primitiv&#259; a func&#539;iei continue f:[a, b]->R. Num&#259;rul real F(b)-F(a) se nume&#351;te integral&#259; definit&#259; a func&#539;iei f de la a la b" />
-                <ffimageloading:CachedImage
-                        WidthRequest="300"
-                        HeightRequest="169"
-                        HorizontalOptions="Center"
-                    BitmapOptimizations="True"
-                        VerticalOptions="Center"
-                        Source="i103.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="Propriet&#259;&#539;i ale integralei definite " Margin="0,10,0,0"/>
-                <ffimageloading:CachedImage
-                        WidthRequest="300"
-                        HeightRequest="564"
-                        HorizontalOptions="Center"
-                    BitmapOptimizations="True"
-                        VerticalOptions="Center"
-                        Source="i104.jpg"/>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Importantus}" Text="Schimbarea de variabil&#259; &#238;n calculul primitivelor " Margin="0,10,0,0"/>
-                <ffimageloading:CachedImage
-                        WidthRequest="300"
-                        HeightRequest="312"
-                        HorizontalOptions="Center"
-                    BitmapOptimizations="True"
-                        VerticalOptions="Center"
-                        Source="i99.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="Integrarea prin p&#259;r&#539;i " Margin="0,10,0,0"/>
-                <ffimageloading:CachedImage
-                        WidthRequest="300"
-                        HeightRequest="212"
-                        HorizontalOptions="Center"
-                    BitmapOptimizations="True"
-                        VerticalOptions="Center"
-                        Source="i100.jpg"/>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Importantus}" Text="Aria subgraficului unei func&#539;ii" Margin="0,10,0,0"/>
-                <ffimageloading:CachedImage
-                        WidthRequest="300"
-                        HeightRequest="600"
-                        HorizontalOptions="Center"
-                    BitmapOptimizations="True"
-                        VerticalOptions="Center"
-                        Source="i106.jpg"/>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Importantus}" Text="Volumul unui corp de rota&#539;ie" Margin="0,10,0,0"/>
-                <ffimageloading:CachedImage
-                        WidthRequest="300"
-                        HeightRequest="282"
-                        HorizontalOptions="Center"
-                    BitmapOptimizations="True"
-                        VerticalOptions="Center"
-                        Source="i107.jpg"/>
-            </StackLayout>
-        </ScrollView>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

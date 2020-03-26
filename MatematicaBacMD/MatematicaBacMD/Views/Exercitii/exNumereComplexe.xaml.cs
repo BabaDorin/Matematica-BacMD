@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MatematicaBacMD.Views
+namespace MatematicaBacMD.Views.Exercitii
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class NumereComplexe : ContentPage
+	public partial class exNumereComplexe : ContentPage
 	{
-		public NumereComplexe ()
+		public exNumereComplexe ()
 		{
 			InitializeComponent ();
 		}

@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MatematicaBacMD.Views
+namespace MatematicaBacMD.Views.Exercitii
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Paralelism : ContentPage
+	public partial class exTrapez : ContentPage
 	{
-		public Paralelism ()
+		public exTrapez ()
 		{
 			InitializeComponent ();
 		}

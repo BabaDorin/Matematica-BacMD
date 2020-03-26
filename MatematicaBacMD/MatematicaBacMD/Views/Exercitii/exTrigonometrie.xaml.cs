@@ -7,19 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MatematicaBacMD.Views
+namespace MatematicaBacMD.Views.Exercitii
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Trigonometrie : ContentPage
+	public partial class exTrigonometrie : ContentPage
 	{
-		public Trigonometrie ()
+		public exTrigonometrie ()
 		{
 			InitializeComponent ();
 		}
-
-        async void Button_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new FormuleTrigonometrie());
-        }
-    }
+	}
 }

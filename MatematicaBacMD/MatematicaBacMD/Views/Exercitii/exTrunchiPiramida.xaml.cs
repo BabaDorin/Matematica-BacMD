@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MatematicaBacMD.Views
+namespace MatematicaBacMD.Views.Exercitii
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class TrunchiPiramida : ContentPage
+	public partial class exTrunchiPiramida : ContentPage
 	{
-		public TrunchiPiramida ()
+		public exTrunchiPiramida ()
 		{
 			InitializeComponent ();
 		}

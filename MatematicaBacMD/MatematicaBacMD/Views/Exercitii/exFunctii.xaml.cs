@@ -6,26 +6,15 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using System.Diagnostics;
-using System.Reflection;
 
-namespace MatematicaBacMD.Views
+namespace MatematicaBacMD.Views.Exercitii
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Functii : ContentPage
+	public partial class exFunctii : ContentPage
 	{
-		public Functii ()
+		public exFunctii ()
 		{
 			InitializeComponent ();
-        }
-        protected override void OnDisappearing()
-        {
-            base.OnDisappearing();
-        }
-
-        private void Image_Error(object sender, FFImageLoading.Forms.CachedImageEvents.ErrorEventArgs e)
-        {
-            Debug.WriteLine("Error");
-        }
-    }
+		}
+	}
 }

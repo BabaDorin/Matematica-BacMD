@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MatematicaBacMD.Views
+namespace MatematicaBacMD.Views.Exercitii
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Conul : ContentPage
+	public partial class exConul : ContentPage
 	{
-		public Conul ()
+		public exConul ()
 		{
 			InitializeComponent ();
 		}

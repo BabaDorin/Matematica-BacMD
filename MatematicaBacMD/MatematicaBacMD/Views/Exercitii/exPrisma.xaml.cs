@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MatematicaBacMD.Views
+namespace MatematicaBacMD.Views.Exercitii
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Prisma : ContentPage
+	public partial class exPrisma : ContentPage
 	{
-		public Prisma ()
+		public exPrisma ()
 		{
 			InitializeComponent ();
 		}

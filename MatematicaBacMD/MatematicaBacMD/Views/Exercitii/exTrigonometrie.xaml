@@ -1,28 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MatematicaBacMD.Views.Trigonometrie"
-             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
-             Style="{StaticResource background}">
+             x:Class="MatematicaBacMD.Views.Exercitii.exTrigonometrie">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="15">
-                <Label Text="Trigonometrie" Style="{StaticResource TitleLable}"/>
-                <BoxView HeightRequest="2" BackgroundColor="White"/>
-                <ffimageloading:CachedImage
-                        WidthRequest="340"
-                        HeightRequest="553"
-                        HorizontalOptions="Center" 
-                        BitmapOptimizations="True"
-                        Source="i32.jpg"/>
-                <ffimageloading:CachedImage
-                        WidthRequest="300"
-                        HeightRequest="488"
-                        HorizontalOptions="Center" 
-                        BitmapOptimizations="True"
-                        Source="i33.jpg"/>
-                <Button Style="{StaticResource buttonStyle}" Text="Formule trigonometrice" Clicked="Button_Clicked"/>
-            </StackLayout>
-        </ScrollView>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

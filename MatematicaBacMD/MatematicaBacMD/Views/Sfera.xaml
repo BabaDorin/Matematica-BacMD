@@ -17,6 +17,8 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i167.jpg"/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Sfera" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

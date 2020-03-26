@@ -114,8 +114,10 @@ de la 1 la n, cunoscut ca n! (n factorial)"/>
                         VerticalOptions="Center"
                     Source="i7.jpg">
                 </ffimageloading:CachedImage>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Combinatorica" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
-
+           
         </ScrollView>
     </ContentPage.Content>
 

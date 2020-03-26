@@ -75,6 +75,8 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i174.jpg"/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Polinoame" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

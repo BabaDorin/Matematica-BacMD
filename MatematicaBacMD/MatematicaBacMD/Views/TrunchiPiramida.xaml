@@ -19,6 +19,8 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i163.jpg"/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Trunchi de piramida" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

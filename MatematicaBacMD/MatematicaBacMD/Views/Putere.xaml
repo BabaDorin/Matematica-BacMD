@@ -23,6 +23,8 @@
                         VerticalOptions="Center"
                     Source="i16.jpg"
                     Margin="0, -5, 0, 0"/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Ridicare la putere" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
 
         </ScrollView>

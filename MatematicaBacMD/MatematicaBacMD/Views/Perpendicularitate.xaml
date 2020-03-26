@@ -27,6 +27,8 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i157.jpg"/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Perpendicularitatea in spatiu" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

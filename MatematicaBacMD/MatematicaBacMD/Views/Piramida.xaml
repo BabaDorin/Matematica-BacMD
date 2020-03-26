@@ -35,6 +35,9 @@
 
                 <Label Style="{StaticResource Info}" Text=""/>
                 <Label Style="{StaticResource Info}" Text="Unghiurile diedre formate de planul bazei piramidei &#351;i fe&#539;ele ei laterale se numesc unghiuri diedre de la baz&#259;. "/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Piramida" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

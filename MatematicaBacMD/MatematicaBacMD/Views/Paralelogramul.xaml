@@ -28,6 +28,8 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i148.jpg"/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Paralelogram" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

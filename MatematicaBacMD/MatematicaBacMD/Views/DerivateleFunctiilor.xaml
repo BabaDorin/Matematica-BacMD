@@ -157,6 +157,8 @@
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i177.jpg"/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Derivata functiei" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

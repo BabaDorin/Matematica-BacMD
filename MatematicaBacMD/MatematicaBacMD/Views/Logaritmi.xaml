@@ -47,6 +47,8 @@
                     BitmapOptimizations="True"
                         VerticalOptions="Center"
                     Source="i168.jpg"/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Logaritmi" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
 
         </ScrollView>

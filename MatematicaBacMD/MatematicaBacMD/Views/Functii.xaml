@@ -18,6 +18,8 @@
                         VerticalOptions="Center"
                     Source="i31.jpg">
                 </ffimageloading:CachedImage>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Functii" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

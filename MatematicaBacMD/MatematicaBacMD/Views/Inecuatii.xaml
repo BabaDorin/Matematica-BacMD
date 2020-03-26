@@ -50,6 +50,9 @@ se numesc inecua&#539;ii de gradul I cu o necunoscut&#259;&#10;"/>
                         HorizontalOptions="Center" 
                         BitmapOptimizations="True"
                         Source="i30.jpg"/>
+
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Inecuatii" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

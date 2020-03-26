@@ -38,6 +38,8 @@
                         VerticalOptions="Center"
                     Source="i46.jpg"
                     Margin="0, 0, 0, 0"/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Numere Complexe" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

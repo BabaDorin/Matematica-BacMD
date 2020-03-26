@@ -72,6 +72,8 @@ Exemplu:&#10;A = {1, 4, 6, 10}&#10;B = {1, 5, 6, 11}&#10;A \ B = {4, 10}&#10;&#1
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Multimi" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -171,6 +171,8 @@
                     BitmapOptimizations="True"
                         VerticalOptions="Center"
                         Source="i123.jpg"/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Teoria probabilitatilor" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

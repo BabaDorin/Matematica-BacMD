@@ -102,6 +102,8 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         Source="i85.jpg"/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Limite" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

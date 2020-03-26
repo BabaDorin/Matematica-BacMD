@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using MatematicaBacMD.Views.Exercitii;
 
 namespace MatematicaBacMD.Views
 {
@@ -20,6 +21,11 @@ namespace MatematicaBacMD.Views
         async void Button_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new FormuleTrigonometrie());
+        }
+
+        async void Button_Clicked_1(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new exTrigonometrie());
         }
     }
 }

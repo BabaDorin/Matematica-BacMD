@@ -113,6 +113,8 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i15.jpg"/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Radicali" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
 
         </ScrollView>

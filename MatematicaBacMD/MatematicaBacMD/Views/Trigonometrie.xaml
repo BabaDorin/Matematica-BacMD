@@ -22,6 +22,8 @@
                         BitmapOptimizations="True"
                         Source="i33.jpg"/>
                 <Button Style="{StaticResource buttonStyle}" Text="Formule trigonometrice" Clicked="Button_Clicked"/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Trigonometrie" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked_1"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

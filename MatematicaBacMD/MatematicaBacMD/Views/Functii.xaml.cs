@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using System.Diagnostics;
-using System.Reflection;
+using MatematicaBacMD.Views.Exercitii;
 
 namespace MatematicaBacMD.Views
 {
@@ -18,14 +17,10 @@ namespace MatematicaBacMD.Views
 		{
 			InitializeComponent ();
         }
-        protected override void OnDisappearing()
-        {
-            base.OnDisappearing();
-        }
 
-        private void Image_Error(object sender, FFImageLoading.Forms.CachedImageEvents.ErrorEventArgs e)
+        async void Button_Clicked(object sender, EventArgs e)
         {
-            Debug.WriteLine("Error");
+            await Navigation.PushAsync(new exFunctii());
         }
     }
 }

@@ -48,6 +48,9 @@
                 <Label Style="{StaticResource Info}" Text="O prism&#259; se nume&#351;te paralelipiped dac&#259; baza ei este un paralelogram. "/>
                 <Label Style="{StaticResource Info}" Text=""/>
                 <Label Style="{StaticResource Info}" Text="Paralelipipedul drept a c&#259;rui baz&#259; este un dreptunghi se nume&#351;te paralelipiped dreptunghic."/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Prisma" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

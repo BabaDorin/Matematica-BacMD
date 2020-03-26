@@ -17,6 +17,8 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i166.jpg"/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Trunchi de con" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -93,6 +93,8 @@
                     BitmapOptimizations="True"
                         VerticalOptions="Center"
                         Source="i107.jpg"/>
+                <Label Style="{StaticResource Info}" Text="" />
+                <Button Text="Exercitii BAC - Integrale si primitive" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

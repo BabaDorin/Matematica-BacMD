@@ -30,6 +30,11 @@ namespace MatematicaBacMD
             await Navigation.PushAsync(new Putere());
         }
 
+        async void btnLoad(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Load());
+        }
+
         async void btnMultimi(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Multimi());

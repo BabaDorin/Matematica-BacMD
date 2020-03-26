@@ -22,6 +22,7 @@
                    HorizontalOptions="Center"
                    Margin="0,0,0,10"
                    FontSize="Medium"/>
+                <Button Text="Load" Style="{StaticResource buttonStyle}" Clicked="btnLoad"/>
                 <Button Text="Multimi" Style="{StaticResource buttonStyle}" Clicked="btnMultimi"/>
                 <Button Text="Combinatorica" Style="{StaticResource buttonStyle}" Clicked="btnCombinatorica"/>
                 <Button Text="Radicali" Style="{StaticResource buttonStyle}" Clicked="btnRadicali"/>

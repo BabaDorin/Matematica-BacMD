@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MatematicaBacMD.Views.Paralelogramul"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             Style="{StaticResource background}">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="15">
+                <Label Text="Paralelogramul" Style="{StaticResource TitleLable}"/>
+                <BoxView HeightRequest="2" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Text="Se nume&#351;te paralelogram patrulaterul cu laturile opuse paralele dou&#259; c&#226;te dou&#259; " Margin="0,10,0,0"/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="307"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i147.jpg"/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="234"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i148.jpg"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

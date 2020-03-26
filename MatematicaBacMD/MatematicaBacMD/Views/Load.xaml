@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MatematicaBacMD.Views.Load"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             Style="{StaticResource background}">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="15">
+                <ffimageloading:CachedImage
+                        WidthRequest="150"
+                        HeightRequest="23"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                        Source="i20.jpg">
+                    <ffimageloading:CachedImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </ffimageloading:CachedImage.GestureRecognizers>
+                </ffimageloading:CachedImage>
+
+                <ffimageloading:CachedImage
+                    x:Name="img1"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

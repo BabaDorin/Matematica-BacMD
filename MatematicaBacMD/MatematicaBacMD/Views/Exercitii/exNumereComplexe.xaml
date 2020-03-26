@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MatematicaBacMD.Views.NumereComplexe"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             Style="{StaticResource background}">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="15">
+                <Label Text="Numere complexe" Style="{StaticResource TitleLable}"/>
+                <BoxView HeightRequest="2" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Text="Forma algebric&#259; a num&#259;rului complex z este z = a + bi , unde a &#351;i b sunt numere reale. Num&#259;rul a se nume&#351;te partea real&#259; a num&#259;rului complex z &#351;i se scrie a = Rez, iar num&#259;rul b se nume&#351;te partea imaginar&#259; a num&#259;rului complex z &#351;i se scrie b = Imz.&#10;&#10;Simbolul i se nume&#351;te unitate imaginar&#259; "/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="126"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i43.jpg"
+                    Margin="0, 0, 0, 0"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="236"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i44.jpg"
+                    Margin="0, 0, 0, 0"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="268"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i45.jpg"
+                    Margin="0, 0, 0, 0"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="268"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i46.jpg"
+                    Margin="0, 0, 0, 0"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,17 +1,10 @@
 ﻿x zile pana la bac 
 Ecuatii cu modul.
 formule cu modul
-formule ridicare la putere
 init ffimageloading for ios.
-polinoame
 repara semnele apartine
-functie asimptote
-probleme cu maxim si minim (nu alea cu limite) gen doua numere adunate suma minima produs maxim
-calitate mai buna pentru formule logaritmi
 
 1) Corectare greseli gramaticale
 2) semnul apartine
-3) Prelucreaza primele imagini
-Ecuatii necunoscuta modul
 
 NU UITA DE RESOURCES PT IPHONE

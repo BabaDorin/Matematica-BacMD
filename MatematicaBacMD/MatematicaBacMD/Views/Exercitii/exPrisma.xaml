@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MatematicaBacMD.Views.Prisma"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             Style="{StaticResource background}">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="15">
+                <Label Text="Prisma" Style="{StaticResource TitleLable}"/>
+                <BoxView HeightRequest="2" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Text="O prism&#259; se nume&#351;te prism&#259; triunghiular&#259; (patrulater&#259; sau n-unghiular&#259;) dac&#259; baza ei este un triunghi (patrulater sau poligon cu n laturi). &#10;Suprafa&#539;a prismei n-unghiulare este format&#259; din dou&#259; poligoane n-unghiulare (bazele ei) &#351;i din n paralelograme (fe&#539;ele laterale ale prismei). " Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="Suma ariilor tuturor fe&#539;elor unei prisme se nume&#351;te aria total&#259; a prismei." Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="Suma ariilor fe&#539;elor laterale ale unei prisme se nume&#351;te aria lateral&#259; a prismei. "/>
+                <Label Style="{StaticResource Info}" Text="Dac&#259; not&#259;m cu " Margin="0,10,0,0"/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="31"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i158.jpg"/>
+                <Label Style="{StaticResource Info}" Text="respectiv aria total&#259;, aria lateral&#259; &#351;i aria unei baze a prismei, atunci"/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="50"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i159.jpg"/>
+                <Label Style="{StaticResource Info}" Text="&#10;O prism&#259; se nume&#351;te prism&#259; dreapt&#259; dac&#259; muchiile ei laterale sunt perpendiculare pe baze "/>
+                <Label Style="{StaticResource Info}" Text="O prism&#259; se nume&#351;te prism&#259; oblic&#259; dac&#259; muchiile ei laterale nu sunt perpendiculare pe baze "/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="415"
+                        Aspect="Fill"
+                    BitmapOptimizations="True"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="i160.jpg"/>
+                <Label Style="{StaticResource Info}" Text="Prisma dreapt&#259; a c&#259;rei baz&#259; este un poligon regulat se nume&#351;te prism&#259; regulat&#259;. "/>
+                <Label Style="{StaticResource Info}" Text=""/>
+                <Label Style="{StaticResource Info}" Text="O prism&#259; se nume&#351;te paralelipiped dac&#259; baza ei este un paralelogram. "/>
+                <Label Style="{StaticResource Info}" Text=""/>
+                <Label Style="{StaticResource Info}" Text="Paralelipipedul drept a c&#259;rui baz&#259; este un dreptunghi se nume&#351;te paralelipiped dreptunghic."/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

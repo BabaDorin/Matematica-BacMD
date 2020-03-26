@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MatematicaBacMD.Views.TeoriaProbabilitatilor"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             Style="{StaticResource background}">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="15">
+                <Label Text="Teoria probabilit&#259;&#539;ilor" Style="{StaticResource TitleLable}"/>
+                <BoxView HeightRequest="2" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Text="Se nume&#351;te probabilitate a unui eveniment aleator A raportul dintre num&#259;rul m de rezultate egal posibile favorabile lui A &#351;i num&#259;rul total n de rezultate egal posibile ale experimentului. " />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="56"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i105.jpg"/>
+                <Label Style="{StaticResource Importantus}" Text="Exemplu" Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="Se arunc&#259; o moned&#259;. S&#259; se calculeze probabilitatea c&#259; va c&#259;dea fa&#539;a cu stema (evenimentul A)." />
+                <Label Style="{StaticResource Info}" Text="Rezolvare" />
+                <Label Style="{StaticResource Info}" Text="Evenimentului A &#238;i este favorabil unul dintre cele dou&#259; rezultate posibile echiprobabile. Deci, n=2, m=1 &#351;i P(A)=1/2.&#10;" />
+                <Label Style="{StaticResource Info}" Text="Un juriu compus din 5 membri este ales la &#238;nt&#226;mplare dintr-un grup de 10 b&#259;rba&#539;i &#351;i 5 femei. S&#259; se determine probabilitatea ca juriul s&#259; fie alc&#259;tuit din 3 b&#259;rba&#539;i &#351;i 2 femei (evenimentul A).&#10;Rezolvare:&#10; Orice rezultat posibil &#238;nseamn&#259; 5 persoane din cele 15. Prin urmare, exist&#259; at&#226;tea rezultate posibile, c&#226;te submultimi de 5 elemente putem forma cu 15 elemente. Num&#259;rul acestor submul&#539;imi este " />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="26"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i108.jpg"/>
+                <Label Style="{StaticResource Info}" Text="Dintre ele, favorabile sunt cele alc&#259;tuite din 3 b&#259;rba&#539;i &#351;i 2 femei. Pentru alegerea a 3 b&#259;rba&#539;i din 10 exist&#259; " />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="26"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i109.jpg"/>
+                <Label Style="{StaticResource Info}" Text="posibilit&#259;&#539;i, iar pentru alegerea a 2 femei din 5 exist&#259; " />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="26"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i112.jpg"/>
+                <Label Style="{StaticResource Info}" Text="posibilit&#259;&#539;i. Conform regulii de &#238;nmul&#539;ire, un juriu compus din 3 b&#259;rba&#539;i &#351;i 2 femei poate fi ales &#238;n " />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="26"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i110.jpg"/>
+                <Label Style="{StaticResource Info}" Text=" moduri. Astfel," />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="61"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i111.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Formule pentru calculul unor probabilit&#259;&#539;i " Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="Dac&#259; A &#351;i B sunt evenimente incompatibile, atunci " />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="46"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i113.jpg"/>
+                <Label Style="{StaticResource Info}" Text="&#10;Dac&#259; A &#351;i B sunt evenimente oarecare, atunci " />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="46"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i114.jpg"/>
+                <Label Style="{StaticResource Info}" Text="&#10;" />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="73"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i115.jpg"/>
+                <Label Style="{StaticResource Info}" Text="&#10;" />
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="73"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i116.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Probabilitatea condi&#539;ionat&#259;" Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="Fie A &#351;i B dou&#259; evenimente aleatoare, probabilitatea condi&#539;ionat&#259; de a se realiza A &#351;tiind c&#259; s-a realizat B este "/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="73"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i117.jpg"/>
+                <Label Style="{StaticResource Info}" Text="&#206;ntr-o clas&#259; de 35 de elevi fiecare elev studiaz&#259; cel pu&#539;in una dintre limbile francez&#259;, englez&#259;: 20 studiaz&#259; franceza &#351;i 25 studiaz&#259; engleza. Se ia la &#238;nt&#226;mplare un elev din clas&#259;. S&#259; se determine probabilitatea c&#259; acest elev studiaz&#259; limba francez&#259;  (evenimentul A), dac&#259; se &#351;tie c&#259; el studiaz&#259; engleza (evenimentul B). "/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="73"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i117.jpg"/>
+                <Label Style="{StaticResource Importantus}" Text="Exemplu" Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="&#206;ntr-o clas&#259; de 35 de elevi fiecare elev studiaz&#259; cel pu&#539;in una dintre limbile francez&#259;, englez&#259;: 20 studiaz&#259; franceza &#351;i 25 studiaz&#259; engleza. Se ia la &#238;nt&#226;mplare un elev din clas&#259;. S&#259; se determine probabilitatea c&#259; acest elev studiaz&#259; limba francez&#259;  (evenimentul A), dac&#259; se &#351;tie c&#259; el studiaz&#259; engleza (evenimentul B). "/>
+                <Label Style="{StaticResource Info}" Text="&#10;Se cere s&#259; afl&#259;m probabilitatea condi&#539;ionat&#259; "/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="207"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i118.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Evenimente aleatoare independente" Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="&#10;E firesc s&#259; spunem c&#259; evenimentul A nu depinde de evenimentul B, dac&#259; probabilitatea lui A nu depinde de producerea sau neproducerea lui B, adic&#259; dac&#259; P(A/B)=P(A)."/>
+                <Label Style="{StaticResource Info}" Text="&#206;n acest caz, ob&#539;inem rela&#539;ia "/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="26"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i119.jpg"/>
+                <Label Style="{StaticResource Info}" Text=""/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="173"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i120.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="Variabile aleatoare discrete" Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="&#10;Se nume&#351;te variabil&#259; aleatoare (discret&#259;) orice func&#539;ie real&#259; definit&#259; pe mul&#539;imea evenimentelor elementare a experimentului. "/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="150"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i121.jpg"/>
+                <Label Style="{StaticResource Importantus}" Text="&#10;Exemplu" Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="&#10;Dintr-o urn&#259; cu 4 bile albe &#351;i 2 bile negre se extrag la &#238;nt&#226;mplare concomitent 2 bile. S&#259; se scrie reparti&#539;ia variabilei aleatoare ce reprezint&#259; num&#259;rul de bile albe extrase. "/>
+                <Label Style="{StaticResource Info}" Text="Valorile posibile ale variabilei aleatoare sunt 0, 1, 2. Calcul&#259;m probabilit&#259;&#539;ile corespunz&#259;toare  acestor valori. La extragerea concomitent&#259; a 2 bile, evenimente elementare sunt perechile (neordonate) de bile, num&#259;rul lor fiind "/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="231"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i122.jpg"/>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Style="{StaticResource Importantus}" Text="&#10;Valoarea medie a variabilei aleatoare discrete" Margin="0,10,0,0"/>
+                <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="89"
+                        HorizontalOptions="Center"
+                    BitmapOptimizations="True"
+                        VerticalOptions="Center"
+                        Source="i123.jpg"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -103,7 +103,7 @@
                     x:Name="barem4"
                     HeightRequest="43"
                     WidthRequest="300"
-                    Source="i20eebr1.jpg"/>
+                    Source="i20ebr1.jpg"/>
                 <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="73"
@@ -125,7 +125,7 @@
                     x:Name="barem5"
                     HeightRequest="132"
                     WidthRequest="300"
-                    Source="i20eebr6.jpg"/>
+                    Source="i20ebr6.jpg"/>
                 <Label Style="{StaticResource Importantus}" Text="2019 - Sesiune de baza" Margin="0,10,0,10"/>
                 <ffimageloading:CachedImage 
                         WidthRequest="300"

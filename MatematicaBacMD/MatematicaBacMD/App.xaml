@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              x:Class="MatematicaBacMD.App">
     <Application.Resources>
         <ResourceDictionary>
@@ -31,30 +32,36 @@
             <Style x:Key="Information" TargetType="Span">
                 <Setter Property="TextColor" Value="White"/>
                 <Setter Property="FontSize" Value="15"/>
-                <!--<Setter Property="Margin" Value="5,30,5,0"/>-->
-                <!--<Setter Property="HorizontalTextAlignment" Value="Center"/>-->
             </Style>
             <Style x:Key="Important" TargetType="Span">
                 <Setter Property="TextColor" Value="White"/>
                 <Setter Property="FontSize" Value="15"/>
-                <!--<Setter Property="Margin" Value="5,30,5,0"/>-->
-                <!--<Setter Property="HorizontalTextAlignment" Value="Center"/>-->
                 <Setter Property="FontAttributes" Value="Bold"/>
             </Style>
             <Style x:Key="Info" TargetType="Label">
                 <Setter Property="TextColor" Value="White"/>
                 <Setter Property="FontSize" Value="15"/>
-                <!--<Setter Property="Margin" Value="5,30,5,0"/>-->
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
-                <!--<Setter Property="FontAttributes" Value="Bold"/>-->
             </Style>
             <Style x:Key="Importantus" TargetType="Label">
                 <Setter Property="TextColor" Value="White"/>
                 <Setter Property="FontSize" Value="15"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
-                <!--<Setter Property="Margin" Value="5,30,5,0"/>-->
-                <!--<Setter Property="HorizontalTextAlignment" Value="Center"/>-->
                 <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+            <Style x:Key="Ex" TargetType="ffimageloading:CachedImage">
+                <Setter Property="WidthRequest" Value="300"/>
+                <Setter Property="Aspect" Value="Fill"/>
+                <Setter Property="BitmapOptimizations" Value="True"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+            </Style>
+            <Style x:Key="Barem" TargetType="ffimageloading:CachedImage">
+                <Setter Property="Margin" Value="0,0,0,20"/>
+                <Setter Property="Aspect" Value="Fill"/>
+                <Setter Property="IsVisible" Value="False"/>
+                <Setter Property="BitmapOptimizations" Value="True"/>
+                <Setter Property="WidthRequest" Value="300"/>
+
             </Style>
         </ResourceDictionary>
 

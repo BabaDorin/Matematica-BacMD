@@ -20,7 +20,7 @@ namespace MatematicaBacMD.Views
 
         async void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new exPoligoane());
+            await Navigation.PushAsync(new exAlteFiguriPlane());
         }
     }
 }

@@ -1,12 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             Style="{StaticResource background}"
              x:Class="MatematicaBacMD.Views.Exercitii.exCombinatorica">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout >
+                <Label Text="Exerci&#539;ii BAC - Combinatorica" Style="{StaticResource TitleLable}"/>
+                <BoxView HeightRequest="2" BackgroundColor="White"/>
+                <Label Style="{StaticResource Info}" Text="Ave&#539;i mai jos exerci&#539;iile din testele de bac, de exersare &#351;i pretest&#259;ri din ultimii 10 ani  care implic&#259; subiectul - Combinatorica" Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Importantus}" TextColor="Bisque" Text="Vezi" Margin="0,10,0,0"/>
+                <Button Text="Exerci&#539;ii BAC - Teoria Probabilit&#259;&#539;ilor" Style="{StaticResource buttonStyle}" Clicked="btnLoad"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

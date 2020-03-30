@@ -51,13 +51,13 @@
             </Style>
             <Style x:Key="Ex" TargetType="ffimageloading:CachedImage">
                 <Setter Property="WidthRequest" Value="300"/>
-                <Setter Property="Aspect" Value="Fill"/>
+                <!--<Setter Property="Aspect" Value="Fill"/>-->
                 <Setter Property="BitmapOptimizations" Value="True"/>
                 <Setter Property="VerticalOptions" Value="Center"/>
             </Style>
             <Style x:Key="Barem" TargetType="ffimageloading:CachedImage">
                 <Setter Property="Margin" Value="0,0,0,20"/>
-                <Setter Property="Aspect" Value="Fill"/>
+                <!--<Setter Property="Aspect" Value="Fill"/>-->
                 <Setter Property="IsVisible" Value="False"/>
                 <Setter Property="BitmapOptimizations" Value="True"/>
                 <Setter Property="WidthRequest" Value="300"/>

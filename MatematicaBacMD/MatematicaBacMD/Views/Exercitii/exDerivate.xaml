@@ -65,6 +65,23 @@
                     Source="i20ebr8.jpg"/>
 
                 <Label Style="{StaticResource Importantus}" Text="2019 - Pretestare" Margin="0,10,0,10"/>
+
+                <ffimageloading:CachedImage 
+                    Style="{StaticResource Ex}"
+                    HeightRequest ="325"
+                    Source="i19pre2.jpg">
+                    <ffimageloading:CachedImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                              NumberOfTapsRequired="2"
+                                              CommandParameter="{x:Reference barem2}"/>
+                    </ffimageloading:CachedImage.GestureRecognizers>
+                </ffimageloading:CachedImage>
+                <ffimageloading:CachedImage
+                    Style="{StaticResource Barem}"
+                    x:Name="barem2"
+                    HeightRequest="31"
+                    Source="i19prbr2.jpg"/>
+
                 <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="50"
@@ -498,6 +515,104 @@
                     HeightRequest="133"
                     Source="i15sbbr8.jpg"/>
 
+                <Label Style="{StaticResource Importantus}" Text="2014 - Exersare, Test 1" Margin="0,10,0,10"/>
+                <ffimageloading:CachedImage 
+                    Style="{StaticResource Ex}"
+                    HeightRequest ="79"
+                    Source="i14e12.jpg">
+                    <ffimageloading:CachedImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                              NumberOfTapsRequired="2"
+                                              CommandParameter="{x:Reference barem201}"/>
+                    </ffimageloading:CachedImage.GestureRecognizers>
+                </ffimageloading:CachedImage>
+                <ffimageloading:CachedImage
+                    Style="{StaticResource Barem}"
+                    x:Name="barem201"
+                    HeightRequest="101"
+                    Source="i14ebr12.jpg"/>
+
+                <Label Style="{StaticResource Importantus}" Text="2014 - Exersare, Test 2" Margin="0,10,0,10"/>
+                <ffimageloading:CachedImage 
+                    Style="{StaticResource Ex}"
+                    HeightRequest ="39"
+                    Source="i14ee8.jpg">
+                    <ffimageloading:CachedImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                              NumberOfTapsRequired="2"
+                                              CommandParameter="{x:Reference barem202}"/>
+                    </ffimageloading:CachedImage.GestureRecognizers>
+                </ffimageloading:CachedImage>
+                <ffimageloading:CachedImage
+                    Style="{StaticResource Barem}"
+                    x:Name="barem202"
+                    HeightRequest="78"
+                    Source="i14eebr8.jpg"/>
+                <ffimageloading:CachedImage 
+                    Style="{StaticResource Ex}"
+                    HeightRequest ="94"
+                    Source="i14ee12.jpg">
+                    <ffimageloading:CachedImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                              NumberOfTapsRequired="2"
+                                              CommandParameter="{x:Reference barem203}"/>
+                    </ffimageloading:CachedImage.GestureRecognizers>
+                </ffimageloading:CachedImage>
+                <ffimageloading:CachedImage
+                    Style="{StaticResource Barem}"
+                    x:Name="barem203"
+                    HeightRequest="168"
+                    Source="i14eebr12.jpg"/>
+
+                <Label Style="{StaticResource Importantus}" Text="2014 - Pretestare" Margin="0,10,0,10"/>
+                <ffimageloading:CachedImage 
+                    Style="{StaticResource Ex}"
+                    HeightRequest ="344"
+                    Source="i14pr3.jpg">
+                    <ffimageloading:CachedImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                              NumberOfTapsRequired="2"
+                                              CommandParameter="{x:Reference barem204}"/>
+                    </ffimageloading:CachedImage.GestureRecognizers>
+                </ffimageloading:CachedImage>
+                <ffimageloading:CachedImage
+                    Style="{StaticResource Barem}"
+                    x:Name="barem204"
+                    HeightRequest="23"
+                    Source="i14prbr3.jpg"/>
+
+                <ffimageloading:CachedImage 
+                    Style="{StaticResource Ex}"
+                    HeightRequest ="119"
+                    Source="i14pr12.jpg">
+                    <ffimageloading:CachedImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                              NumberOfTapsRequired="2"
+                                              CommandParameter="{x:Reference barem205}"/>
+                    </ffimageloading:CachedImage.GestureRecognizers>
+                </ffimageloading:CachedImage>
+                <ffimageloading:CachedImage
+                    Style="{StaticResource Barem}"
+                    x:Name="barem205"
+                    HeightRequest="95"
+                    Source="i14prbr12.jpg"/>
+
+                <Label Style="{StaticResource Importantus}" Text="2014 - Sesiunea de baza" Margin="0,10,0,10"/>
+                <ffimageloading:CachedImage 
+                    Style="{StaticResource Ex}"
+                    HeightRequest ="43"
+                    Source="i14sb8.jpg">
+                    <ffimageloading:CachedImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                              NumberOfTapsRequired="2"
+                                              CommandParameter="{x:Reference barem206}"/>
+                    </ffimageloading:CachedImage.GestureRecognizers>
+                </ffimageloading:CachedImage>
+                <ffimageloading:CachedImage
+                    Style="{StaticResource Barem}"
+                    x:Name="barem206"
+                    HeightRequest="90"
+                    Source="i14sbbr8.jpg"/>
 
                 <Label Style="{StaticResource Importantus}" Text="2011 - Sesiunea de baza" Margin="0,10,0,10"/>
                 <ffimageloading:CachedImage 

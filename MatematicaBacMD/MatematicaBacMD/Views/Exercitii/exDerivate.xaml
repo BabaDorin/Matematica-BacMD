@@ -89,12 +89,12 @@
                     <ffimageloading:CachedImage.GestureRecognizers>
                         <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
-                                              CommandParameter="{x:Reference barem2}"/>
+                                              CommandParameter="{x:Reference barem2222}"/>
                     </ffimageloading:CachedImage.GestureRecognizers>
                 </ffimageloading:CachedImage>
                 <ffimageloading:CachedImage
                     Style="{StaticResource Barem}"
-                    x:Name="barem2"
+                    x:Name="barem2222"
                     HeightRequest="87"
                     Source="i19prbr11.jpg"/>
 

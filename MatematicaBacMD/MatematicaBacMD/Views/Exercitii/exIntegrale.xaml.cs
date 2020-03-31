@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using FFImageLoading.Forms;
+
 
 namespace MatematicaBacMD.Views.Exercitii
 {
@@ -16,5 +18,12 @@ namespace MatematicaBacMD.Views.Exercitii
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            var eve = e as TappedEventArgs;
+            var barem = eve.Parameter as CachedImage;
+            barem.IsVisible = !barem.IsVisible;
+        }
+    }
 }

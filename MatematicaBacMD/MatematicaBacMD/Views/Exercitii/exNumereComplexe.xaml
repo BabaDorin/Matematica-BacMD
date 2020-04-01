@@ -7,9 +7,9 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout >
-                <Label Text="Exerci&#539;ii BAC - Cilindrul" Style="{StaticResource TitleLable}"/>
+                <Label Text="Exerci&#539;ii BAC - Numere Complexe" Style="{StaticResource TitleLable}"/>
                 <BoxView HeightRequest="2" BackgroundColor="White"/>
-                <Label Style="{StaticResource Info}" Text="Ave&#539;i mai jos exerci&#539;iile din testele de bac, de exersare &#351;i pretest&#259;ri din ultimii 10 ani  care implic&#259; subiectul - Cilindrul" Margin="0,10,0,0"/>
+                <Label Style="{StaticResource Info}" Text="Ave&#539;i mai jos exerci&#539;iile din testele de bac, de exersare &#351;i pretest&#259;ri din ultimii 10 ani  care implic&#259; subiectul - Numere Complexe" Margin="0,10,0,0"/>
                 <Label Style="{StaticResource Importantus}" TextColor="Bisque" Text="Double-tap pe imagine pentru a vedea baremul" Margin="0,10,0,0"/>
                 <BoxView HeightRequest="1" BackgroundColor="White"/>
 

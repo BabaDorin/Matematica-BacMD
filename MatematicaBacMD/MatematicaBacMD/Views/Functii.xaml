@@ -9,6 +9,28 @@
             <StackLayout Padding="15">
                 <Label Text="Func&#539;ii" Style="{StaticResource TitleLable}"/>
                 <BoxView HeightRequest="2" BackgroundColor="White"/>
+                <Label Text="Func&#539;ia de gradul I" Style="{StaticResource Importantus}"/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="386"
+                        Aspect="Fill"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="ifunctii1.jpg">
+                </ffimageloading:CachedImage>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
+                <Label Text="Func&#539;ia de gradul II" Style="{StaticResource Importantus}"/>
+                <ffimageloading:CachedImage
+                        Margin="10"   
+                        WidthRequest="300"
+                        HeightRequest ="518"
+                        Aspect="Fill"
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center"
+                    Source="ifunctii2.jpg">
+                </ffimageloading:CachedImage>
+                <BoxView HeightRequest="1" BackgroundColor="White"/>
                 <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"

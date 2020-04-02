@@ -1,4 +1,8 @@
-﻿x zile pana la bac 
+﻿1)
+
+
+
+x zile pana la bac 
 Ecuatii cu modul.
 formule cu modul
 init ffimageloading for ios.

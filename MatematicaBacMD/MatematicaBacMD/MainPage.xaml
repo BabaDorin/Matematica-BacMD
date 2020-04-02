@@ -11,10 +11,11 @@
         <StackLayout>
             <ffimageloading:CachedImage
                 Margin="0"
-                        WidthRequest="500"
-                        HeightRequest="300"
+                        WidthRequest="300"
+                        HeightRequest="383"
                         HorizontalOptions="Center" 
-                    Source="bg.jpg">
+                BitmapOptimizations="True"
+                    Source="meme.jpg">
             </ffimageloading:CachedImage>
             <StackLayout>
                 <Label Text="Algebra"
@@ -22,7 +23,6 @@
                    HorizontalOptions="Center"
                    Margin="0,0,0,10"
                    FontSize="Medium"/>
-                <Button Text="Load" Style="{StaticResource buttonStyle}" Clicked="btnLoad"/>
                 <Button Text="Multimi" Style="{StaticResource buttonStyle}" Clicked="btnMultimi"/>
                 <Button Text="Combinatorica" Style="{StaticResource buttonStyle}" Clicked="btnCombinatorica"/>
                 <Button Text="Radicali" Style="{StaticResource buttonStyle}" Clicked="btnRadicali"/>

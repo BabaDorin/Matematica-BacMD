@@ -7,7 +7,6 @@
         <ResourceDictionary>
             <Style x:Key="background" TargetType="ContentPage">
                 <Setter Property="BackgroundColor" Value="#2C3359"/>
-                <!--353535 2C3359-->
             </Style>
             <Style x:Key="buttonStyle" TargetType="Button">
                 <Setter Property="TextColor" Value="Black"/>

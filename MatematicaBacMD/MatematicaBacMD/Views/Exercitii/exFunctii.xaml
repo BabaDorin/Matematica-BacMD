@@ -145,7 +145,7 @@
                 <ffimageloading:CachedImage
                     Style="{StaticResource Barem}"
                     x:Name="barem8"
-                    HeightRequest="30"
+                    HeightRequest="24"
                     Source="i16eebr2.jpg"/>
 
                 <Label Style="{StaticResource Importantus}" Text="2015 - Exersare, Test 1" Margin="0,10,0,10"/>

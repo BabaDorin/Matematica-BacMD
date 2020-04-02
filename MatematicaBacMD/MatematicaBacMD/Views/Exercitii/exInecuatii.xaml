@@ -99,6 +99,23 @@
                     Source="i18eebr5.jpg"/>
 
                 <Label Style="{StaticResource Importantus}" Text="2018 - Pretestare" Margin="0,10,0,10"/>
+
+                <ffimageloading:CachedImage 
+                    Style="{StaticResource Ex}"
+                    HeightRequest ="34"
+                    Source="i18pr5.jpg">
+                    <ffimageloading:CachedImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                              NumberOfTapsRequired="2"
+                                              CommandParameter="{x:Reference barem3ss}"/>
+                    </ffimageloading:CachedImage.GestureRecognizers>
+                </ffimageloading:CachedImage>
+                <ffimageloading:CachedImage
+                    Style="{StaticResource Barem}"
+                    x:Name="barem3ss"
+                    HeightRequest="78"
+                    Source="i18prbr5.jpg"/>
+
                 <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest = "60"

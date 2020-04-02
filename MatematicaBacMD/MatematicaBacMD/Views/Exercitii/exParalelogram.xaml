@@ -50,6 +50,23 @@
                 <Label Style="{StaticResource Importantus}" Text="2015 - Sesiunea de baza" Margin="0,10,0,10"/>
                 <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
+                    HeightRequest ="150"
+                    Source="i15e7.jpg">
+                    <ffimageloading:CachedImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                              NumberOfTapsRequired="2"
+                                              CommandParameter="{x:Reference barem3ss}"/>
+                    </ffimageloading:CachedImage.GestureRecognizers>
+                </ffimageloading:CachedImage>
+                <ffimageloading:CachedImage
+                    Style="{StaticResource Barem}"
+                    x:Name="barem3ss"
+                    HeightRequest="65"
+                    Source="i15ebr7.jpg"/>
+                
+                <Label Style="{StaticResource Importantus}" Text="2015 - Sesiunea de baza" Margin="0,10,0,10"/>
+                <ffimageloading:CachedImage 
+                    Style="{StaticResource Ex}"
                     HeightRequest ="103"
                     Source="i15sb7.jpg">
                     <ffimageloading:CachedImage.GestureRecognizers>

@@ -9,7 +9,9 @@ using Android.OS;
 
 namespace MatematicaBacMD.Droid
 {
-    [Activity(Label = "MatematicaBacMD", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+
+    // Icon = "@mipmap/icon"
+    [Activity(Label = "Matematica", Icon = "@drawable/ilogo", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)

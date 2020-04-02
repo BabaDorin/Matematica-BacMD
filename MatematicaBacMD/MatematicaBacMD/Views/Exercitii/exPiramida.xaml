@@ -27,7 +27,7 @@
                 <ffimageloading:CachedImage
                     Style="{StaticResource Barem}"
                     x:Name="barem1"
-                    HeightRequest="161"
+                    HeightRequest="112"
                     Source="i19sbbr7.jpg"/>
 
                 <Label Style="{StaticResource Importantus}" Text="2019 - Pretestare" Margin="0,10,0,10"/>
@@ -131,6 +131,23 @@
                     x:Name="barem7"
                     HeightRequest="100"
                     Source="i16eebr10.jpg"/>
+
+                <Label Style="{StaticResource Importantus}" Text="2015 - Exersare, Test 1" Margin="0,10,0,10"/>
+                <ffimageloading:CachedImage 
+                    Style="{StaticResource Ex}"
+                    HeightRequest ="157"
+                    Source="i15e10.jpg">
+                    <ffimageloading:CachedImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                              NumberOfTapsRequired="2"
+                                              CommandParameter="{x:Reference barem3ss}"/>
+                    </ffimageloading:CachedImage.GestureRecognizers>
+                </ffimageloading:CachedImage>
+                <ffimageloading:CachedImage
+                    Style="{StaticResource Barem}"
+                    x:Name="barem3ss"
+                    HeightRequest="87"
+                    Source="i15ebr10.jpg"/>
 
                 <Label Style="{StaticResource Importantus}" Text="2015 - Pretestare" Margin="0,10,0,10"/>
                 <ffimageloading:CachedImage 

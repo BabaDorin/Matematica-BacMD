@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Gms.Ads;
 
 namespace MatematicaBacMD.Droid
 {
@@ -22,6 +23,7 @@ namespace MatematicaBacMD.Droid
             base.OnCreate(savedInstanceState);
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer:true);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            MobileAds.Initialize(ApplicationContext, "ca-app-pub-5916972189519125~4648230132");
             LoadApplication(new App());
         }
     }

@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.MatematicaBacMD" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="20" android:targetSdkVersion="28" />
-	<application android:label="MatematicaBacMD.Android" android:icon="@mipmap/icon"></application>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+	<application android:label="MatematicaBacMD.Android" android:icon="@drawable/ilogo">
+    <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-5916972189519125~4648230132">
+      <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent">
+      </activity>
+    </meta-data>
+  </application>
 </manifest>

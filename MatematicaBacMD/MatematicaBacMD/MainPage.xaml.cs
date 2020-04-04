@@ -9,6 +9,7 @@ using System.Diagnostics;
 using MatematicaBacMD.Views;
 using FFImageLoading.Forms;
 using System.Reflection;
+using MatematicaBacMD.Controls;
 
 namespace MatematicaBacMD
 {
@@ -23,6 +24,18 @@ namespace MatematicaBacMD
         public MainPage()
         {
             InitializeComponent();
+            AdusMadus.AdUnitId = AppConstants.BannerId;
+            AdusMadus2.AdUnitId = AppConstants.BannerId;
+            AdusMadus3.AdUnitId = AppConstants.BannerId;
+            
+            //if (AdusMadus == null)
+            //    AdusMadus.HeightRequest = 0;
+            //layyy.Children.Add(admobControl);
+            //Content = new StackLayout()
+            //{
+            //    Children = { adLabel, admobControl}
+            //};
+
         }
 
         async void btnPutere(object sender, EventArgs e)

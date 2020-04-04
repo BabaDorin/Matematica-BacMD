@@ -17,7 +17,7 @@ namespace MatematicaBacMD.Views
 		public SiruriNumerice ()
 		{
 			InitializeComponent ();
-           
+            AdusMadus.AdUnitId = AppConstants.BannerId;
         }
 
         async void Button_Clicked(object sender, EventArgs e)

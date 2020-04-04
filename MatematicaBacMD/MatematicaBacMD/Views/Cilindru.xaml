@@ -3,14 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MatematicaBacMD.Views.Cilindru"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:controls="clr-namespace:MatematicaBacMD.Controls;assembly=MatematicaBacMD"
              Style="{StaticResource background}">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="15">
-                <Label Text="Cilindrul" Style="{StaticResource TitleLable}"/>
-                <BoxView HeightRequest="2" BackgroundColor="White"/>
-                <Label Style="{StaticResource Info}" Text="Dac&#259; o piramid&#259; este intersectat&#259; de un plan paralel cu baza, atunci se ob&#539;in dou&#259; poliedre situate &#238;n semispa&#539;ii diferite delimitate de acest plan. Unul dintre aceste poliedre este o piramid&#259;, iar cel&#259;lalt poliedru se nume&#351;te trunchi de piramid&#259; " Margin="0,10,0,0"/>
-                <ffimageloading:CachedImage
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <ScrollView Grid.Row="0">
+                <StackLayout Padding="15">
+                    <Label Text="Cilindrul" Style="{StaticResource TitleLable}"/>
+                    <BoxView HeightRequest="2" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Info}" Text="Dac&#259; o piramid&#259; este intersectat&#259; de un plan paralel cu baza, atunci se ob&#539;in dou&#259; poliedre situate &#238;n semispa&#539;ii diferite delimitate de acest plan. Unul dintre aceste poliedre este o piramid&#259;, iar cel&#259;lalt poliedru se nume&#351;te trunchi de piramid&#259; " Margin="0,10,0,0"/>
+                    <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
                         HeightRequest ="371"
@@ -19,10 +26,15 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i164.jpg"/>
-                <Label Style="{StaticResource Info}" Text="Dreapta suport &#238;n jurul c&#259;reia se rote&#351;te dreptunghiul se nume&#351;te ax&#259; de rota&#539;ie a cilindrului sau ax&#259; a cilindrului. Sec&#539;iunea cilindrului circular  drept cu un plan ce trece prin axa cilindrului se nume&#351;te sec&#539;iune axial&#259; &#10;(LMNP). "/>
-                <Label Style="{StaticResource Info}" Text="" />
-                <Button Text="Exercitii BAC ce implica calcule asupra cilindrului" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+                    <Label Style="{StaticResource Info}" Text="Dreapta suport &#238;n jurul c&#259;reia se rote&#351;te dreptunghiul se nume&#351;te ax&#259; de rota&#539;ie a cilindrului sau ax&#259; a cilindrului. Sec&#539;iunea cilindrului circular  drept cu un plan ce trece prin axa cilindrului se nume&#351;te sec&#539;iune axial&#259; &#10;(LMNP). "/>
+                    <Label Style="{StaticResource Info}" Text="" />
+                    <Button Text="Exercitii BAC ce implica calcule asupra cilindrului" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </ScrollView>
+
+            <StackLayout Grid.Row="1">
+                <controls:AdmobControl x:Name="AdusMadus" />
             </StackLayout>
-        </ScrollView>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

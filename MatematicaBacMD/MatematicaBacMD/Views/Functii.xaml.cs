@@ -16,6 +16,7 @@ namespace MatematicaBacMD.Views
 		public Functii ()
 		{
 			InitializeComponent ();
+            AdusMadus.AdUnitId = AppConstants.BannerId;
         }
 
         async void Button_Clicked(object sender, EventArgs e)

@@ -8,3 +8,17 @@ repara semnele apartine
 2) semnul apartine
 
 NU UITA DE RESOURCES PT IPHONE
+
+
+<Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            
+            
+            <StackLayout Grid.Row="1">
+                <controls:AdmobControl x:Name="AdusMadus" />
+            </StackLayout>
+        </Grid>

@@ -3,18 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MatematicaBacMD.Views.Piramida"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:controls="clr-namespace:MatematicaBacMD.Controls;assembly=MatematicaBacMD"
              Style="{StaticResource background}">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="15">
-                <Label Text="Piramida" Style="{StaticResource TitleLable}"/>
-                <BoxView HeightRequest="2" BackgroundColor="White"/>
-                <Label Style="{StaticResource Info}" Text="Piramida se nume&#351;te pirami&#259; regulat&#259; dac&#259; baza ei este un poligon regulat &#351;i proiec&#539;ia v&#226;rfului pe planul bazei coincide cu centrul de simetrie al bazei. " Margin="0,10,0,0"/>
-                <Label Style="{StaticResource Info}" Text=""/>
-                <Label Style="{StaticResource Info}" Text="Arie total&#259; reprezint&#259; suma ariilor tuturor fe&#539;elor piramidei. "/>
-                <Label Style="{StaticResource Info}" Text="Suma ariilor fe&#539;elor laterale ale unei piramide se nume&#351;te arie lateral&#259; a piramidei. "/>
-                <Label Style="{StaticResource Info}" Text="Dac&#259; &#238;ntr-o piramid&#259; regulat&#259; se cunoa&#351;te lungimea h a apotemei, semiperimetrul p al bazei &#351;i lungimea r a razei cercului &#238;nscris &#238;n baza piramidei, atunci avem: "/>
-                <ffimageloading:CachedImage
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <ScrollView Grid.Row="0">
+                <StackLayout Padding="15">
+                    <Label Text="Piramida" Style="{StaticResource TitleLable}"/>
+                    <BoxView HeightRequest="2" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Info}" Text="Piramida se nume&#351;te pirami&#259; regulat&#259; dac&#259; baza ei este un poligon regulat &#351;i proiec&#539;ia v&#226;rfului pe planul bazei coincide cu centrul de simetrie al bazei. " Margin="0,10,0,0"/>
+                    <Label Style="{StaticResource Info}" Text=""/>
+                    <Label Style="{StaticResource Info}" Text="Arie total&#259; reprezint&#259; suma ariilor tuturor fe&#539;elor piramidei. "/>
+                    <Label Style="{StaticResource Info}" Text="Suma ariilor fe&#539;elor laterale ale unei piramide se nume&#351;te arie lateral&#259; a piramidei. "/>
+                    <Label Style="{StaticResource Info}" Text="Dac&#259; &#238;ntr-o piramid&#259; regulat&#259; se cunoa&#351;te lungimea h a apotemei, semiperimetrul p al bazei &#351;i lungimea r a razei cercului &#238;nscris &#238;n baza piramidei, atunci avem: "/>
+                    <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
                         HeightRequest ="500"
@@ -23,7 +29,7 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i161.jpg"/>
-                <ffimageloading:CachedImage
+                    <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
                         HeightRequest ="491"
@@ -33,12 +39,16 @@
                         VerticalOptions="Center"
                     Source="i162.jpg"/>
 
-                <Label Style="{StaticResource Info}" Text=""/>
-                <Label Style="{StaticResource Info}" Text="Unghiurile diedre formate de planul bazei piramidei &#351;i fe&#539;ele ei laterale se numesc unghiuri diedre de la baz&#259;. "/>
-                <Label Style="{StaticResource Info}" Text="" />
-                <Button Text="Exercitii BAC - Piramida" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+                    <Label Style="{StaticResource Info}" Text=""/>
+                    <Label Style="{StaticResource Info}" Text="Unghiurile diedre formate de planul bazei piramidei &#351;i fe&#539;ele ei laterale se numesc unghiuri diedre de la baz&#259;. "/>
+                    <Label Style="{StaticResource Info}" Text="" />
+                    <Button Text="Exercitii BAC - Piramida" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
 
+                </StackLayout>
+            </ScrollView>
+            <StackLayout Grid.Row="1">
+                <controls:AdmobControl x:Name="AdusMadus" />
             </StackLayout>
-        </ScrollView>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

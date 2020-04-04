@@ -3,11 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MatematicaBacMD.Views.Poligoane"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:controls="clr-namespace:MatematicaBacMD.Controls;assembly=MatematicaBacMD"
              Style="{StaticResource background}">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="15">
-                <ffimageloading:CachedImage
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <ScrollView Grid.Row="0">
+                <StackLayout Padding="15">
+                    <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
                         HeightRequest ="964"
@@ -16,9 +22,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i152.jpg"/>
-                <Label Style="{StaticResource Info}" Text="" />
-                <Button Text="Exercitii BAC - Poligoane" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+                    <Label Style="{StaticResource Info}" Text="" />
+                    <Button Text="Exercitii BAC - Poligoane" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </ScrollView>
+            <StackLayout Grid.Row="1">
+                <controls:AdmobControl x:Name="AdusMadus" />
             </StackLayout>
-        </ScrollView>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

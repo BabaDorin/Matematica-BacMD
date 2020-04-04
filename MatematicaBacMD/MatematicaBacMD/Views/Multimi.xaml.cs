@@ -16,7 +16,8 @@ namespace MatematicaBacMD.Views
 		public Multimi ()
 		{
 			InitializeComponent ();
-		}
+            AdusMadus.AdUnitId = AppConstants.BannerId;
+        }
 
         async void Button_Clicked(object sender, EventArgs e)
         {

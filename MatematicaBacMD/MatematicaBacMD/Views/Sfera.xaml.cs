@@ -16,7 +16,8 @@ namespace MatematicaBacMD.Views
 		public Sfera ()
 		{
 			InitializeComponent ();
-		}
+            AdusMadus.AdUnitId = AppConstants.BannerId;
+        }
 
         async void Button_Clicked(object sender, EventArgs e)
         {

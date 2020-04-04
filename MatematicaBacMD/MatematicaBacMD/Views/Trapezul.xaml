@@ -3,17 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MatematicaBacMD.Views.Trapezul"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:controls="clr-namespace:MatematicaBacMD.Controls;assembly=MatematicaBacMD"
              Style="{StaticResource background}">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="15">
-                <Label Text="Trapezul" Style="{StaticResource TitleLable}"/>
-                <BoxView HeightRequest="2" BackgroundColor="White"/>
-                <Label Style="{StaticResource Info}" Text="Trapezul reprezint&#259; un caz particular de patrulater convex, av&#226;nd dou&#259; laturi opuse paralele &#351;i celelalte neparalele. Laturile paralele ale unui trapez se numesc baze. Distan&#539;a dintre cele dou&#259;  baze se nume&#351;te &#238;n&#259;l&#539;imea trapezului. "/>
-                <Label Style="{StaticResource Info}" Text="Trapezul oarecare are cele dou&#259; laturi neparalele inegale &#351;i niciuna din ele nu formeaz&#259; unghi drept  cu bazele. "/>
-                <Label Style="{StaticResource Info}" Text="Trapezul isoscel are laturile neparalele congruente."/>
-                <Label Style="{StaticResource Info}" Text="Trapezul dreptunghic are una din laturile neparalele perpendicular&#259; pe cele dou&#259; baze. "/>
-                <ffimageloading:CachedImage
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <ScrollView Grid.Row="0">
+                <StackLayout Padding="15">
+                    <Label Text="Trapezul" Style="{StaticResource TitleLable}"/>
+                    <BoxView HeightRequest="2" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Info}" Text="Trapezul reprezint&#259; un caz particular de patrulater convex, av&#226;nd dou&#259; laturi opuse paralele &#351;i celelalte neparalele. Laturile paralele ale unui trapez se numesc baze. Distan&#539;a dintre cele dou&#259;  baze se nume&#351;te &#238;n&#259;l&#539;imea trapezului. "/>
+                    <Label Style="{StaticResource Info}" Text="Trapezul oarecare are cele dou&#259; laturi neparalele inegale &#351;i niciuna din ele nu formeaz&#259; unghi drept  cu bazele. "/>
+                    <Label Style="{StaticResource Info}" Text="Trapezul isoscel are laturile neparalele congruente."/>
+                    <Label Style="{StaticResource Info}" Text="Trapezul dreptunghic are una din laturile neparalele perpendicular&#259; pe cele dou&#259; baze. "/>
+                    <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
                         HeightRequest ="346"
@@ -22,9 +28,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i149.jpg"/>
-                <Label Style="{StaticResource Info}" Text="" />
-                <Button Text="Exercitii BAC - Trapezul" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+                    <Label Style="{StaticResource Info}" Text="" />
+                    <Button Text="Exercitii BAC - Trapezul" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </ScrollView>
+            <StackLayout Grid.Row="1">
+                <controls:AdmobControl x:Name="AdusMadus" />
             </StackLayout>
-        </ScrollView>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

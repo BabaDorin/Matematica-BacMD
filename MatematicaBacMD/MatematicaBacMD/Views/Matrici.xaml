@@ -3,245 +3,255 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MatematicaBacMD.Views.Matrici"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:controls="clr-namespace:MatematicaBacMD.Controls;assembly=MatematicaBacMD"
              Style="{StaticResource background}">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="15">
-                <Label Text="Matrice" Style="{StaticResource TitleLable}"/>
-                <BoxView HeightRequest="2" BackgroundColor="White"/>
-                <Label Style="{StaticResource Info}" Text="Se nume&#351;te matrice de tip (m, n) sau m x n, unde m, n &#8712; N*, un tablou"  Margin="0,20,0,10"/>
-                <ffimageloading:CachedImage
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <ScrollView Grid.Row="0">
+                <StackLayout Padding="15">
+                    <Label Text="Matrice" Style="{StaticResource TitleLable}"/>
+                    <BoxView HeightRequest="2" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Info}" Text="Se nume&#351;te matrice de tip (m, n) sau m x n, unde m, n &#8712; N*, un tablou"  Margin="0,20,0,10"/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="125"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i47.jpg"/>
-                <Label Style="{StaticResource Info}" Text="format din m * n elemente aranjate &#238;n m linii &#351;i n coloane."  Margin="0,10,0,10"/>
-                <Label Style="{StaticResource Info}" Text="Se noteaz&#259;"  Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Info}" Text="format din m * n elemente aranjate &#238;n m linii &#351;i n coloane."  Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Se noteaz&#259;"  Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="27"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i48.jpg"/>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Importantus}" Text="Opera&#539;ii cu matrice&#10;"  Margin="0,20,0,0"/>
-                <Label Style="{StaticResource Importantus}" Text="Adunarea"  Margin="0,10,0,10"/>
-                <Label Style="{StaticResource Info}" Text="Matricea A"/>
-                <ffimageloading:CachedImage
+                    <BoxView HeightRequest="1" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Importantus}" Text="Opera&#539;ii cu matrice&#10;"  Margin="0,20,0,0"/>
+                    <Label Style="{StaticResource Importantus}" Text="Adunarea"  Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Matricea A"/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="125"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i49.jpg"/>
-                <Label Style="{StaticResource Info}" Text="Matricea B"/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Info}" Text="Matricea B"/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="125"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i50.jpg"/>
-                <Label Style="{StaticResource Info}" Text="D = A + B"/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Info}" Text="D = A + B"/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="52"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i51.jpg"/>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Importantus}" Text="Inmul&#539;irea&#10;Matrice - Numar"  Margin="0,10,0,10"/>
-                <Label Style="{StaticResource Info}" Text="Exemplu: 2 x A (A = matricea de mai sus)"/>
-                <ffimageloading:CachedImage
+                    <BoxView HeightRequest="1" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Importantus}" Text="Inmul&#539;irea&#10;Matrice - Numar"  Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Exemplu: 2 x A (A = matricea de mai sus)"/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="64"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i52.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="Inmul&#539;irea&#10;Matrice - Matrice"  Margin="0,10,0,10"/>
-                <Label Style="{StaticResource Info}" Text="Produsul AB este definit numai &#238;n cazul &#238;n care num&#259;rul de coloane ale matricei A  este egal cu num&#259;rul de linii ale matricei B. Num&#259;rul de linii (coloane) ale  matricei AB coincide cu num&#259;rul de linii (coloane) ale matricei A (B). "/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Importantus}" Text="Inmul&#539;irea&#10;Matrice - Matrice"  Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Produsul AB este definit numai &#238;n cazul &#238;n care num&#259;rul de coloane ale matricei A  este egal cu num&#259;rul de linii ale matricei B. Num&#259;rul de linii (coloane) ale  matricei AB coincide cu num&#259;rul de linii (coloane) ale matricei A (B). "/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="64"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i53.jpg"/>
-                <Label Style="{StaticResource Info}" Text="Elementul d(i,j) al matricei produs este egal cu suma produselor elementelor liniei i a matricei A cu elementele respective ale coloanei j a matricei B (se mai spune c&#259; elementul d(i,j) este produsul dintre linia i a matricei A &#351;i coloana j a matricei B). "/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Info}" Text="Elementul d(i,j) al matricei produs este egal cu suma produselor elementelor liniei i a matricei A cu elementele respective ale coloanei j a matricei B (se mai spune c&#259; elementul d(i,j) este produsul dintre linia i a matricei A &#351;i coloana j a matricei B). "/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="64"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i54.jpg"/>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Importantus}" Text="Matrice e&#351;alon"  Margin="0,10,0,10"/>
-                <Label Style="{StaticResource Info}" Text="Se spune c&#259; matricea nenul&#259; A este o matrice e&#351;alon (sau matrice &#238;n trepte) dac&#259; primul (de la st&#238;nga) element nenul al fiec&#259;rei linii, &#238;ncep&#238;nd cu a doua, e situat mai la dreapta dec&#238;t primul element nenul al liniei precedente. Primele (de la st&#238;nga) elemente nenule ale fiec&#259;rei linii (dac&#259; exist&#259;) se numesc lideri ai matricei."/>
-                <ffimageloading:CachedImage
+                    <BoxView HeightRequest="1" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Importantus}" Text="Matrice e&#351;alon"  Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Se spune c&#259; matricea nenul&#259; A este o matrice e&#351;alon (sau matrice &#238;n trepte) dac&#259; primul (de la st&#238;nga) element nenul al fiec&#259;rei linii, &#238;ncep&#238;nd cu a doua, e situat mai la dreapta dec&#238;t primul element nenul al liniei precedente. Primele (de la st&#238;nga) elemente nenule ale fiec&#259;rei linii (dac&#259; exist&#259;) se numesc lideri ai matricei."/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="161"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i55.jpg"/>
-                <Label Style="{StaticResource Info}" Text="Pentru a ob&#539;ine dintr-o matrice dat&#259; o matrice e&#351;alon, vom efectua asupra liniilor ei transform&#259;ri asem&#259;n&#259;toare cu cele pe care le efectu&#259;m asupra ecua&#539;iilor unui sistem pentru a ob&#539;ine un sistem echivalent. "/>
-                <Label Style="{StaticResource Info}" Text="&#10;Se numesc transform&#259;ri elementare asupra liniilor unei matrice urm&#259;toarele transform&#259;ri: "/>
-                <Label Style="{StaticResource Info}" Text="1) permutarea a dou&#259; linii; "/>
-                <Label Style="{StaticResource Info}" Text="2) &#238;nmul&#539;irea elementelor unei linii cu un num&#259;r nenul; "/>
-                <Label Style="{StaticResource Info}" Text="3) adunarea la elementele unei linii a elementelor respective ale altei linii, &#238;nmul&#539;ite cu acela&#351;i num&#259;r. "/>
-                <Label Style="{StaticResource Info}" Text="&#10;Matricele A &#351;i B de acela&#351;i tip se numesc matrice echivalente dac&#259; una dintre ele se ob&#539;ine din cealalt&#259; prin efectuarea unui num&#259;r finit de transform&#259;ri elementare asupra liniilor. "/>
-                <Label Style="{StaticResource Info}" Text="Se scrie: A &#8764; B."/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Info}" Text="Pentru a ob&#539;ine dintr-o matrice dat&#259; o matrice e&#351;alon, vom efectua asupra liniilor ei transform&#259;ri asem&#259;n&#259;toare cu cele pe care le efectu&#259;m asupra ecua&#539;iilor unui sistem pentru a ob&#539;ine un sistem echivalent. "/>
+                    <Label Style="{StaticResource Info}" Text="&#10;Se numesc transform&#259;ri elementare asupra liniilor unei matrice urm&#259;toarele transform&#259;ri: "/>
+                    <Label Style="{StaticResource Info}" Text="1) permutarea a dou&#259; linii; "/>
+                    <Label Style="{StaticResource Info}" Text="2) &#238;nmul&#539;irea elementelor unei linii cu un num&#259;r nenul; "/>
+                    <Label Style="{StaticResource Info}" Text="3) adunarea la elementele unei linii a elementelor respective ale altei linii, &#238;nmul&#539;ite cu acela&#351;i num&#259;r. "/>
+                    <Label Style="{StaticResource Info}" Text="&#10;Matricele A &#351;i B de acela&#351;i tip se numesc matrice echivalente dac&#259; una dintre ele se ob&#539;ine din cealalt&#259; prin efectuarea unui num&#259;r finit de transform&#259;ri elementare asupra liniilor. "/>
+                    <Label Style="{StaticResource Info}" Text="Se scrie: A &#8764; B."/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="89"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i56.jpg"/>
-                <Label Style="{StaticResource Info}" Text="Efectu&#259;m asupra liniilor ei urm&#259;toarele transform&#259;ri (indicate cu ajutorul s&#259;ge&#539;ilor): "/>
-                <Label Style="{StaticResource Info}" Text="&#10;permut&#259;m liniile a doua &#351;i a treia "/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Info}" Text="Efectu&#259;m asupra liniilor ei urm&#259;toarele transform&#259;ri (indicate cu ajutorul s&#259;ge&#539;ilor): "/>
+                    <Label Style="{StaticResource Info}" Text="&#10;permut&#259;m liniile a doua &#351;i a treia "/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="72"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i57.jpg"/>
-                <Label Style="{StaticResource Info}" Text="&#238;nmul&#539;im elementele liniei &#238;nt&#238;i cu i "/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Info}" Text="&#238;nmul&#539;im elementele liniei &#238;nt&#238;i cu i "/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="72"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i58.jpg"/>
-                <Label Style="{StaticResource Info}" Text="la elementele liniei &#238;nt&#238;i adun&#259;m elementele respective ale liniei a treia &#238;nmul&#539;ite cu 2 "/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Info}" Text="la elementele liniei &#238;nt&#238;i adun&#259;m elementele respective ale liniei a treia &#238;nmul&#539;ite cu 2 "/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="72"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i59.jpg"/>
-                <Label Style="{StaticResource Info}" Text="la elementele liniei &#238;nt&#238;i &#238;nmul&#539;ite cu 3 adun&#259;m elementele liniei a treia &#238;nmul&#539;ite cu 2 "/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Info}" Text="la elementele liniei &#238;nt&#238;i &#238;nmul&#539;ite cu 3 adun&#259;m elementele liniei a treia &#238;nmul&#539;ite cu 2 "/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="72"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i60.jpg"/>
-                <ffimageloading:CachedImage
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="72"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i61.jpg"/>
-                <ffimageloading:CachedImage
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="72"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i62.jpg"/>
-                <Label Style="{StaticResource Info}" Text="Exist&#259; mai multe &#351;iruri de transform&#259;ri elementare asupra liniilor cu ajutorul c&#259;rora din matricea dat&#259; A se ob&#539;ine o matrice e&#351;alon "/>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Importantus}" Text="Determinantul Matricei"  Margin="0,10,0,10"/>
-                <Label Style="{StaticResource Info}" Text="Num&#259;rul"/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Info}" Text="Exist&#259; mai multe &#351;iruri de transform&#259;ri elementare asupra liniilor cu ajutorul c&#259;rora din matricea dat&#259; A se ob&#539;ine o matrice e&#351;alon "/>
+                    <BoxView HeightRequest="1" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Importantus}" Text="Determinantul Matricei"  Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Num&#259;rul"/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="50"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i64.jpg"/>
-                <Label Style="{StaticResource Info}" Text="se nume&#351;te determinantul matricei "/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Info}" Text="se nume&#351;te determinantul matricei "/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="68"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i65.jpg"/>
-                <Label Style="{StaticResource Info}" Text="sau determinant de ordinul 2"/>
-                <Label Style="{StaticResource Info}" Text="&#10;Se mai noteaz&#259; "/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Info}" Text="sau determinant de ordinul 2"/>
+                    <Label Style="{StaticResource Info}" Text="&#10;Se mai noteaz&#259; "/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="162"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i66.jpg"/>
-                <Label Style="{StaticResource Info}" Text="Determinantul matricei "/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Info}" Text="Determinantul matricei "/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="162"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i67.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="Regula lui Cramer:"  Margin="0,20,0,10"/>
-                <Label Style="{StaticResource Info}" Text="Dac&#259; determinantul principal al sistemului este nenul, atunci sistemul are o solu&#539;ie unic&#259;"/>
-                <Label Style="{StaticResource Info}" Margin="0,20,0,10" Text="S&#259; se rezolve &#238;n R, prin metoda (regula) lui Cramer, sistemul de ecua&#539;ii"/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Importantus}" Text="Regula lui Cramer:"  Margin="0,20,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Dac&#259; determinantul principal al sistemului este nenul, atunci sistemul are o solu&#539;ie unic&#259;"/>
+                    <Label Style="{StaticResource Info}" Margin="0,20,0,10" Text="S&#259; se rezolve &#238;n R, prin metoda (regula) lui Cramer, sistemul de ecua&#539;ii"/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="272"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i68.jpg"/>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Importantus}" Text="Se nume&#351;te determinant al matricei  "  Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage
+                    <BoxView HeightRequest="1" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Importantus}" Text="Se nume&#351;te determinant al matricei  "  Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="95"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i69.jpg"/>
-                <Label Style="{StaticResource Info}" Text="sau determinant de ordinul 3 num&#259;rul "/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Info}" Text="sau determinant de ordinul 3 num&#259;rul "/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="17"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i70.jpg"/>
-                <ffimageloading:CachedImage
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="72"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i71.jpg"/>
-                <Label Style="{StaticResource Info}" Text="S&#259; se determine dac&#259; poate fi aplicat&#259; regula lui Cramer &#351;i s&#259; se rezolve sistemul " Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Info}" Text="S&#259; se determine dac&#259; poate fi aplicat&#259; regula lui Cramer &#351;i s&#259; se rezolve sistemul " Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="309"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i72.jpg"/>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Importantus}" Text="Matrice inversabile"  Margin="0,10,0,10"/>
-                <Label Style="{StaticResource Importantus}" Text="ATEN&#354;IE: MATRICEA ESTE INVERSABIL&#258; DOAR ATUNCI C&#194;ND DETERMINANTUL EI ESTE DIFERIT DE 0! "/>
-                <ffimageloading:CachedImage
+                    <BoxView HeightRequest="1" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Importantus}" Text="Matrice inversabile"  Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Importantus}" Text="ATEN&#354;IE: MATRICEA ESTE INVERSABIL&#258; DOAR ATUNCI C&#194;ND DETERMINANTUL EI ESTE DIFERIT DE 0! "/>
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="562"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i63.jpg"/>
-                <Label Style="{StaticResource Info}" Text="" />
-                <Button Text="Exercitii BAC - Matrici" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+                    <Label Style="{StaticResource Info}" Text="" />
+                    <Button Text="Exercitii BAC - Matrici" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </ScrollView>
+            <StackLayout Grid.Row="1">
+                <controls:AdmobControl x:Name="AdusMadus" />
             </StackLayout>
-        </ScrollView>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

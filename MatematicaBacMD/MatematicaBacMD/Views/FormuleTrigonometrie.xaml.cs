@@ -15,6 +15,7 @@ namespace MatematicaBacMD.Views
 		public FormuleTrigonometrie ()
 		{
 			InitializeComponent ();
-		}
+            AdusMadus.AdUnitId = AppConstants.BannerId;
+        }
 	}
 }

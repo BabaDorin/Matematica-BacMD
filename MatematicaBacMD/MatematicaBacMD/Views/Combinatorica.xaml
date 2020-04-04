@@ -3,122 +3,136 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MatematicaBacMD.Views.Combinatorica"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:controls="clr-namespace:MatematicaBacMD.Controls;assembly=MatematicaBacMD"
              Style="{StaticResource background}">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="15">
-                <Label Text="Combinatorica" Style="{StaticResource TitleLable}"/>
-                <BoxView HeightRequest="2" BackgroundColor="White"/>
-                <Label Style="{StaticResource Info}" Margin="0,25,0,10">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Style="{StaticResource Important}" Text="Combinatorica "/>
-                            <Span Style="{StaticResource Information}">este ramur&#259; matematicii care se ocup&#259; cu studiul mul&#539;imilor (de obicei finite) de obiecte &#351;i modalit&#259;&#539;ile de a le combina, asocia sau pune laolalt&#259;.</Span>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Style="{StaticResource Important}" Text="Combin&#259;rile&#10;&#10;"/>
-                            <Span Style="{StaticResource Information}" Text="Combin&#259;rile se refer&#259; la combinarea de n lucruri luate c&#226;te k odat&#259; f&#259;r&#259; a se repeta.&#10;
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <ScrollView Grid.Row="0">
+                <StackLayout Padding="15">
+                    <Label Text="Combinatorica" Style="{StaticResource TitleLable}"/>
+                    <BoxView HeightRequest="2" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Info}" Margin="0,25,0,10">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource Important}" Text="Combinatorica "/>
+                                <Span Style="{StaticResource Information}">este ramur&#259; matematicii care se ocup&#259; cu studiul mul&#539;imilor (de obicei finite) de obiecte &#351;i modalit&#259;&#539;ile de a le combina, asocia sau pune laolalt&#259;.</Span>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <BoxView HeightRequest="1" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource Important}" Text="Combin&#259;rile&#10;&#10;"/>
+                                <Span Style="{StaticResource Information}" Text="Combin&#259;rile se refer&#259; la combinarea de n lucruri luate c&#226;te k odat&#259; f&#259;r&#259; a se repeta.&#10;
 De exemplu, fiind date trei fructe (un m&#259;r, o portocal&#259; &#351;i o par&#259;), exist&#259; trei combin&#259;ri a c&#226;te dou&#259; fructe care pot fi extrase din acest set:&#10;- un m&#259;r &#351;i o par&#259;&#10;- un m&#259;r &#351;i o portocal&#259;&#10;- o par&#259; &#351;i o portocal&#259;"/>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <ffimageloading:CachedImage
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <ffimageloading:CachedImage
                         WidthRequest="250"
                         HeightRequest="60"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i2.jpg">
-                </ffimageloading:CachedImage>
-                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Style="{StaticResource Information}" Text="De exemplu, putem calcula num&#259;rul combin&#259;rilor posibilie pentru alc&#259;tuirea unei m&#226;ini de 5 c&#259;r&#539;i dintr-un pachet standard de 52:"/>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <ffimageloading:CachedImage
+                    </ffimageloading:CachedImage>
+                    <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource Information}" Text="De exemplu, putem calcula num&#259;rul combin&#259;rilor posibilie pentru alc&#259;tuirea unei m&#226;ini de 5 c&#259;r&#539;i dintr-un pachet standard de 52:"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <ffimageloading:CachedImage
                         WidthRequest="400"
                         HeightRequest="60"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i3.jpg">
-                </ffimageloading:CachedImage>
-                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Style="{StaticResource Information}" Text="Totodat&#259;, putem folosi formula combin&#259;rilor utiliz&#226;nd factorialii &#351;i simplifica factorii de la num&#259;r&#259;tor cu o parte din factorii de la numitor, dup&#259; care va r&#259;m&#226;ne de efectuat doar &#238;nmul&#539;irea factorilor r&#259;ma&#351;i:"/>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <ffimageloading:CachedImage
+                    </ffimageloading:CachedImage>
+                    <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource Information}" Text="Totodat&#259;, putem folosi formula combin&#259;rilor utiliz&#226;nd factorialii &#351;i simplifica factorii de la num&#259;r&#259;tor cu o parte din factorii de la numitor, dup&#259; care va r&#259;m&#226;ne de efectuat doar &#238;nmul&#539;irea factorilor r&#259;ma&#351;i:"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <ffimageloading:CachedImage
                         WidthRequest="500"
                         HeightRequest="318"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i4.jpg">
-                </ffimageloading:CachedImage>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Style="{StaticResource Important}" Text="Aranjamentele&#10;&#10;"/>
-                            <Span Style="{StaticResource Information}" Text="&#206;n practic&#259;, de multe ori se ajunge la necesitatea de a alege dintr-o mul&#539;ime oarecare de obiecte submul&#539;imi care au anumite propriet&#259;&#539;i sau de a aranja elementele unei mul&#539;imi &#238;ntr-o numit&#259; ordine.&#10;&#10;
+                    </ffimageloading:CachedImage>
+                    <BoxView HeightRequest="1" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource Important}" Text="Aranjamentele&#10;&#10;"/>
+                                <Span Style="{StaticResource Information}" Text="&#206;n practic&#259;, de multe ori se ajunge la necesitatea de a alege dintr-o mul&#539;ime oarecare de obiecte submul&#539;imi care au anumite propriet&#259;&#539;i sau de a aranja elementele unei mul&#539;imi &#238;ntr-o numit&#259; ordine.&#10;&#10;
 Defini&#539;ie: Dac&#259; A este o mul&#539;ime cu n elemente, atunci submul&#539;imile ordonate ale lui A, av&#226;nd fiecare c&#226;te k elemente, unde 0 &#8804; k &#8804; n, se numesc aranjamente de n elemente luate c&#226;te k.&#10;&#10;"/>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <ffimageloading:CachedImage
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <ffimageloading:CachedImage
                         WidthRequest="250"
                         HeightRequest="60"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i5.jpg">
-                </ffimageloading:CachedImage>
-                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Style="{StaticResource Important}" Text="Propriet&#259;&#539;i&#10;&#10;"/>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <ffimageloading:CachedImage
+                    </ffimageloading:CachedImage>
+                    <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource Important}" Text="Propriet&#259;&#539;i&#10;&#10;"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <ffimageloading:CachedImage
                         WidthRequest="276"
                         HeightRequest="130"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i6.jpg">
-                </ffimageloading:CachedImage>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Style="{StaticResource Important}" Text="Permut&#259;rile&#10;&#10;"/>
-                            <Span Style="{StaticResource Information}" Text="Permutarea este un concept matematic care se refer&#259; &#238;n mod uzual la num&#259;rul de
+                    </ffimageloading:CachedImage>
+                    <BoxView HeightRequest="1" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource Important}" Text="Permut&#259;rile&#10;&#10;"/>
+                                <Span Style="{StaticResource Information}" Text="Permutarea este un concept matematic care se refer&#259; &#238;n mod uzual la num&#259;rul de
 posibilit&#259;&#539;i de rearanjare a unei liste ordonate de valori sau obiecte.&#10; 
 Cel mai simplu exemplu de permutare este dat de c&#259;tre o anagram&#259; - de exemplu, 
 literele cuv&#226;ntului CARTE (toate distincte &#238;ntre ele) pot fi rearanjate form&#238;nd cuv&#226;ntul TRACE sau ECART.&#10;&#10;
 Num&#259;rul de permut&#259;ri ale unei mul&#539;imi de elemente este dat de produsul numerelor (de ordine ale elementelor) 
 de la 1 la n, cunoscut ca n! (n factorial)"/>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <ffimageloading:CachedImage
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <ffimageloading:CachedImage
                         WidthRequest="178"
                         HeightRequest="58"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i7.jpg">
-                </ffimageloading:CachedImage>
-                <Label Style="{StaticResource Info}" Text="" />
-                <Button Text="Exercitii BAC - Combinatorica" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+                    </ffimageloading:CachedImage>
+                    <Label Style="{StaticResource Info}" Text="" />
+                    <Button Text="Exercitii BAC - Combinatorica" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+                </StackLayout>
+
+            </ScrollView>
+
+
+            <StackLayout Grid.Row="1">
+                <controls:AdmobControl x:Name="AdusMadus" />
             </StackLayout>
-           
-        </ScrollView>
+        </Grid>
     </ContentPage.Content>
 
 </ContentPage>

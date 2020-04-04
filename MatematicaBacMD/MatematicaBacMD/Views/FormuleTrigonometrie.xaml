@@ -3,13 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MatematicaBacMD.Views.FormuleTrigonometrie"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:controls="clr-namespace:MatematicaBacMD.Controls;assembly=MatematicaBacMD"
              Style="{StaticResource background}">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="15">
-                <Label Text="Formule trigonometrice" Style="{StaticResource TitleLable}"/>
-                <BoxView HeightRequest="2" BackgroundColor="White"/>
-                <ffimageloading:CachedImage
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <ScrollView Grid.Row="0">
+                <StackLayout Padding="15">
+                    <Label Text="Formule trigonometrice" Style="{StaticResource TitleLable}"/>
+                    <BoxView HeightRequest="2" BackgroundColor="White"/>
+                    <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
                         HeightRequest="600"
@@ -17,8 +23,8 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i34.jpg">
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
                         HeightRequest="600"
@@ -26,8 +32,8 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i35.jpg">
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                         Margin="10"   
                         WidthRequest="300"
                         HeightRequest="600"
@@ -35,8 +41,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i36.jpg">
-                </ffimageloading:CachedImage>
+                    </ffimageloading:CachedImage>
+                </StackLayout>
+            </ScrollView>
+            <StackLayout Grid.Row="1">
+                <controls:AdmobControl x:Name="AdusMadus" />
             </StackLayout>
-        </ScrollView>
+        </Grid>
+       
     </ContentPage.Content>
 </ContentPage>

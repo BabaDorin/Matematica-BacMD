@@ -3,47 +3,53 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MatematicaBacMD.Views.Inecuatii"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:controls="clr-namespace:MatematicaBacMD.Controls;assembly=MatematicaBacMD"
              Style="{StaticResource background}">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="15">
-                <Label Text="Inecua&#539;ii" Style="{StaticResource TitleLable}"/>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Info}" Margin="0,20,0,10">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Style="{StaticResource Important}" Text="Inecua&#539;ii de gradul I&#10;&#10;"/>
-                            <Span Style="{StaticResource Information}" Text="Inecua&#539;iile de tipul&#10;&#10;
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <ScrollView Grid.Row="0">
+                <StackLayout Padding="15">
+                    <Label Text="Inecua&#539;ii" Style="{StaticResource TitleLable}"/>
+                    <BoxView HeightRequest="1" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Info}" Margin="0,20,0,10">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource Important}" Text="Inecua&#539;ii de gradul I&#10;&#10;"/>
+                                <Span Style="{StaticResource Information}" Text="Inecua&#539;iile de tipul&#10;&#10;
 ax + b &#60; 0&#10;
 ax + b &#8804; 0&#10;
 ax + b &#62; 0&#10;
 ax + b &#8805; 0&#10;&#10;
 se numesc inecua&#539;ii de gradul I cu o necunoscut&#259;&#10;"/>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <Label Style="{StaticResource Importantus}" Margin="0,20,0,0" Text="Exemple rezolvate"/>
-                <ffimageloading:CachedImage
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label Style="{StaticResource Importantus}" Margin="0,20,0,0" Text="Exemple rezolvate"/>
+                    <ffimageloading:CachedImage
                         WidthRequest="340"
                         HeightRequest="516"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i28.jpg"/>
-                <Label Style="{StaticResource Info}" Text="Mul&#539;imea solu&#539;iilor unui sistem (unei totalit&#259;&#539;i) de inecua&#539;ii de gradul I cu o necunoscut&#259; este intersec&#539;ia (reuniunea) mul&#539;imilor solu&#539;iilor inecua&#539;iilor acestui sistem (acestei totalit&#259;&#539;i). "/>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Importantus}" Margin="0,20,0,0" Text="Inecua&#539;ii de gradul II&#10;&#10;"/>
-                <Label Style="{StaticResource Info}" Text="Inecua&#539;iile de tipul"/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Info}" Text="Mul&#539;imea solu&#539;iilor unui sistem (unei totalit&#259;&#539;i) de inecua&#539;ii de gradul I cu o necunoscut&#259; este intersec&#539;ia (reuniunea) mul&#539;imilor solu&#539;iilor inecua&#539;iilor acestui sistem (acestei totalit&#259;&#539;i). "/>
+                    <BoxView HeightRequest="1" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Importantus}" Margin="0,20,0,0" Text="Inecua&#539;ii de gradul II&#10;&#10;"/>
+                    <Label Style="{StaticResource Info}" Text="Inecua&#539;iile de tipul"/>
+                    <ffimageloading:CachedImage
                         WidthRequest="400"
                         HeightRequest="242"
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                         BitmapOptimizations="True"
                         Source="i29.jpg"/>
-                <Label Style="{StaticResource Info}" Text="se numesc inecua&#539;ii de gradul II cu o necunoscut&#259;."/>
-                <Label Style="{StaticResource Importantus}" Text="Exemple rezolvate"/>
-                <ffimageloading:CachedImage
+                    <Label Style="{StaticResource Info}" Text="se numesc inecua&#539;ii de gradul II cu o necunoscut&#259;."/>
+                    <Label Style="{StaticResource Importantus}" Text="Exemple rezolvate"/>
+                    <ffimageloading:CachedImage
                         Margin="0"
                         WidthRequest="300"
                         HeightRequest="263"
@@ -51,9 +57,14 @@ se numesc inecua&#539;ii de gradul I cu o necunoscut&#259;&#10;"/>
                         BitmapOptimizations="True"
                         Source="i30.jpg"/>
 
-                <Label Style="{StaticResource Info}" Text="" />
-                <Button Text="Exercitii BAC - Inecuatii" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+                    <Label Style="{StaticResource Info}" Text="" />
+                    <Button Text="Exercitii BAC - Inecuatii" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </ScrollView>
+            <StackLayout Grid.Row="1">
+                <controls:AdmobControl x:Name="AdusMadus" />
             </StackLayout>
-        </ScrollView>
+        </Grid>
+        
     </ContentPage.Content>
 </ContentPage>

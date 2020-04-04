@@ -3,16 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              Style="{StaticResource background}"
+             xmlns:controls="clr-namespace:MatematicaBacMD.Controls;assembly=MatematicaBacMD"
              x:Class="MatematicaBacMD.Views.Exercitii.exCombinatorica">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout >
-                <Label Text="Exerci&#539;ii BAC - Combinatorica" Style="{StaticResource TitleLable}"/>
-                <BoxView HeightRequest="2" BackgroundColor="White"/>
-                <Label Style="{StaticResource Info}" Text="Ave&#539;i mai jos exerci&#539;iile din testele de bac, de exersare &#351;i pretest&#259;ri din ultimii 10 ani  care implic&#259; subiectul - Combinatorica" Margin="0,10,0,0"/>
-                <Label Style="{StaticResource Importantus}" TextColor="Bisque" Text="Vezi" Margin="0,10,0,0"/>
-                <Button Text="Exerci&#539;ii BAC - Teoria Probabilit&#259;&#539;ilor" Style="{StaticResource buttonStyle}" Clicked="btnLoad"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <ScrollView Grid.Row="0">
+                <StackLayout >
+                    <Label Text="Exerci&#539;ii BAC - Combinatorica" Style="{StaticResource TitleLable}"/>
+                    <BoxView HeightRequest="2" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Info}" Text="Ave&#539;i mai jos exerci&#539;iile din testele de bac, de exersare &#351;i pretest&#259;ri din ultimii 10 ani  care implic&#259; subiectul - Combinatorica" Margin="0,10,0,0"/>
+                    <Label Style="{StaticResource Importantus}" TextColor="Bisque" Text="Vezi" Margin="0,10,0,0"/>
+                    <Button Text="Exerci&#539;ii BAC - Teoria Probabilit&#259;&#539;ilor" Style="{StaticResource buttonStyle}" Clicked="btnLoad"/>
+                </StackLayout>
+            </ScrollView>
+            <StackLayout Grid.Row="1">
+                <controls:AdmobControl x:Name="AdusMadus" />
             </StackLayout>
-        </ScrollView>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

@@ -10,7 +10,7 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="auto"/>
-            </Grid.RowDefinitions>]
+            </Grid.RowDefinitions>
             <ScrollView Grid.Row="0">
                 <StackLayout Padding="15">
                     <Label Text="Puterea" Style="{StaticResource TitleLable}"/>
@@ -37,7 +37,6 @@
                 <controls:AdmobControl x:Name="AdusMadus" />
             </StackLayout>
         </Grid>
-        
     </ContentPage.Content>
 
 </ContentPage>

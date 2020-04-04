@@ -16,7 +16,8 @@ namespace MatematicaBacMD.Views.Exercitii
 		public exAlteFiguriPlane ()
 		{
 			InitializeComponent ();
-		}
+            AdusMadus.AdUnitId = AppConstants.BannerId;
+        }
 
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {

@@ -15,6 +15,7 @@ namespace MatematicaBacMD.Views.Exercitii
 		public exParalelismulDreptelor ()
 		{
 			InitializeComponent ();
-		}
+            AdusMadus.AdUnitId = AppConstants.BannerId;
+        }
 	}
 }

@@ -3,20 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              Style="{StaticResource background}"
+             xmlns:controls="clr-namespace:MatematicaBacMD.Controls;assembly=MatematicaBacMD"
              x:Class="MatematicaBacMD.Views.Exercitii.exPerpendicularitate">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout >
-                <Label Text="Exerci&#539;ii BAC - Perpendicularitatea &#238;n spa&#539;iu " Style="{StaticResource TitleLable}"/>
-                <BoxView HeightRequest="2" BackgroundColor="White"/>
-                <Label Style="{StaticResource Importantus}" Text="N-au fost g&#259;site asemenea exerci&#539;ii (2011 - 2020)" Margin="0,20,0,10"/>
-                <ffimageloading:CachedImage 
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <ScrollView Grid.Row="0">
+                <StackLayout >
+                    <Label Text="Exerci&#539;ii BAC - Perpendicularitatea &#238;n spa&#539;iu " Style="{StaticResource TitleLable}"/>
+                    <BoxView HeightRequest="2" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Importantus}" Text="N-au fost g&#259;site asemenea exerci&#539;ii (2011 - 2020)" Margin="0,20,0,10"/>
+                    <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="118"
                     VerticalOptions="Center"
                     Source="iVida.jpg">
-                </ffimageloading:CachedImage>
+                    </ffimageloading:CachedImage>
+                </StackLayout>
+            </ScrollView>
+            <StackLayout Grid.Row="1">
+                <controls:AdmobControl x:Name="AdusMadus" />
             </StackLayout>
-        </ScrollView>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

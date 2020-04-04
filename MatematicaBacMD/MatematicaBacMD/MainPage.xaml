@@ -39,7 +39,6 @@
                 <Button Text="Functii" Style="{StaticResource buttonStyle}" Clicked="btnFunctii"/>
                 <Button Text="Polinoame" Style="{StaticResource buttonStyle}" Clicked="btnPolinoame"/>
                 <Button Text="Trigonometrie" Style="{StaticResource buttonStyle}" Clicked="btnTrigonometrie"/>
-                <controls:AdmobControl x:Name="AdusMadus2" />
                 <Button Text="Siruri numerice" Style="{StaticResource buttonStyle}" Clicked="btnSiruriNumerice"/>
                 <Button Text="Numere complexe" Style="{StaticResource buttonStyle}" Clicked="btnNumereComplexe"/>
                 <Button Text="Matrici" Style="{StaticResource buttonStyle}" Clicked="btnMatrici"/>
@@ -54,7 +53,7 @@
                    HorizontalOptions="Center"
                    Margin="0,10,0,10"
                    FontSize="Medium"/>
-                <controls:AdmobControl x:Name="AdusMadus3" />
+                <controls:AdmobControl x:Name="AdusMadus3" x:Uid="ss"/>
                 <Button Text="Triunghiul" Style="{StaticResource buttonStyle}" Clicked="btnTriunghiul"/>
                 <Button Text="Paralelogramul" Style="{StaticResource buttonStyle}" Clicked="btnParalelogramul"/>
                 <Button Text="Trapezul" Style="{StaticResource buttonStyle}" Clicked="btnTrapezul"/>
@@ -72,7 +71,7 @@
         </ScrollView>
 
         <StackLayout Grid.Row="1">
-            <controls:AdmobControl x:Name="AdusMadus" />
+            <controls:AdmobControl x:Name="AdusMadus" x:Uid="s"/>
         </StackLayout>
     </Grid>
     

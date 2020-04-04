@@ -35,7 +35,6 @@ namespace MatematicaBacMD.Droid
         protected override void OnElementChanged(ElementChangedEventArgs<AdmobControl> e)
         {
             base.OnElementChanged(e);
-
             if (Control == null)
             {
                 var adView = new AdView(Context)

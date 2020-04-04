@@ -15,6 +15,7 @@ namespace MatematicaBacMD.Views.Exercitii
 		public exStatistica ()
 		{
 			InitializeComponent ();
-		}
+            AdusMadus.AdUnitId = AppConstants.BannerId;
+        }
 	}
 }

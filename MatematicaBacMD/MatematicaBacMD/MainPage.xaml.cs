@@ -25,7 +25,7 @@ namespace MatematicaBacMD
         {
             InitializeComponent();
             AdusMadus.AdUnitId = AppConstants.BannerId;
-            AdusMadus2.AdUnitId = AppConstants.BannerId;
+            //AdusMadus3.AdUnitId = AppConstants.BannerId;
             AdusMadus3.AdUnitId = AppConstants.BannerId;
             
             //if (AdusMadus == null)

@@ -17,7 +17,8 @@ namespace MatematicaBacMD.Views.Exercitii
 		public exIntegrale ()
 		{
 			InitializeComponent ();
-		}
+            AdusMadus.AdUnitId = AppConstants.BannerId;
+        }
 
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {

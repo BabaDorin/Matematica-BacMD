@@ -15,6 +15,7 @@ namespace MatematicaBacMD.Views.Exercitii
 		public exPerpendicularitate ()
 		{
 			InitializeComponent ();
-		}
+            AdusMadus.AdUnitId = AppConstants.BannerId;
+        }
 	}
 }

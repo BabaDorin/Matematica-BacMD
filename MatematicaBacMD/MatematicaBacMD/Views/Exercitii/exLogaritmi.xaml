@@ -3,17 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MatematicaBacMD.Views.Exercitii.exLogaritmi"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:controls="clr-namespace:MatematicaBacMD.Controls;assembly=MatematicaBacMD"
              Style="{StaticResource background}">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="15">
-                <Label Text="Exerci&#539;ii BAC - Logaritmi" Style="{StaticResource TitleLable}"/>
-                <BoxView HeightRequest="2" BackgroundColor="White"/>
-                <Label Style="{StaticResource Info}" Text="Ave&#539;i mai jos exerci&#539;iile din testele de bac, de exersare &#351;i pretest&#259;ri din ultimii 10 ani  care implic&#259; subiectul - Logaritmi" Margin="0,10,0,0"/>
-                <Label Style="{StaticResource Importantus}" TextColor="Bisque" Text="Double-tap pe imagine pentru a vedea baremul" Margin="0,10,0,0"/>
-                <BoxView HeightRequest="1" BackgroundColor="White"/>
-                <Label Style="{StaticResource Importantus}" Text="2020 - Exersare, Test 1" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <ScrollView Grid.Row="0">
+                <StackLayout Padding="15">
+                    <Label Text="Exerci&#539;ii BAC - Logaritmi" Style="{StaticResource TitleLable}"/>
+                    <BoxView HeightRequest="2" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Info}" Text="Ave&#539;i mai jos exerci&#539;iile din testele de bac, de exersare &#351;i pretest&#259;ri din ultimii 10 ani  care implic&#259; subiectul - Logaritmi" Margin="0,10,0,0"/>
+                    <Label Style="{StaticResource Importantus}" TextColor="Bisque" Text="Double-tap pe imagine pentru a vedea baremul" Margin="0,10,0,0"/>
+                    <BoxView HeightRequest="1" BackgroundColor="White"/>
+                    <Label Style="{StaticResource Importantus}" Text="2020 - Exersare, Test 1" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="53"
                         Aspect="Fill"
@@ -21,13 +27,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i20ee1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem1}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -36,7 +42,7 @@
                     WidthRequest="300"
                     Source="i20eebr1.jpg"/>
 
-                <ffimageloading:CachedImage
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest ="34"
                         Aspect="Fill"
@@ -44,13 +50,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i20ee4.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem2}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -59,7 +65,7 @@
                     WidthRequest="300"
                     Source="i20eebr4.jpg"/>
 
-                <ffimageloading:CachedImage
+                    <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest ="40"
                         Aspect="Fill"
@@ -67,13 +73,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i20ee11.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem3}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -81,8 +87,8 @@
                     HeightRequest="182"
                     WidthRequest="300"
                     Source="i20eebr11.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2020 - Exersare, Test 2" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2020 - Exersare, Test 2" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="43"
                         Aspect="Fill"
@@ -90,13 +96,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i20e1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem4}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -104,7 +110,7 @@
                     HeightRequest="43"
                     WidthRequest="300"
                     Source="i20ebr1.jpg"/>
-                <ffimageloading:CachedImage 
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="73"
                         Aspect="Fill"
@@ -112,13 +118,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i20e6.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem5}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -126,8 +132,8 @@
                     HeightRequest="132"
                     WidthRequest="300"
                     Source="i20ebr6.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2019 - Sesiune de baza" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2019 - Sesiune de baza" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="23"
                         Aspect="Fill"
@@ -135,13 +141,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i19sb5.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem6}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -149,8 +155,8 @@
                     HeightRequest="101"
                     WidthRequest="300"
                     Source="i19sbbr5.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2019 - Pretestare" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2019 - Pretestare" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="95"
                         Aspect="Fill"
@@ -158,13 +164,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i19pre1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem7}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -172,8 +178,8 @@
                     HeightRequest="28"
                     WidthRequest="300"
                     Source="i19prbr1.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2019 - Exersare, Test 1" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2019 - Exersare, Test 1" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="95"
                         Aspect="Fill"
@@ -181,13 +187,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i19e1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem8}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -195,7 +201,7 @@
                     HeightRequest="33"
                     WidthRequest="300"
                     Source="i19ebr1.jpg"/>
-                <ffimageloading:CachedImage 
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="48"
                         Aspect="Fill"
@@ -203,13 +209,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i19e5.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem9}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -217,8 +223,8 @@
                     HeightRequest="52"
                     WidthRequest="300"
                     Source="i19ebr5.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2019 - Exersare, Test 2" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2019 - Exersare, Test 2" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="88"
                         Aspect="Fill"
@@ -226,13 +232,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i19ee1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem10}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -240,8 +246,8 @@
                     HeightRequest="26"
                     WidthRequest="300"
                     Source="i19eebr1.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2018 - Exersare, Test 1" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2018 - Exersare, Test 1" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="73"
                         Aspect="Fill"
@@ -249,13 +255,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i18e1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem11}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -263,8 +269,8 @@
                     HeightRequest="36"
                     WidthRequest="300"
                     Source="i18ebr1.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2018 - Exersare, Test 2" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2018 - Exersare, Test 2" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="30"
                         Aspect="Fill"
@@ -272,13 +278,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i18ee4.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem12}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -286,8 +292,8 @@
                     HeightRequest="80"
                     WidthRequest="300"
                     Source="i18eebr4.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2018 - Pretestare" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2018 - Pretestare" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="26"
                         Aspect="Fill"
@@ -295,13 +301,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i18pr4.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem13}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -309,7 +315,7 @@
                     HeightRequest="72"
                     WidthRequest="300"
                     Source="i18prbr4.jpg"/>
-                <ffimageloading:CachedImage 
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="60"
                         Aspect="Fill"
@@ -317,13 +323,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i18pr12.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference baremskr}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -331,8 +337,8 @@
                     HeightRequest="158"
                     WidthRequest="300"
                     Source="i18prbr12.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2018 - Sesiunea de baza" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2018 - Sesiunea de baza" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="26"
                         Aspect="Fill"
@@ -340,13 +346,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i18sb4.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem14}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -354,8 +360,8 @@
                     HeightRequest="77"
                     WidthRequest="300"
                     Source="i18sbbr4.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2017 - Exersare, Test 1" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2017 - Exersare, Test 1" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="81"
                         Aspect="Fill"
@@ -363,13 +369,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i17e1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem15}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -377,7 +383,7 @@
                     HeightRequest="30"
                     WidthRequest="300"
                     Source="i17ebr1.jpg"/>
-                <ffimageloading:CachedImage 
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="30"
                         Aspect="Fill"
@@ -385,13 +391,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i17e6.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem16}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -399,8 +405,8 @@
                     HeightRequest="100"
                     WidthRequest="300"
                     Source="i17ebr6.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2017 - Exersare, Test 2" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2017 - Exersare, Test 2" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="63"
                         Aspect="Fill"
@@ -408,13 +414,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i17ee12.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem17}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -422,8 +428,8 @@
                     HeightRequest="96"
                     WidthRequest="300"
                     Source="i17eebr12.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2017 - Sesiunea de baza" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2017 - Sesiunea de baza" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="75"
                         Aspect="Fill"
@@ -431,13 +437,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i17sb1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem18}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -445,8 +451,8 @@
                     HeightRequest="30"
                     WidthRequest="300"
                     Source="i17sbbr1.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2016 - Exersare, Test 1" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2016 - Exersare, Test 1" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="25"
                         Aspect="Fill"
@@ -454,13 +460,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i16e5.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem19}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -468,8 +474,8 @@
                     HeightRequest="147"
                     WidthRequest="300"
                     Source="i16ebr5.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2016 - Exersare, Test 2" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2016 - Exersare, Test 2" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="83"
                         Aspect="Fill"
@@ -477,13 +483,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i16ee1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem20}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -491,8 +497,8 @@
                     HeightRequest="24"
                     WidthRequest="300"
                     Source="i16eebr1.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2016 - Pretestare" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2016 - Pretestare" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="74"
                         Aspect="Fill"
@@ -500,13 +506,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i16pr1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem21}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -514,7 +520,7 @@
                     HeightRequest="31"
                     WidthRequest="300"
                     Source="i16prbr1.jpg"/>
-                <ffimageloading:CachedImage 
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="42"
                         Aspect="Fill"
@@ -522,13 +528,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i16pr11.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem22}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -536,8 +542,8 @@
                     HeightRequest="117"
                     WidthRequest="300"
                     Source="i16prbr11.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2015 - Exersare, Test 1" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2015 - Exersare, Test 1" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="75"
                         Aspect="Fill"
@@ -545,13 +551,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i15e1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem23}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -559,8 +565,8 @@
                     HeightRequest="65"
                     WidthRequest="300"
                     Source="i15ebr1.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2015 - Exersare, Test 2" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2015 - Exersare, Test 2" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="75"
                         Aspect="Fill"
@@ -568,13 +574,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i15ee1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem24}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -582,7 +588,7 @@
                     HeightRequest="25"
                     WidthRequest="300"
                     Source="i15eebr1.jpg"/>
-                <ffimageloading:CachedImage 
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="85"
                         Aspect="Fill"
@@ -590,13 +596,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i15ee12.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem25}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -604,8 +610,8 @@
                     HeightRequest="131"
                     WidthRequest="300"
                     Source="i15eebr12.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2015 - Pretestare" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2015 - Pretestare" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="76"
                         Aspect="Fill"
@@ -613,13 +619,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i15pr1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem26}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -627,8 +633,8 @@
                     HeightRequest="24"
                     WidthRequest="300"
                     Source="i15prbr1.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2015 - Sesiunea de baza" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2015 - Sesiunea de baza" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="72"
                         Aspect="Fill"
@@ -636,13 +642,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i15sb1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem27}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -650,8 +656,8 @@
                     HeightRequest="50"
                     WidthRequest="300"
                     Source="i15sbbr1.jpg"/>
-                
-                <ffimageloading:CachedImage 
+
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="22"
                         Aspect="Fill"
@@ -659,13 +665,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i15sb11.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem28}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -674,8 +680,8 @@
                     WidthRequest="300"
                     Source="i15sbbr11.jpg"/>
 
-                <Label Style="{StaticResource Importantus}" Text="2014 - Exersare, Test 1" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2014 - Exersare, Test 1" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="66"
                         Aspect="Fill"
@@ -683,13 +689,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i14e1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem29}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -697,7 +703,7 @@
                     HeightRequest="24"
                     WidthRequest="300"
                     Source="i14ebr1.jpg"/>
-                <ffimageloading:CachedImage 
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="73"
                         Aspect="Fill"
@@ -705,13 +711,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i14e11.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem30}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -719,8 +725,8 @@
                     HeightRequest="127"
                     WidthRequest="300"
                     Source="i14ebr11.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2014 - Exersare, Test 2" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2014 - Exersare, Test 2" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="70"
                         Aspect="Fill"
@@ -728,13 +734,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i14ee1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem31}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -742,8 +748,8 @@
                     HeightRequest="25"
                     WidthRequest="300"
                     Source="i14eebr1.jpg"/>
-                
-                <ffimageloading:CachedImage 
+
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="31"
                         Aspect="Fill"
@@ -751,13 +757,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i14ee6.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem32}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -766,8 +772,8 @@
                     WidthRequest="300"
                     Source="i14eebr6.jpg"/>
 
-                <Label Style="{StaticResource Importantus}" Text="2014 - Pretestare" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2014 - Pretestare" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="77"
                         Aspect="Fill"
@@ -775,13 +781,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i14pr1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem33}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -789,8 +795,8 @@
                     HeightRequest="24"
                     WidthRequest="300"
                     Source="i14prbr1.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2014 - Sesiunea de baza" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2014 - Sesiunea de baza" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="74"
                         Aspect="Fill"
@@ -798,13 +804,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i14sb1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem34}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -812,8 +818,8 @@
                     HeightRequest="26"
                     WidthRequest="300"
                     Source="i14sbbr1.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2013 - Sesiunea de baza" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2013 - Sesiunea de baza" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="85"
                         Aspect="Fill"
@@ -821,13 +827,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i13sb1.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem35}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -835,8 +841,8 @@
                     HeightRequest="25"
                     WidthRequest="300"
                     Source="i13sbbr1.jpg"/>
-                <Label Style="{StaticResource Importantus}" Text="2011 - Sesiunea de baza" Margin="0,10,0,10"/>
-                <ffimageloading:CachedImage 
+                    <Label Style="{StaticResource Importantus}" Text="2011 - Sesiunea de baza" Margin="0,10,0,10"/>
+                    <ffimageloading:CachedImage 
                         WidthRequest="300"
                         HeightRequest ="47"
                         Aspect="Fill"
@@ -844,13 +850,13 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center"
                     Source="i11sb11.jpg">
-                    <ffimageloading:CachedImage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                        <ffimageloading:CachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                               NumberOfTapsRequired="2"
                                               CommandParameter="{x:Reference barem36}"/>
-                    </ffimageloading:CachedImage.GestureRecognizers>
-                </ffimageloading:CachedImage>
-                <ffimageloading:CachedImage
+                        </ffimageloading:CachedImage.GestureRecognizers>
+                    </ffimageloading:CachedImage>
+                    <ffimageloading:CachedImage
                     Margin="0, 0, 0, 20"  
                     BitmapOptimizations="True"
                     IsVisible="False"
@@ -858,7 +864,11 @@
                     HeightRequest="173"
                     WidthRequest="300"
                     Source="i11sbbr11.jpg"/>
+                </StackLayout>
+            </ScrollView>
+            <StackLayout Grid.Row="1">
+                <controls:AdmobControl x:Name="AdusMadus" />
             </StackLayout>
-        </ScrollView>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

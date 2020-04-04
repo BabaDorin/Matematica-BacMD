@@ -15,7 +15,8 @@ namespace MatematicaBacMD.Views.Exercitii
 		public exCombinatorica ()
 		{
 			InitializeComponent ();
-		}
+            AdusMadus.AdUnitId = AppConstants.BannerId;
+        }
 
         async void btnLoad(object sender, EventArgs e)
         {

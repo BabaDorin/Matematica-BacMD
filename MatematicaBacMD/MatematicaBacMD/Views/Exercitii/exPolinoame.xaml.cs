@@ -15,6 +15,7 @@ namespace MatematicaBacMD.Views.Exercitii
 		public exPolinoame ()
 		{
 			InitializeComponent ();
-		}
+            AdusMadus.AdUnitId = AppConstants.BannerId;
+        }
 	}
 }

@@ -20,6 +20,7 @@
                     <BoxView HeightRequest="1" BackgroundColor="White"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2019 - Exersare, Test 2" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 7"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="99"
@@ -37,6 +38,7 @@
                     Source="i19eebr7.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2016 - Exersare, Test 1" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 10"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="141"
@@ -54,6 +56,7 @@
                     Source="i16ebr10.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2015 - Sesiunea de baza" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 7"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="150"
@@ -71,6 +74,7 @@
                     Source="i15ebr7.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2015 - Sesiunea de baza" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 7"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="103"
@@ -88,6 +92,7 @@
                     Source="i15sbbr7.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2014 - Pretestare" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 7"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="167"
@@ -105,6 +110,7 @@
                     Source="i14prbr7.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2014 - Sesiunea de baza" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 2"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="158"
@@ -122,6 +128,7 @@
                     Source="i14sbbr2.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2013 - Sesiunea de baza" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 3"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="359"
@@ -137,7 +144,6 @@
                     x:Name="barem6"
                     HeightRequest="25"
                     Source="i13sbbr3.jpg"/>
-
                 </StackLayout>
             </ScrollView>
             <StackLayout Grid.Row="1">

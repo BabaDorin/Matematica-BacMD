@@ -20,6 +20,7 @@
                     <BoxView HeightRequest="1" BackgroundColor="White"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2020 - Exersare, Test 1" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 6"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="25"
@@ -37,6 +38,7 @@
                     Source="i20eebr6.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2019 - Sesiunea de baza" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 1"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="75"
@@ -54,6 +56,7 @@
                     Source="i19sbbr1.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2019 - Pretestare" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 4"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="49"
@@ -71,6 +74,7 @@
                     Source="i19ebr4.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2019 - Exersare, Test 2" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 4"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="22"
@@ -88,6 +92,7 @@
                     Source="i19eebr4.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2018 - Exersare, Test 1" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 4"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="38"
@@ -105,6 +110,7 @@
                     Source="i18ebr4.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2018 - Pretestare" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 1"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="89"
@@ -122,6 +128,7 @@
                     Source="i18prbr1.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2018 - Sesiunea de baza" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 1"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="83"
@@ -139,6 +146,7 @@
                     Source="i18sbbr1.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2017 - Exersare, Test 2" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 1"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="70"
@@ -155,6 +163,7 @@
                     HeightRequest="27"
                     Source="i17eebr1.jpg"/>
 
+                    <Label Style="{StaticResource Info}" Text="Ex. 5"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="89"
@@ -172,6 +181,7 @@
                     Source="i17eebr5.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2017 - Pretestare" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 5"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="40"
@@ -189,6 +199,7 @@
                     Source="i17prbr5.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2016 - Exersare, Test 1" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 1"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="87"
@@ -206,6 +217,7 @@
                     Source="i16ebr1.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2016 - Sesiunea de baza" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 1"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="83"
@@ -222,6 +234,7 @@
                     HeightRequest="34"
                     Source="i16sbbr1.jpg"/>
 
+                    <Label Style="{StaticResource Info}" Text="Ex. 6"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="80"
@@ -239,6 +252,7 @@
                     Source="i16sbbr6.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2015 - Exersare, Test 1" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 6"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="25"
@@ -256,6 +270,7 @@
                     Source="i15ebr6.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2015 - Pretestare" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 5"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="30"
@@ -272,6 +287,7 @@
                     HeightRequest="76"
                     Source="i15prbr5.jpg"/>
 
+                    <Label Style="{StaticResource Info}" Text="Ex. 8"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="45"
@@ -289,6 +305,7 @@
                     Source="i15prbr8.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2015 - Sesiunea de baza" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 5"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="25"
@@ -306,6 +323,7 @@
                     Source="i15sbbr5.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2014 - Exersare, Test 1" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 7"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="28"
@@ -323,6 +341,7 @@
                     Source="i14ebr7.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2014 - Exersare, Test 2" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 1"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="70"
@@ -340,6 +359,7 @@
                     Source="i14eebr1.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2014 - Pretestare" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 1"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="77"
@@ -356,6 +376,7 @@
                     HeightRequest="24"
                     Source="i14prbr1.jpg"/>
 
+                    <Label Style="{StaticResource Info}" Text="Ex. 6"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="25"
@@ -373,6 +394,7 @@
                     Source="i14prbr6.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2014 - Sesiunea de baza" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 1"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="74"
@@ -390,6 +412,7 @@
                     Source="i14sbbr1.jpg"/>
 
                     <Label Style="{StaticResource Importantus}" Text="2013 - Sesiunea de baza" Margin="0,10,0,10"/>
+                    <Label Style="{StaticResource Info}" Text="Ex. 1"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="84"
@@ -406,6 +429,7 @@
                     HeightRequest="25"
                     Source="i13sbbr1.jpg"/>
 
+                    <Label Style="{StaticResource Info}" Text="Ex. 10"/>
                     <ffimageloading:CachedImage 
                     Style="{StaticResource Ex}"
                     HeightRequest ="49"

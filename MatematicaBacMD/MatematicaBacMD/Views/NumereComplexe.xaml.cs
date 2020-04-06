@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using MatematicaBacMD.Views.Exercitii;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using MatematicaBacMD.Views.Exercitii;
 
 namespace MatematicaBacMD.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
+    [XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class NumereComplexe : ContentPage
 	{
 		public NumereComplexe ()

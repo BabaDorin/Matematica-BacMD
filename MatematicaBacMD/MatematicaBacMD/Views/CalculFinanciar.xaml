@@ -58,7 +58,7 @@
                         VerticalOptions="Center"
                         Source="i137.jpg"/>
                     <Label Style="{StaticResource Info}" Text="" />
-                    <Button Text="Exercitii BAC ce implica Calculul Financiar" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+                    <Button Text="Exercitii BAC - Calculul Financiar" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
                 </StackLayout>
             </ScrollView>
 

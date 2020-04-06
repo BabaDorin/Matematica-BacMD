@@ -28,7 +28,7 @@
                     Source="i164.jpg"/>
                     <Label Style="{StaticResource Info}" Text="Dreapta suport &#238;n jurul c&#259;reia se rote&#351;te dreptunghiul se nume&#351;te ax&#259; de rota&#539;ie a cilindrului sau ax&#259; a cilindrului. Sec&#539;iunea cilindrului circular  drept cu un plan ce trece prin axa cilindrului se nume&#351;te sec&#539;iune axial&#259; &#10;(LMNP). "/>
                     <Label Style="{StaticResource Info}" Text="" />
-                    <Button Text="Exercitii BAC ce implica calcule asupra cilindrului" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+                    <Button Text="Exercitii BAC - Cilindrul" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
                 </StackLayout>
             </ScrollView>
 

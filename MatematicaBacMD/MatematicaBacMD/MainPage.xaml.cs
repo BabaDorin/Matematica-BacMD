@@ -1,16 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
-using System.ComponentModel;
-using System.Diagnostics;
 using MatematicaBacMD.Views;
-using FFImageLoading.Forms;
-using System.Reflection;
-using MatematicaBacMD.Controls;
-
 namespace MatematicaBacMD
 {
     public partial class MainPage : ContentPage

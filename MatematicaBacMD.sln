@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatematicaBacMD.Android", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatematicaBacMD.iOS", "MatematicaBacMD\MatematicaBacMD.iOS\MatematicaBacMD.iOS.csproj", "{00EDFFDD-2447-45F0-A691-736DBB985C91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatematicaBacMD", "MatematicaBacMD\MatematicaBacMD\MatematicaBacMD.csproj", "{62D855FE-47CF-458D-BFFB-D94DE344D956}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatematicaBacMD", "MatematicaBacMD\MatematicaBacMD\MatematicaBacMD.csproj", "{62D855FE-47CF-458D-BFFB-D94DE344D956}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

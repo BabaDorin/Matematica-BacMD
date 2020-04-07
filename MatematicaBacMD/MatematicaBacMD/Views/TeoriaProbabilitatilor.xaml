@@ -111,14 +111,6 @@
                     BitmapOptimizations="True"
                         VerticalOptions="Center"
                         Source="i117.jpg"/>
-                    <Label Style="{StaticResource Info}" Text="&#206;ntr-o clas&#259; de 35 de elevi fiecare elev studiaz&#259; cel pu&#539;in una dintre limbile francez&#259;, englez&#259;: 20 studiaz&#259; franceza &#351;i 25 studiaz&#259; engleza. Se ia la &#238;nt&#226;mplare un elev din clas&#259;. S&#259; se determine probabilitatea c&#259; acest elev studiaz&#259; limba francez&#259;  (evenimentul A), dac&#259; se &#351;tie c&#259; el studiaz&#259; engleza (evenimentul B). "/>
-                    <ffimageloading:CachedImage
-                        WidthRequest="300"
-                        HeightRequest="73"
-                        HorizontalOptions="Center"
-                    BitmapOptimizations="True"
-                        VerticalOptions="Center"
-                        Source="i117.jpg"/>
                     <Label Style="{StaticResource Importantus}" Text="Exemplu" Margin="0,10,0,0"/>
                     <Label Style="{StaticResource Info}" Text="&#206;ntr-o clas&#259; de 35 de elevi fiecare elev studiaz&#259; cel pu&#539;in una dintre limbile francez&#259;, englez&#259;: 20 studiaz&#259; franceza &#351;i 25 studiaz&#259; engleza. Se ia la &#238;nt&#226;mplare un elev din clas&#259;. S&#259; se determine probabilitatea c&#259; acest elev studiaz&#259; limba francez&#259;  (evenimentul A), dac&#259; se &#351;tie c&#259; el studiaz&#259; engleza (evenimentul B). "/>
                     <Label Style="{StaticResource Info}" Text="&#10;Se cere s&#259; afl&#259;m probabilitatea condi&#539;ionat&#259; "/>

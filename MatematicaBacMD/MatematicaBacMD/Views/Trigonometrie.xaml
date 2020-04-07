@@ -21,6 +21,15 @@
                         HorizontalOptions="Center" 
                         BitmapOptimizations="True"
                         Source="i32.jpg"/>
+                    <Label Style="{StaticResource Info}" Text=""/>
+                    <Label Style="{StaticResource Info}" Text="Rela&#539;iile trigonometrice &#238;n triunghiul dreptunghic"/>
+                    <ffimageloading:CachedImage
+                        WidthRequest="300"
+                        HeightRequest="287"
+                        HorizontalOptions="Center" 
+                        BitmapOptimizations="True"
+                        Source="itrigonometrietr.jpg"/>
+                    <Label Style="{StaticResource Info}" Text=""/>
                     <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="488"

@@ -15,10 +15,10 @@
             <ScrollView Grid.Row="0">
                 <StackLayout Padding="15">
                     <!--, dob&#226;nd&#259; simpl&#259;, dob&#226;nd&#259; compus&#259;-->
-                    <Label Text="Calcul financiar" Style="{StaticResource TitleLable}"/>
+                    <Label Text="Calculul financiar" Style="{StaticResource TitleLable}"/>
                     <BoxView HeightRequest="2" BackgroundColor="White"/>
                     <Label Style="{StaticResource Importantus}" Text="Procentul" Margin="0,20,0,10"/>
-                    <Label Style="{StaticResource Info}" Text="Un procent este a suta parte (o sutime) dintr-o m.1rime ini&#539;ial&#259; (de baz&#259;) G. Pentru a calcula num&#259;rul T care constituie p% dintr-un num&#259;r G, aplic&#259;m formula: " />
+                    <Label Style="{StaticResource Info}" Text="Un procent este a suta parte (o sutime) dintr-o marime ini&#539;ial&#259; (de baz&#259;) G. Pentru a calcula num&#259;rul T care constituie p% dintr-un num&#259;r G, aplic&#259;m formula: " />
                     <ffimageloading:CachedImage
                         WidthRequest="300"
                         HeightRequest="65"

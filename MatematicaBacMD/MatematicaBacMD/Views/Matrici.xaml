@@ -246,7 +246,7 @@
                         BitmapOptimizations="True"
                         Source="i63.jpg"/>
                     <Label Style="{StaticResource Info}" Text="" />
-                    <Button Text="Exercitii BAC - Matrici" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
+                    <Button Text="Exercitii BAC - Matrice" Style="{StaticResource buttonStyle}" Clicked="Button_Clicked"/>
                 </StackLayout>
             </ScrollView>
             <StackLayout Grid.Row="1">

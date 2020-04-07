@@ -140,7 +140,7 @@
                     <Label Style="{StaticResource Importantus}" Text="Derivata a 2a. Intervalele de convexitate si concavitate." Margin="0,20,0,10"/>
                     <Label Style="{StaticResource Info}" Text="Dac&#259; func&#539;ia f:(a, b)->R este de dou&#259; ori derivabil&#259; pe (a, b) &#351;i f''(x) &#8805; 0 pentru orice x&#8712;(a, b), atunci aceast&#259; func&#539;ie este convex&#259; pe acest interval. "/>
                     <Label Style="{StaticResource Info}" Text=""/>
-                    <Label Style="{StaticResource Info}" Text="Dac&#259; func&#539;ia f:(a, b)->R este de dou&#259; ori derivabil&#259; pe (a, b) &#351;i f''(x) &#8804; 0 pentru orice x&#8712;(a, b), atunci aceast&#259; func&#539;ie este convex&#259; pe acest interval. "/>
+                    <Label Style="{StaticResource Info}" Text="Dac&#259; func&#539;ia f:(a, b)->R este de dou&#259; ori derivabil&#259; pe (a, b) &#351;i f''(x) &#8804; 0 pentru orice x&#8712;(a, b), atunci aceast&#259; func&#539;ie este concav&#259; pe acest interval. "/>
                     <Label Style="{StaticResource Importantus}" Text="Algoritm" Margin="0,20,0,10"/>
                     <Label Style="{StaticResource Info}" Text="1. Se calculeaz&#259; derivata a doua f'' pe domeniul de existen&#539;&#259; "/>
                     <Label Style="{StaticResource Info}" Text="2. Se rezolv&#259; f''(x)=0 pe domeniul de existenta"/>
